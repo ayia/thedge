@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitness Gym</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="demo">Demo</string>
+    <string name="week">Week</string>
+    <string name="day">Day</string>
+    <string name="rate">Rate now</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rating">Rate %s</string>
+    <string name="rating_message">"If you enjoy using %s, please take a moment to rate it. It won't take more than a minute. Thanks for your support!"</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="buy">Buy</string>
+    <string name="purchase">Purchase</string>
+    <string name="start">Start</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="sec30">+30<small>sec</small></string>
+    <string name="stop">Stop</string>
+    <string name="done">Done</string>
+    <string name="done_real">Done</string>
+    <string name="reminders">Reminders</string>
+    <string name="reset_to_day">Reset to Day</string>
+    <string name="clear_statistics">Clear Statistics</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="home">Home</string>
+    <string name="restart_day">Repeat Day</string>
+    <string name="restart_week">Repeat Week</string>
+    <string name="reset_all_data">Reset All Data</string>
+    <string name="clear_statistics_title">Сlear Statistics</string>
+    <string name="clear_statistics_message">Are you sure you want to clear all the statistics on the program \"%s\"?</string>
+    <string name="reset_all_data_title">Reset All Data</string>
+    <string name="reset_all_data_message">Reset will affect your progress, statistics, and reminders. Are you sure you want to reset all the data on the program \"%s\"?</string>
+    <string name="init_test_additional_info">"As a general rule of thumb, if you're working out on Monday, Wednesday, and Friday, a good time to take the test is on Saturday afternoon. This allows enough recovery time from the Friday workout, but also gives you plenty of rest before starting the next stage of the plan on Monday."</string>
+    <string name="init_test_reminder">Remember to perform exhaustion test within 24–48 hours of completing week.</string>
+    <string name="buy_one_program">%s (0.99$)</string>
+    <string name="buy_all_programs">All Programs (%.2f$)</string>
+    <string name="buy_one_program_description">You will be able to train for the \"%s\" program. In this case, the remaining exercises will still not available prior to purchase.</string>
+    <string name="buy_all_programs_description">Get 40% discount if you buy all the programs. You will have access to all the programs.</string>
+    <string name="demo_title">Demo</string>
+    <string name="demo_description">"This trial version of the \"%s\" program has a trial period of 2 weeks.
+
+All programs have a similar principle of work and are designed for 6 weeks."</string>
+    <string name="select_day">Reset to Day</string>
+    <string name="selected_day_message">Week and Day have been reset</string>
+    <string name="repeat_day_message">Repeating day for the next workout</string>
+    <string name="repeat_week_message">Repeating week for the next workout</string>
+    <string name="total_reps">Total reps: %d</string>
+    <string name="set_time">Set Reminder</string>
+    <string name="wow">Wow!</string>
+    <string name="jump3week_message">You manage more than %d reps. We recommend that you start on Week 3. Is that OK?</string>
+    <string name="prev_result">(your previous result is shown on the right)</string>
+    <string name="reps_count">Reps Count</string>
+    <string name="rest_time">Rest Time</string>
+    <string name="program_purchased">Program has already been purchased and will be available later with one of the updates</string>
+    <string name="no_records">No records</string>
+    <string name="sets">Sets: %s</string>
+    <string name="click_restart_day">Click again to restart the day</string>
+    <string name="billing_not_supported_title">"Can't make purchases"</string>
+    <string name="billing_not_supported_message">"The Market billing service is not available at this time. You can continue to use this app but you won't be able to make purchases."</string>
+    <string name="select_reps_count_message">Select the reps count</string>
+    <string name="completed">Done</string>
+    <string name="completed_real">Completed</string>
+    <string name="reps">Reps</string>
+    <string name="repeat_hard_week_message">If for some reason you struggled with the program, we would suggest you repeat this day or week.</string>
+    <string name="repeat">Repeat</string>
+    <string name="restart">Restart</string>
+    <string name="demo_ended_description">This trial version of the \"%s\" program has a trial period of 2 weeks. The full version of the program is designed for 6 weeks. To continue the training you need to purchase the full version.</string>
+    <string name="demo_ended_restart_description">"This trial version of the \"%s\" program has a trial period of 2 weeks. The full version of the program is designed for 6 weeks.
+
+To continue the training you need to buy the full version.
+If you want to start from the beginning of the program, click \"Restart\"."</string>
+    <string name="final_test">Final Test</string>
+    <string name="continue_progress">Continue Progress</string>
+    <string name="continue_progress_description">Congratulations! You have reached the end of the 6 weeks. We recommend either starting on Week4, or the beginning.</string>
+    <string name="week4">Week 4</string>
+    <string name="week1">Week 1</string>
+    <string name="reps_1">Rep</string>
+    <string name="reps_234">Reps</string>
+    <string name="reps_all">Reps</string>
+    <string name="help_change_reps_description">Change the number of reps that you have done in this set (in the last set you need to do so much reps as you can, but not less than %d)</string>
+    <string name="help_add_sec_description">Add 30 seconds of rest between each set if you need to</string>
+    <string name="help_help2_description">Tap again to see the help of the week</string>
+    <string name="chart">Chart</string>
+    <string name="list">List</string>
+    <string name="export_to_sd">Export To SD Card</string>
+    <string name="import_from_sd">Import From SD Card</string>
+    <string name="import_title">Import</string>
+    <string name="import_statistics">Import Statistics</string>
+    <string name="import_alarms">Import Reminders</string>
+    <string name="import_progress">Import Progress</string>
+    <string name="export_succeful">Export completed successfully</string>
+    <string name="export_failed">Export failed</string>
+    <string name="export_failed_description">Make sure the SD card is in the phone and available for record.</string>
+    <string name="import_succeful">Import completed successfully</string>
+    <string name="import_failed">Import failed</string>
+    <string name="import_failed_description">Data for import is not found (maybe you did not export data for this program). Also make sure the SD card is in the phone and available for record.</string>
+    <string name="import_version_failed_description">Version of the imported data does not match the version of the application. Update version of the application (from which you export the data), again export the data and repeat the import.</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="delete_record">Delete Record</string>
+    <string name="delete_statistics_record_question">Are you sure you want to delete this record?</string>
+    <string name="get_them_all">Get them all in %s</string>
+    <string name="download">Download</string>
+    <string name="update_samsung_apps_message">You need to update the Samsung Apps to start downloading the app.</string>
+    <string name="yandex_store">Yandex.Store</string>
+    <string name="disable_ad_title">Remove ads</string>
+    <string name="disable_ad_message" formatted="false">"You can buy the full version of the app with all programs:
+• %s
+• %s
+• %s
+• %s
+• %s
+or remove ads for free for several days."</string>
+    <string name="disable_ad_ok_title">Ads removed</string>
+    <string name="disable_ad_ok_message">Ads removed for %d days.</string>
+    <string name="free">Free</string>
+    <string name="information">Information</string>
+    <string name="remind_me_later">Remind me later</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="trial_will_expire">The free trial will expire on %s. To continue using the app, press \"Buy Now\".</string>
+    <string name="trial_expired">The free trial expired on %s. To continue using the app, press \"Buy Now\".</string>
+    <string name="connection">Connection</string>
+    <string name="please_wait_connection">Please wait...</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="check_internet">Please check your Internet connection.</string>
+    <string name="samsung_account_not_found">Samsung account not found</string>
+    <string name="login_with_samsung_account">Please login with your Samsung account in the settings of your device in order to continue.</string>
+</resources>

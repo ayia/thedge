@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Suoritettavat punnerrukset</item>
+        <item>Suoritettavat istumaannousut</item>
+        <item>Suoritettavat dipit</item>
+        <item>Suoritettavat kyykyt</item>
+        <item>Suoritettavat leuanvedot</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 punnerrusta</item>
+        <item>200 istumaannousua</item>
+        <item>150 dippiä</item>
+        <item>200 kyykkyä</item>
+        <item>20 leuanvetoa</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Ennen kuin lähdet mukaan ja aloitat sadan punnerruksen ohjelman, sinun pitäisi suorittaa punnerruksen alkutesti.
+
+Testi korostaa nykyisen kuntosi tasoa ja määrittää, mistä aloittaa ja kuinka suunnitella punnerrustreenisi. Voit suorittaa testin tekemällä niin monta kunnollista punnerrusta kuin voit ja valitsemalla väli alta. Älä hutiloi äläkä huijaa - viimeinen asia jonka haluat tehdä, on päätyä väärälle treeniohjelman tasolle! Tulokset saattavat olla nöyryyttäviä, mutta usko, kun sanon, rehellisyys kannattaa, jos haluat maksimoida saavuttamasi vahvuuden!
+
+Ennen kuin aloitat viikkoa 1, suosittelemme, että lepäät pari päivää alkutestin jälkeen. Sinun täytyy treenata kolme kertaa viikossa, esimerkiksi maanantaina, keskiviikkona ja perjantaina."</item>
+        <item>"Ennen kuin lähdet mukaan ja aloitat kahdensadan istumaannousun ohjelman, sinun pitäisi suorittaa istumaannousujen alkutesti.
+
+Testillä arvioidaan nykyisen kuntosi taso ja määritetään, mistä aloittaa ja kuinka suunnitella istumaannousutreenisi. Voit suorittaa testin tekemällä niin monta kunnollista istumaannousua kuin voit ja valitsemalla väli alta. Älä hutiloi äläkä huijaa - viimeinen asia jonka haluat tehdä, on päätyä väärälle treeniohjelman tasolle! Tulokset saattavat olla nöyryyttäviä, mutta usko, kun sanon, rehellisyys kannattaa, jos haluat maksimoida saavuttamasi vahvuuden!
+
+Ennen kuin aloitat viikkoa 1, suosittelemme, että lepäät pari päivää alkutestin jälkeen. Sinun täytyy treenata kolme kertaa viikossa, esimerkiksi maanantaina, keskiviikkona ja perjantaina."</item>
+        <item>"Ennen kuin lähdet mukaan ja viidenkymmenen dipin ohjelmaan, sinun pitäisi suorittaa dippien alkutesti.
+
+Testi korostaa nykyisen kuntosi tason ja määrittää, mistä aloittaa ja kuinka suunnitella dippitreenisi. Voit suorittaa testin tekemällä niin monta kunnollista dippiä kuin voit ja valitsemalla väli alta. Älä hutiloi äläkä huijaa - viimeinen asia jonka haluat tehdä, on päätyä väärälle treeniohjelman tasolle! Tulokset saattavat olla nöyryyttäviä, mutta usko, kun sanon, rehellisyys kannattaa, jos haluat maksimoida saavuttamasi vahvuuden!
+
+Ennen kuin aloitat viikkoa 1, suosittelemme, että lepäät pari päivää alkutestin jälkeen. Sinun täytyy treenata kolme kertaa viikossa, esimerkiksi maanantaina, keskiviikkona ja perjantaina."</item>
+        <item>"Ennen kuin lähdet mukaan ja aloitat kahdensadan kyykyn ohjelmaan, sinun pitäisi suorittaa kyykkyjen alkutesti.
+
+Testillä arvioidaan nykyisen kuntosi taso ja määritetään, mistä aloittaa ja kuinka suunnitella kyykkytreenisi. Voit suorittaa testin tekemällä niin monta kunnollista kyykkyä kuin voit ja valitsemalla väli alta. Älä hutiloi äläkä huijaa - viimeinen asia jonka haluat tehdä, on päätyä väärälle treeniohjelman tasolle! Tulokset saattavat olla nöyryyttäviä, mutta usko, kun sanon, rehellisyys kannattaa, jos haluat maksimoida saavuttamasi vahvuuden!
+
+Ennen kuin aloitat viikkoa 1, suosittelemme, että lepäät pari päivää alkutestin jälkeen. Sinun täytyy treenata kolme kertaa viikossa, esimerkiksi maanantaina, keskiviikkona ja perjantaina."</item>
+        <item>"Ennen kuin lähdet mukaan ja aloitat kahdenkymmenen leuanvedon ohjelman, sinun pitäisi suorittaa leuanvetojen alkutesti.
+
+Testillä arvioidaan nykyisen kuntosi taso ja määritetään, mistä aloittaa ja kuinka suunnitella leuanvetotreenisi. Voit suorittaa testin tekemällä niin monta kunnollista leuanvetoa kuin voit ja valitsemalla väli alta. Älä hutiloi äläkä huijaa - viimeinen asia jonka haluat tehdä, on päätyä väärälle treeniohjelman tasolle! Tulokset saattavat olla nöyryyttäviä, mutta usko, kun sanon, rehellisyys kannattaa, jos haluat maksimoida saavuttamasi vahvuuden!
+
+Ennen kuin aloitat viikkoa 1, suosittelemme, että lepäät pari päivää alkutestin jälkeen. Sinun täytyy treenata kolme kertaa viikossa, esimerkiksi maanantaina, keskiviikkona ja perjantaina."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"On aika aloittaa testi! Tee niin monta kunnollista punnerrusta kuin voit ja valitse väli alta.
+
+Muista ottaa lepopäivä testin suorittamisen jälkeen ja anna kehosi palautua."</item>
+        <item>"On aika aloittaa testi! Tee niin monta kunnollista istumaannousua kuin voit ja valitse väli alta.
+
+Muista ottaa lepopäivä testin suorittamisen jälkeen ja anna kehosi palautua."</item>
+        <item>"On aika aloittaa testi! Tee niin monta kunnollista dippiä kuin voit ja valitse väli alta.
+
+Muista ottaa lepopäivä testin suorittamisen jälkeen ja anna kehosi palautua."</item>
+        <item>"On aika aloittaa testi! Tee niin monta kunnollista kyykkyä kuin voit ja valitse väli alta.
+
+Muista ottaa lepopäivä testin suorittamisen jälkeen ja anna kehosi palautua."</item>
+        <item>"On aika aloittaa testi! Tee niin monta kunnollista leuanvetoa kuin voit ja valitse väli alta.
+
+Muista ottaa lepopäivä testin suorittamisen jälkeen ja anna kehosi palautua."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Sinun täytyy kuntoilla kolme kertaa viikossa. Olemme havainneet, että maanantai, keskiviikko ja perjantai toimivat hyvin. Näin voit levätä viikonloppuna ja palautua ennen kuin siirryt ohjelman seuraavaan vaiheeseen. Voit vaihdella ohjelmaa kiireiseen aikatauluusi sopivaksi, mutta varmista, että lepäät treenpäivien välillä.
+
+Älä yritä päästä helpommalla vaan lepää tarvittaessa tasojen välillä. On tärkeää myös juoda riittävästi ennen kuin aloitat treenin."</item>
+        <item>"1. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 2.
+
+Viikon 2 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Suorita yksinkertaisesti niin monta kunnollista punnerrusta kuin voit, kunnes et voi tehdä enää yhtään toistoa. Rasita elimistöäsi kaikin mokomin, mutta älä ylitä turvallisen harjoittelun rajaa. Suorittamiesi punnerrusten määrä määrittää, miltä tasolta aloitat ohjelman viikolla 3. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 2. Peukalosääntö on seuraava: jos treenaat maanantaina, keskiviikkona ja perjantaina, lauantai-iltapäivä on hyvä aika levätä. Näin sinulla on tarpeeksi aikaa palautua perjantain treenistä ja levätä ennen kuin aloitat ohjelman seuraavan vaiheen maanantaina. Onnea matkaan!"</item>
+        <item>"Sinun pitäisi olla vähän vahvempi kuin olit pari viikkoa sitten ja pystyä suorittamaan huomattavasti enemmän punnerruksia kuin lähtötestissä.
+
+Jos kamppailet ohjelman kanssa, älä menetä toivoasi. Jotkut eivät yhä pysty tekemään 16 peräkkäistä punnerrusta, mutta tämä on ok. Toista viikkoa, jossa kamppailet, kunnes olet tarpeeksi vahva siirtyäksesi seuraavalle tasolle - lupaamme, että tämä on sen arvoista!"</item>
+        <item>"3. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 4.
+
+Viikon 4 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Sinun pitäisi tietää tähän mennessä, mitä tehdä – suorita yksinkertaisesti niin monta kunnollista punnerrusta kuin voit, kunnes et voi tehdä enää yhtään toistoa. Rasita elimistöäsi kaikin mokomin, mutta älä ylitä turvallisen harjoittelun rajaa. 
+
+Suorittamiesi punnerrusten määrä määrittää, miltä tasolta aloitat ohjelman viikolla 5. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 4."</item>
+        <item>Tähän mennessä sinun pitäisi tuntea olosi vahvemmaksi ja huomata ero. Viikon lopussa on toinen testi.</item>
+        <item>Tämä on viimeinen viikkosi. Viikon lopussa teet lopputestin nähdäksesi, voitko tehdä sata punnerrusta!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Sinun täytyy kuntoilla kolme kertaa viikossa. Olemme havainneet, että maanantai, keskiviikko ja perjantai toimivat hyvin. Näin voit levätä viikonloppuna ja palautua ennen kuin siirryt ohjelman seuraavaan vaiheeseen. Voit vaihdella ohjelmaa kiireiseen aikatauluusi sopivaksi, mutta varmista, että lepäät treenpäivien välillä.
+
+Älä yritä päästä helpommalla vaan lepää tarvittaessa tasojen välillä. On tärkeää myös juoda riittävästi ennen kuin aloitat treenin."</item>
+        <item>"1. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 2.
+
+Viikon 2 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Yksinkertaisesti sanottuna, tee niin monta kunnollista istumaannousua kuin voit. Rasita syviä vatsalihaksiasi kaikin mokomin, mutta älä ylitä turvallisen harjoittelun rajaa. Suorittamiesi punnerrusten määrä määrittää, miltä tasolta aloitat ohjelman viikolla 3. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 2. Peukalosääntö on seuraava: jos treenaat maanantaina, keskiviikkona ja perjantaina, lauantai-iltapäivä on hyvä aika levätä. Näin sinulla on tarpeeksi aikaa palautua perjantain treenistä ja levätä ennen kuin aloitat ohjelman seuraavan vaiheen maanantaina. Onnea matkaan!"</item>
+        <item>"Sinun pitäisi olla vähän vahvempi kuin olit pari viikkoa sitten ja pystyä suorittamaan huomattavasti enemmän istumaannousuja kuin lähtötestissä.
+
+Jos kamppailet ohjelman kanssa, älä menetä toivoasi. Jotkut eivät yhä pysty tekemään 21 peräkkäistä isumaannousua, mutta tämä on ok. Toista viikkoa, jossa kamppailet, kunnes olet tarpeeksi vahva siirtyäksesi seuraavalle tasolle - lupaamme, että tämä on sen arvoista!"</item>
+        <item>"3. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 4.
+
+Viikon 4 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Sinun pitäisi tietää tähän mennessä, mitä tehdä – suorita yksinkertaisesti niin monta kunnollista istumaannousua kuin voit, kunnes et voi tehdä enää yhtään toistoa. Rasita syviä lihaksiasi kaikin mokomin, mutta älä ylitä turvallisen harjoittelun rajaa. 
+
+Suorittamiesi istumaannousujen määrä määrittää, miltä tasolta aloitat ohjelman viikolla 5. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 4."</item>
+        <item>Tähän mennessä sinun pitäisi tuntea olosi vahvemmaksi ja huomata ero. Viikon lopussa on toinen testi.</item>
+        <item>Tämä on viimeinen viikkosi. Viikon lopussa teet lopputestin nähdäksesi, voitko tehdä sata istumaannousua!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Sinun täytyy kuntoilla kolme kertaa viikossa. Olemme havainneet, että maanantai, keskiviikko ja perjantai toimivat hyvin. Näin voit levätä viikonloppuna ja palautua ennen kuin siirryt ohjelman seuraavaan vaiheeseen. Voit vaihdella ohjelmaa kiireiseen aikatauluusi sopivaksi, mutta varmista, että lepäät treenpäivien välillä.
+
+Älä yritä päästä helpommalla vaan lepää tarvittaessa tasojen välillä. On tärkeää myös juoda riittävästi ennen kuin aloitat treenin."</item>
+        <item>"1. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 2.
+
+Viikon 2 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Yksinkertaisesti sanottuna, tee niin monta kunnollista dippiä kuin voit. Rasita käsivarsiasi kaikin mokomin, mutta älä ylitä turvallisen harjoittelun rajaa. Suorittamiesi dippien määrä määrittää, miltä tasolta aloitat ohjelman viikolla 3. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 2. Peukalosääntö on seuraava: jos treenaat maanantaina, keskiviikkona ja perjantaina, lauantai-iltapäivä on hyvä aika levätä. Näin sinulla on tarpeeksi aikaa palautua perjantain treenistä ja levätä ennen kuin aloitat ohjelman seuraavan vaiheen maanantaina. Onnea matkaan!"</item>
+        <item>"Sinun pitäisi olla vähän vahvempi kuin olit pari viikkoa sitten ja pystyä suorittamaan huomattavasti enemmän dippejä kuin lähtötestissä.
+
+Jos kamppailet ohjelman kanssa, älä menetä toivoasi. Jotkut eivät yhä pysty tekemään 20 peräkkäistä dippiä, mutta tämä on ok. Toista viikkoa, jossa kamppailet, kunnes olet tarpeeksi vahva siirtyäksesi seuraavalle tasolle - lupaamme, että tämä on sen arvoista!"</item>
+        <item>"3. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 4.
+
+Viikon 4 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Sinun pitäisi tietää tähän mennessä, mitä tehdä – suorita yksinkertaisesti niin monta kunnollista dippiä kuin voit, kunnes et voi tehdä enää yhtään toistoa. Rasita käsivarsiasi kaikin mokomin, mutta älä ylitä turvallisen harjoittelun rajaa. 
+
+Suorittamiesi istumaannousujen määrä määrittää, miltä tasolta aloitat ohjelman viikolla 5. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 4."</item>
+        <item>Tähän mennessä sinun pitäisi tuntea olosi vahvemmaksi ja huomata ero. Viikon lopussa on toinen testi.</item>
+        <item>Tämä on viimeinen viikkosi. Viikon lopussa teet lopputestin nähdäksesi, voitko tehdä sataviisikymmentä dippiä!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Sinun täytyy kuntoilla kolme kertaa viikossa. Olemme havainneet, että maanantai, keskiviikko ja perjantai toimivat hyvin. Näin voit levätä viikonloppuna ja palautua ennen kuin siirryt ohjelman seuraavaan vaiheeseen. Voit vaihdella ohjelmaa kiireiseen aikatauluusi sopivaksi, mutta varmista, että lepäät treenpäivien välillä.
+
+Älä yritä päästä helpommalla vaan lepää tarvittaessa tasojen välillä. On tärkeää myös juoda riittävästi ennen kuin aloitat treenin."</item>
+        <item>"1. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 2.
+
+Viikon 2 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Yksinkertaisesti sanottuna, tee niin monta kunnollista kyykkyä kuin voit. Rasita jalkalihaksiasi kaikin mokomin, mutta älä ylitä kipukynnystä - jos epäröit, kuuntele kehoasi. Suorittamiesi kyykkyjen määrä määrittää, miltä tasolta aloitat ohjelman viikolla 3. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 2. Peukalosääntö on seuraava: jos treenaat maanantaina, keskiviikkona ja perjantaina, lauantai-iltapäivä on hyvä aika levätä. Näin sinulla on tarpeeksi aikaa palautua perjantain treenistä ja levätä ennen kuin aloitat ohjelman seuraavan vaiheen maanantaina. Onnea matkaan!"</item>
+        <item>"Sinun pitäisi olla vähän vahvempi kuin olit pari viikkoa sitten ja pystyä suorittamaan huomattavasti enemmän kyykkyä kuin lähtötestissä.
+
+Jos kamppailet ohjelman kanssa, älä menetä toivoasi. Jotkut eivät yhä pysty tekemään 21 peräkkäistä kyykkyä, mutta tämä on ok. Toista viikkoa, jossa kamppailet, kunnes olet tarpeeksi vahva siirtyäksesi seuraavalle tasolle - lupaamme, että tämä on sen arvoista!"</item>
+        <item>"3. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 4.
+
+Viikon 4 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Sinun pitäisi tietää tähän mennessä, mitä tehdä – suorita yksinkertaisesti niin monta kunnollista kyykkyä kuin voit, kunnes et voi tehdä enää yhtään toistoa. Rasita käsivarsiasi kaikin mokomin, mutta älä ylitä turvallisen harjoittelun rajaa. Jos epäröit, kuuntele kehoasi.
+
+Suorittamiesi kyykkyjen määrä määrittää, miltä tasolta aloitat ohjelman viikolla 5. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 4."</item>
+        <item>Tähän mennessä sinun pitäisi tuntea olosi vahvemmaksi ja huomata ero. Viikon lopussa on toinen testi.</item>
+        <item>Tämä on viimeinen viikkosi. Viikon lopussa teet lopputestin nähdäksesi, voitko tehdä kaksisataa kyykkyä!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Sinun täytyy kuntoilla kolme kertaa viikossa. Olemme havainneet, että maanantai, keskiviikko ja perjantai toimivat hyvin. Näin voit levätä viikonloppuna ja palautua ennen kuin siirryt ohjelman seuraavaan vaiheeseen. Voit vaihdella ohjelmaa kiireiseen aikatauluusi sopivaksi, mutta varmista, että lepäät treenpäivien välillä.
+
+Älä yritä päästä helpommalla vaan lepää tarvittaessa tasojen välillä. On tärkeää myös juoda riittävästi ennen kuin aloitat treenin."</item>
+        <item>"1. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 2.
+
+Viikon 2 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Yksinkertaisesti sanottuna, tee niin monta kunnollista leuanvetoa kuin voit. Rasita käsivarsilihaksiasi kaikin mokomin, mutta älä ylitä kipukynnystä - jos epäröit, kuuntele kehoasi. Suorittamiesi leuanvetojen määrä määrittää, miltä tasolta aloitat ohjelman viikolla 3. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 2. Peukalosääntö on seuraava: jos treenaat maanantaina, keskiviikkona ja perjantaina, lauantai-iltapäivä on hyvä aika suorittaa testi. Näin sinulla on tarpeeksi aikaa palautua perjantain treenistä ja levätä ennen kuin aloitat ohjelman seuraavan vaiheen maanantaina. Onnea matkaan!"</item>
+        <item>"Sinun pitäisi olla vähän vahvempi kuin olit pari viikkoa sitten ja pystyä suorittamaan huomattavasti enemmän leuanvetoja kuin lähtötestissä.
+
+Jos kamppailet ohjelman kanssa, älä menetä toivoasi. Jotkut eivät yhä pysty tekemään 3 peräkkäistä leuanvetoa, mutta tämä on ok. Toista viikkoa, jossa kamppailet, kunnes olet tarpeeksi vahva siirtyäksesi seuraavalle tasolle - lupaamme, että tämä on sen arvoista!"</item>
+        <item>"3. viikon pitäisi nyt olla miellyttävästi takanasi. On aika aloittaa viikko 4.
+
+Viikon 4 lopussa on aika tarkastaa vahvuutesi suorittamalla uupumustesti. Sinun pitäisi tietää tähän mennessä, mitä tehdä – suorita yksinkertaisesti niin monta kunnollista leuanvetoa kuin voit, kunnes et voi tehdä enää yhtään toistoa. Rasita käsivarsiasi kaikin mokomin, mutta älä ylitä turvallisen harjoittelun rajaa. Jos epäröit, kuuntele kehoasi.
+
+Suorittamiesi leuanvetojen määrä määrittää, miltä tasolta aloitat ohjelman viikolla 5. Suorita tämä testi 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon 4."</item>
+        <item>Tähän mennessä sinun pitäisi tuntea olosi vahvemmaksi ja huomata ero. Viikon lopussa on toinen testi.</item>
+        <item>Tämä on viimeinen viikkosi. Viikon lopussa teet lopputestin nähdäksesi, voitko tehdä kaksikymmentä leuanvetoa!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Tämä on lopputestisi. Kun olet suorittanut 6 viikon ohjelman, anna itsellesi päivän tai kahden lepo. Sitten teet niin monta kunnollista punnerrusta kuin voit!
+Onnea matkaan, että pääset 100 asti!"</item>
+        <item>"Tämä on lopputestisi. Kun olet suorittanut 6 viikon ohjelman, anna itsellesi päivän tai kahden lepo. Sitten teet niin monta kunnollista istumaannousua kuin voit!
+Onnea matkaan, että pääset 200 asti!"</item>
+        <item>"Tämä on lopputestisi. Kun olet suorittanut 6 viikon ohjelman, anna itsellesi päivän tai kahden lepo. Sitten teet niin monta kunnollista dippiä kuin voit!
+Onnea matkaan, että pääset 150 asti!"</item>
+        <item>"Tämä on lopputestisi. Kun olet suorittanut 6 viikon ohjelman, anna itsellesi päivän tai kahden lepo. Sitten teet niin monta kunnollista kyykyä kuin voit!
+Onnea matkaan, että pääset 200 asti!"</item>
+        <item>"Tämä on lopputestisi. Kun olet suorittanut 6 viikon ohjelman, anna itsellesi päivän tai kahden lepo. Sitten teet niin monta kunnollista leaunvetoa kuin voit!
+Onnea matkaan, että pääset 20 asti!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Sunnuntai</item>
+        <item>Maanantai</item>
+        <item>Tiistai</item>
+        <item>Keskiviikko</item>
+        <item>Torstai</item>
+        <item>Perjantai</item>
+        <item>Lauantai</item>
+    </string-array>
+</resources>

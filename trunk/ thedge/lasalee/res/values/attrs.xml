@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="background" format="reference" />
+    <attr name="titlebar_background" format="reference" />
+    <attr name="text_color" format="reference" />
+    <attr name="button_background" format="reference" />
+    <attr name="circle_drawable" format="reference" />
+    <attr name="left_set_border_color_drawable" format="reference" />
+    <attr name="right_set_border_color_drawable" format="reference" />
+    <attr name="center_set_border_color_drawable" format="reference" />
+    <attr name="left_set_selected_drawable" format="reference" />
+    <attr name="right_set_selected_drawable" format="reference" />
+    <attr name="center_set_selected_drawable" format="reference" />
+    <attr name="power" format="reference" />
+    <attr name="table_view_item_top" format="reference" />
+    <attr name="table_view_item_center" format="reference" />
+    <attr name="table_view_item_bottom" format="reference" />
+    <attr name="main_color" format="reference" />
+    <attr name="radio_button_left" format="reference" />
+    <attr name="radio_button_right" format="reference" />
+    <attr name="radio_button_center" format="reference" />
+    <attr name="bg_list_item" format="reference" />
+</resources>

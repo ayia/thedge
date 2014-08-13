@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuleren</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="demo">Demo</string>
+    <string name="week">Week</string>
+    <string name="day">Dag</string>
+    <string name="rate">Nu beoordelen</string>
+    <string name="rate_later">Later herinneren</string>
+    <string name="rating">Beoordeel %s</string>
+    <string name="rating_message">Neem even de tijd om je beoordeling te geven als je %s gebruikt. Het neemt slechts een minuut in beslag. Bedankt voor je steun!</string>
+    <string name="no_thanks">Nee, bedankt</string>
+    <string name="buy">Kopen</string>
+    <string name="purchase">Aankoop</string>
+    <string name="start">Start</string>
+    <string name="statistics">Statistieken</string>
+    <string name="settings">Instellingen</string>
+    <string name="sec30">+30<small>sec</small></string>
+    <string name="stop">Stop</string>
+    <string name="done">Gedaan</string>
+    <string name="done_real">Gedaan</string>
+    <string name="reminders">Reminders</string>
+    <string name="reset_to_day">Resetten op dag</string>
+    <string name="clear_statistics">Statistieken verwijderen</string>
+    <string name="congratulations">Gefeliciteerd!</string>
+    <string name="home">Startpagina</string>
+    <string name="restart_day">Dag herhalen</string>
+    <string name="restart_week">Week herhalen</string>
+    <string name="reset_all_data">Alle gegevens resetten</string>
+    <string name="clear_statistics_title">Statistieken verwijderen</string>
+    <string name="clear_statistics_message">Ben je zeker dat je alle statistieken van het programma \"%s\"wilt verwijderen?</string>
+    <string name="reset_all_data_title">Alle gegevens resetten</string>
+    <string name="reset_all_data_message">De reset zal je vorderingen, statistieken en reminders wijzigen. Ben je zeker dat je alle gegevens van het programma \"%s\"wilt resetten?</string>
+    <string name="init_test_additional_info">Als je bijvoorbeeld op maandag, woensdag en vrijdag work-outs voorziet, is het normaal gezien goed om zaterdagnamiddag te rusten. Zo kun je voldoende recupereren na je work-out van vrijdag, en krijg je voldoende rust voor je de volgende fase begint op maandag.</string>
+    <string name="init_test_reminder">Voer de uitputtingstest zeker uit 24 tot 48 uur na afloop van de week.</string>
+    <string name="buy_one_program">%s ($ 0,99)</string>
+    <string name="buy_all_programs">"Alle programma's (%,2f$)"</string>
+    <string name="buy_one_program_description">Je zult kunnen trainen voor het programma \"%s\". In dit geval zullen de resterende oefeningen nog steeds niet beschikbaar zijn vóór de aankoop.</string>
+    <string name="buy_all_programs_description">"Koop alle programma's en krijg 40% korting. Je zult toegang krijgen tot alle programma's."</string>
+    <string name="demo_title">Demo</string>
+    <string name="demo_description">"Deze proefversie van het programma \"%s\" is geldig voor 2 weken.
+
+Alle programma's volgens hetzelfde principe en voorzien 6 weken."</string>
+    <string name="select_day">Resetten op Dag</string>
+    <string name="selected_day_message">De Week en Dag werden gereset</string>
+    <string name="repeat_day_message">Dag herhalen voor de volgende work-out</string>
+    <string name="repeat_week_message">Week herhalen voor de volgende work-out</string>
+    <string name="total_reps">Totaal aantal reps: %d</string>
+    <string name="set_time">Reminder instellen</string>
+    <string name="wow">Waw!</string>
+    <string name="jump3week_message">Je hebt meer dan %d reps uitgevoerd. We raden je aan om aan Week 3 te beginnen. Is dat ok?</string>
+    <string name="prev_result">(rechts zie je je vorige resultaat)</string>
+    <string name="reps_count">Aantal reps</string>
+    <string name="rest_time">Rusttijd</string>
+    <string name="program_purchased">Het programma werd reeds gekocht en zal later beschikbaar zijn met een van de updates</string>
+    <string name="no_records">Geen gegevens</string>
+    <string name="sets">Sets: %s</string>
+    <string name="click_restart_day">Klik nogmaals om de dag opnieuw te beginnen</string>
+    <string name="billing_not_supported_title">Geen aankopen mogelijk</string>
+    <string name="billing_not_supported_message">De factureringsdienst is momenteel niet beschikbaar. Je kunt de app gebruiken maar je kunt niets kopen.</string>
+    <string name="select_reps_count_message">Selecteer het aantal reps</string>
+    <string name="completed">Klaar</string>
+    <string name="completed_real">Voltooid</string>
+    <string name="reps">Reps</string>
+    <string name="repeat_hard_week_message">Als je voor één of andere reden moeite ondervindt met het programma, raden we aan om deze dag of week te herhalen.</string>
+    <string name="repeat">Herhalen</string>
+    <string name="restart">Opnieuw beginnen</string>
+    <string name="demo_ended_description">Deze proefversie van het programma \"%s\" is 2 weken geldig. De volledige versie van het programma voorziet 6 weken. Om door te gaan met de training moet je de volledige versie kopen.</string>
+    <string name="demo_ended_restart_description">"Deze proefversie van het programma \"%s\" is 2 weken geldig. De volledige versie van het programma voorziet 6 weken.
+
+Om door te gaan met de training moet je de volledige versie kopen..
+Als je bij het begin van het programma wilt starten, klik dan op \"Opnieuw beginnen\"."</string>
+    <string name="final_test">Eindtest</string>
+    <string name="continue_progress">Blijf vooruitgang boeken</string>
+    <string name="continue_progress_description">Gefeliciteerd! Je hebt het einde van de 6 weken bereikt. We raden je aan om bij Week 4 te beginnen, of vanaf het begin te starten.</string>
+    <string name="week4">Week 4</string>
+    <string name="week1">Week 1</string>
+    <string name="reps_1">Rep</string>
+    <string name="reps_234">Reps</string>
+    <string name="reps_all">Reps</string>
+    <string name="help_change_reps_description">Wijzig het aantal reps die je in deze set hebt uitgevoerd (in de laatste set moest je zoveel mogelijk reps uitvoeren, maar niet minder dan %d)</string>
+    <string name="help_add_sec_description">Voeg 30 seconden rust toe tussen elke set indien nodig</string>
+    <string name="help_help2_description">Tik nogmaals om de tip van de week te zien</string>
+    <string name="chart">Grafiek</string>
+    <string name="list">Lijst</string>
+    <string name="export_to_sd">Exporteren naar SD-kaart</string>
+    <string name="import_from_sd">Importeren van SD-kaart</string>
+    <string name="import_title">Importeren</string>
+    <string name="import_statistics">Statistieken importeren</string>
+    <string name="import_alarms">Reminders importeren</string>
+    <string name="import_progress">Vooruitgang importeren</string>
+    <string name="export_succeful">Export geslaagd</string>
+    <string name="export_failed">Export mislukt</string>
+    <string name="export_failed_description">Controleer of de SD-kaart in de telefoon zit en klaar is voor gebruik.</string>
+    <string name="import_succeful">Import geslaagd</string>
+    <string name="import_failed">Import mislukt</string>
+    <string name="import_failed_description">Er werden geen te importeren gegevens gevonden (misschien werden er geen gegevens geëxporteerd voor dit programma). Controleer of de SD-kaart in de telefoon zit en klaar is voor gebruik.</string>
+    <string name="import_version_failed_description">De versie van de geïmporteerde gegevens stemt niet overeen met de versie van de applicatie. Update de versie van de applicatie (van waaruit de gegevens worden geëxporteerd), exporteer de gegevens opnieuw en herhaal de importbewerking.</string>
+    <string name="please_wait">Even geduld …</string>
+    <string name="delete_record">Gegevens wissen</string>
+    <string name="delete_statistics_record_question">Ben je zeker dat je deze gegevens wilt wissen?</string>
+    <string name="get_them_all">Neem ze allemaal in %s</string>
+    <string name="download">Downloaden</string>
+    <string name="update_samsung_apps_message">Je moet de Samsung Apps updaten om de app te downloaden.</string>
+    <string name="disable_ad_title">Advertenties verwijderen</string>
+    <string name="disable_ad_message" formatted="false">"Je kunt de volledige versie van de app kopen met alle programma's:
+• %s
+• %s
+• %s
+• %s
+• %s
+of gratis advertenties verwijderen voor meerdere dagen."</string>
+    <string name="disable_ad_ok_title">Advertenties verwijderd</string>
+    <string name="disable_ad_ok_message">Advertenties verwijderd voor %d dagen.</string>
+    <string name="free">Gratis</string>
+    <string name="information">Informatie</string>
+    <string name="remind_me_later">Later herinneren</string>
+    <string name="buy_now">Nu kopen</string>
+    <string name="trial_will_expire">De gratis proefversie vervalt op %s. Druk op \"Nu kopen\" om de app te blijven gebruiken.</string>
+    <string name="trial_expired">De gratis proefversie is vervallen op %s. Druk op \"Nu kopen\" om de app te blijven gebruiken.</string>
+    <string name="connection">Verbinding</string>
+    <string name="please_wait_connection">Gelieve even te wachten...</string>
+    <string name="connection_failed">Verbinding mislukt</string>
+    <string name="check_internet">Gelieve uw internetverbinding te controleren.</string>
+    <string name="samsung_account_not_found">De Samsung-account werd niet gevonden</string>
+    <string name="login_with_samsung_account">Gelieve in te loggen met uw Samsung-account volgens de instellingen van uw apparaat om door te gaan.</string>
+</resources>

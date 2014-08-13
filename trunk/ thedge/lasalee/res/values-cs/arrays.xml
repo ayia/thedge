@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Kliky k provedení</item>
+        <item>Sklapovačky k provedení</item>
+        <item>Kliky na lavici k provedení</item>
+        <item>Dřepy k provedení</item>
+        <item>Shyby k provedení</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 kliků</item>
+        <item>200 sklapovaček</item>
+        <item>150 kliků na lavici</item>
+        <item>200 dřepů</item>
+        <item>20 shybů</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Než se do toho vrhnete a začnete s programem Sto kliků, měli byste si dát úvodní test.
+
+Ten ukáže vaši aktuální kondici a určí, kde začít a jak si naplánovat tréningový program kliků. Test provedete jednoduše: Udělejte co nejvíce pořádných kliků a vyberte si z následujících intervalů. Nešiďte to a hlavně nepodvádějte - to poslední, co chcete, je skončit na nesprávné úrovni tréningového programu! Výsledek může být potupný, ale věřte mi, že poctivost je nejlepší zásadou, pokud chcete nabrat co nejvíce síly!
+
+Než začnete Týden 1, doporučujeme dát si pár dní odpočinek, abyste se vzpamatovali z úvodního testu. Budete muset cvičit třikrát týdně, například v pondělí, středu a pátek."</item>
+        <item>"Než se do toho vrhnete a začnete s programem Dvěsta sklapovaček, měli byste si dát úvodní test.
+
+Ten ukáže vaši aktuální kondici a určí, kde začít a jak si naplánovat tréningový program sklapovaček. Test provedete jednoduše: Udělejte co nejvíce pořádných sklapovaček a vyberte si z následujících intervalů. Nešiďte to a hlavně nepodvádějte - to poslední, co chcete, je skončit na nesprávné úrovni tréningového programu! Výsledek může být potupný, ale věřte mi, že poctivost je nejlepší zásadou, pokud chcete nabrat co nejvíce síly středu těla!
+
+Než začnete Týden 1, doporučujeme dát si pár dní odpočinek, abyste se vzpamatovali z úvodního testu. Budete muset cvičit třikrát týdně, například v pondělí, středu a pátek."</item>
+        <item>"Než se do toho vrhnete a začnete s programem Padesát kliků na lavici, měli byste si dát úvodní test.
+
+Ten ukáže vaši aktuální kondici a určí, kde začít a jak si naplánovat tréningový program bradel. Test provedete jednoduše: Udělejte co nejvíce pořádných kliků na lavici a vyberte si z následujících intervalů. Nešiďte to a hlavně nepodvádějte - to poslední, co chcete, je skončit na nesprávné úrovni tréningového programu! Výsledek může být potupný, ale věřte mi, že poctivost je nejlepší zásadou, pokud chcete nabrat co nejvíce síly v pažích!
+
+Než začnete Týden 1, doporučujeme dát si pár dní odpočinek, abyste se vzpamatovali z úvodního testu. Budete muset cvičit třikrát týdně, například v pondělí, středu a pátek."</item>
+        <item>"Než se do toho vrhnete a začnete s programem Dvěsta dřepů, měli byste si dát úvodní test.
+
+Ten ukáže vaši aktuální kondici a určí, kde začít a jak si naplánovat tréningový program dřepů. Test provedete jednoduše: Udělejte co nejvíce pořádných dřepů a vyberte si z následujících intervalů. Nešiďte to a hlavně nepodvádějte - to poslední, co chcete, je skončit na nesprávné úrovni tréningového programu! Výsledek může být potupný, ale věřte mi, že poctivost je nejlepší zásadou, pokud chcete nabrat co nejvíce síly středu těla!
+
+Než začnete Týden 1, doporučujeme dát si pár dní odpočinek, abyste se vzpamatovali z úvodního testu. Budete muset cvičit třikrát týdně, například v pondělí, středu a pátek."</item>
+        <item>"Než se do toho vrhnete a začnete s programem Dvacet shybů, měli byste si dát úvodní test.
+
+Ten ukáže vaši aktuální kondici a určí, kde začít a jak si naplánovat tréningový program shybů. Test provedete jednoduše: Udělejte co nejvíce pořádných shybů a vyberte si z následujících intervalů. Nešiďte to a hlavně nepodvádějte - to poslední, co chcete, je skončit na nesprávné úrovni tréningového programu! Výsledek může být potupný, ale věřte mi, že poctivost je nejlepší zásadou, pokud chcete nabrat co nejvíce síly středu těla!
+
+Než začnete Týden 1, doporučujeme dát si pár dní odpočinek, abyste se vzpamatovali z úvodního testu. Budete muset cvičit třikrát týdně, například v pondělí, středu a pátek."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Je čas na test! Udělejte co nejvíce pořádných kliků a vyberte si z následujících intervalů.
+
+Nezapomeňte dát si po testu jeden den pauzu, aby se tělo vzpamatovalo."</item>
+        <item>"Je čas na test! Udělejte co nejvíce pořádných sklapovaček a vyberte si z následujících intervalů.
+
+Nezapomeňte dát si po testu jeden den pauzu, aby se tělo vzpamatovalo."</item>
+        <item>"Je čas na test! Udělejte co nejvíce pořádných kliků na lavici a vyberte si z následujících intervalů.
+
+Nezapomeňte dát si po testu jeden den pauzu, aby se tělo vzpamatovalo."</item>
+        <item>"Je čas na test! Udělejte co nejvíce pořádných dřepů a vyberte si z následujících intervalů.
+
+Nezapomeňte dát si po testu jeden den pauzu, aby se tělo vzpamatovalo."</item>
+        <item>"Je čas na test! Udělejte co nejvíce pořádných shybů a vyberte si z následujících intervalů.
+
+Nezapomeňte dát si po testu jeden den pauzu, aby se tělo vzpamatovalo."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Budete muset cvičit třikrát týdně. Podle nás je ideální pondělí, středa a pátek. To vám umožní využít víkend k odpočinku a vzpamatování se, než přejdete k další fázi programu. Nebojte se plán přeskládat, pokud máte nabitý týden, ale nezapomeňte na odpočinek mezi cvičebními dny.
+
+Nešiďte to, ale nebojte se dát si delší pauzu mezi jednotlivými úrovněmi, pokud potřebujete. Před začátkem každého cvičení je také důležitá dobrá hydratace."</item>
+        <item>"Týden 1 už by měl být za vámi a teď je čas zahájit Týden 2.
+
+Na konci Týdne 2 bude čas zkontrolovat sílu a provést test vyčerpání. Jednoduše řečeno, proveďte tolik pořádných kliků, kolik pohodlně zvládnete, než vám dojdou síly na další opakování. Vyždímejte ze svého systému maximum, ale nepřekročte bezpečnostní limit. Počet kliků, které provedete, určí, na které úrovni programu začnete v Týdnu 3. Tento test proveďte 24-48 hodin po dokončení Týdne 2. Obecné zlaté pravidlo říká, že pokud cvičíte v pondělí, středu a pátek, dobrým časem na test je sobota odpoledne. To vám dá dostatek času na obnovu sil po pátečním cvičení a současně dostatek odpočinku před zahájením další fáze v pondělí. Hodně štěstí!"</item>
+        <item>"Měli byste být o něco silnější něž před několika týdny a schopni provést výrazně více kliků než při úvodním testu.
+
+Pokud ale program nezvládáte, neztrácejte hlavu. Někteří lidé budou stále neschopni provést 16 kliků bez přestávky, ale to je v pořádku. Jednoduše zopakujte týden, se kterým jste měli problémy, dokud nebudete mít dostatek síly k přechodu na další úroveň - slibujeme, že to bude stát za tu námahu!"</item>
+        <item>"Týden 3 už je za vámi a teď je čas zahájit Týden 4.
+
+Na konci Týdne 4 bude čas provést další test vyčerpání. Teď už byste měli vědět, co dělat - jednoduše provést tolik pořádných kliků, kolik pohodlně zvládnete, než vám dojdou síly na další klik. Vyždímejte ze svého systému maximum, ale nepřekročte bezpečnostní limit.
+
+Počet kliků, které provedete, určí, na které úrovni programu začnete v Týdnu 5. Tento test proveďte 24-48 hodin po dokončení Týdne 4."</item>
+        <item>Teď už byste se měli cítit silnější a zaznamenat rozdíl. Na konci týdne vás čeká další test.</item>
+        <item>Toto bude váš poslední týden. Na konci týdne provedete závěrečný test, zda dokážete zvládnout Sto kliků!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Budete muset cvičit třikrát týdně. Podle nás je ideální pondělí, středa a pátek. To vám umožní využít víkend k odpočinku a vzpamatování se, než přejdete k další fázi programu. Nebojte se plán přeskládat, pokud máte nabitý týden, ale nezapomeňte na odpočinek mezi cvičebními dny.
+
+Nešiďte to, ale nebojte se dát si delší pauzu mezi jednotlivými úrovněmi, pokud potřebujete. Před začátkem každého cvičení je také důležitá dobrá hydratace."</item>
+        <item>"Týden 1 už by měl být za vámi a teď je čas zahájit Týden 2.
+
+Na konci Týdne 2 bude čas zkontrolovat sílu a provést test vyčerpání. Jednoduše proveďte tolik pořádných sklapovaček, kolik pohodlně zvládnete. Vyždímejte ze svých svalů maximum, ale nepřekročte bezpečnostní limit. Počet sklapovaček, které provedete, určí, na které úrovni programu začnete v Týdnu 3. Tento test proveďte 24-48 hodin po dokončení Týdne 2. Obecné zlaté pravidlo říká, že pokud cvičíte v pondělí, středu a pátek, dobrým časem na test je sobota odpoledne. To vám dá dostatek času na obnovu sil po pátečním cvičení a současně dostatek odpočinku před zahájením další fáze v pondělí. Hodně štěstí!"</item>
+        <item>"Měli byste být o něco silnější něž před několika týdny a schopni provést výrazně více sklapovaček než při úvodním testu.
+
+Pokud ale program nezvládáte, neztrácejte hlavu. Někteří lidé budou stále neschopni provést 21 sklapovaček bez přestávky, ale to je v pořádku. Jednoduše zopakujte týden, se kterým jste měli problémy, dokud nebudete mít dostatek síly k přechodu na další úroveň - slibujeme, že to bude stát za tu námahu!"</item>
+        <item>"Týden 3 už je za vámi a teď je čas zahájit Týden 4.
+
+Na konci Týdne 4 bude čas provést další test vyčerpání. Teď už byste měli vědět, co dělat - jednoduše provést tolik pořádných sklapovaček, kolik pohodlně zvládnete. Vyždímejte ze svého svalstva maximum, ale nepřekročte bezpečnostní limit.
+
+Počet sklapovaček, které provedete, určí, na které úrovni programu začnete v Týdnu 5. Tento test proveďte 24-48 hodin po dokončení Týdne 4."</item>
+        <item>Teď už byste se měli cítit silnější a zaznamenat rozdíl. Na konci týdne vás čeká další test.</item>
+        <item>Toto bude váš poslední týden. Na konci týdne provedete závěrečný test, zda dokážete zvládnout Dvěsta sklapovaček!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Budete muset cvičit třikrát týdně. Podle nás je ideální pondělí, středa a pátek. To vám umožní využít víkend k odpočinku a vzpamatování se, než přejdete k další fázi programu. Nebojte se plán přeskládat, pokud máte nabitý týden, ale nezapomeňte na odpočinek mezi cvičebními dny.
+
+Nešiďte to, ale nebojte se dát si delší pauzu mezi jednotlivými úrovněmi, pokud potřebujete. Před začátkem každého cvičení je také důležitá dobrá hydratace."</item>
+        <item>"Týden 1 už by měl být za vámi a teď je čas zahájit Týden 2.
+
+Na konci Týdne 2 bude čas zkontrolovat sílu a provést test vyčerpání. Jednoduše proveďte tolik pořádných kliků na lavici, kolik pohodlně zvládnete. Vyždímejte ze svých paží maximum, ale nepřekročte bezpečnostní limit. Počet kliků na lavici, které provedete, určí, na které úrovni programu začnete v Týdnu 3. Tento test proveďte 24-48 hodin po dokončení Týdne 2. Obecné zlaté pravidlo říká, že pokud cvičíte v pondělí, středu a pátek, dobrým časem na test je sobota odpoledne. To vám dá dostatek času na obnovu sil po pátečním cvičení a současně dostatek odpočinku před zahájením další fáze v pondělí. Hodně štěstí!"</item>
+        <item>"Měli byste být o něco silnější něž před několika týdny a schopni provést výrazně více kliků na lavici než při úvodním testu.
+
+Pokud ale program nezvládáte, neztrácejte hlavu. Někteří lidé budou stále neschopni provést 20 kliků bez přestávky, ale to je v pořádku. Jednoduše zopakujte týden, se kterým jste měli problémy, dokud nebudete mít dostatek síly k přechodu na další úroveň - slibujeme, že to bude stát za tu námahu!"</item>
+        <item>"Týden 3 už je za vámi a teď je čas zahájit Týden 4.
+
+Na konci Týdne 4 bude čas provést další test vyčerpání. Teď už byste měli vědět, co dělat - jednoduše provést tolik pořádných kliků na lavici, kolik pohodlně zvládnete. Vyždímejte ze svých paží maximum, ale nepřekročte bezpečnostní limit.
+
+Počet kliků, které provedete, určí, na které úrovni programu začnete v Týdnu 5. Tento test proveďte 24-48 hodin po dokončení Týdne 4."</item>
+        <item>Teď už byste se měli cítit silnější a zaznamenat rozdíl. Na konci týdne vás čeká další test.</item>
+        <item>Toto bude váš poslední týden. Na konci týdne provedete závěrečný test, zda dokážete zvládnout Padesát kliků na lavici!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Budete muset cvičit třikrát týdně. Podle nás je ideální pondělí, středa a pátek. To vám umožní využít víkend k odpočinku a vzpamatování se, než přejdete k další fázi programu. Nebojte se plán přeskládat, pokud máte nabitý týden, ale nezapomeňte na odpočinek mezi cvičebními dny.
+
+Nešiďte to, ale nebojte se dát si delší pauzu mezi jednotlivými úrovněmi, pokud potřebujete. Před začátkem každého cvičení je také důležitá dobrá hydratace."</item>
+        <item>"Týden 1 už by měl být za vámi a teď je čas zahájit Týden 2.
+
+Na konci Týdne 2 bude čas zkontrolovat sílu a provést test vyčerpání. Jednoduše proveďte tolik pořádných dřepů, kolik pohodlně zvládnete. Vyždímejte ze svých nohou maximum, ale nepřekročte bariéru bolesti - pokud si nejste jisti, naslouchejte svému tělu. Počet dřepů, které provedete, určí, na které úrovni programu začnete v Týdnu 3. Tento test proveďte 24-48 hodin po dokončení Týdne 2. Obecné zlaté pravidlo říká, že pokud cvičíte v pondělí, středu a pátek, dobrým časem na test je sobota odpoledne. To vám dá dostatek času na obnovu sil po pátečním cvičení a současně dostatek odpočinku před zahájením další fáze v pondělí. Hodně štěstí!"</item>
+        <item>"Měli byste být znatelně silnější něž před několika týdny a schopni provést výrazně více dřepů než při úvodním testu.
+
+Pokud ale program nezvládáte, neztrácejte hlavu. Někteří lidé budou stále neschopni provést 21 dřepů bez přestávky, ale to je v pořádku. Jednoduše zopakujte týden, se kterým jste měli problémy, dokud nebudete mít dostatek síly k přechodu na další úroveň - rozhodně to bude stát za tu námahu!"</item>
+        <item>"Týden 3 už je za vámi a teď je čas zahájit Týden 4.
+
+Na konci Týdne 4 bude čas provést další test vyčerpání. Teď už byste měli vědět, co dělat - jednoduše proveďte tolik pořádných dřepů, kolik pohodlně zvládnete. Vyždímejte ze svých nohou maximum, ale nepřekročte bezpečnostní limit. Pokud si nejste jisti, naslouchejte svému tělu.
+
+Počet dřepů, které provedete, určí, na které úrovni programu začnete v Týdnu 5. Tento test proveďte 24-48 hodin po dokončení Týdne 4."</item>
+        <item>Teď už byste se měli cítit silnější a zaznamenat rozdíl. Na konci týdne vás čeká další test.</item>
+        <item>Toto bude váš poslední týden. Na konci týdne provedete závěrečný test, zda dokážete zvládnout Dvěsta dřepů!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Budete muset cvičit třikrát týdně. Podle nás je ideální pondělí, středa a pátek. To vám umožní využít víkend k odpočinku a vzpamatování se, než přejdete k další fázi programu. Nebojte se plán přeskládat, pokud máte nabitý týden, ale nezapomeňte na odpočinek mezi cvičebními dny.
+
+Nešiďte to, ale nebojte se dát si delší pauzu mezi jednotlivými úrovněmi, pokud potřebujete. Před začátkem každého cvičení je také důležitá dobrá hydratace."</item>
+        <item>"Týden 1 už by měl být za vámi a teď je čas zahájit Týden 2.
+
+Na konci Týdne 2 bude čas zkontrolovat sílu a provést test vyčerpání. Jednoduše proveďte tolik pořádných shybů, kolik pohodlně zvládnete. Vyždímejte ze svých paží maximum, ale nepřekročte bariéru bolesti - pokud si nejste jisti, naslouchejte svému tělu. Počet shybů, které provedete, určí, na které úrovni programu začnete v Týdnu 3. Tento test proveďte 24-48 hodin po dokončení Týdne 2. Obecné zlaté pravidlo říká, že pokud cvičíte v pondělí, středu a pátek, dobrým časem na test je sobota odpoledne. To vám dá dostatek času na obnovu sil po pátečním cvičení a současně dostatek odpočinku před zahájením další fáze v pondělí. Hodně štěstí!"</item>
+        <item>"Měli byste být znatelně silnější něž před několika týdny a schopni provést výrazně více shybů než při úvodním testu.
+
+Pokud ale program nezvládáte, neztrácejte hlavu. Někteří lidé budou stále neschopni provést 3 shyby bez přestávky, ale to je v pořádku. Jednoduše zopakujte týden, se kterým jste měli problémy, dokud nebudete mít dostatek síly k přechodu na další úroveň - rozhodně to bude stát za tu námahu!"</item>
+        <item>"Týden 3 už je za vámi a teď je čas zahájit Týden 4.
+
+Na konci Týdne 4 bude čas provést další test vyčerpání. Teď už byste měli vědět, co dělat - jednoduše proveďte tolik pořádných shybů, kolik pohodlně zvládnete. Vyždímejte ze svých paží maximum, ale nepřekročte bezpečnostní limit. Pokud si nejste jisti, naslouchejte svému tělu.
+
+Počet shybů, které provedete, určí, na které úrovni programu začnete v Týdnu 5. Tento test proveďte 24-48 hodin po dokončení Týdne 4."</item>
+        <item>Teď už byste se měli cítit silnější a zaznamenat rozdíl. Na konci týdne vás čeká další test.</item>
+        <item>Toto bude váš poslední týden. Na konci týdne provedete závěrečný test, zda dokážete zvládnout Dvacet shybů!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Toto je váš závěrečný test. Po dokončení Týdne 6 si dopřejte den nebo dva odpočinku. Potom proveďte tolik pořádných kliků, kolik zvládnete!
+Hodně štěstí k dosažení 100!"</item>
+        <item>"Toto je váš závěrečný test. Po dokončení Týdne 6 si dopřejte den nebo dva odpočinku. Potom proveďte tolik pořádných sklapovaček, kolik zvládnete!
+Hodně štěstí k dosažení 200!"</item>
+        <item>"Toto je váš závěrečný test. Po dokončení Týdne 6 si dopřejte den nebo dva odpočinku. Potom proveďte tolik pořádných kliků na lavici, kolik zvládnete!
+Hodně štěstí k dosažení 150!"</item>
+        <item>"Toto je váš závěrečný test. Po dokončení Týdne 6 si dopřejte den nebo dva odpočinku. Potom proveďte tolik pořádných dřepů, kolik zvládnete!
+Hodně štěstí k dosažení 200!"</item>
+        <item>"Toto je váš závěrečný test. Po dokončení Týdne 6 si dopřejte den nebo dva odpočinku. Potom proveďte tolik pořádných shybů, kolik zvládnete!
+Hodně štěstí k dosažení 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Neděle</item>
+        <item>Pondělí</item>
+        <item>Úterý</item>
+        <item>Středa</item>
+        <item>Čtvrtek</item>
+        <item>Pátek</item>
+        <item>Sobota</item>
+    </string-array>
+</resources>

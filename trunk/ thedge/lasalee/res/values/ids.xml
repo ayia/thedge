@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="btnHome" />
+    <item type="id" name="btnRestartDay" />
+    <item type="id" name="btnRestartWeek" />
+    <item type="id" name="btnReminders" />
+    <item type="id" name="btnResetToDay" />
+    <item type="id" name="btnClearStatistics" />
+    <item type="id" name="btnResetAllData" />
+    <item type="id" name="btnExportData" />
+    <item type="id" name="btnImportData" />
+    <item type="id" name="btnTime">false</item>
+    <item type="id" name="checkBoxEnable">false</item>
+    <item type="id" name="textTime">false</item>
+    <item type="id" name="textTitle">false</item>
+    <item type="id" name="layoutAlarms">false</item>
+    <item type="id" name="layoutTrainingInfo">false</item>
+    <item type="id" name="imagePushups">false</item>
+    <item type="id" name="imageSitups">false</item>
+    <item type="id" name="textViewGetThemAll">false</item>
+    <item type="id" name="imageButtonInfoBG">false</item>
+    <item type="id" name="radioTraining">false</item>
+    <item type="id" name="textViewTraining">false</item>
+    <item type="id" name="radioAllTrainings">false</item>
+    <item type="id" name="textViewAllTrainings">false</item>
+    <item type="id" name="textWeekDay">false</item>
+    <item type="id" name="textViewTotalReps">false</item>
+    <item type="id" name="doneLayout">false</item>
+    <item type="id" name="btnDone">false</item>
+    <item type="id" name="textHelp">false</item>
+    <item type="id" name="btnOK">false</item>
+    <item type="id" name="textInfo">false</item>
+    <item type="id" name="btnSet1">false</item>
+    <item type="id" name="btnSet2">false</item>
+    <item type="id" name="btnSet3">false</item>
+    <item type="id" name="btnSet4">false</item>
+    <item type="id" name="rootLayout">false</item>
+    <item type="id" name="scroll">false</item>
+    <item type="id" name="layoutTrainings">false</item>
+    <item type="id" name="disableAdLayout">false</item>
+    <item type="id" name="disableAdButton">false</item>
+    <item type="id" name="tapjoyAdLayout">false</item>
+    <item type="id" name="imageViewInfoBG">false</item>
+    <item type="id" name="imageViewTraining">false</item>
+    <item type="id" name="textViewWeekNDay">false</item>
+    <item type="id" name="imageViewAlarm">false</item>
+    <item type="id" name="textPrice">false</item>
+    <item type="id" name="btnStart">false</item>
+    <item type="id" name="btnStatistics">false</item>
+    <item type="id" name="btnSettings">false</item>
+    <item type="id" name="btnBuy">false</item>
+    <item type="id" name="textDescription">false</item>
+    <item type="id" name="checkBoxTemplate">false</item>
+    <item type="id" name="timePicker">false</item>
+    <item type="id" name="buttonsLayout">false</item>
+    <item type="id" name="textNoRecords">false</item>
+    <item type="id" name="layoutStatistics">false</item>
+    <item type="id" name="layoutCharts">false</item>
+    <item type="id" name="radiogroupSort">false</item>
+    <item type="id" name="btnSortRaiting">false</item>
+    <item type="id" name="btnChart">false</item>
+    <item type="id" name="btnList">false</item>
+    <item type="id" name="btnDelete">false</item>
+    <item type="id" name="button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="layoutTop">false</item>
+    <item type="id" name="btnRestart">false</item>
+    <item type="id" name="btnSound">false</item>
+    <item type="id" name="btnHelp">false</item>
+    <item type="id" name="layoutMain">false</item>
+    <item type="id" name="textMain">false</item>
+    <item type="id" name="timerView">false</item>
+    <item type="id" name="textMainCounter">false</item>
+    <item type="id" name="containerSets">false</item>
+    <item type="id" name="layoutSets">false</item>
+    <item type="id" name="textSet1">false</item>
+    <item type="id" name="textSet2">false</item>
+    <item type="id" name="textSet3">false</item>
+    <item type="id" name="textSet4">false</item>
+    <item type="id" name="textSet5">false</item>
+    <item type="id" name="layoutBottom">false</item>
+    <item type="id" name="btnAdd30Sec">false</item>
+    <item type="id" name="btnStopTimer">false</item>
+    <item type="id" name="layoutChangeReps">false</item>
+    <item type="id" name="textChangeReps">false</item>
+    <item type="id" name="layoutHelp">false</item>
+    <item type="id" name="btnHelp2">false</item>
+    <item type="id" name="textHelpChangeRepsInfo">false</item>
+    <item type="id" name="topDivider">false</item>
+    <item type="id" name="textViewDate">false</item>
+    <item type="id" name="textViewDay">false</item>
+    <item type="id" name="textViewSets">false</item>
+    <item type="id" name="imageDelete">false</item>
+</resources>

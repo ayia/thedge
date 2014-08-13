@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Pompki do wykonania</item>
+        <item>Brzuszki do zrobienia</item>
+        <item>Pompki odwrotne do zrobienia</item>
+        <item>Przysiady do zrobienia</item>
+        <item>Podciągania do zrobienia</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 Pompek</item>
+        <item>200 Brzuszków</item>
+        <item>150 Pompek odwrotnych</item>
+        <item>200 Przysiadów</item>
+        <item>20 Podciągań</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Zanim wciągniesz się i przystąpisz do Programu Setki Pompek, musisz przejść wstępny test na pompki.
+
+Test określi Twój bieżący poziom sprawności oraz powie, od czego zacząć i jak zaplanować program trenowania pompek. Aby wykonać test, po prostu zrób jak najwięcej poprawnych pompek i wybierz interwał poniżej. Nie idź na skróty i nie oszukuj siebie: rozpoczęcie od niewłaściwego poziomu to nie najlepszy pomysł! Wyniki mogą być skromne, jednak zapewniamy, że uczciwość jest najważniejsza, jeśli chcesz maksymalnie przybrać na sile!
+
+Zanim zaczniesz 1. tydzień, zalecamy odpocząć przez parę dni od zmęczenia po teście wstępnym. Będziesz ćwiczył trzy razy na tydzień, na przykład w poniedziałek, środę i piątek."</item>
+        <item>"Zanim wciągniesz się i przystąpisz do Programu Dwustu Brzuszków, musisz przejść wstępny test na brzuski.
+
+Test określi Twój bieżący poziom sprawności oraz powie, od czego zacząć i jak zaplanować program trenowania brzuszków. Aby wykonać test, po prostu zrób jak najwięcej poprawnych brzuszków i wybierz interwał poniżej. Nie idź na skróty i nie oszukuj siebie: rozpoczęcie od niewłaściwego poziomu to nie najlepszy pomysł! Wyniki mogą być skromne, jednak zapewniamy, że uczciwość jest najważniejsza, jeśli chcesz maksymalnie przybrać na sile!
+
+Zanim zaczniesz 1. tydzień, zalecamy odpocząć przez parę dni od zmęczenia po teście wstępnym. Będziesz ćwiczył trzy razy na tydzień, na przykład w poniedziałek, środę i piątek."</item>
+        <item>"Zanim wciągniesz się i przystąpisz do Programu Stu Pięćdziesięciu Pompek Odwrotnych, musisz przejść wstępny test na pompki odwrotne.
+
+Test określi Twój bieżący poziom sprawności oraz powie, od czego zacząć i jak zaplanować program trenowania pompek odwrotnych. Aby wykonać test, po prostu zrób jak najwięcej poprawnych pompek odwrotnych i wybierz interwał poniżej. Nie idź na skróty i nie oszukuj siebie: rozpoczęcie od niewłaściwego poziomu to nie najlepszy pomysł! Wyniki mogą być skromne, jednak zapewniamy, że uczciwość jest najważniejsza, jeśli chcesz maksymalnie przybrać na sile!
+
+Zanim zaczniesz 1. tydzień, zalecamy odpocząć przez parę dni od zmęczenia po teście wstępnym. Będziesz ćwiczył trzy razy na tydzień, na przykład w poniedziałek, środę i piątek."</item>
+        <item>"Zanim wciągniesz się i przystąpisz do Programu Dwustu Przysiadów, musisz przejść wstępny test na przysiady.
+
+Test określi Twój bieżący poziom sprawności oraz powie, od czego zacząć i jak zaplanować program trenowania przysiadów. Aby wykonać test, po prostu zrób jak najwięcej poprawnych przysiadów i wybierz interwał poniżej. Nie idź na skróty i nie oszukuj siebie: rozpoczęcie od niewłaściwego poziomu to nie najlepszy pomysł! Wyniki mogą być skromne, jednak zapewniamy, że uczciwość jest najważniejsza, jeśli chcesz maksymalnie przybrać na sile!
+
+Zanim zaczniesz 1. tydzień, zalecamy odpocząć przez parę dni od zmęczenia po teście wstępnym. Będziesz ćwiczył trzy razy na tydzień, na przykład w poniedziałek, środę i piątek."</item>
+        <item>"Zanim wciągniesz się i przystąpisz do Programu Dwudziestu Podciągań, musisz przejść wstępny test na podciągania.
+
+Test określi Twój bieżący poziom sprawności oraz powie, od czego zacząć i jak zaplanować program trenowania podciągań. Aby wykonać test, po prostu zrób jak najwięcej poprawnych podciągań i wybierz interwał poniżej. Nie idź na skróty i nie oszukuj siebie: rozpoczęcie od niewłaściwego poziomu to nie najlepszy pomysł! Wyniki mogą być skromne, jednak zapewniamy, że uczciwość jest najważniejsza, jeśli chcesz maksymalnie przybrać na sile!
+
+Zanim zaczniesz 1. tydzień, zalecamy odpocząć przez parę dni od zmęczenia po teście wstępnym. Będziesz ćwiczył trzy razy na tydzień, na przykład w poniedziałek, środę i piątek."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Czas na test! Zrób jak najwięcej poprawnych pompek i wybierz interwał poniżej.
+
+Nie zapominaj, że po wykonaniu testu musisz odpocząć przez dzień, aby odzyskać siły."</item>
+        <item>"Czas na test! Zrób jak najwięcej poprawnych brzuszków i wybierz interwał poniżej.
+
+Nie zapominaj, że po wykonaniu testu musisz odpocząć przez dzień, aby odzyskać siły."</item>
+        <item>"Czas na test! Zrób jak najwięcej poprawnych pompek odwrotnych i wybierz interwał poniżej.
+
+Nie zapominaj, że po wykonaniu testu musisz odpocząć przez dzień, aby odzyskać siły."</item>
+        <item>"Czas na test! Zrób jak najwięcej poprawnych przysiadów i wybierz interwał poniżej.
+
+Nie zapominaj, że po wykonaniu testu musisz odpocząć przez dzień, aby odzyskać siły."</item>
+        <item>"Czas na test! Zrób jak najwięcej poprawnych podciągań i wybierz interwał poniżej.
+
+Nie zapominaj, że po wykonaniu testu musisz odpocząć przez dzień, aby odzyskać siły."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Będziesz musiał ćwiczyć trzy razy na tydzień, na przykład w poniedziałek, środka i piątek. Pozwoli to odpocząć i odzyskać siły w dni wolne, zanim przejdziesz do kolejnego etapu. Jeśli jesteś zajęty w te dni, możesz trenować w inne, ale musisz pozostawić co najmniej dzień do odpoczynku pomiędzy treningami.
+
+Nie pobłażaj sobie, ale w razie konieczności możesz robić nieco dłuższe przerwy między każdym podejściem. Ważne jest też picie wystarczającej ilości płynów przed każdym treningiem."</item>
+        <item>"Ukończyłeś pierwszy tydzień ćwiczeń i przechodzisz do drugiego.
+
+W końcu drugiego tygodnia musisz przejść test wytrzymałości. Polega na tym, abyś zrobił jak najwięcej pompek. Rób pompki do wyczerpania, ale w rozsądnych granicach. Liczba zrobionych pompek określi, od którego poziomu masz zacząć program 3. tygodnia. Wykonaj test na dzień-dwa przed ukończeniem drugiego tygodnia. Jeśli ćwiczysz w poniedziałek, środę i piątek, najlepszy czas do testu to sobota popołudnie. Daje to wystarczająco czasu do regeneracji po ćwiczeniach piątkowych, ale też pozwala więcej odpocząć przed rozpoczęciem kolejnego etapu w poniedziałek. Powodzenia!"</item>
+        <item>"Teraz musisz być o wiele silniejszy niż kilka tygodni temu oraz potrafisz zrobić więcej pompek, niż podczas testu wstępnego.
+
+Jeśli program jest zbyt trudny, nie wpadaj w rozpacz. Niektórzy ludzie na tym etapie wciąż robią mniej niż 16 powtórzeń, i jest to normalne. Po prostu powtórz program tygodnia, w którym miałeś trudności, a następnie przechodź do kolejnego etapu. Obiecujemy, że to przyniesie owoce."</item>
+        <item>"Teraz masz już za sobą trzeci tydzień i możesz rozpocząć czwarty.
+
+ W końcu tego tygodnia będziesz musiał przejść test wytrzymałości. Już wiesz, na czym polega - zrób jak najwięcej pompek. Staraj się z całych sił, ale w rozsądnych granicach.
+
+Liczba pompek, którą potrafisz zrobić podczas testu, określi Twój program w piątym tygodniu. Nie zapomnij o wykonaniu testu w ciągu pary dni przed ukończeniem czwartego tygodnia."</item>
+        <item>W tej chwili musisz poczuć się silniejszy i zauważyć różnicę. Czeka na Ciebie jeszcze jeden test w końcu tygodnia.</item>
+        <item>Będzie to ostatni tydzień programu. W końcu tygodnia musisz przejść test końcowy, aby się przekonać, czy potrafisz zrobić Setkę Pompek!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Będziesz musiał ćwiczyć trzy razy na tydzień, na przykład w poniedziałek, środka i piątek. Pozwoli to odpocząć i odzyskać siły w dni wolne, zanim przejdziesz do kolejnego etapu. Jeśli jesteś zajęty w te dni, możesz trenować w inne, ale musisz pozostawić co najmniej dzień do odpoczynku pomiędzy treningami.
+
+Nie pobłażaj sobie, ale w razie konieczności możesz robić nieco dłuższe przerwy między każdym podejściem. Ważne jest też picie wystarczającej ilości płynów przed każdym treningiem."</item>
+        <item>"Ukończyłeś pierwszy tydzień ćwiczeń i przechodzisz do drugiego.
+
+W końcu drugiego tygodnia musisz przejść test wytrzymałości. Polega na tym, abyś zrobił jak najwięcej brzuszków. Rób brzuszki do wyczerpania, ale w rozsądnych granicach. Liczba zrobionych brzuszków określi, od którego poziomu masz zacząć program 3. tygodnia. Wykonaj test na dzień-dwa przed ukończeniem drugiego tygodnia. Jeśli ćwiczysz w poniedziałek, środę i piątek, najlepszy czas do testu to sobota popołudnie. Daje to wystarczająco czasu do regeneracji po ćwiczeniach piątkowych, ale też pozwala więcej odpocząć przed rozpoczęciem kolejnego etapu w poniedziałek. Powodzenia!"</item>
+        <item>"Teraz musisz być o wiele silniejszy niż kilka tygodni temu oraz potrafisz zrobić więcej brzuszków, niż podczas testu wstępnego.
+
+Jeśli program jest zbyt trudny, nie wpadaj w rozpacz. Niektórzy ludzie na tym etapie wciąż robią mniej niż 21 powtórzeń, i jest to normalne. Po prostu powtórz program tygodnia, w którym miałeś trudności, a następnie przechodź do kolejnego etapu. Obiecujemy, że to przyniesie owoce."</item>
+        <item>"Teraz masz już za sobą trzeci tydzień i możesz rozpocząć czwarty.
+
+ W końcu tego tygodnia będziesz musiał przejść test wytrzymałości. Już wiesz, na czym polega - zrób jak najwięcej pompek. Staraj się z całych sił, ale w rozsądnych granicach.
+
+Liczba pompek, którą potrafisz zrobić podczas testu, określi Twój program w piątym tygodniu. Nie zapomnij o wykonaniu testu w ciągu pary dni przed ukończeniem czwartego tygodnia."</item>
+        <item>W tej chwili musisz poczuć się silniejszy i zauważyć różnicę. Czeka na Ciebie jeszcze jeden test w końcu tygodnia.</item>
+        <item>Będzie to ostatni tydzień programu. W końcu tygodnia musisz przejść test końcowy, aby się przekonać, czy potrafisz zrobić Dwieście Brzuszków!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Będziesz musiał ćwiczyć trzy razy na tydzień, na przykład w poniedziałek, środka i piątek. Pozwoli to odpocząć i odzyskać siły w dni wolne, zanim przejdziesz do kolejnego etapu. Jeśli jesteś zajęty w te dni, możesz trenować w inne, ale musisz pozostawić co najmniej dzień do odpoczynku pomiędzy treningami.
+
+Nie pobłażaj sobie, ale w razie konieczności możesz robić nieco dłuższe przerwy między każdym podejściem. Ważne jest też picie wystarczającej ilości płynów przed każdym treningiem."</item>
+        <item>"Ukończyłeś pierwszy tydzień ćwiczeń i przechodzisz do drugiego.
+
+W końcu drugiego tygodnia musisz przejść test wytrzymałości. Polega na tym, abyś zrobił jak najwięcej pompek odwrotnych. Rób pompki odwrotne do wyczerpania, ale w rozsądnych granicach. Liczba zrobionych pompek odwrotnych określi, od którego poziomu masz zacząć program 3. tygodnia. Wykonaj test na dzień-dwa przed ukończeniem drugiego tygodnia. Jeśli ćwiczysz w poniedziałek, środę i piątek, najlepszy czas do testu to sobota popołudnie. Daje to wystarczająco czasu do regeneracji po ćwiczeniach piątkowych, ale też pozwala więcej odpocząć przed rozpoczęciem kolejnego etapu w poniedziałek. Powodzenia!"</item>
+        <item>"Teraz musisz być o wiele silniejszy niż kilka tygodni temu oraz potrafisz zrobić więcej pompek odwrotnych, niż podczas testu wstępnego.
+
+Jeśli program jest zbyt trudny, nie wpadaj w rozpacz. Niektórzy ludzie na tym etapie wciąż robią mniej niż 20 powtórzeń, i jest to normalne. Po prostu powtórz program tygodnia, w którym miałeś trudności, a następnie przechodź do kolejnego etapu. Obiecujemy, że to przyniesie owoce/"</item>
+        <item>"Teraz masz już za sobą trzeci tydzień i możesz rozpocząć czwarty.
+
+ W końcu tego tygodnia będziesz musiał przejść test wytrzymałości. Już wiesz, na czym polega - zrób jak najwięcej pompek odwrotnych. Staraj się z całych sił, ale w rozsądnych granicach.
+
+Liczba pompek odwrotnych, którą potrafisz zrobić podczas testu, określi Twój program w piątym tygodniu. Nie zapomnij o wykonaniu testu w ciągu pary dni przed ukończeniem czwartego tygodnia."</item>
+        <item>W tej chwili musisz poczuć się silniejszy i zauważyć różnicę. Czeka na Ciebie jeszcze jeden test w końcu tygodnia.</item>
+        <item>Będzie to ostatni tydzień programu. W końcu tygodnia musisz przejść test końcowy, aby się przekonać, czy potrafisz zrobić Sto Pięćdziesiąt Pompek Odwrotnych!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Będziesz musiał ćwiczyć trzy razy na tydzień, na przykład w poniedziałek, środka i piątek. Pozwoli to odpocząć i odzyskać siły w dni wolne, zanim przejdziesz do kolejnego etapu. Jeśli jesteś zajęty w te dni, możesz trenować w inne, ale musisz pozostawić co najmniej dzień do odpoczynku pomiędzy treningami.
+
+Nie pobłażaj sobie, ale w razie konieczności możesz robić nieco dłuższe przerwy między każdym podejściem. Ważne jest też picie wystarczającej ilości płynów przed każdym treningiem."</item>
+        <item>"Ukończyłeś pierwszy tydzień ćwiczeń i przechodzisz do drugiego.
+
+W końcu drugiego tygodnia musisz przejść test wytrzymałości. Polega na tym, abyś zrobił jak najwięcej przysiadów. Rób przysiady do wyczerpania, ale w rozsądnych granicach. Liczba zrobionych przysiadów określi, od którego poziomu masz zacząć program 3. tygodnia. Wykonaj test na dzień-dwa przed ukończeniem drugiego tygodnia. Jeśli ćwiczysz w poniedziałek, środę i piątek, najlepszy czas do testu to sobota popołudnie. Daje to wystarczająco czasu do regeneracji po ćwiczeniach piątkowych, ale też pozwala więcej odpocząć przed rozpoczęciem kolejnego etapu w poniedziałek. Powodzenia!"</item>
+        <item>"Teraz musisz być o wiele silniejszy niż kilka tygodni temu oraz potrafisz zrobić więcej przysiadów, niż podczas testu wstępnego.
+
+Jeśli program jest zbyt trudny, nie wpadaj w rozpacz. Niektórzy ludzie na tym etapie wciąż robią mniej niż 21 powtórzeń, i jest to normalne. Po prostu powtórz program tygodnia, w którym miałeś trudności, a następnie przechodź do kolejnego etapu. Obiecujemy, że to przyniesie owoce."</item>
+        <item>"Teraz masz już za sobą trzeci tydzień i możesz rozpocząć czwarty.
+
+ W końcu tego tygodnia będziesz musiał przejść test wytrzymałości. Już wiesz, na czym polega - zrób jak najwięcej przysiadań. Staraj się z całych sił, ale w rozsądnych granicach.
+
+Liczba przysiadań, którą potrafisz zrobić podczas testu, określi Twój program w piątym tygodniu. Nie zapomnij o wykonaniu testu w ciągu pary dni przed ukończeniem czwartego tygodnia."</item>
+        <item>W tej chwili musisz poczuć się silniejszy i zauważyć różnicę. Czeka na Ciebie jeszcze jeden test w końcu tygodnia.</item>
+        <item>Będzie to ostatni tydzień programu. W końcu tygodnia musisz przejść test końcowy, aby się przekonać, czy potrafisz zrobić Dwieście Przysiadów!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Będziesz musiał ćwiczyć trzy razy na tydzień, na przykład w poniedziałek, środka i piątek. Pozwoli to odpocząć i odzyskać siły w dni wolne, zanim przejdziesz do kolejnego etapu. Jeśli jesteś zajęty w te dni, możesz trenować w inne, ale musisz pozostawić co najmniej dzień do odpoczynku pomiędzy treningami.
+
+Nie pobłażaj sobie, ale w razie konieczności możesz robić nieco dłuższe przerwy między każdym podejściem. Ważne jest też picie wystarczającej ilości płynów przed każdym treningiem."</item>
+        <item>"Ukończyłeś pierwszy tydzień ćwiczeń i przechodzisz do drugiego.
+
+W końcu drugiego tygodnia musisz przejść test wytrzymałości. Polega na tym, abyś zrobił jak najwięcej podciągań. Rób podciągania do wyczerpania, ale w rozsądnych granicach. Liczba zrobionych podciągań określi, od którego poziomu masz zacząć program 3. tygodnia. Wykonaj test na dzień-dwa przed ukończeniem drugiego tygodnia. Jeśli ćwiczysz w poniedziałek, środę i piątek, najlepszy czas do testu to sobota popołudnie. Daje to wystarczająco czasu do regeneracji po ćwiczeniach piątkowych, ale też pozwala więcej odpocząć przed rozpoczęciem kolejnego etapu w poniedziałek. Powodzenia!"</item>
+        <item>"Teraz musisz być o wiele silniejszy niż kilka tygodni temu oraz potrafisz zrobić więcej podciągań, niż podczas testu wstępnego.
+
+Jeśli program jest zbyt trudny, nie wpadaj w rozpacz. Niektórzy ludzie na tym etapie wciąż robią mniej niż 3 powtórzeń, i jest to normalne. Po prostu powtórz program tygodnia, w którym miałeś trudności, a następnie przechodź do kolejnego etapu. Obiecujemy, że to przyniesie owoce."</item>
+        <item>"Teraz masz już za sobą trzeci tydzień i możesz rozpocząć czwarty.
+
+ W końcu tego tygodnia będziesz musiał przejść test wytrzymałości. Już wiesz, na czym polega - zrób jak najwięcej podciągań. Staraj się z całych sił, ale w rozsądnych granicach.
+
+Liczba podciągań, którą potrafisz zrobić podczas testu, określi Twój program w piątym tygodniu. Nie zapomnij o wykonaniu testu w ciągu pary dni przed ukończeniem czwartego tygodnia."</item>
+        <item>W tej chwili musisz poczuć się silniejszy i zauważyć różnicę. Czeka na Ciebie jeszcze jeden test w końcu tygodnia.</item>
+        <item>Będzie to ostatni tydzień programu. W końcu tygodnia musisz przejść test końcowy, aby się przekonać, czy potrafisz zrobić Dwadzieścia Podciągań!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"To jest Twój test końcowy. Po ukończeniu 6. tygodnia programu odpocznij przez dzień-dwa. Następnie zrób jak najwięcej poprawnych pompek! 
+Powodzenia w osiągnięciu 100!"</item>
+        <item>"To jest Twój test końcowy. Po ukończeniu 6. tygodnia programu odpocznij przez dzień-dwa. Następnie zrób jak najwięcej poprawnych brzuszków! 
+Powodzenia w osiągnięciu 200!"</item>
+        <item>"To jest Twój test końcowy. Po ukończeniu 6. tygodnia programu odpocznij przez dzień-dwa. Następnie zrób jak najwięcej poprawnych pompek odwrotnych! 
+Powodzenia w osiągnięciu 150!"</item>
+        <item>"To jest Twój test końcowy. Po ukończeniu 6. tygodnia programu odpocznij przez dzień-dwa. Następnie zrób jak najwięcej poprawnych przysiadów! 
+Powodzenia w osiągnięciu 200!"</item>
+        <item>"To jest Twój test końcowy. Po ukończeniu 6. tygodnia programu odpocznij przez dzień-dwa. Następnie zrób jak najwięcej poprawnych podciągań! 
+Powodzenia w osiągnięciu 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Niedziela</item>
+        <item>Poniedziałek</item>
+        <item>Wtorek</item>
+        <item>Środa</item>
+        <item>Czwartek</item>
+        <item>Piątek</item>
+        <item>Sobota</item>
+    </string-array>
+</resources>

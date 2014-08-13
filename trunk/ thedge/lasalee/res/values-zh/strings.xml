@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="demo">试用版</string>
+    <string name="week">周</string>
+    <string name="day">天</string>
+    <string name="rate">立即评价</string>
+    <string name="rate_later">稍后提醒</string>
+    <string name="rating">评价 %s</string>
+    <string name="rating_message">如果您喜欢使用 %s，请花费一点时间进行评价。只需花费不到一分钟。感谢您的支持！</string>
+    <string name="no_thanks">不了，谢谢</string>
+    <string name="buy">购买</string>
+    <string name="purchase">购买</string>
+    <string name="start">开始</string>
+    <string name="statistics">统计</string>
+    <string name="settings">设置</string>
+    <string name="sec30">+30<small>秒</small></string>
+    <string name="stop">停止</string>
+    <string name="done">完成</string>
+    <string name="done_real">完成</string>
+    <string name="reminders">提醒</string>
+    <string name="reset_to_day">复位至天</string>
+    <string name="clear_statistics">清除统计</string>
+    <string name="congratulations">祝贺您！</string>
+    <string name="home">首页</string>
+    <string name="restart_day">重复天</string>
+    <string name="restart_week">重复周</string>
+    <string name="reset_all_data">复位所有数据</string>
+    <string name="clear_statistics_title">清除统计</string>
+    <string name="clear_statistics_message">确实要清除 \"%s\" 程序上的所有统计吗？</string>
+    <string name="reset_all_data_title">复位所有数据</string>
+    <string name="reset_all_data_message">复位会影响您的进程、统计及提醒。确实要复位 \"%s\" 程序上的所有数据吗？</string>
+    <string name="init_test_additional_info">根据一般经验，如果您在周一、周三和周五训练，那么进行测试的最佳时间是周六下午。这样您有足够的时间从周五的训练中恢复，又能获得足够的休息，确保完成周一的下一步训练计划。</string>
+    <string name="init_test_reminder">记得在一周结束后的 24–48 小时内进行疲惫测试。</string>
+    <string name="buy_one_program">%s (0.99$)</string>
+    <string name="buy_all_programs">所有计划 (%.2f$)</string>
+    <string name="buy_one_program_description">您将接受 \"%s\" 计划训练。因此剩余练习在购买前将不可用。</string>
+    <string name="buy_all_programs_description">如果您购买所有计划将有 40% 的折扣。您将能访问所有计划。</string>
+    <string name="demo_title">试用版</string>
+    <string name="demo_description">"\"%s\" 计划试用版有 2 周的试用期。
+
+所有计划都有相似的训练原理，设计用于 6 周时间。"</string>
+    <string name="select_day">复位至天</string>
+    <string name="selected_day_message">周和天已复位</string>
+    <string name="repeat_day_message">正在重复下一训练的天</string>
+    <string name="repeat_week_message">正在重复下一训练的周</string>
+    <string name="total_reps">总重复次数：%d</string>
+    <string name="set_time">设置提醒</string>
+    <string name="wow">哇！</string>
+    <string name="jump3week_message">您做到了超出 %d 次重复。我们建议您从第 3 周开始。可以吗？</string>
+    <string name="prev_result">（您之前的结果在右边）</string>
+    <string name="reps_count">重复次数</string>
+    <string name="rest_time">剩余时间</string>
+    <string name="program_purchased">计划已购买，稍后带一次更新提供</string>
+    <string name="no_records">无记录</string>
+    <string name="sets">设置：%s</string>
+    <string name="click_restart_day">再次单击重启天</string>
+    <string name="billing_not_supported_title">不能购买</string>
+    <string name="billing_not_supported_message">销售账单服务当前不可用。您可以继续使用该应用程序，但无法购买。</string>
+    <string name="select_reps_count_message">选择重复总次数</string>
+    <string name="completed">完成</string>
+    <string name="completed_real">完成</string>
+    <string name="reps">重复</string>
+    <string name="repeat_hard_week_message">如果由于特殊原因您正在与计划斗争，我们将建议您重复该天或该周。</string>
+    <string name="repeat">重复</string>
+    <string name="restart">重新开始</string>
+    <string name="demo_ended_description">该 \"%s\" 计划试用版有 2 周的试用期。完整版计划设计用于 6 周时间。要继续训练，您需要购买完整版。</string>
+    <string name="demo_ended_restart_description">"该 \"%s\" 计划试用版有 2 周的试用期。完整版计划设计用于 6 周时间。
+
+要继续训练，您需要购买完整版。
+如果您想从计划最初开始，请单击 \"重新开始\"。"</string>
+    <string name="final_test">最终测试</string>
+    <string name="continue_progress">继续前进</string>
+    <string name="continue_progress_description">祝贺您！您结束了 6 周的训练。我们建议您从第 4 周或最初开始。</string>
+    <string name="week4">第 4 周</string>
+    <string name="week1">第 1 周</string>
+    <string name="reps_1">重复</string>
+    <string name="reps_234">重复</string>
+    <string name="reps_all">重复</string>
+    <string name="help_change_reps_description">更改您在该组中做到的重复次数（在最后一组中您需要尽可能多次重复，但不得少于 %d 次）</string>
+    <string name="help_add_sec_description">如果需要，在每组之间添加 30 秒休息</string>
+    <string name="help_help2_description">再次轻击查看每周帮助</string>
+    <string name="chart">图表</string>
+    <string name="list">列表</string>
+    <string name="export_to_sd">导出至 SD 卡</string>
+    <string name="import_from_sd">从 SD 卡中导入</string>
+    <string name="import_title">导入</string>
+    <string name="import_statistics">导入统计</string>
+    <string name="import_alarms">导入提醒</string>
+    <string name="import_progress">导入进程</string>
+    <string name="export_succeful">导出成功完成</string>
+    <string name="export_failed">导出失败</string>
+    <string name="export_failed_description">确保手机中有 SD 卡并可以记录。</string>
+    <string name="import_succeful">导入成功完成</string>
+    <string name="import_failed">导入失败</string>
+    <string name="import_failed_description">未找到待导入数据（您可能没有导出该程序的数据）。也请确保 SD 卡位于手机中并可以进行记录。</string>
+    <string name="import_version_failed_description">导入数据的版本与应用程序的版本不匹配。更新（您从中导出数据的）应用程序版本，再次导出数据并重复导入。</string>
+    <string name="please_wait">请稍候…</string>
+    <string name="delete_record">删除记录</string>
+    <string name="delete_statistics_record_question">确实要删除该记录吗？</string>
+    <string name="get_them_all">在 %s 中获得全部</string>
+    <string name="download">下载</string>
+    <string name="update_samsung_apps_message">您需要更新 Samsung 应用程序，以开始下载应用程序。</string>
+    <string name="disable_ad_title">删除广告</string>
+    <string name="disable_ad_message" formatted="false">"您可以购买所有程序的完整版应用程序：
+• %s
+• %s
+• %s
+• %s
+• %s
+或免费删除广告几天。"</string>
+    <string name="disable_ad_ok_title">广告已删除</string>
+    <string name="disable_ad_ok_message">广告可删除 %d 天。</string>
+    <string name="free">免费</string>
+    <string name="information">信息</string>
+    <string name="remind_me_later">稍后提醒我</string>
+    <string name="buy_now">立即购买</string>
+    <string name="trial_will_expire">免费试用将在 %s 到期。要继续使用本软件，请按\"立即购买\"。</string>
+    <string name="trial_expired">免费试用已在 %s 到期。要继续使用本软件，请按\"立即购买\"。</string>
+    <string name="connection">连接</string>
+    <string name="please_wait_connection">请等待...</string>
+    <string name="connection_failed">连接失败</string>
+    <string name="check_internet">请检查网络连接。</string>
+    <string name="samsung_account_not_found">没有找到三星帐户</string>
+    <string name="login_with_samsung_account">请在您的设备设置使用您的三星帐户登录继续操作。</string>
+</resources>

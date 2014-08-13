@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuller</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="demo">Demo</string>
+    <string name="week">Uge</string>
+    <string name="day">Dag</string>
+    <string name="rate">Bedøm nu</string>
+    <string name="rate_later">Påmind mig senere</string>
+    <string name="rating">Bedøm %s</string>
+    <string name="rating_message">Hvis du kan lide at bruge %s, så tag et øjeblik til at bedømme det. Det vil ikke tage mere end et minut. Tak for din støtte!</string>
+    <string name="no_thanks">Nej tak</string>
+    <string name="buy">Køb</string>
+    <string name="purchase">Køb</string>
+    <string name="start">Start</string>
+    <string name="statistics">Statistik</string>
+    <string name="settings">Indstillinger</string>
+    <string name="sec30">+30<small>sek</small></string>
+    <string name="stop">Stop</string>
+    <string name="done">Udført</string>
+    <string name="done_real">Udført</string>
+    <string name="reminders">Påmindelser</string>
+    <string name="reset_to_day">Nulstil til dag</string>
+    <string name="clear_statistics">Ryd statistik</string>
+    <string name="congratulations">Tillykke!</string>
+    <string name="home">Startside</string>
+    <string name="restart_day">Gentag dag</string>
+    <string name="restart_week">Gentag uge</string>
+    <string name="reset_all_data">Nulstil alle data</string>
+    <string name="clear_statistics_title">Ryd statistik</string>
+    <string name="clear_statistics_message">Er du sikker på, at du vil rydde alle statistikker på programmet \"%s\"?</string>
+    <string name="reset_all_data_title">Nulstil alle data</string>
+    <string name="reset_all_data_message">Nulstilling vil påvirke dine fremskridt, statistik og påmindelser. Er du sikker på, at du vil nulstille alle data på programmet \"%s\"?</string>
+    <string name="init_test_additional_info">Som en generel tommelfingerregel, hvis du træner mandag, onsdag og fredag, er ​​et godt tidspunkt til at hvile, lørdag eftermiddag. Dette giver tilstrækkelig restitutionstid fra fredagens ​​træning, men giver dig også masser af hvile, før du starter den næste fase af planen på mandag.</string>
+    <string name="init_test_reminder">Husk at udføre udmattelsestest 24–48 timer efter afslutning på ugen.</string>
+    <string name="buy_one_program">%s (0.99$)</string>
+    <string name="buy_all_programs">Alle programmer (%.2f$)</string>
+    <string name="buy_one_program_description">Du vil kunne træne på \"%s\" programmet. I dette tilfælde, vil de resterende øvelser stadig ikke være tilgængelige forud for køb.</string>
+    <string name="buy_all_programs_description">Få 40% rabat hvis du køber alle programmer. Du vil have adgang til alle programmer.</string>
+    <string name="demo_title">Demo</string>
+    <string name="demo_description">"Denne prøveversion af \"%s\" programmet har en prøveperiode på 2 uger.
+
+Alle programmer har et lignende træningsprincip og er beregnet til 6 uger."</string>
+    <string name="select_day">Nulstil til dag</string>
+    <string name="selected_day_message">Uge og dag er blevet nulstillet</string>
+    <string name="repeat_day_message">Gentager dag for næste træning</string>
+    <string name="repeat_week_message">Gentager uge for næste træning</string>
+    <string name="total_reps">Antal gentagelser: %d</string>
+    <string name="set_time">Indstil påmindelse</string>
+    <string name="wow">Wow!</string>
+    <string name="jump3week_message">Du klarede mere end %d gentagelser. Vi anbefaler, at du starter på Uge 3. Er det OK?</string>
+    <string name="prev_result">(dit tidligere resultat til højre)</string>
+    <string name="reps_count">Antal gentagelser</string>
+    <string name="rest_time">Hviletid</string>
+    <string name="program_purchased">Program er allerede købt og vil være tilgængeligt senere med en af opdateringerne</string>
+    <string name="no_records">Ingen optegnelser</string>
+    <string name="sets">Indstiller: %s</string>
+    <string name="click_restart_day">Klik igen for at genstarte dagen</string>
+    <string name="billing_not_supported_title">Kan ikke købe</string>
+    <string name="billing_not_supported_message">Markedsfaktureringstjenesten er ikke tilgængelig på nuværende tidspunkt. Du kan fortsætte med at bruge denne applikation men du vil ikke kunne foretage køb.</string>
+    <string name="select_reps_count_message">Vælg antal gentagelser</string>
+    <string name="completed">Udført</string>
+    <string name="completed_real">Færdig</string>
+    <string name="reps">Gentagelser</string>
+    <string name="repeat_hard_week_message">Hvis du af en eller anden grund havde vanskeligheder med programmet, foreslår vi, at du gentager denne dag eller uge.</string>
+    <string name="repeat">Gentag</string>
+    <string name="restart">Genstart</string>
+    <string name="demo_ended_description">Denne prøveversion af \"%s\" programmet har en prøveperiode på 2 uger. Den fulde version af programmet er beregnet til 6 uger. For at fortsætte træningen, skal du købe den fulde version.</string>
+    <string name="demo_ended_restart_description">"Denne prøveversion af \"%s\" programmet har en prøveperiode på 2 uger. Den fulde version af programmet er beregnet til 6 uger.
+
+For at fortsætte træningen, skal du købe den fulde version.
+Hvis du vil begynde fra starten af programmet, skal du klikke på \"Genstart\"."</string>
+    <string name="final_test">Sidste Test</string>
+    <string name="continue_progress">Fortsæt fremskridt</string>
+    <string name="continue_progress_description">Tillykke! Du har nået slutningen af de ​​6 uger. Vi anbefaler enten at starte på Uge 4 eller begyndelsen.</string>
+    <string name="week4">Uge 4</string>
+    <string name="week1">Uge 1</string>
+    <string name="reps_1">Gentagelser</string>
+    <string name="reps_234">Gentagelser</string>
+    <string name="reps_all">Gentagelser</string>
+    <string name="help_change_reps_description">Ændr antallet af gentagelser, som du har lavet i dette sæt (i det sidste sæt, skal du lave så mange gentagelser, som du kan, men ikke mindre end %d)</string>
+    <string name="help_add_sec_description">Tilføj 30 sekunders hvile mellem hvert sæt, hvis du har brug for det</string>
+    <string name="help_help2_description">Tryk igen for at se ugens hjælp</string>
+    <string name="chart">Diagram</string>
+    <string name="list">Liste</string>
+    <string name="export_to_sd">Eksportér til SD-kort</string>
+    <string name="import_from_sd">Importér far SD-kort</string>
+    <string name="import_title">Importér</string>
+    <string name="import_statistics">Importstatistik</string>
+    <string name="import_alarms">Import-påmindelser</string>
+    <string name="import_progress">Import-fremskridt</string>
+    <string name="export_succeful">Eksport fuldført</string>
+    <string name="export_failed">Eksport mislykkedes</string>
+    <string name="export_failed_description">Sørg for, at SD-kortet er i telefonen og tilgængelig til optagelse.</string>
+    <string name="import_succeful">Import fuldført</string>
+    <string name="import_failed">Import mislykkedes</string>
+    <string name="import_failed_description">Data til import fandtes ikke (måske eksporterede du ikke data for dette program). Sørg også for, at SD-kortet er i telefonen og tilgængelig til optagelse.</string>
+    <string name="import_version_failed_description">Version af de importerede data svarer ikke til applikationsversionen. Opdatér applikationsversionen (hvorfra du eksporterede data), eksportér data igen og gentag import.</string>
+    <string name="please_wait">Vent venligst…</string>
+    <string name="delete_record">Slet optagelse</string>
+    <string name="delete_statistics_record_question">Er du sikker på, at du vil slette denne optagelse?</string>
+    <string name="get_them_all">Hent dem alle i %s</string>
+    <string name="download">Download</string>
+    <string name="update_samsung_apps_message">"Du skal opdatere Samsung-applikationerne for at begynde at downloade app'en."</string>
+    <string name="disable_ad_title">Fjern reklamer</string>
+    <string name="disable_ad_message" formatted="false">"Du kan købe den fulde version af app'en med alle programmer:
+• %s
+• %s
+• %s
+• %s
+• %s
+eller fjern reklamer gratis i adskillige dage."</string>
+    <string name="disable_ad_ok_title">Reklamer fjernet</string>
+    <string name="disable_ad_ok_message">Reklamer fjernet i %d dage.</string>
+    <string name="free">Gratis</string>
+    <string name="information">Information</string>
+    <string name="remind_me_later">Påmind mig senere</string>
+    <string name="buy_now">Køb nu</string>
+    <string name="trial_will_expire">"Den gratis prøve udløber den %s. For at fortsætte med at bruge app'en, tryk \"Køb nu\"."</string>
+    <string name="trial_expired">"Den gratis prøve udløb den %s. For at fortsætte med at bruge app'en, tryk \"Køb nu\"."</string>
+    <string name="connection">Forbindelse</string>
+    <string name="please_wait_connection">Vent venligst...</string>
+    <string name="connection_failed">Ingen forbindelse</string>
+    <string name="check_internet">Check venligst internetforbindelsen.</string>
+    <string name="samsung_account_not_found">Samsung-konto ikke fundet</string>
+    <string name="login_with_samsung_account">Log venligst ind med din Samsung-konto, med indstillinger for din enhed, for at fortsætte.</string>
+</resources>

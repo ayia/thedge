@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Anuluj</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="demo">Demo</string>
+    <string name="week">Tydzień</string>
+    <string name="day">Dzień</string>
+    <string name="rate">Oceń teraz</string>
+    <string name="rate_later">Przypomnij mi później</string>
+    <string name="rating">Oceń %s</string>
+    <string name="rating_message">Jeśli upodobałeś sobie korzystanie z %s, prosimy o poświęcenie chwili czasu dla oceny. Odejmie Ci to nie więcej niż minuta. Dziękujemy za Twoje wsparcie!</string>
+    <string name="no_thanks">Nie, dziękuję</string>
+    <string name="buy">Kup</string>
+    <string name="purchase">Kup</string>
+    <string name="start">Start</string>
+    <string name="statistics">Statystyka</string>
+    <string name="settings">Ustawienia</string>
+    <string name="sec30">+30<small>sek</small></string>
+    <string name="stop">Stop</string>
+    <string name="done">Gotowe</string>
+    <string name="done_real">Gotowe</string>
+    <string name="reminders">Przypomnienia</string>
+    <string name="reset_to_day">Resetuj do dnia</string>
+    <string name="clear_statistics">Wyczyść statystykę</string>
+    <string name="congratulations">Gratulacje!</string>
+    <string name="home">Strona główna</string>
+    <string name="restart_day">Powtórz dzień</string>
+    <string name="restart_week">Powtórz tydzień</string>
+    <string name="reset_all_data">Resetuj wszystkie dane</string>
+    <string name="clear_statistics_title">Wyczyść statystykę</string>
+    <string name="clear_statistics_message">Czy na pewno chcesz wyczyścić całą statystykę w programie \"%s\"?</string>
+    <string name="reset_all_data_title">Resetuj wszystkie dane</string>
+    <string name="reset_all_data_message">Reset obejmie Twój postęp, statystykę i przypomnienia. Czy na pewno chcesz wyczyścić całą statystykę w programie \"%s\"?</string>
+    <string name="init_test_additional_info">Jeśli ćwiczysz w poniedziałek, środę i piątek, najlepszy czas na test to sobota popołudnie. Daje to wystarczająco czasu do regeneracji po ćwiczeniach piątkowych, pozwala też więcej odpocząć przed rozpoczęciem kolejnego etapu w poniedziałek.</string>
+    <string name="init_test_reminder">Nie zapomnij o wykonaniu testu wytrzymałości na dzień-dwa prze ukończeniem tygodnia.</string>
+    <string name="buy_one_program">%s (0.99$)</string>
+    <string name="buy_all_programs">Wszystkie programy (%.2f$)</string>
+    <string name="buy_one_program_description">Będziesz mógł trenować dla programu \"%s\". W tym przypadku pozostałe ćwiczenia będą dostępne po nabyciu.</string>
+    <string name="buy_all_programs_description">Otrzymaj 40% zniżkę kupując wszystkie programy. Otrzymasz dostęp do wszystkich programów.</string>
+    <string name="demo_title">Demo</string>
+    <string name="demo_description">"Wersja próbna programu \"%s\" ma 2-tygodniowy okres próbny.
+
+Wszystkie programy działają na podobnej zasadzie i opracowane dla 6 tygodni."</string>
+    <string name="select_day">Zresetuj do dnia</string>
+    <string name="selected_day_message">Tygodnie i dni zostały zresetowane</string>
+    <string name="repeat_day_message">Powtórzenia dnia dla kolejnego ćwiczenia</string>
+    <string name="repeat_week_message">Powtórzenie tygodnia dla kolejnego ćwiczenia</string>
+    <string name="total_reps">Razem powtórzeń: %d</string>
+    <string name="set_time">Ustaw Przypomnienie</string>
+    <string name="wow">Wow!</string>
+    <string name="jump3week_message">Udało Ci się zrobić ponad %d powtórzeń. Zalecamy zacząć od 3. tygodnia. Zgoda?</string>
+    <string name="prev_result">(Twój poprzedni wynik po prawej stronie)</string>
+    <string name="reps_count">Liczba Powtórzeń</string>
+    <string name="rest_time">Pozostało czasu</string>
+    <string name="program_purchased">Program już jest nabyty i będzie dostępny później wraz z jedną z aktualizacji</string>
+    <string name="no_records">Brak wpisów</string>
+    <string name="sets">Zestawy: %s</string>
+    <string name="click_restart_day">Kliknij ponownie, aby restartować dzień</string>
+    <string name="billing_not_supported_title">Nie można zrobić zakupów</string>
+    <string name="billing_not_supported_message">Serwis płatniczy Marketu jest niedostępny w tej chwili. Możesz dalej korzystać z programu, jednak nie można będzie robić zakupów.</string>
+    <string name="select_reps_count_message">Wybierz ilość powtórzeń</string>
+    <string name="completed">Gotowe</string>
+    <string name="completed_real">Ukończone</string>
+    <string name="reps">Powtórzenia</string>
+    <string name="repeat_hard_week_message">Jeśli z jakichś powodów miałeś trudności z programem, zalecamy powtórzyć ten dzień lub tydzień.</string>
+    <string name="repeat">Powtórz</string>
+    <string name="restart">Restart</string>
+    <string name="demo_ended_description">Wersja próbna programu \"%s\" ma 2-tygodniowy okres próbny. Pełną wersję programu opracowano dla 6 tygodni. Aby ćwiczyć dalej, musisz kupić pełną wersję.</string>
+    <string name="demo_ended_restart_description">"Wersja próbna programu \"%s\" ma 2-tygodniowy okres próbny. Pełną wersję programu opracowano dla 6 tygodni.
+Aby ćwiczyć dalej, musisz kupić pełną wersję.
+Jeśli chcesz zacząć od początku programu, kliknij \"Restart\"."</string>
+    <string name="final_test">Test końcowy</string>
+    <string name="continue_progress">Postępuj dalej</string>
+    <string name="continue_progress_description">Gratulacje! Doszedłeś do końca 6 tygodni. Zalecamy rozpoczęcie od 4 tygodnia bądź od początku.</string>
+    <string name="week4">Tydzień 4</string>
+    <string name="week1">Tydzień 1</string>
+    <string name="reps_1">Powtórzenie</string>
+    <string name="reps_234">Powtórzenia</string>
+    <string name="reps_all">Powtórzenia</string>
+    <string name="help_change_reps_description">Zmień ilość powtórzeń, którą zrobiłeś w każdym zestawie (w ostatnim zestawie musisz zrobić jak najwięcej powtórzeń, ale nie mniej niż %d)</string>
+    <string name="help_add_sec_description">W razie konieczności dodaj 30 sekund odpoczynku pomiędzy każdym zestawem</string>
+    <string name="help_help2_description">Dotknij ponownie, aby zobaczyć pomoc tygodnia</string>
+    <string name="chart">Wykres</string>
+    <string name="list">Lista</string>
+    <string name="export_to_sd">Eksportuj do karty SD</string>
+    <string name="import_from_sd">Importuj z karty SD</string>
+    <string name="import_title">Importuj</string>
+    <string name="import_statistics">Importuj statystykę</string>
+    <string name="import_alarms">Importuj przypomnienia</string>
+    <string name="import_progress">Importuj postęp</string>
+    <string name="export_succeful">Eksport ukończono pomyślnie</string>
+    <string name="export_failed">Eksport nie powiódł się</string>
+    <string name="export_failed_description">Upewnij się też, że karta SD w telefonie dostępna do zapisywania.</string>
+    <string name="import_succeful">Import ukończono pomyślnie</string>
+    <string name="import_failed">Import nie powiódł się</string>
+    <string name="import_failed_description">Dane do importu nie znalezione (możliwe, że nie eksportowałeś dane dla tego programu). Upewnij się też, że karta SD w telefonie dostępna do zapisywania.</string>
+    <string name="import_version_failed_description">Wersja importowanych danych nie odpowiada wersji aplikacji. Aktualizuj wersję aplikacji (z której eksportujes dane) oraz ponownie eksportuj dane i powtórz import.</string>
+    <string name="please_wait">Zaczekaj...</string>
+    <string name="delete_record">Usuń wpis</string>
+    <string name="delete_statistics_record_question">Czy na pewno chcesz usunąć ten wpis?</string>
+    <string name="get_them_all">Otrzymaj je wszystkie w %s</string>
+    <string name="download">Pobierz</string>
+    <string name="update_samsung_apps_message">Musisz zaktualizować Samsung Apps, aby rozpocząć pobieranie aplikacji.</string>
+    <string name="disable_ad_title">Usuń reklamy</string>
+    <string name="disable_ad_message" formatted="false">"Możesz nabyć pełną wersję aplikacji ze wszystkimi programami:
+• %s
+• %s
+• %s
+• %s
+• %s
+lub usunąć reklamy za darmo na kilka dni."</string>
+    <string name="disable_ad_ok_title">Reklamy usunięte</string>
+    <string name="disable_ad_ok_message">Reklamy usunięte na %d dni.</string>
+    <string name="free">Darmo</string>
+    <string name="information">Informacje</string>
+    <string name="remind_me_later">Przypomnij później</string>
+    <string name="buy_now">Kup teraz</string>
+    <string name="trial_will_expire">Darmowy okres próbny kończy się %s. Aby dalej korzystać z aplikacji, wybierz \"Kup teraz\".</string>
+    <string name="trial_expired">Darmowy okres próbny kończy się %s. Aby dalej korzystać z aplikacji, wybierz \"Kup teraz\".</string>
+    <string name="connection">Połączenie</string>
+    <string name="please_wait_connection">Proszę czekać...</string>
+    <string name="connection_failed">Błąd połączenia</string>
+    <string name="check_internet">Proszę sprawdzić połączenie internetowe.</string>
+    <string name="samsung_account_not_found">Nie odnaleziono konta Samsung</string>
+    <string name="login_with_samsung_account">Aby kontynuować, zaloguj się przez konto Samsung do ustawień swojego urządzenia.</string>
+</resources>

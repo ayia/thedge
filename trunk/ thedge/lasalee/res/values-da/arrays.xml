@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Armbøjninger at udføre</item>
+        <item>Mavebøjninger at udføre</item>
+        <item>Dips at udføre</item>
+        <item>Squats at udføre</item>
+        <item>Pull-ups at udføre</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 armbøjninger</item>
+        <item>200 mavebøjninger</item>
+        <item>150 dips</item>
+        <item>200 squats</item>
+        <item>20 pull-ups</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Før du går i gang og starter Hundrede Armbøjninger-programmet, bør du tage en indledende armbøjningstest.
+
+Testen vil fremhæve din nuværende kondition og bestemme, hvor du skal starte, og hvordan du kan planlægge dit armbøjnings-træningsprogram. For at udføre testen, skal du blot udføre så mange gode armbøjninger, som du kan, og vælge intervallet nedenfor. Lad vær med at snyde - det værste der kan ske, er at ende på det forkerte niveau af træningsprogrammet! Resultaterne kan være ydmygende, men tro mig, ærlighed er den bedste politik, hvis du vil maksimere din styrke!
+
+Før du starter Uge 1, anbefaler vi at tage et par dage til at komme dig over anstrengelsen ved den oprindelige test. Det er nødvendigt, at du træner tre gange om ugen, for eksempel mandag, onsdag og fredag."</item>
+        <item>"Før du går i gang og starter Tohundrede Mavebøjninger-programmet, bør du tage en indledende mavebøjningstest.
+
+Testen vil fremhæve din nuværende kondition og bestemme, hvor du skal starte, og hvordan du kan planlægge dit mavebøjnings-træningsprogram. For at udføre testen, skal du blot udføre så mange gode mavebøjninger, som du kan, og vælge intervallet nedenfor. Lad vær med at snyde - det værste der kan ske, er at ende på det forkerte niveau af træningsprogrammet! Resultaterne kan være ydmygende, men tro mig, ærlighed er den bedste politik, hvis du vil maksimere din kernestyrke!
+
+Før du starter Uge 1, anbefaler vi at tage et par dage til at komme dig over anstrengelsen ved den oprindelige test. Det er nødvendigt at du træner tre gange om ugen, for eksempel mandag, onsdag og fredag."</item>
+        <item>"Før du går i gang og starter Ethundrede og Halvtreds Dips-programmet, bør du tage en indledende dips-test.
+
+Testen vil fremhæve din nuværende kondition og bestemme, hvor du skal starte, og hvordan du kan planlægge dit dips-træningsprogram. For at udføre testen, skal du blot udføre så mange gode dips, som du kan, og vælge intervallet nedenfor. Lad vær med at snyde - det værste der kan ske, er at ende på det forkerte niveau af træningsprogrammet! Resultaterne kan være ydmygende, men tro mig, ærlighed er den bedste politik, hvis du vil maksimere din armstyrke!
+
+Før du starter Uge 1, anbefaler vi at tage et par dage til at komme dig over anstrengelsen ved den oprindelige test. Det er nødvendigt, at du træner tre gange om ugen, for eksempel mandag, onsdag og fredag."</item>
+        <item>"Før du går i gang og starter Tohundrede Squats-programmet, bør du tage en indledende squats-test.
+
+Testen vil fremhæve din nuværende kondition og bestemme, hvor du skal starte, og hvordan du kan planlægge dit squats-træningsprogram. For at udføre testen, skal du blot udføre så mange gode squats, som du kan, og vælge intervallet nedenfor. Lad vær med at snyde - det værste der kan ske, er at ende på det forkerte niveau af træningsprogrammet! Resultaterne kan være ydmygende, men tro mig, ærlighed er den bedste politik, hvis du vil maksimere din kernestyrke!
+
+Før du starter Uge 1, anbefaler vi at tage et par dage til at komme dig over anstrengelsen ved den oprindelige test. Det er nødvendigt, at du træner tre gange om ugen, for eksempel mandag, onsdag og fredag."</item>
+        <item>"Før du går i gang og starter Tyve Pull-ups-programmet, bør du tage en indledende pull-ups-test.
+
+Testen vil fremhæve din nuværende kondition og bestemme, hvor du skal starte, og hvordan du kan planlægge dit pull-ups-træningsprogram. For at udføre testen, skal du blot udføre så mange gode pull-ups, som du kan, og vælge intervallet nedenfor. Lad vær med at snyde - det værste der kan ske, er at ende på det forkerte niveau af træningsprogrammet! Resultaterne kan være ydmygende, men tro mig, ærlighed er den bedste politik, hvis du vil maksimere din kernestyrke!
+
+Før du starter Uge 1, anbefaler vi at tage et par dage til at komme dig over anstrengelsen ved den oprindelige test. Det er nødvendigt, at du træner tre gange om ugen, for eksempel mandag, onsdag og fredag."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Det er tid til en test! Lav så mange gode armbøjninger, som du kan, og vælg intervallet nedenfor.
+
+Husk at tage en hviledag efter udførelse af testen, så din krop kan restituere sig."</item>
+        <item>"Det er tid til en test! Lav så mange gode mavebøjninger, som du kan, og vælg intervallet nedenfor.
+
+Husk at tage en hviledag efter udførelse af testen, så din krop kan restituere sig."</item>
+        <item>"Det er tid til en test! Lav så mange gode dips, som du kan, og vælg intervallet nedenfor.
+
+Husk at tage en hviledag efter udførelse af testen, så din krop kan restituere sig."</item>
+        <item>"Det er tid til en test! Lav så mange gode squats, som du kan, og vælg intervallet nedenfor.
+
+Husk at tage en hviledag efter udførelse af testen, så din krop kan restituere sig."</item>
+        <item>"Det er tid til en test! Lav så mange gode pull-ups, som du kan, og vælg intervallet nedenfor.
+
+Husk at tage en hviledag efter udførelse af testen, så din krop kan restituere sig."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Det er nødvendigt, at du træner tre gange om ugen. Vi mener, at mandag, onsdag, fredag ​​fungerer godt og giver dig mulighed for at bruge weekenden til hvile og restitution før du går videre til næste fase af programmet. Du er velkommen til at flytte planen rundt for at tilpasse din travle tidsplan, men sørg for, at du hviler mellem træningsdage.
+
+Du må ikke snyde med træningen, men du er velkommen til at tage lidt mere hvile mellem hvert niveau, hvis du har brug for det. Det er også vigtigt, at være godt hydreret, før du starter hver træning."</item>
+        <item>"Uge 1 bør nu være behageligt bag dig, og det er tid til at starte Uge 2.
+
+I slutningen af ​​uge 2 vil det være tid til at tjekke din styrke og udføre en udmattelsestest. I enkle vendinger, lav så mange gode armbøjninger, som du kan, indtil du fysisk ikke kan lave én til. Stress dit system med alle midler, men gå ikke ud over sikkerhedsgrænsen. Antallet af armbøjninger du fuldfører vil bestemme, hvilket niveau af programmet, du starter på i uge 3. Udfør denne test inden for 24-48 timer efter afslutning på Uge 2. Som en generel tommelfingerregel, hvis du træner mandag, onsdag og fredag, er ​​et godt tidspunkt til at hvile, lørdag eftermiddag. Dette giver tilstrækkelig restitutionstid fra fredagens ​​træning, men giver dig også masser af hvile, før du starter den næste fase af planen på mandag. Held og lykke!"</item>
+        <item>"Du bør være lidt stærkere end du var for et par uger siden, og i stand til at fuldføre betydeligt flere armbøjninger end din oprindelige test.
+
+Hvis du har det vanskeligt med programmet, skal du ikke miste modet. Nogle mennesker laver stadig mindre end 16 armbøjninger i træk, men det er ok. Bare gentag den uge, du havde det svært med, indtil du er stærk nok til at gå videre til det næste niveau - vi lover, at det vil være det værd"</item>
+        <item>"Uge 3 er nu behageligt bag dig, og det er tid til at starte Uge 4.
+
+I slutningen af ​​uge 4 vil det være tid til at udføre endnu en udmattelsestest. Du bør nu vide, hvad du skal gøre - du skal blot lave så mange gode armbøjninger, som du kan, indtil du ikke er i stand til at lave én til. Stress dit system med alle midler, men gå ikke ud over sikkerhedsgrænsen.
+
+Antallet af armbøjninger du fuldfører vil bestemme, hvilket niveau af programmet du starter på i uge 5. Sørg for, at du udfører denne test inden for 24-48 timer efter afslutning på Uge 4."</item>
+        <item>Nu burde du føle dig stærkere og mærke forskellen. Der er endnu en test i slutningen af ugen.</item>
+        <item>Dette er din sidste uge. I slutningen af ​​ugen, skal du udføre den sidste test for at se, om du kan lave Hundrede armbøjninger!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Det er nødvendigt, at du træner tre gange om ugen. Vi mener, at mandag, onsdag, fredag ​​fungerer godt og giver dig mulighed for at bruge weekenden til hvile og restitution før du går videre til næste fase af programmet. Du er velkommen til at flytte planen rundt for at tilpasse din travle tidsplan, men sørg for, at du hviler mellem træningsdage.
+
+Du må ikke snyde med træningen, men du er velkommen til at tage lidt mere hvile mellem hvert niveau, hvis du har brug for det. Det er også vigtigt, at være godt hydreret, før du starter hver træning."</item>
+        <item>"Uge 1 bør nu være behageligt bag dig, og det er tid til at starte Uge 2.
+
+I slutningen af ​​uge 2 vil det være tid til at tjekke din styrke og udføre en udmattelsestest. I enkle vendinger, lav så mange gode mavebøjninger, som du kan. Stress din kerne med alle midler, men gå ikke ud over sikkerhedsgrænsen. Antallet af mavebøjninger du fuldfører vil bestemme, hvilket niveau af programmet, du starter på i uge 3. Udfør denne test inden for 24-48 timer efter afslutning på Uge 2. Som en generel tommelfingerregel, hvis du træner mandag, onsdag og fredag, er ​​et godt tidspunkt til at hvile, lørdag eftermiddag. Dette giver tilstrækkelig restitutionstid fra fredagens ​​træning, men giver dig også masser af hvile, før du starter den næste fase af planen på mandag. Held og lykke!"</item>
+        <item>"Du bør være lidt stærkere end du var for et par uger siden, og i stand til at fuldføre betydeligt flere mavebøjninger end din oprindelige test.
+
+Hvis du har det vanskeligt med programmet, skal du ikke miste modet. Nogle mennesker laver stadig mindre end 21 mavebøjninger i træk, men det er ok. Bare gentag den uge, du havde det svært med, indtil du er stærk nok til at gå videre til det næste niveau - vi lover, at det vil være det værd"</item>
+        <item>"Uge 3 er nu behageligt bag dig, og det er tid til at starte Uge 4.
+
+I slutningen af ​​uge 4 vil det være tid til at udføre endnu en udmattelsestest. Du bør nu vide, hvad du skal gøre - du skal blot lave så mange gode mavebøjninger, som du kan. Stress din kerne med alle midler, men gå ikke ud over sikkerhedsgrænsen.
+
+Antallet af mavebøjninger du fuldfører vil bestemme, hvilket niveau af programmet du starter på i uge 5. Sørg for, at du udfører denne test inden for 24-48 timer efter afslutning på Uge 4."</item>
+        <item>Nu burde du føle dig stærkere og mærke forskellen. Der er endnu en test i slutningen af ugen.</item>
+        <item>Dette er din sidste uge. I slutningen af ​​ugen, skal du udføre den sidste test for at se, om du kan lave Tohundrede mavebøjninger!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Det er nødvendigt, at du træner tre gange om ugen. Vi mener, at mandag, onsdag, fredag ​​fungerer godt og giver dig mulighed for at bruge weekenden til hvile og restitution før du går videre til næste fase af programmet. Du er velkommen til at flytte planen rundt for at tilpasse din travle tidsplan, men sørg for, at du hviler mellem træningsdage.
+
+Du må ikke snyde med træningen, men du er velkommen til at tage lidt mere hvile mellem hvert niveau, hvis du har brug for det. Det er også vigtigt, at være godt hydreret, før du starter hver træning."</item>
+        <item>"Uge 1 bør nu være behageligt bag dig, og det er tid til at starte Uge 2.
+
+I slutningen af ​​uge 2 vil det være tid til at tjekke din styrke og udføre en udmattelsestest. I enkle vendinger, lav så mange gode dips, som du kan. Stress din arme med alle midler, men gå ikke ud over sikkerhedsgrænsen. Antallet af dips du fuldfører vil bestemme, hvilket niveau af programmet, du starter på i uge 3. Udfør denne test inden for 24-48 timer efter afslutning på Uge 2. Som en generel tommelfingerregel, hvis du træner mandag, onsdag og fredag, er ​​et godt tidspunkt til at hvile, lørdag eftermiddag. Dette giver tilstrækkelig restitutionstid fra fredagens ​​træning, men giver dig også masser af hvile, før du starter den næste fase af planen på mandag. Held og lykke!"</item>
+        <item>"Du bør være lidt stærkere end du var for et par uger siden, og i stand til at fuldføre betydeligt flere dips end din oprindelige test.
+
+Hvis du har det vanskeligt med programmet, skal du ikke miste modet. Nogle mennesker laver stadig mindre end 20 dips i træk, men det er ok. Bare gentag den uge, du havde det svært med, indtil du er stærk nok til at gå videre til det næste niveau - vi lover, at det vil være det værd"</item>
+        <item>"Uge 3 er nu behageligt bag dig, og det er tid til at starte Uge 4.
+
+I slutningen af ​​uge 4 vil det være tid til at udføre endnu en udmattelsestest. Du bør nu vide, hvad du skal gøre - du skal blot lave så mange gode dips, som du kan. Stress dine arme med alle midler, men gå ikke ud over sikkerhedsgrænsen.
+
+Antallet af dips du fuldfører vil bestemme, hvilket niveau af programmet du starter på i uge 5. Sørg for, at du udfører denne test inden for 24-48 timer efter afslutning på Uge 4."</item>
+        <item>Nu burde du føle dig stærkere og mærke forskellen. Der er endnu en test i slutningen af ugen.</item>
+        <item>Dette er din sidste uge. I slutningen af ​​ugen, skal du udføre den sidste test for at se, om du kan lave Ethundrede og Halvtreds dips!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Det er nødvendigt, at du træner tre gange om ugen. Vi mener, at mandag, onsdag, fredag ​​fungerer godt og giver dig mulighed for at bruge weekenden til hvile og restitution før du går videre til næste fase af programmet. Du er velkommen til at flytte planen rundt for at tilpasse din travle tidsplan, men sørg for, at du hviler mellem træningsdage.
+
+Du må ikke snyde med træningen, men du er velkommen til at tage lidt mere hvile mellem hvert niveau, hvis du har brug for det. Det er også vigtigt, at være godt hydreret, før du starter hver træning."</item>
+        <item>"Uge 1 bør nu være behageligt bag dig, og det er tid til at starte Uge 2.
+
+I slutningen af ​​uge 2 vil det være tid til at tjekke din styrke og udføre en udmattelsestest. I enkle vendinger, lav så mange gode squats, som du kan. Stress dine benmuskler med alle midler, men gå ikke ud over smertegrænsen - hvis i tvivl, lyt til din krop. Antallet af squats du fuldfører vil bestemme, hvilket niveau af programmet, du starter på i uge 3. Udfør denne test inden for 24-48 timer efter afslutning på Uge 2. Som en generel tommelfingerregel, hvis du træner mandag, onsdag og fredag, er ​​et godt tidspunkt til at hvile, lørdag eftermiddag. Dette giver tilstrækkelig restitutionstid fra fredagens ​​træning, men giver dig også masser af hvile, før du starter den næste fase af planen på mandag. Held og lykke!"</item>
+        <item>"Du bør være betydelig stærkere end du var for et par uger siden, og i stand til at fuldføre betydeligt flere squats end din oprindelige test.
+
+Hvis du har det vanskeligt med programmet, skal du ikke miste modet. Nogle mennesker laver stadig mindre end 21 squats i træk, men det er ok. Bare gentag den uge, du havde det svært med, indtil du er stærk nok til at gå videre til det næste niveau - vi lover, at det vil være det værd"</item>
+        <item>"Uge 3 er nu behageligt bag dig, og det er tid til at starte Uge 4.
+
+I slutningen af ​​uge 4 vil det være tid til at udføre endnu en udmattelsestest. Du bør nu vide, hvad du skal gøre - du skal blot lave så mange gode squats, som du kan. Stress dine benmuskler med alle midler, men gå ikke ud over sikkerhedsgrænsen. Hvis i tvivl, lyt til din krop.
+
+Antallet af squats du fuldfører vil bestemme, hvilket niveau af programmet du starter på i uge 5. Sørg for, at du udfører denne test inden for 24-48 timer efter afslutning på Uge 4."</item>
+        <item>Nu burde du føle dig stærkere og mærke forskellen. Der er endnu en test i slutningen af ugen.</item>
+        <item>Dette er din sidste uge. I slutningen af ​​ugen, skal du udføre den sidste test for at se, om du kan lave Tohundrede squats!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Det er nødvendigt, at du træner tre gange om ugen. Vi mener, at mandag, onsdag, fredag ​​fungerer godt og giver dig mulighed for at bruge weekenden til hvile og restitution før du går videre til næste fase af programmet. Du er velkommen til at flytte planen rundt for at tilpasse din travle tidsplan, men sørg for, at du hviler mellem træningsdage.
+
+Du må ikke snyde med træningen, men du er velkommen til at tage lidt mere hvile mellem hvert niveau, hvis du har brug for det. Det er også vigtigt, at være godt hydreret, før du starter hver træning."</item>
+        <item>"Uge 1 bør nu være behageligt bag dig, og det er tid til at starte Uge 2.
+
+I slutningen af ​​uge 2 vil det være tid til at tjekke din styrke og udføre en udmattelsestest. I enkle vendinger, lav så mange gode pull-ups, som du kan. Stress dine arme med alle midler, men gå ikke ud over smertegrænsen - hvis i tvivl, lyt til din krop. Antallet af pull-ups du fuldfører vil bestemme, hvilket niveau af programmet, du starter på i uge 3. Udfør denne test inden for 24-48 timer efter afslutning på Uge 2. Som en generel tommelfingerregel, hvis du træner mandag, onsdag og fredag, er ​​et godt tidspunkt til at hvile, lørdag eftermiddag. Dette giver tilstrækkelig restitutionstid fra fredagens ​​træning, men giver dig også masser af hvile, før du starter den næste fase af planen på mandag. Held og lykke!"</item>
+        <item>"Du bør være betydelig stærkere end du var for et par uger siden, og i stand til at fuldføre betydeligt flere pull-ups end din oprindelige test.
+
+Hvis du har det vanskeligt med programmet, skal du ikke miste modet. Nogle mennesker laver stadig mindre end 3 pull-ups i træk, men det er ok. Bare gentag den uge, du havde det svært med, indtil du er stærk nok til at gå videre til det næste niveau - vi lover, at det vil være det værd"</item>
+        <item>"Uge 3 er nu behageligt bag dig, og det er tid til at starte Uge 4.
+
+I slutningen af ​​uge 4 vil det være tid til at udføre endnu en udmattelsestest. Du bør nu vide, hvad du skal gøre - du skal blot lave så mange gode pull-ups, som du kan. Stress dine arme med alle midler, men gå ikke ud over sikkerhedsgrænsen. Hvis i tvivl, lyt til din krop.
+
+Antallet af pull-ups du fuldfører vil bestemme, hvilket niveau af programmet du starter på i uge 5. Sørg for, at du udfører denne test inden for 24-48 timer efter afslutning på Uge 4."</item>
+        <item>Nu burde du føle dig stærkere og mærke forskellen. Der er endnu en test i slutningen af ugen.</item>
+        <item>Dette er din sidste uge. I slutningen af ​​ugen, skal du udføre den sidste test for at se, om du kan lave Tyve pull-ups!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Dette er din sidste test. Efter at have afsluttet uge 6 af programmet, bør du forkæle dig selv med en dag eller to med hvile. Lav derefter så mange gode armbøjninger, som du kan!
+Held og lykke med at nå 100!"</item>
+        <item>"Dette er din sidste test. Efter at have afsluttet uge 6 af programmet, bør du forkæle dig selv med en dag eller to med hvile. Lav derefter så mange gode mavebøjninger, som du kan!
+Held og lykke med at nå 200!"</item>
+        <item>"Dette er din sidste test. Efter at have afsluttet uge 6 af programmet, bør du forkæle dig selv med en dag eller to med hvile. Lav derefter så mange gode dips, som du kan!
+Held og lykke med at nå 150!"</item>
+        <item>"Dette er din sidste test. Efter at have afsluttet uge 6 af programmet, bør du forkæle dig selv med en dag eller to med hvile. Lav derefter så mange gode squats, som du kan!
+Held og lykke med at nå 200!"</item>
+        <item>"Dette er din sidste test. Efter at have afsluttet uge 6 af programmet, bør du forkæle dig selv med en dag eller to med hvile. Lav derefter så mange gode pull-ups, som du kan!
+Held og lykke med at nå 200!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Søndag</item>
+        <item>Mandag</item>
+        <item>Tirsdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lørdag</item>
+    </string-array>
+</resources>

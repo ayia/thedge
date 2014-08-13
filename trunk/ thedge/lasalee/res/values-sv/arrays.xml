@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Armhävningar kvar att göra</item>
+        <item>Sit-ups kvar att göra</item>
+        <item>Armlyft kvar att göra</item>
+        <item>Benböj kvar att göra</item>
+        <item>Räckhäv kvar att göra</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 armhävningar</item>
+        <item>200 sit-ups</item>
+        <item>150 armlyft</item>
+        <item>200 benböj</item>
+        <item>20 räckhäv</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Innan du ger dig in på programmet med 100 armhävningar bör du genomföra det inledande armhävningstestet.
+
+Testet kommer att visa din nuvarande konditionsnivå och avgöra var du ska börja och hur du bör planera ditt armhävningsprogram. För att genomföra testet gör du helt enkelt så många rejäla armhävningar som du klarar och markera intervallet nedan. Se till att inte slarva eller fuska - det sista du vill är att starta programmet på fel nivå! Resultatet kanske är blygsamt, men tro mig, ärlighet varar längst för den som vill maximera resultatet!
+
+Innan du påbörjar vecka 1 rekommenderar vi att du ta ett par dagars vila för att återhämta dig från det första testet. Du kommer att behöva träna tre gånger i veckan t ex måndag, onsdag och fredag​​."</item>
+        <item>"Innan du ger dig in på programmet med 200 sit-ups bör du genomföra det inledande sit-upstestet.
+
+Testet kommer att visa din nuvarande konditionsnivå och avgöra var du ska börja och hur du bör planera ditt sit-upsprogram. För att genomföra testet gör du helt enkelt så många rejäla sit-ups som du klarar och markera intervallet nedan. Se till att inte slarva eller fuska - det sista du vill är att starta programmet på fel nivå! Resultatet kanske är blygsamt, men tro mig, ärlighet varar längst för den som vill maximera resultatet!
+
+Innan du påbörjar vecka 1 rekommenderar vi att du ta ett par dagars vila för att återhämta dig från det första testet. Du kommer att behöva träna tre gånger i veckan t ex måndag, onsdag och fredag​​."</item>
+        <item>"Innan du ger dig in på programmet med 150 armlyft bör du genomföra det inledande armlyftstestet.
+
+Testet kommer att visa din nuvarande konditionsnivå och avgöra var du ska börja och hur du bör planera ditt armlyftsprogram. För att genomföra testet gör du helt enkelt så många rejäla armlyft som du klarar och markera intervallet nedan. Se till att inte slarva eller fuska - det sista du vill är att starta programmet på fel nivå! Resultatet kanske är blygsamt, men tro mig, ärlighet varar längst för den som vill maximera resultatet!
+
+Innan du påbörjar vecka 1 rekommenderar vi att du ta ett par dagars vila för att återhämta dig från det första testet. Du kommer att behöva träna tre gånger i veckan t ex måndag, onsdag och fredag​​."</item>
+        <item>"Innan du ger dig in på programmet med 200 benböj bör du genomföra det inledande benböjstestet.
+
+Testet kommer att visa din nuvarande konditionsnivå och avgöra var du ska börja och hur du bör planera ditt benböjsprogram. För att genomföra testet gör du helt enkelt så många rejäla benböj som du klarar och markera intervallet nedan. Se till att inte slarva eller fuska - det sista du vill är att starta programmet på fel nivå! Resultatet kanske är blygsamt, men tro mig, ärlighet varar längst för den som vill maximera resultatet!
+
+Innan du påbörjar vecka 1 rekommenderar vi att du ta ett par dagars vila för att återhämta dig från det första testet. Du kommer att behöva träna tre gånger i veckan t ex måndag, onsdag och fredag​​."</item>
+        <item>"Innan du ger dig in på programmet med 20 räckhäv bör du genomföra det inledande räckhävstestet.
+
+Testet kommer att visa din nuvarande konditionsnivå och avgöra var du ska börja och hur du bör planera ditt räckhävsprogram. För att genomföra testet gör du helt enkelt så många rejäla räckhäv som du klarar och markera intervallet nedan. Se till att inte slarva eller fuska - det sista du vill är att starta programmet på fel nivå! Resultatet kanske är blygsamt, men tro mig, ärlighet varar längst för den som vill maximera resultatet!
+
+Innan du påbörjar vecka 1 rekommenderar vi att du ta ett par dagars vila för att återhämta dig från det första testet. Du kommer att behöva träna tre gånger i veckan t ex måndag, onsdag och fredag​​."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Det är dags för ett test! Gör så många rejäla armhävningar du kan och markerar intervallet nedan.
+
+Kom ihåg att vila dagen efter testet för att din kropp ska ha möjligheten att återhämta sig."</item>
+        <item>"Det är dags för ett test! Gör så många rejäla sit-ups du kan och markerar intervallet nedan.
+
+Kom ihåg att vila dagen efter testet för att din kropp ska ha möjligheten att återhämta sig"</item>
+        <item>"Det är dags för ett test! Gör så många rejäla armlyft du kan och markerar intervallet nedan.
+
+Kom ihåg att vila dagen efter testet för att din kropp ska ha möjligheten att återhämta sig"</item>
+        <item>"Det är dags för ett test! Gör så många rejäla benböj du kan och markerar intervallet nedan.
+
+Kom ihåg att vila dagen efter testet för att din kropp ska ha möjligheten att återhämta sig"</item>
+        <item>"Det är dags för ett test! Gör så många rejäla räckhäv du kan och markerar intervallet nedan.
+
+Kom ihåg att vila dagen efter testet för att din kropp ska ha möjligheten att återhämta sig"</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Du måste träna tre gånger per vecka. Vi anser att måndag, onsdag, fredag ​​fungerar bra och låter dig använda helgen till vila och återhämtning innan vi går vidare till nästa steg i programmet. Du har möjligheten att anpassa planen för att det ska passa in i ditt fullspäckade schema men se till att vila mellan träningsdagarna.
+
+Se till att inte fuska men vila gärna lite extra mellan nivåerna om det behövs. Det är också viktigt att dricka mycket innan du inleder träningspasset."</item>
+        <item>"Vecka 1 ligger nu bakom dig och det är dags att inleda vecka 2.
+
+I slutet av vecka 2 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla armhävningar som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet armhävningar som avgör nivån på programmet som inleds under vecka 3. Utför testet inom 24-48 timmar efter att du är klar med vecka 2. En bra tumregel är är att om du tränar måndag, onsdag och fredag är det lämpligt att vila på lördag kväll. Det ger dig tillräckligt med vilotid från fredagsträningen men även tillräckligt med vila innan nästa steg i programmet på måndag. Lycka till!"</item>
+        <item>"Du bör vara lite starkare än du var för ett par veckor sedan och klara betydligt fler armhävningar än vid det inledande testet.
+
+Om du kämpar med programmet är det ingen anledning att tappa modet. Vissa kommer ändå inte att klara 16 armhävningar i rad men det är okej ändå. Det är bara att upprepa veckoschemat tills du är stark nog att gå vidare till nästa nivå - Vi lovar att det kommer att vara värt mödan"</item>
+        <item>"Vecka 3 ligger nu bakom dig och det är dags att inleda vecka 4.
+
+I slutet av vecka 4 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla armhävningar som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet armhävningar som avgör nivån på programmet som inleds under vecka 5. Utför testet inom 24-48 timmar efter att du är klar med vecka 4."</item>
+        <item>Vid det här laget bör du känna dig starkare och märka en stor skillnad. Det blir ytterligare ett test i slutet av veckan.</item>
+        <item>Detta blir din sista vecka. I slutet av veckan kommer du att göra det slutgiltiga testet för att se om du kan göra 100 armhävningar!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Du måste träna tre gånger per vecka. Vi anser att måndag, onsdag, fredag ​​fungerar bra och låter dig använda helgen till vila och återhämtning innan vi går vidare till nästa steg i programmet. Du har möjligheten att anpassa planen för att det ska passa in i ditt fullspäckade schema men se till att vila mellan träningsdagarna.
+
+Se till att inte fuska men vila gärna lite extra mellan nivåerna om det behövs. Det är också viktigt att dricka mycket innan du inleder träningspasset."</item>
+        <item>"Vecka 1 ligger nu bakom dig och det är dags att inleda vecka 2.
+
+I slutet av vecka 2 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla sit-ups som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet sit-ups som avgör nivån på programmet som inleds under vecka 3. Utför testet inom 24-48 timmar efter att du är klar med vecka 2. En bra tumregel är är att om du tränar måndag, onsdag och fredag är det lämpligt att vila på lördag kväll. Det ger dig tillräckligt med vilotid från fredagsträningen men även tillräckligt med vila innan nästa steg i programmet på måndag. Lycka till!"</item>
+        <item>"Du bör vara lite starkare än du var för ett par veckor sedan och klara betydligt fler sit-ups än vid det inledande testet.
+
+Om du kämpar med programmet är det ingen anledning att tappa modet. Vissa kommer ändå inte att klara 21 sit-ups i rad men det är okej ändå. Det är bara att upprepa veckoschemat tills du är stark nog att gå vidare till nästa nivå - Vi lovar att det kommer att vara värt mödan"</item>
+        <item>"Vecka 3 ligger nu bakom dig och det är dags att inleda vecka 4.
+
+I slutet av vecka 4 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla sit-ups som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet sit-ups som avgör nivån på programmet som inleds under vecka 5. Utför testet inom 24-48 timmar efter att du är klar med vecka 4."</item>
+        <item>Vid det här laget bör du känna dig starkare och märka en stor skillnad. Det blir ytterligare ett test i slutet av veckan.</item>
+        <item>Detta blir din sista vecka. I slutet av veckan kommer du att göra det slutgiltiga testet för att se om du kan göra 200 sit-ups!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Du måste träna tre gånger per vecka. Vi anser att måndag, onsdag, fredag ​​fungerar bra och låter dig använda helgen till vila och återhämtning innan vi går vidare till nästa steg i programmet. Du har möjligheten att anpassa planen för att det ska passa in i ditt fullspäckade schema men se till att vila mellan träningsdagarna.
+
+Se till att inte fuska men vila gärna lite extra mellan nivåerna om det behövs. Det är också viktigt att dricka mycket innan du inleder träningspasset."</item>
+        <item>"Vecka 1 ligger nu bakom dig och det är dags att inleda vecka 2.
+
+I slutet av vecka 2 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla armlyft som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet armlyft som avgör nivån på programmet som inleds under vecka 3. Utför testet inom 24-48 timmar efter att du är klar med vecka 2. En bra tumregel är är att om du tränar måndag, onsdag och fredag är det lämpligt att vila på lördag kväll. Det ger dig tillräckligt med vilotid från fredagsträningen men även tillräckligt med vila innan nästa steg i programmet på måndag. Lycka till!"</item>
+        <item>"Du bör vara lite starkare än du var för ett par veckor sedan och klara betydligt fler armlyft än vid det inledande testet.
+
+Om du kämpar med programmet är det ingen anledning att tappa modet. Vissa kommer ändå inte att klara 20 armlyft i rad men det är okej ändå. Det är bara att upprepa veckoschemat tills du är stark nog att gå vidare till nästa nivå - Vi lovar att det kommer att vara värt mödan"</item>
+        <item>"Vecka 3 ligger nu bakom dig och det är dags att inleda vecka 4.
+
+I slutet av vecka 4 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla armlyft som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet armlyft som avgör nivån på programmet som inleds under vecka 5. Utför testet inom 24-48 timmar efter att du är klar med vecka 4."</item>
+        <item>Vid det här laget bör du känna dig starkare och märka en stor skillnad. Det blir ytterligare ett test i slutet av veckan.</item>
+        <item>Detta blir din sista vecka. I slutet av veckan kommer du att göra det slutgiltiga testet för att se om du kan göra 150 armlyft!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Du måste träna tre gånger per vecka. Vi anser att måndag, onsdag, fredag ​​fungerar bra och låter dig använda helgen till vila och återhämtning innan vi går vidare till nästa steg i programmet. Du har möjligheten att anpassa planen för att det ska passa in i ditt fullspäckade schema men se till att vila mellan träningsdagarna.
+
+Se till att inte fuska men vila gärna lite extra mellan nivåerna om det behövs. Det är också viktigt att dricka mycket innan du inleder träningspasset."</item>
+        <item>"Vecka 1 ligger nu bakom dig och det är dags att inleda vecka 2.
+
+I slutet av vecka 2 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla benböj som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet benböj som avgör nivån på programmet som inleds under vecka 3. Utför testet inom 24-48 timmar efter att du är klar med vecka 2. En bra tumregel är är att om du tränar måndag, onsdag och fredag är det lämpligt att vila på lördag kväll. Det ger dig tillräckligt med vilotid från fredagsträningen men även tillräckligt med vila innan nästa steg i programmet på måndag. Lycka till!"</item>
+        <item>"Du bör vara lite starkare än du var för ett par veckor sedan och klara betydligt fler benböj än vid det inledande testet.
+
+Om du kämpar med programmet är det ingen anledning att tappa modet. Vissa kommer ändå inte att klara 21 benböj i rad men det är okej ändå. Det är bara att upprepa veckoschemat tills du är stark nog att gå vidare till nästa nivå - Vi lovar att det kommer att vara värt mödan"</item>
+        <item>"Vecka 3 ligger nu bakom dig och det är dags att inleda vecka 4.
+
+I slutet av vecka 4 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla benböj som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet benböj som avgör nivån på programmet som inleds under vecka 5. Utför testet inom 24-48 timmar efter att du är klar med vecka 4."</item>
+        <item>Vid det här laget bör du känna dig starkare och märka en stor skillnad. Det blir ytterligare ett test i slutet av veckan.</item>
+        <item>Detta blir din sista vecka. I slutet av veckan kommer du att göra det slutgiltiga testet för att se om du kan göra 200 benböj!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Du måste träna tre gånger per vecka. Vi anser att måndag, onsdag, fredag ​​fungerar bra och låter dig använda helgen till vila och återhämtning innan vi går vidare till nästa steg i programmet. Du har möjligheten att anpassa planen för att det ska passa in i ditt fullspäckade schema men se till att vila mellan träningsdagarna.
+
+Se till att inte fuska men vila gärna lite extra mellan nivåerna om det behövs. Det är också viktigt att dricka mycket innan du inleder träningspasset."</item>
+        <item>"Vecka 1 ligger nu bakom dig och det är dags att inleda vecka 2.
+
+I slutet av vecka 2 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla räckhäv som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet räckhäv som avgör nivån på programmet som inleds under vecka 3. Utför testet inom 24-48 timmar efter att du är klar med vecka 2. En bra tumregel är är att om du tränar måndag, onsdag och fredag är det lämpligt att vila på lördag kväll. Det ger dig tillräckligt med vilotid från fredagsträningen men även tillräckligt med vila innan nästa steg i programmet på måndag. Lycka till!"</item>
+        <item>"Du bör vara lite starkare än du var för ett par veckor sedan och klara betydligt fler räckhäv än vid det inledande testet.
+
+Om du kämpar med programmet är det ingen anledning att tappa modet. Vissa kommer ändå inte att klara 3 räckhäv i rad men det är okej ändå. Det är bara att upprepa veckoschemat tills du är stark nog att gå vidare till nästa nivå - Vi lovar att det kommer att vara värt mödan"</item>
+        <item>"Vecka 3 ligger nu bakom dig och det är dags att inleda vecka 4.
+
+I slutet av vecka 4 kommer det att vara dags att kolla din styrka och genomföra ett utmattningstest. I enkla termer går det ut på att genomföra så många rejäla räckhäv som du klarar innan fysiken stoppar dig. Maxa ditt system så långt det går men håll dig inom säkerhetsgränsen. Det är antalet räckhäv som avgör nivån på programmet som inleds under vecka 5. Utför testet inom 24-48 timmar efter att du är klar med vecka 4."</item>
+        <item>Vid det här laget bör du känna dig starkare och märka en stor skillnad. Det blir ytterligare ett test i slutet av veckan.</item>
+        <item>Detta blir din sista vecka. I slutet av veckan kommer du att göra det slutgiltiga testet för att se om du kan göra 20 räckhäv!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Det här är ditt slutgiltiga test. Efter att ha slutfört 6 veckor av programmet bör du belöna dig själv med att vila en dag eller två. Därefter kan du testa att göra så många rejäla armhävningar som möjligt!
+Lycka till med att nå 100!"</item>
+        <item>"Det här är ditt slutgiltiga test. Efter att ha slutfört 6 veckor av programmet bör du belöna dig själv med att vila en dag eller två. Därefter kan du testa att göra så många rejäla sit-ups som möjligt!
+Lycka till med att nå 200!"</item>
+        <item>"Det här är ditt slutgiltiga test. Efter att ha slutfört 6 veckor av programmet bör du belöna dig själv med att vila en dag eller två. Därefter kan du testa att göra så många rejäla armlyft som möjligt!
+Lycka till med att nå 150!"</item>
+        <item>"Det här är ditt slutgiltiga test. Efter att ha slutfört 6 veckor av programmet bör du belöna dig själv med att vila en dag eller två. Därefter kan du testa att göra så många rejäla benböj som möjligt!
+Lycka till med att nå 200!"</item>
+        <item>"Det här är ditt slutgiltiga test. Efter att ha slutfört 6 veckor av programmet bör du belöna dig själv med att vila en dag eller två. Därefter kan du testa att göra så många rejäla räckhäv som möjligt!
+Lycka till med att nå 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Söndag</item>
+        <item>Måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+    </string-array>
+</resources>

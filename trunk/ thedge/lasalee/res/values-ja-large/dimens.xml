@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="congratulations_text_size">33.0sp</dimen>
+    <dimen name="total_reps_text_size">30.0sp</dimen>
+    <dimen name="table_view_item_text_size">25.5sp</dimen>
+</resources>

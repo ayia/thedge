@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Flexiones para realizar</item>
+        <item>Abdominales para realizar</item>
+        <item>Fondos para realizar</item>
+        <item>Sentadillas para realizar</item>
+        <item>Dominadas para realizar</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 flexiones</item>
+        <item>200 abdominales</item>
+        <item>150 fondos</item>
+        <item>200 sentadillas</item>
+        <item>20 dominadas</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Antes de sumergirse y comenzar el Programa de 100 flexiones, debe realizar una primera prueba de flexiones.
+
+La prueba pondrá de relieve su nivel de condición física actual y permitirá determinar por dónde empezar y cómo planificar su programa de entrenamiento de flexiones. Para realizar la prueba, sólo tiene que ejecutar la mayor cantidad de flexiones correctas que pueda y seleccionar el intervalo siguiente. ¡No tome atajos ni haga trampas, lo último que desea es terminar en un nivel equivocado del programa de entrenamiento! Los resultados pueden ser humillantes, pero confíe en nosotros, la honestidad es siempre la mejor opción si quiere aumentar al máximo su fuerza.
+
+Antes de comenzar la Semana 1, se recomienda tomar un par de días para recuperarse del esfuerzo de la prueba inicial. Deberá hacer ejercicio tres veces a la semana, por ejemplo, lunes, miércoles y viernes."</item>
+        <item>"Antes de sumergirse y comenzar el Programa de 200 abdominales, debe realizar una primera prueba de abdominales.
+
+La prueba pondrá de relieve su nivel de condición física actual y permitirá determinar por dónde empezar y cómo planificar su programa de entrenamiento de abdominales. Para realizar la prueba, sólo tiene que ejecutar la mayor cantidad de abdominales correctas que pueda y seleccionar el intervalo siguiente. ¡No tome atajos ni haga trampas, lo último que desea es terminar en un nivel equivocado del programa de entrenamiento! Los resultados pueden ser humillantes, pero confíe en nosotros, la honestidad es siempre la mejor opción si quiere aumentar al máximo su fuerza.
+
+Antes de comenzar la Semana 1, se recomienda tomar un par de días para recuperarse del esfuerzo de la prueba inicial. Deberá hacer ejercicio tres veces a la semana, por ejemplo, lunes, miércoles y viernes."</item>
+        <item>"Antes de sumergirse y comenzar el Programa de 150 fondos, debe realizar una primera prueba de fondos.
+
+La prueba pondrá de relieve su nivel de condición física actual y permitirá determinar por dónde empezar y cómo planificar su programa de entrenamiento de fondos. Para realizar la prueba, sólo tiene que ejecutar la mayor cantidad de fondos correctos que pueda y seleccionar el intervalo siguiente. ¡No tome atajos ni haga trampas, lo último que desea es terminar en un nivel equivocado del programa de entrenamiento! Los resultados pueden ser humillantes, pero confíe en nosotros, la honestidad es siempre la mejor opción si quiere aumentar al máximo su fuerza.
+
+Antes de comenzar la Semana 1, se recomienda tomar un par de días para recuperarse del esfuerzo de la prueba inicial. Deberá hacer ejercicio tres veces a la semana, por ejemplo, lunes, miércoles y viernes."</item>
+        <item>"Antes de sumergirse y comenzar el Programa de 200 sentadillas, debe realizar una primera prueba de sentadillas.
+
+La prueba pondrá de relieve su nivel de condición física actual y permitirá determinar por dónde empezar y cómo planificar su programa de entrenamiento de sentadillas. Para realizar la prueba, sólo tiene que ejecutar la mayor cantidad de sentadillas correctas que pueda y seleccionar el intervalo siguiente. ¡No tome atajos ni haga trampas, lo último que desea es terminar en un nivel equivocado del programa de entrenamiento! Los resultados pueden ser humillantes, pero confíe en nosotros, la honestidad es siempre la mejor opción si quiere aumentar al máximo su fuerza.
+
+Antes de comenzar la Semana 1, se recomienda tomar un par de días para recuperarse del esfuerzo de la prueba inicial. Deberá hacer ejercicio tres veces a la semana, por ejemplo, lunes, miércoles y viernes."</item>
+        <item>"Antes de sumergirse y comenzar el Programa de 20 dominadas, debe realizar una primera prueba de dominadas.
+
+La prueba pondrá de relieve su nivel de condición física actual y permitirá determinar por dónde empezar y cómo planificar su programa de entrenamiento de dominadas. Para realizar la prueba, sólo tiene que ejecutar la mayor cantidad de dominadas correctas que pueda y seleccionar el intervalo siguiente. ¡No tome atajos ni haga trampas, lo último que desea es terminar en un nivel equivocado del programa de entrenamiento! Los resultados pueden ser humillantes, pero confíe en nosotros, la honestidad es siempre la mejor opción si quiere aumentar al máximo su fuerza.
+
+Antes de comenzar la Semana 1, se recomienda tomar un par de días para recuperarse del esfuerzo de la prueba inicial. Deberá hacer ejercicio tres veces a la semana, por ejemplo, lunes, miércoles y viernes."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"¡Es hora de realizar una prueba! Realice tantas flexiones correctas como pueda y seleccione el intervalo siguiente.
+
+Recuerde tomarse un día de descanso después de realizar la prueba para dejar que su cuerpo se recupere."</item>
+        <item>"¡Es hora de realizar una prueba! Realice tantas abdominales correctas como pueda y seleccione el intervalo siguiente.
+
+Recuerde tomarse un día de descanso después de realizar la prueba para dejar que su cuerpo se recupere."</item>
+        <item>"¡Es hora de realizar una prueba! Realice tantos fondos correctos como pueda y seleccione el intervalo siguiente.
+
+Recuerde tomarse un día de descanso después de realizar la prueba para dejar que su cuerpo se recupere."</item>
+        <item>"¡Es hora de realizar una prueba! Realice tantas sentadillas correctas como pueda y seleccione el intervalo siguiente.
+
+Recuerde tomarse un día de descanso después de realizar la prueba para dejar que su cuerpo se recupere."</item>
+        <item>"¡Es hora de realizar una prueba! Realice tantas dominadas correctas como pueda y seleccione el intervalo siguiente.
+
+Recuerde tomarse un día de descanso después de realizar la prueba para dejar que su cuerpo se recupere."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Deberá hacer ejercicio tres veces a la semana. Pensamos que un buen programa sería hacer ejercicio los lunes, miércoles y viernes, dejándole el fin de semana para descansar y recuperarse antes de pasar a la siguiente fase del programa. Configure su planificación de modo que se ajuste a su apretada agenda, pero asegúrese de descansar entre los días de entrenamiento.
+
+No tome atajos, pero si lo necesita, puede descansar algo más de tiempo entre cada nivel. También es importante estar bien hidratado antes de comenzar cada sesión de ejercicios."</item>
+        <item>"Ya debe haber superado cómodamente la Semana 1 y es hora de comenzar la Semana 2.
+
+Al final de la Semana 2, será el momento de comprobar su fuerza y ​​realizar una prueba de agotamiento. En otras palabras, realice tantas flexiones correctas como pueda lograr cómodamente antes de que físicamente no pueda llevar a cabo otra repetición. Someta su sistema a los esfuerzos necesarios, pero no supere nunca el límite de seguridad. El número de flexiones que complete determinará en qué nivel del programa comenzará en la Semana 3. Realice esta prueba dentro de las 24-48 horas después de completar la Semana 2. Como regla general, si realiza sus ejercicios en lunes, miércoles y viernes, un buen momento para hacer la prueba es la tarde del sábado. Esto no sólo le deja suficiente tiempo para recuperarse del entrenamiento del viernes, sino que también le permite descansar mucho antes de iniciar la siguiente fase del plan el lunes. ¡Buena suerte!"</item>
+        <item>"Seguramente, ya es un poco más fuerte de lo que era hace un par de semanas y es capaz de completar considerablemente más flexiones que en su prueba inicial.
+
+Si le está costando mucho completar el programa, no se desanime. En esta fase, algunas personas todavía harán menos de 16 flexiones consecutivas, pero no importa. Sólo tiene que repetir la semana que tanto le costó hasta que sea lo suficientemente fuerte para pasar al siguiente nivel. ¡Le prometemos que valdrá la pena!"</item>
+        <item>"Ya debe haber superado cómodamente la Semana 3 y es hora de comenzar la Semana 4.
+
+Al final de la Semana 4, será el momento de realizar otra prueba de agotamiento. Ya debe saber lo que debe hacer, simplemente realice tantas flexiones correctas como pueda lograr cómodamente antes de que no pueda llevar a cabo otra. Someta su sistema a los esfuerzos necesarios, pero no supere nunca el límite de seguridad.
+
+El número de flexiones que complete determinará en qué nivel del programa comenzará en la Semana 5. Asegúrese de realizar esta prueba dentro de las 24-48 horas después de terminar la Semana 4."</item>
+        <item>A estas alturas ya debería sentirse más fuerte y notar la diferencia. Hay otra prueba al final de la semana.</item>
+        <item>Esta será su última semana. ¡Al final de la semana, realizará la prueba final para ver si se puede hacer 100 flexiones!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Deberá hacer ejercicio tres veces a la semana. Pensamos que un buen programa sería hacer ejercicio los lunes, miércoles y viernes, dejándole el fin de semana para descansar y recuperarse antes de pasar a la siguiente fase del programa. Configure su planificación de modo que se ajuste a su apretada agenda, pero asegúrese de descansar entre los días de entrenamiento.
+
+No tome atajos, pero si lo necesita, puede descansar algo más de tiempo entre cada nivel. También es importante estar bien hidratado antes de comenzar cada sesión de ejercicios."</item>
+        <item>"Ya debe haber superado cómodamente la Semana 1 y es hora de comenzar la Semana 2.
+
+Al final de la Semana 2, será el momento de comprobar su fuerza y realizar una prueba de agotamiento. En otras palabras, realice tantas abdominales correctas como pueda lograr cómodamente. Someta su cuerpo a los esfuerzos necesarios, pero no supere nunca el límite de seguridad. El número de abdominales que complete determinará en qué nivel del programa comenzará en la Semana 3. Realice esta prueba dentro de las 24-48 horas después de completar la Semana 2. Como regla general, si realiza sus ejercicios en lunes, miércoles y viernes, un buen momento para echar el resto es la tarde del sábado. Esto no sólo le deja suficiente tiempo para recuperarse del entrenamiento del viernes, sino que también le permite descansar mucho antes de iniciar la siguiente fase del plan el lunes. ¡Buena suerte!"</item>
+        <item>"Seguramente, ya es un poco más fuerte de lo que era hace un par de semanas y es capaz de completar considerablemente más abdominales que en su prueba inicial.
+
+Si le está costando mucho completar el programa, no se desanime. En esta fase, algunas personas todavía harán menos de 21 abdominales consecutivas, pero no importa. Sólo tiene que repetir la semana que tanto le costó hasta que sea lo suficientemente fuerte para pasar al siguiente nivel. ¡Le prometemos que valdrá la pena!"</item>
+        <item>"Ya debe haber superado cómodamente la Semana 3 y es hora de comenzar la Semana 4.
+
+Al final de la Semana 4, será el momento de realizar otra prueba de agotamiento. Ya debe saber lo que debe hacer, simplemente realice tantas abdominales correctas como pueda lograr cómodamente. Someta su cuerpo a los esfuerzos necesarios, pero no supere nunca el límite de seguridad.
+
+El número de abdominales que complete determinará en qué nivel del programa comenzará en la Semana 5. Asegúrese de realizar esta prueba dentro de las 24-48 horas después de terminar la Semana 4."</item>
+        <item>A estas alturas ya debería sentirse más fuerte y notar la diferencia. Hay otra prueba al final de la semana.</item>
+        <item>Esta será su última semana. ¡Al final de la semana, realizará la prueba final para ver si se puede hacer 200 abdominales!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Deberá hacer ejercicio tres veces a la semana. Pensamos que un buen programa sería hacer ejercicio los lunes, miércoles y viernes, dejándole el fin de semana para descansar y recuperarse antes de pasar a la siguiente fase del programa. Configure su planificación de modo que se ajuste a su apretada agenda, pero asegúrese de descansar entre los días de entrenamiento.
+
+No tome atajos, pero si lo necesita, puede descansar algo más de tiempo entre cada nivel. También es importante estar bien hidratado antes de comenzar cada sesión de ejercicios."</item>
+        <item>"Ya debe haber superado cómodamente la Semana 1 y es hora de comenzar la Semana 2.
+
+Al final de la Semana 2, será el momento de comprobar su fuerza y realizar una prueba de agotamiento. En otras palabras, realice tantos fondos correctos como pueda lograr cómodamente. Someta sus brazos a los esfuerzos necesarios, pero no supere nunca el límite de seguridad. El número de fondos que complete determinará en qué nivel del programa comenzará en la Semana 3. Realice esta prueba dentro de las 24-48 horas después de completar la Semana 2. Como regla general, si realiza sus ejercicios en lunes, miércoles y viernes, un buen momento para hacer la prueba es la tarde del sábado. Esto no sólo le deja suficiente tiempo para recuperarse del entrenamiento del viernes, sino que también le permite descansar mucho antes de iniciar la siguiente fase del plan el lunes. ¡Buena suerte!"</item>
+        <item>"Seguramente, ya es un poco más fuerte de lo que era hace un par de semanas y es capaz de completar considerablemente más fondos que en su prueba inicial.
+
+Si le está costando mucho completar el programa, no se desanime. En esta fase, algunas personas todavía harán menos de 20 fondos consecutivos, pero no importa. Sólo tiene que repetir la semana que tanto le costó hasta que sea lo suficientemente fuerte para pasar al siguiente nivel. ¡Le prometemos que valdrá la pena!"</item>
+        <item>"Ya debe haber superado cómodamente la Semana 3 y es hora de comenzar la Semana 4.
+
+Al final de la Semana 4, será el momento de realizar otra prueba de agotamiento. Ya debe saber lo que debe hacer, simplemente realice tantos fondos correctos como pueda lograr cómodamente. Someta sus brazos a los esfuerzos necesarios, pero no supere nunca el límite de seguridad.
+
+El número de fondos que complete determinará en qué nivel del programa comenzará en la Semana 5. Asegúrese de realizar esta prueba dentro de las 24-48 horas después de terminar la Semana 4."</item>
+        <item>A estas alturas ya debería sentirse más fuerte y notar la diferencia. Hay otra prueba al final de la semana.</item>
+        <item>Esta será su última semana. ¡Al final de la semana, realizará la prueba final para ver si se puede hacer 150 fondos!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Deberá hacer ejercicio tres veces a la semana. Pensamos que un buen programa sería hacer ejercicio los lunes, miércoles y viernes, dejándole el fin de semana para descansar y recuperarse antes de pasar a la siguiente fase del programa. Configure su planificación de modo que se ajuste a su apretada agenda, pero asegúrese de descansar entre los días de entrenamiento.
+
+No tome atajos, pero si lo necesita, puede descansar algo más de tiempo entre cada nivel. También es importante estar bien hidratado antes de comenzar cada sesión de ejercicios."</item>
+        <item>"Ya debe haber superado cómodamente la Semana 1 y es hora de comenzar la Semana 2.
+
+Al final de la Semana 2, será el momento de comprobar su fuerza y realizar una prueba de agotamiento. En otras palabras, realice tantas sentadillas correctas como pueda lograr cómodamente. Someta los músculos de sus piernas a los esfuerzos necesarios, pero no supere nunca la barrera del dolor. En caso de duda, haga caso a lo que le dice su cuerpo. El número de sentadillas que complete determinará en qué nivel del programa comenzará en la Semana 3. Realice esta prueba dentro de las 24-48 horas después de completar la Semana 2. Como regla general, si realiza sus ejercicios en lunes, miércoles y viernes, un buen momento para hacer la prueba es la tarde del sábado. Esto no sólo le deja suficiente tiempo para recuperarse del entrenamiento del viernes, sino que también le permite descansar mucho antes de iniciar la siguiente fase del plan el lunes. ¡Buena suerte!"</item>
+        <item>"Seguramente, ya es un poco más fuerte de lo que era hace un par de semanas y es capaz de completar considerablemente más sentadillas que en su prueba inicial.
+
+Si le está costando mucho completar el programa, no se desanime. En esta fase, algunas personas todavía harán menos de 21 sentadillas consecutivas, pero no importa. Sólo tiene que repetir la semana que tanto le costó hasta que sea lo suficientemente fuerte para pasar al siguiente nivel. ¡Le prometemos que valdrá la pena!"</item>
+        <item>"Ya debe haber superado cómodamente la Semana 3 y es hora de comenzar la Semana 4.
+
+Al final de la Semana 4, será el momento de realizar otra prueba de agotamiento. Ya debe saber lo que debe hacer, simplemente realice tantas sentadillas correctas como pueda lograr cómodamente. Someta los músculos de sus piernas a los esfuerzos necesarios, pero no supere nunca el límite de seguridad. En caso de duda, haga caso a lo que le dice su cuerpo.
+
+El número de sentadillas que complete determinará en qué nivel del programa comenzará en la Semana 5. Asegúrese de realizar esta prueba dentro de las 24-48 horas después de terminar la Semana 4."</item>
+        <item>A estas alturas ya debería sentirse más fuerte y notar la diferencia. Hay otra prueba al final de la semana.</item>
+        <item>Esta será su última semana. ¡Al final de la semana, realizará la prueba final para ver si se puede hacer 200 sentadillas!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Deberá hacer ejercicio tres veces a la semana. Pensamos que un buen programa sería hacer ejercicio los lunes, miércoles y viernes, dejándole el fin de semana para descansar y recuperarse antes de pasar a la siguiente fase del programa. Configure su planificación de modo que se ajuste a su apretada agenda, pero asegúrese de descansar entre los días de entrenamiento.
+
+No tome atajos, pero si lo necesita, puede descansar algo más de tiempo entre cada nivel. También es importante estar bien hidratado antes de comenzar cada sesión de ejercicios."</item>
+        <item>"Ya debe haber superado cómodamente la Semana 1 y es hora de comenzar la Semana 2.
+
+Al final de la Semana 2, será el momento de comprobar su fuerza y realizar una prueba de agotamiento. En otras palabras, realice tantas dominadas correctas como pueda lograr cómodamente. Someta los músculos de sus piernas a los esfuerzos necesarios, pero no supere nunca la barrera del dolor. En caso de duda, haga caso a lo que le dice su cuerpo. El número de dominadas que complete determinará en qué nivel del programa comenzará en la Semana 3. Realice esta prueba dentro de las 24-48 horas después de completar la Semana 2. Como regla general, si realiza sus ejercicios en lunes, miércoles y viernes, un buen momento para hacer la prueba es la tarde del sábado. Esto no sólo le deja suficiente tiempo para recuperarse del entrenamiento del viernes, sino que también le permite descansar mucho antes de iniciar la siguiente fase del plan el lunes. ¡Buena suerte!"</item>
+        <item>"Seguramente, ya es un poco más fuerte de lo que era hace un par de semanas y es capaz de completar considerablemente más dominadas que en su prueba inicial.
+
+Si le está costando mucho completar el programa, no se desanime. En esta fase, algunas personas todavía harán menos de 3 dominadas consecutivas, pero no importa. Sólo tiene que repetir la semana que tanto le costó hasta que sea lo suficientemente fuerte para pasar al siguiente nivel. ¡Le prometemos que valdrá la pena!"</item>
+        <item>"Ya debe haber superado cómodamente la Semana 3 y es hora de comenzar la Semana 4.
+
+Al final de la Semana 4, será el momento de realizar otra prueba de agotamiento. Ya debe saber lo que debe hacer, simplemente realice tantas dominadas correctas como pueda lograr cómodamente. Someta los músculos de sus piernas a los esfuerzos necesarios, pero no supere nunca el límite de seguridad. En caso de duda, haga caso a lo que le dice su cuerpo.
+
+El número de dominadas que complete determinará en qué nivel del programa comenzará en la Semana 5. Asegúrese de realizar esta prueba dentro de las 24-48 horas después de terminar la Semana 4."</item>
+        <item>A estas alturas ya debería sentirse más fuerte y notar la diferencia. Hay otra prueba al final de la semana.</item>
+        <item>Esta será su última semana. ¡Al final de la semana, realizará la prueba final para ver si se puede hacer 20 dominadas!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Esta es su prueba final. Después de completar la Semana 6 del programa, podrá disfrutar de un día o dos de descanso. ¡Luego, haga tantas flexiones correctas como pueda!
+
+¡Espero que llegue a 100!"</item>
+        <item>"Esta es su prueba final. Después de completar la Semana 6 del programa, podrá disfrutar de un día o dos de descanso. ¡Luego, haga tantas abdominales correctas como pueda!
+
+¡Espero que llegue a 200!"</item>
+        <item>"Esta es su prueba final. Después de completar la Semana 6 del programa, podrá disfrutar de un día o dos de descanso. ¡Luego, haga tantos fondos correctos como pueda!
+
+¡Espero que llegue a 150!"</item>
+        <item>"Esta es su prueba final. Después de completar la Semana 6 del programa, podrá disfrutar de un día o dos de descanso. ¡Luego, haga tantas sentadillas correctas como pueda!
+
+¡Espero que llegue a 200!"</item>
+        <item>"Esta es su prueba final. Después de completar la Semana 6 del programa, podrá disfrutar de un día o dos de descanso. ¡Luego, haga tantas dominadas correctas como pueda!
+
+¡Espero que llegue a 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Domingo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+    </string-array>
+</resources>

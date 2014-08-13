@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layoutTrainingInfo" android:layout_width="fill_parent" android:layout_height="@dimen/dp_69">
+        <ImageView android:id="@id/imageViewInfoBG" android:background="@drawable/main_button_yellow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_inner_shadow" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/dp_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imageViewTraining" android:layout_width="@dimen/dp_80" android:layout_height="@dimen/dp_70" android:src="@drawable/pushups" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/sp_16" android:textStyle="bold" android:gravity="center" android:id="@id/textViewTraining" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100 Pushups" style="@style/WhiteTextWithShadow" />
+                    <TextView android:textSize="@dimen/main_training_item_week_and_day_text_size" android:gravity="center" android:id="@id/textViewWeekNDay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Week 1   Day 1" style="@style/WhiteTextWithShadow" />
+                </LinearLayout>
+                <ImageView android:id="@id/imageViewAlarm" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/dp_80" android:layout_height="@dimen/dp_25" android:src="@drawable/alarm_off" />
+                <TextView android:textSize="@dimen/sp_16" android:gravity="center" android:id="@id/textPrice" android:layout_width="@dimen/dp_80" android:layout_height="wrap_content" android:text="0.99$" style="@style/WhiteTextWithShadow" />
+            </LinearLayout>
+            <ImageView android:background="@drawable/center_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dp_79" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_5">
+                <Button android:textSize="@dimen/sp_15" android:id="@id/btnStart" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/start" android:drawableTop="@drawable/start" android:drawablePadding="@dimen/dp_15min" android:layout_weight="@integer/start_button_weight" style="@style/WhiteTextWithShadow" />
+                <Button android:textSize="@dimen/sp_15" android:id="@id/btnStatistics" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/statistics" android:drawableTop="@drawable/statistics" android:drawablePadding="@dimen/dp_15min" android:layout_weight="@integer/statistics_button_weight" style="@style/WhiteTextWithShadow" />
+                <Button android:textSize="@dimen/sp_15" android:id="@id/btnSettings" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/settings" android:drawableTop="@drawable/settings" android:drawablePadding="@dimen/dp_15min" android:layout_weight="@integer/settings_button_weight" style="@style/WhiteTextWithShadow" />
+                <Button android:textSize="@dimen/sp_15" android:id="@id/btnBuy" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/buy" android:drawableTop="@drawable/money" android:drawablePadding="@dimen/dp_15min" android:layout_weight="@integer/buy_button_weight" style="@style/WhiteTextWithShadow" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton android:id="@id/imageButtonInfoBG" android:background="@drawable/bg_main_list_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/topDivider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_list_item_divider" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/calendar_margin_left" android:layout_marginRight="@dimen/calendar_margin_right" android:src="@drawable/calendar" />
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/dp_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/sp_15" android:textColor="@color/white" android:id="@id/textViewDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="25.01.2012 10:47:37" />
+            <TextView android:textSize="@dimen/sp_15" android:textColor="@color/white" android:id="@id/textViewDay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Week 1 Day 3" />
+            <TextView android:textSize="@dimen/sp_15" android:textColor="@color/white" android:id="@id/textViewTotalReps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Total Reps: 45" />
+            <TextView android:textSize="@dimen/sp_15" android:textColor="@color/white" android:id="@id/textViewSets" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sets: 10, 12, 7, 7, 9" />
+        </LinearLayout>
+        <ImageView android:id="@id/imageDelete" android:visibility="gone" android:layout_width="@dimen/dp_22" android:layout_height="@dimen/dp_22" android:layout_marginLeft="@dimen/calendar_margin_right" android:layout_marginRight="@dimen/calendar_margin_left" android:src="@drawable/delete" />
+    </LinearLayout>
+</LinearLayout>

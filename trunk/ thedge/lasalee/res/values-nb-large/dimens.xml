@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="total_reps_text_size">30.0sp</dimen>
+</resources>

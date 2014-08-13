@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textWeekDay" android:text="Week 1   Day 1" style="@style/Title" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/congratulations_text_size" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/congratulations" style="@style/WhiteTextWithShadow" />
+        <TextView android:textSize="@dimen/total_reps_text_size" android:gravity="center" android:id="@id/textViewTotalReps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="50" style="@style/WhiteTextWithShadow" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/doneLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/btnDone" android:background="@null" android:layout_width="@dimen/power_button_size" android:layout_height="@dimen/power_button_size" android:layout_marginTop="@dimen/dp_15" android:layout_marginBottom="@dimen/dp_5" android:src="?power" android:scaleType="fitCenter" />
+    </LinearLayout>
+</LinearLayout>

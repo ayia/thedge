@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="start_button_weight">20</integer>
+    <integer name="statistics_button_weight">20</integer>
+    <integer name="settings_button_weight">20</integer>
+    <integer name="buy_button_weight">21</integer>
+</resources>

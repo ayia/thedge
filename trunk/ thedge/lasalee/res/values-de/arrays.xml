@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Zu absolvierende Liegestütze</item>
+        <item>Zu absolvierende Sit-Ups</item>
+        <item>Zu absolvierende Barrenstütze</item>
+        <item>Zu absolvierende Kniebeugen</item>
+        <item>Zu absolvierende Klimmzüge</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 Liegestütze</item>
+        <item>200 Sit-Ups</item>
+        <item>150 Barrenstütze</item>
+        <item>200 Kniebeugen</item>
+        <item>20 Klimmzüge</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Bevor Sie mit dem 100-Liegestütze-Training beginnen, sollten Sie einen Test durchführen.
+
+Der Test wird Ihren aktuellen Fitnessstand überprüfen und einen auf Sie zugeschnittenen Plan für Liegestützübungen erstellen. Um den Test korrekt durchzuführen, führen Sie so viele Liegestütze wie möglich durch und stellen Sie unten den korrekten Intervall ein. Bitte schummeln und tricksen Sie hierbei nicht - das Letzte was Sie doch wollen ist, das falsche Trainingsprogramm durchzuführen! Die Ergebnisse können eventuell demotivierend sein, aber vertrauen Sie uns, Ehrlichkeit ist der beste Weg um Ihre Kraft zu stärken!
+
+Bevor Sie mit der 1. Woche beginnen, empfehlen wir Ihnen, sich ein paar Tage von der Anstrengung des Tests zu erholen. Sie werden pro Woche drei Workouts durchführen müssen, z.B. Montag, Mittwoch und Freitag."</item>
+        <item>"Bevor Sie mit dem 200-Sit-Ups-Training beginnen, sollten Sie einen Test durchführen.
+
+Der Test wird Ihren aktuellen Fitnessstand überprüfen und einen auf Sie zugeschnittenen Plan für Sit-Ups erstellen. Um den Test korrekt durchzuführen, führen Sie so viele Sit-Ups wie möglich durch und stellen Sie unten den korrekten Intervall ein. Bitte schummeln und tricksen Sie hierbei nicht - das Letzte was Sie doch wollen ist, das falsche Trainingsprogramm durchzuführen! Die Ergebnisse können eventuell demotivierend sein, aber vertrauen Sie uns, Ehrlichkeit ist der beste Weg um Ihre Kraft zu stärken!
+
+Bevor Sie mit der 1. Woche beginnen, empfehlen wir Ihnen, sich ein paar Tage von der Anstrengung des Tests zu erholen. Sie werden pro Woche drei Workouts durchführen müssen, z.B. Montag, Mittwoch und Freitag."</item>
+        <item>"Bevor Sie mit dem 150-Barrenstütze-Training beginnen, sollten Sie einen Test durchführen.
+
+Der Test wird Ihren aktuellen Fitnessstand überprüfen und einen auf Sie zugeschnittenen Plan für Barrenstützen erstellen. Um den Test korrekt durchzuführen, führen Sie so viele Barrenstütze wie möglich durch und stellen Sie unten den korrekten Intervall ein. Bitte schummeln und tricksen Sie hierbei nicht - das Letzte was Sie doch wollen ist, das falsche Trainingsprogramm durchzuführen! Die Ergebnisse können eventuell demotivierend sein, aber vertrauen Sie uns, Ehrlichkeit ist der beste Weg um Ihre Kraft zu stärken!
+
+Bevor Sie mit der 1. Woche beginnen, empfehlen wir Ihnen, sich ein paar Tage von der Anstrengung des Tests zu erholen. Sie werden pro Woche drei Workouts durchführen müssen, z.B. Montag, Mittwoch und Freitag."</item>
+        <item>"Bevor Sie mit dem 200-Kniebeugen-Training beginnen, sollten Sie einen Test durchführen.
+
+Der Test wird Ihren aktuellen Fitnessstand überprüfen und einen auf Sie zugeschnittenen Plan für Kniebeugen erstellen. Um den Test korrekt durchzuführen, führen Sie so viele Kniebeugen wie möglich durch und stellen Sie unten den korrekten Intervall ein. Bitte schummeln und tricksen Sie hierbei nicht - das Letzte was Sie doch wollen ist, das falsche Trainingsprogramm durchzuführen! Die Ergebnisse können eventuell demotivierend sein, aber vertrauen Sie uns, Ehrlichkeit ist der beste Weg um Ihre Kraft zu stärken!
+
+Bevor Sie mit der 1. Woche beginnen, empfehlen wir Ihnen, sich ein paar Tage von der Anstrengung des Tests zu erholen. Sie werden pro Woche drei Workouts durchführen müssen, z.B. Montag, Mittwoch und Freitag."</item>
+        <item>"Bevor Sie mit dem 20-Klimmzüge-Training beginnen, sollten Sie einen Test durchführen.
+
+Der Test wird Ihren aktuellen Fitnessstand überprüfen und einen auf Sie zugeschnittenen Plan für Klimmzüge erstellen. Um den Test korrekt durchzuführen, führen Sie so viele Klimmzüge wie möglich durch und stellen Sie unten den korrekten Intervall ein. Bitte schummeln und tricksen Sie hierbei nicht - das Letzte was Sie doch wollen ist, das falsche Trainingsprogramm durchzuführen! Die Ergebnisse können eventuell demotivierend sein, aber vertrauen Sie uns, Ehrlichkeit ist der beste Weg um Ihre Kraft zu stärken!
+
+Bevor Sie mit der 1. Woche beginnen, empfehlen wir Ihnen, sich ein paar Tage von der Anstrengung des Tests zu erholen. Sie werden pro Woche drei Workouts durchführen müssen, z.B. Montag, Mittwoch und Freitag."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Zeit für einen Test! Absolvieren Sie so viele Liegestütze wie möglich und tragen Sie den korrekten Intervall unten ein.
+
+Bitte beachten Sie, einen Tag Pause nach der Übung einzulegen, um Ihrem Körper die Chance zu geben, sich zu erholen."</item>
+        <item>"Zeit für einen Test! Absolvieren Sie so viele Sit-Ups wie möglich und tragen Sie den korrekten Intervall unten ein.
+
+Bitte beachten Sie, einen Tag Pause nach der Übung einzulegen, um Ihrem Körper die Chance zu geben, sich zu erholen."</item>
+        <item>"Zeit für einen Test! Absolvieren Sie so viele Barrenstütze wie möglich und tragen Sie den korrekten Intervall unten ein.
+
+Bitte beachten Sie, einen Tag Pause nach der Übung einzulegen, um Ihrem Körper die Chance zu geben, sich zu erholen."</item>
+        <item>"Zeit für einen Test! Absolvieren Sie so viele Kniebeugen wie möglich und tragen Sie den korrekten Intervall unten ein.
+
+Bitte beachten Sie, einen Tag Pause nach der Übung einzulegen, um Ihrem Körper die Chance zu geben, sich zu erholen."</item>
+        <item>"Zeit für einen Test! Absolvieren Sie so viele Klimmzüge wie möglich und tragen Sie den korrekten Intervall unten ein.
+
+Bitte beachten Sie, einen Tag Pause nach der Übung einzulegen, um Ihrem Körper die Chance zu geben, sich zu erholen."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Sie werden drei Mal pro Woche ein Workout machen müssen. Wir finden, dass Montag, Mittwoch und Freitag hierfür perfekt geeignet sind. So können Sie sich am Wochenende zu erholen und neue Kraft für die nächste Übungswoche tanken. Sie können den Plan natürlich auf Ihre Zeiteinteilung zuschneiden, aber beachten Sie bitte unbedingt, Erholungsphasen einzubauen
+
+Tricksen Sie bitte nicht, aber nehmen Sie sich ruhig mehr Zeit für die Erholung zwischen den Wiederholungen, sollten Sie diese benötigen. Es ist außerdem wichtig, gut hydratisiert zu sein, bevor Sie mit dem Workout beginnen."</item>
+        <item>"Die erste Woche sollte nun hinter Ihnen liegen und es ist Zeit mit der 2. Woche durchzustarten.
+
+Am Ende der 2. Woche ist es Zeit Ihre Stärke zu überprüfen und einen Erschöpfungstest durchzuführen. Einfach gesagt, führen Sie so viele gute Liegestützen durch wie Sie können, bevor Sie körperlich nicht mehr dazu in der Lage sind. Ihren Körper komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Die Anzahl der Liegestütze, zu denen Sie fähig sind, wird für die Berechnung der 3. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 2. Woche durch. Als Faustregel gilt, wenn Sie Montag, Mittwoch und Freitag Workouts betreiben, ist der Samstagabend ein guter Zeitpunkt zur Erholung. So können Sie sich vom Workout am Freitag ausreichend erholen und haben noch genug Zeit bis zum Start der neuen Trainingswoche. Viel Glück!"</item>
+        <item>"Sie sollten nun ein wenig stärker als noch vor ein paar Wochen und zu deutlich mehr Liegestütz-Wiederholungen als beim Einführungstest fähig sein.
+
+Wenn Sie Probleme mit dem Trainingsprogramm haben, geben Sie nicht auf. Manche Leute werden noch Probleme haben, weniger als 16 Liegestütze zu schaffen, aber das ist OK. Wiederholen Sie einfach die Woche, mit der Sie Probleme hatten - wir versprechen, die Geduld wird sich lohnen!"</item>
+        <item>"Die 3. Woche ist nun zu Ende und es ist Zeit mit der 4. Woche zu starten.
+
+Am Ende der 4. Woche wird ein weiterer Erschöpfungstest auf Sie warten. Sie sollten bereits wissen, was zu tun ist – führen Sie einfach so viele, gute Liegestütze wie möglich aus, bis Sie zu einem weiteren nicht mehr fähig sind. Ihren Körper komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Die Anzahl der Liegestütze, zu der Sie fähig sind, wird für die Berechnung der 5. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 4. Woche durch."</item>
+        <item>Jetzt sollten Sie sich stärker fühlen und den Unterschied bemerken. Am Ende der Woche gibt es einen erneuten Test.</item>
+        <item>Dies wird Ihre letzte Woche sein. Am Ende der Woche sollten Sie sehen, ob sie die 100 Liegestütze erfolgreich schaffen!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Sie werden drei Mal pro Woche ein Workout machen müssen. Wir finden, dass Montag, Mittwoch und Freitag hierfür perfekt geeignet sind. So können Sie sich am Wochenende zu erholen und neue Kraft für die nächste Übungswoche tanken. Sie können den Plan natürlich auf Ihre Zeiteinteilung zuschneiden, aber beachten Sie bitte unbedingt, Erholungsphasen einzubauen
+
+Tricksen Sie bitte nicht, aber nehmen Sie sich ruhig mehr Zeit für die Erholung zwischen den Wiederholungen, sollten Sie diese benötigen. Es ist außerdem wichtig, gut hydratisiert zu sein, bevor Sie mit dem Workout beginnen."</item>
+        <item>"Die erste Woche sollte nun hinter Ihnen liegen und es ist Zeit mit der 2. Woche durchzustarten.
+
+Am Ende der 2. Woche ist es Zeit Ihre Stärke zu überprüfen und einen Erschöpfungstest durchzuführen. Einfach gesagt, führen Sie so viele gute Sit–Ups durch wie Sie können, bevor Sie körperlich nicht mehr dazu in der Lage sind. Ihren Körper komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Die Anzahl der Sit–Ups, zu denen Sie fähig sind, wird für die Berechnung der 3. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 2. Woche durch. Als Faustregel gilt, wenn Sie Montag, Mittwoch und Freitag Workouts betreiben, ist der Samstagabend ein guter Zeitpunkt zur Erholung. So können Sie sich vom Workout am Freitag ausreichend erholen und haben noch genug Zeit bis zum Start der neuen Trainingswoche. Viel Glück!"</item>
+        <item>"Sie sollten nun ein wenig stärker als noch vor ein paar Wochen und zu deutlich mehr SitUps-Wiederholungen als beim Einführungstest fähig sein.
+
+Wenn Sie Probleme mit dem Trainingsprogramm haben, geben Sie nicht auf. Manche Leute werden noch Probleme haben, weniger als 21 Sit-Ups zu schaffen, aber das ist OK. Wiederholen Sie einfach die Woche, mit der Sie Probleme hatten - wir versprechen, die Geduld wird sich lohnen!"</item>
+        <item>"Die 3. Woche ist nun zu Ende und es ist Zeit mit der 4. Woche zu starten.
+
+Am Ende der 4. Woche wird ein weiterer Erschöpfungstest auf Sie warten. Sie sollten bereits wissen, was zu tun ist – führen Sie einfach so viele, gute Sit–Ups wie möglich aus, bis Sie zu einem weiteren nicht mehr fähig sind. Ihren Körper komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Die Anzahl der Sit–Ups, zu der Sie fähig sind, wird für die Berechnung der 5. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 4. Woche durch."</item>
+        <item>Jetzt sollten Sie sich stärker fühlen und den Unterschied bemerken. Am Ende der Woche gibt es einen erneuten Test.</item>
+        <item>Dies wird Ihre letzte Woche sein. Am Ende der Woche sollten Sie sehen, ob sie die 200 Sit-Ups erfolgreich schaffen!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Sie werden drei Mal pro Woche ein Workout machen müssen. Wir finden, dass Montag, Mittwoch und Freitag hierfür perfekt geeignet sind. So können Sie sich am Wochenende zu erholen und neue Kraft für die nächste Übungswoche tanken. Sie können den Plan natürlich auf Ihre Zeiteinteilung zuschneiden, aber beachten Sie bitte unbedingt, Erholungsphasen einzubauen
+
+Tricksen Sie bitte nicht, aber nehmen Sie sich ruhig mehr Zeit für die Erholung zwischen den Wiederholungen, sollten Sie diese benötigen. Es ist außerdem wichtig, gut hydratisiert zu sein, bevor Sie mit dem Workout beginnen."</item>
+        <item>"Die erste Woche sollte nun hinter Ihnen liegen und es ist Zeit mit der 2. Woche durchzustarten.
+
+Am Ende der 2. Woche ist es Zeit Ihre Stärke zu überprüfen und einen Erschöpfungstest durchzuführen. Einfach gesagt, führen Sie so viele gute Barrenstütze durch wie Sie können, bevor Sie körperlich nicht mehr dazu in der Lage sind. Ihren Körper komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Die Anzahl der Barrenstützen, zu denen Sie fähig sind, wird für die Berechnung der 3. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 2. Woche durch. Als Faustregel gilt, wenn Sie Montag, Mittwoch und Freitag Workouts betreiben, ist der Samstagabend ein guter Zeitpunkt zur Erholung. So können Sie sich vom Workout am Freitag ausreichend erholen und haben noch genug Zeit bis zum Start der neuen Trainingswoche. Viel Glück!"</item>
+        <item>"Sie sollten nun ein wenig stärker als noch vor ein paar Wochen und zu deutlich mehr Barrenstütze-Wiederholungen als beim Einführungstest fähig sein.
+
+Wenn Sie Probleme mit dem Trainingsprogramm haben, geben Sie nicht auf. Manche Leute werden noch Probleme haben, weniger als 20 Barrenstütze zu schaffen, aber das ist OK. Wiederholen Sie einfach die Woche, mit der Sie Probleme hatten - wir versprechen, die Geduld wird sich lohnen!"</item>
+        <item>"Die 3. Woche ist nun zu Ende und es ist Zeit mit der 4. Woche zu starten.
+
+Am Ende der 4. Woche wird ein weiterer Erschöpfungstest auf Sie warten. Sie sollten bereits wissen, was zu tun ist – führen Sie einfach so viele, gute Barrenstütze wie möglich aus, bis Sie zu einem weiteren nicht mehr fähig sind. Ihre Arme komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Die Anzahl der Barrenstütze, zu der Sie fähig sind, wird für die Berechnung der 5. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 4. Woche durch."</item>
+        <item>Jetzt sollten Sie sich stärker fühlen und den Unterschied bemerken. Am Ende der Woche gibt es einen erneuten Test.</item>
+        <item>Dies wird Ihre letzte Woche sein. Am Ende der Woche sollten Sie sehen, ob sie die 150 Barrenstützen erfolgreich schaffen!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Sie werden drei Mal pro Woche ein Workout machen müssen. Wir finden, dass Montag, Mittwoch und Freitag hierfür perfekt geeignet sind. So können Sie sich am Wochenende zu erholen und neue Kraft für die nächste Übungswoche tanken. Sie können den Plan natürlich auf Ihre Zeiteinteilung zuschneiden, aber beachten Sie bitte unbedingt, Erholungsphasen einzubauen
+
+Tricksen Sie bitte nicht, aber nehmen Sie sich ruhig mehr Zeit für die Erholung zwischen den Wiederholungen, sollten Sie diese benötigen. Es ist außerdem wichtig, gut hydratisiert zu sein, bevor Sie mit dem Workout beginnen."</item>
+        <item>"Die erste Woche sollte nun hinter Ihnen liegen und es ist Zeit mit der 2. Woche durchzustarten.
+
+Am Ende der 2. Woche ist es Zeit Ihre Stärke zu überprüfen und einen Erschöpfungstest durchzuführen. Einfach gesagt, führen Sie so viele gute Kniebeugen durch wie Sie können, bevor Sie körperlich nicht mehr dazu in der Lage sind. Ihren Körper komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Im Zweifelsfall hören Sie bitte auf Ihren Körper! Die Anzahl der Kniebeugen, zu denen Sie fähig sind, wird für die Berechnung der 3. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 2. Woche durch. Als Faustregel gilt, wenn Sie Montag, Mittwoch und Freitag Workouts betreiben, ist der Samstagabend ein guter Zeitpunkt zur Erholung. So können Sie sich vom Workout am Freitag ausreichend erholen und haben noch genug Zeit bis zum Start der neuen Trainingswoche. Viel Glück!"</item>
+        <item>"Sie sollten nun ein wenig stärker als noch vor ein paar Wochen und zu deutlich mehr Kniebeugen-Wiederholungen als beim Einführungstest fähig sein.
+
+Wenn Sie Probleme mit dem Trainingsprogramm haben, geben Sie nicht auf. Manche Leute werden noch Probleme haben, weniger als 21 Kniebeugen zu schaffen, aber das ist OK. Wiederholen Sie einfach die Woche, mit der Sie Probleme hatten - wir versprechen, die Geduld wird sich lohnen!"</item>
+        <item>"Die 3. Woche ist nun zu Ende und es ist Zeit mit der 4. Woche zu starten.
+
+Am Ende der 4. Woche wird ein weiterer Erschöpfungstest auf Sie warten. Sie sollten bereits wissen, was zu tun ist – führen Sie einfach so viele, gute Kniebeugen wie möglich aus, bis Sie zu einem weiteren nicht mehr fähig sind. Ihren Körper komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Die Anzahl der Kniebeugen, zu der Sie fähig sind, wird für die Berechnung der 5. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 4. Woche durch."</item>
+        <item>Jetzt sollten Sie sich stärker fühlen und den Unterschied bemerken. Am Ende der Woche gibt es einen erneuten Test.</item>
+        <item>Dies wird Ihre letzte Woche sein. Am Ende der Woche sollten Sie sehen, ob sie die 200 Kniebeugen erfolgreich schaffen!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Sie werden drei Mal pro Woche ein Workout machen müssen. Wir finden, dass Montag, Mittwoch und Freitag hierfür perfekt geeignet sind. So können Sie sich am Wochenende zu erholen und neue Kraft für die nächste Übungswoche tanken. Sie können den Plan natürlich auf Ihre Zeiteinteilung zuschneiden, aber beachten Sie bitte unbedingt, Erholungsphasen einzubauen
+
+Tricksen Sie bitte nicht, aber nehmen Sie sich ruhig mehr Zeit für die Erholung zwischen den Wiederholungen, sollten Sie diese benötigen. Es ist außerdem wichtig, gut hydratisiert zu sein, bevor Sie mit dem Workout beginnen."</item>
+        <item>"Die erste Woche sollte nun hinter Ihnen liegen und es ist Zeit mit der 2. Woche durchzustarten.
+
+Am Ende der 2. Woche ist es Zeit Ihre Stärke zu überprüfen und einen Erschöpfungstest durchzuführen. Einfach gesagt, führen Sie so viele gute Klimmzüge durch wie Sie können, bevor Sie körperlich nicht mehr dazu in der Lage sind. Ihren Körper komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Im Zweifelsfall hören Sie bitte auf Ihren Körper! Die Anzahl der Klimmzüge, zu denen Sie fähig sind, wird für die Berechnung der 3. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 2. Woche durch. Als Faustregel gilt, wenn Sie Montag, Mittwoch und Freitag Workouts betreiben, ist der Samstagabend ein guter Zeitpunkt zur Erholung. So können Sie sich vom Workout am Freitag ausreichend erholen und haben noch genug Zeit bis zum Start der neuen Trainingswoche. Viel Glück!"</item>
+        <item>"Sie sollten nun ein wenig stärker als noch vor ein paar Wochen und zu deutlich mehr Klimmzügen-Wiederholungen als beim Einführungstest fähig sein.
+
+Wenn Sie Probleme mit dem Trainingsprogramm haben, geben Sie nicht auf. Manche Leute werden noch Probleme haben, weniger als 3 Klimmzüge korrekt zu schaffen, aber das ist OK. Wiederholen Sie einfach die Woche, mit der Sie Probleme hatten - wir versprechen, die Geduld wird sich lohnen!"</item>
+        <item>"Die 3. Woche ist nun zu Ende und es ist Zeit mit der 4. Woche zu starten.
+
+Am Ende der 4. Woche wird ein weiterer Erschöpfungstest auf Sie warten. Sie sollten bereits wissen, was zu tun ist – führen Sie einfach so viele, gute Klimmzüge wie möglich aus, bis Sie zu einem weiteren nicht mehr fähig sind. Ihren Körper komplett auszulasten ist hier die Devise, aber bitte überschreiten Sie ein gewisses Sicherheitslimit nicht. Die Anzahl der Klimmzüge, zu der Sie fähig sind, wird für die Berechnung der 5. Woche verwendet. Führen Sie diesen Test 24–48 Stunden vor dem Ende der 4. Woche durch."</item>
+        <item>Jetzt sollten Sie sich stärker fühlen und den Unterschied bemerken. Am Ende der Woche gibt es einen erneuten Test.</item>
+        <item>Dies wird Ihre letzte Woche sein. Am Ende der Woche sollten Sie sehen, ob sie die 20 Klimmzüge erfolgreich schaffen!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Dies ist Ihre Abschlussprüfung. Nachdem Sie die 6 Wochen des Trainingprogramms abgeschlossen haben, nehmen Sie sich ein oder zwei Tage zur Erholung. Dann absolvieren Sie so viele Liegestütze, wie Sie nur können!
+Viel Glück beim Erreichen der 100!"</item>
+        <item>"Dies ist Ihre Abschlussprüfung. Nachdem Sie die 6 Wochen des Trainingprogramms abgeschlossen haben, nehmen Sie sich ein oder zwei Tage zur Erholung. Dann absolvieren Sie so viele Sit-Ups, wie Sie nur können!
+Viel Glück beim Erreichen der 200!"</item>
+        <item>"Dies ist Ihre Abschlussprüfung. Nachdem Sie die 6 Wochen des Trainingprogramms abgeschlossen haben, nehmen Sie sich ein oder zwei Tage zur Erholung. Dann absolvieren Sie so viele Barrenstütze, wie Sie nur können!
+Viel Glück beim Erreichen der 150!"</item>
+        <item>"Dies ist Ihre Abschlussprüfung. Nachdem Sie die 6 Wochen des Trainingprogramms abgeschlossen haben, nehmen Sie sich ein oder zwei Tage zur Erholung. Dann absolvieren Sie so viele Kniebeugen, wie Sie nur können!
+Viel Glück beim Erreichen der 200!"</item>
+        <item>"Dies ist Ihre Abschlussprüfung. Nachdem Sie die 6 Wochen des Trainingprogramms abgeschlossen haben, nehmen Sie sich ein oder zwei Tage zur Erholung. Dann absolvieren Sie so viele Klimmzüge, wie Sie nur können!
+Viel Glück beim Erreichen der 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+</resources>

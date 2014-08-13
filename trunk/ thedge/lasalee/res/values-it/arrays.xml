@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Flessioni da Eseguire</item>
+        <item>Addominali da Eseguire</item>
+        <item>Abbassamenti da Eseguire</item>
+        <item>Squat da Eseguire</item>
+        <item>Sollevamenti da Eseguire</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 Flessioni</item>
+        <item>200 Addominali</item>
+        <item>150 Abbassamenti</item>
+        <item>200 Squat</item>
+        <item>20 Sollevamenti</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Prima di cominciare col Programma 100 Flessioni, dovresti effettuare un test iniziale.
+
+Il test servirà ad individuare il tuo livello iniziale, a determinare da dove cominciare e come pianificare il tuo programma di allenamento per le flessioni. Per cominciare il test, effettua semplicemente tante flessioni quante ne riesci a fare e seleziona l’intervallo in basso. Non bruciare le tappe e non imbrogliare – l’ultima cosa che vorresti è allenarti con il programma sbagliato! I risultati potrebbero essere umili, ma fidati di noi, l’onestà è il primo requisito per massimizzare i tuoi risultati!
+
+Prima di cominciare con la Settimana 1, ti raccomandiamo di concederti un paio di giorni per riprenderti dallo sforzo del test iniziale. Ti verrà richiesto di esercitarti 3 volte a settimana, per esempio Lunedì, Mercoledì e Venerdì."</item>
+        <item>"Prima di cominciare col Programma 200 Addominali, dovresti effettuare un test iniziale.
+
+Il test servirà ad individuare il tuo livello iniziale, a determinare da dove cominciare e come pianificare il tuo programma di allenamento per gli addominali. Per cominciare il test, effettua semplicemente tanti addominali quanti ne riesci a fare e seleziona l’intervallo in basso. Non bruciare le tappe e non imbrogliare – l’ultima cosa che vorresti è allenarti con il programma sbagliato! I risultati potrebbero essere umili, ma fidati di noi, l’onestà è il primo requisito per massimizzare i tuoi risultati!
+
+Prima di cominciare con la Settimana 1, ti raccomandiamo di concederti un paio di giorni per riprenderti dallo sforzo del test iniziale. Ti verrà richiesto di esercitarti 3 volte a settimana, per esempio Lunedì, Mercoledì e Venerdì."</item>
+        <item>"Prima di cominciare col Programma 150 Abbassamenti, dovresti effettuare un test iniziale.
+
+Il test servirà ad individuare il tuo livello iniziale, a determinare da dove cominciare e come pianificare il tuo programma di allenamento per gli abbassamenti. Per cominciare il test, effettua semplicemente tanti abbassamenti quanti ne riesci a fare e seleziona l’intervallo in basso. Non bruciare le tappe e non imbrogliare – l’ultima cosa che vorresti è allenarti con il programma sbagliato! I risultati potrebbero essere umili, ma fidati di noi, l’onestà è il primo requisito per massimizzare i tuoi risultati!
+
+Prima di cominciare con la Settimana 1, ti raccomandiamo di concederti un paio di giorni per riprenderti dallo sforzo del test iniziale. Ti verrà richiesto di esercitarti 3 volte a settimana, per esempio Lunedì, Mercoledì e Venerdì."</item>
+        <item>"Prima di cominciare col Programma 200 Squat, dovresti effettuare un test iniziale.
+
+Il test servirà ad individuare il tuo livello iniziale, a determinare da dove cominciare e come pianificare il tuo programma di allenamento per gli squat. Per cominciare il test, effettua semplicemente tanti squat quanti ne riesci a fare e seleziona l’intervallo in basso. Non bruciare le tappe e non imbrogliare – l’ultima cosa che vorresti è allenarti con il programma sbagliato! I risultati potrebbero essere umili, ma fidati di noi, l’onestà è il primo requisito per massimizzare i tuoi risultati!
+
+Prima di cominciare con la Settimana 1, ti raccomandiamo di concederti un paio di giorni per riprenderti dallo sforzo del test iniziale. Ti verrà richiesto di esercitarti 3 volte a settimana, per esempio Lunedì, Mercoledì e Venerdì."</item>
+        <item>"Prima di cominciare col Programma 20 Sollevamenti, dovresti effettuare un test iniziale.
+
+Il test servirà ad individuare il tuo livello iniziale, a determinare da dove cominciare e come pianificare il tuo programma di allenamento per i sollevamenti. Per cominciare il test, effettua semplicemente tanti sollevamenti quanti ne riesci a fare e seleziona l’intervallo in basso. Non bruciare le tappe e non imbrogliare – l’ultima cosa che vorresti è allenarti con il programma sbagliato! I risultati potrebbero essere umili, ma fidati di noi, l’onestà è il primo requisito per massimizzare i tuoi risultati!
+
+Prima di cominciare con la Settimana 1, ti raccomandiamo di concederti un paio di giorni per riprenderti dallo sforzo del test iniziale. Ti verrà richiesto di esercitarti 3 volte a settimana, per esempio Lunedì, Mercoledì e Venerdì."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Ora del test! Fai tante flessioni quante ne riesci a fare e seleziona l’intervallo in basso.
+
+Ricorda di prendere un giorno d riposo dopo il test per permettere al tuo corpo di riprendersi."</item>
+        <item>"Ora del test! Fai tanti addominali quanti ne riesci a fare e seleziona l’intervallo in basso.
+
+Ricorda di prendere un giorno d riposo dopo il test per permettere al tuo corpo di riprendersi."</item>
+        <item>"Ora del test! Fai tanti abbassamenti quanti ne riesci a fare e seleziona l’intervallo in basso.
+
+Ricorda di prendere un giorno d riposo dopo il test per permettere al tuo corpo di riprendersi."</item>
+        <item>"Ora del test! Fai tanti squat quanti ne riesci a fare e seleziona l’intervallo in basso.
+
+Ricorda di prendere un giorno d riposo dopo il test per permettere al tuo corpo di riprendersi."</item>
+        <item>"Ora del test! Fai tanti sollevamenti quanti ne riesci a fare e seleziona l’intervallo in basso.
+
+Ricorda di prendere un giorno d riposo dopo il test per permettere al tuo corpo di riprendersi."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Ti sarà richiesto di allenarti 3 volte a settimana. Pensiamo che Lunedì, Mercoledì e Venerdì sia la scelta migliore, che ti consentirà inoltre di utilizzare il fine settimana per riprenderti prima di continuare col passo successivo del programma. Sentiti comunque libero di riadattare i piani ai tuoi impegni, ma assicurati di riposarti tra le giornate di allenamento.
+
+Non bruciare tappe, ma sentiti libero di concederti ulteriori giorni di riposo se ne avverti il bisogno. E’ inoltre importante essere ben idratati prima di cominciare un allenamento."</item>
+        <item>"La Settimana 1 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 2.
+
+Alla fine della Settimana 2 sarà il momento di controllare la tua forza ed eseguire uno stress test. In poche parole, effettuerai quante più flessioni possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di flessioni che effettuerai determineranno il livello del programma che inizierai nella Settimana 3. Effettua questo test entro 24-48 ore dal completamento della Settimana 2. Ad esempio, se ti stai allenando il Lunedì, il Mercoledì e il Venerdì, un buon momento per effettuare il test è Sabato pomeriggio. Ciò ti permette di avere abbastanza tempo per riprenderti dall’allenamento di Venerdì e riposarti poi prima di iniziare con la fase successiva Lunedì. Buona fortuna!"</item>
+        <item>"Dovresti essere diventato un po’ più forte di come lo eri un paio di settimane fa e dovresti essere capace di completare molte più flessioni rispetto al test iniziale.
+
+Se stai soffrendo lungo il programma, non perdere la speranza. Alcuni staranno ancora a 16 flessioni consecutive, e va benissimo. Ripeti la settimana in cui hai avuto difficoltà finché non sarai abbastanza forte da proseguire al prossimo livello – Ti promettiamo che ne varrà la pena!"</item>
+        <item>"La Settimana 3 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 4.
+
+Alla fine della Settimana 4 sarà il momento di eseguire un altro stress test. Dovresti saper orientarti ora - effettuerai quante più flessioni possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di flessioni che effettuerai determineranno il livello del programma che inizierai nella Settimana 5. Effettua questo test entro 24-48 ore dal completamento della Settimana 4."</item>
+        <item>Ora dovresti sentirti più forte e notare la differenza. C’è un altro test alla fine della settimana.</item>
+        <item>Questa sarà la tua ultima settimana. Alla fine della settimana effettuerai il test finale per vedere se riesci ad effettuare 100 flessioni!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Ti sarà richiesto di allenarti 3 volte a settimana. Pensiamo che Lunedì, Mercoledì e Venerdì sia la scelta migliore, che ti consentirà inoltre di utilizzare il fine settimana per riprenderti prima di continuare col passo successivo del programma. Sentiti comunque libero di riadattare i piani ai tuoi impegni, ma assicurati di riposarti tra le giornate di allenamento.
+
+Non bruciare tappe, ma sentiti libero di concederti ulteriori giorni di riposo se ne avverti il bisogno. E’ inoltre importante essere ben idratati prima di cominciare un allenamento."</item>
+        <item>"La Settimana 1 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 2.
+
+Alla fine della Settimana 2 sarà il momento di controllare la tua forza ed eseguire uno stress test. In poche parole, effettuerai quante più addominali possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di addominali che effettuerai determineranno il livello del programma che inizierai nella Settimana 3. Effettua questo test entro 24-48 ore dal completamento della Settimana 2. Ad esempio, se ti stai allenando il Lunedì, il Mercoledì e il Venerdì, un buon momento per effettuare il test è Sabato pomeriggio. Ciò ti permette di avere abbastanza tempo per riprenderti dall’allenamento di Venerdì e riposarti poi prima di iniziare con la fase successiva Lunedì. Buona fortuna!"</item>
+        <item>"Dovresti essere diventato un po’ più forte di come lo eri un paio di settimane fa e dovresti essere capace di completare molte più flessioni rispetto al test iniziale.
+
+Se stai soffrendo lungo il programma, non perdere la speranza. Alcuni staranno ancora a 21 addominali consecutivi, e va benissimo. Ripeti la settimana in cui hai avuto difficoltà finché non sarai abbastanza forte da proseguire al prossimo livello – Ti promettiamo che ne varrà la pena!"</item>
+        <item>"La Settimana 3 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 4.
+
+Alla fine della Settimana 4 sarà il momento di eseguire un altro stress test. Dovresti saper orientarti ora - effettuerai quanti più addominali possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di addominali che effettuerai determineranno il livello del programma che inizierai nella Settimana 5. Effettua questo test entro 24-48 ore dal completamento della Settimana 4."</item>
+        <item>Ora dovresti sentirti più forte e notare la differenza. C’è un altro test alla fine della settimana.</item>
+        <item>Questa sarà la tua ultima settimana. Alla fine della settimana effettuerai il test finale per vedere se riesci ad effettuare 200 addominali!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Ti sarà richiesto di allenarti 3 volte a settimana. Pensiamo che Lunedì, Mercoledì e Venerdì sia la scelta migliore, che ti consentirà inoltre di utilizzare il fine settimana per riprenderti prima di continuare col passo successivo del programma. Sentiti comunque libero di riadattare i piani ai tuoi impegni, ma assicurati di riposarti tra le giornate di allenamento.
+
+Non bruciare tappe, ma sentiti libero di concederti ulteriori giorni di riposo se ne avverti il bisogno. E’ inoltre importante essere ben idratati prima di cominciare un allenamento."</item>
+        <item>"La Settimana 1 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 2.
+
+Alla fine della Settimana 2 sarà il momento di controllare la tua forza ed eseguire uno stress test. In poche parole, effettuerai quante più abbassamenti possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di abbassamenti che effettuerai determineranno il livello del programma che inizierai nella Settimana 3. Effettua questo test entro 24-48 ore dal completamento della Settimana 2. Ad esempio, se ti stai allenando il Lunedì, il Mercoledì e il Venerdì, un buon momento per effettuare il test è Sabato pomeriggio. Ciò ti permette di avere abbastanza tempo per riprenderti dall’allenamento di Venerdì e riposarti poi prima di iniziare con la fase successiva Lunedì. Buona fortuna!"</item>
+        <item>"Dovresti essere diventato un po’ più forte di come lo eri un paio di settimane fa e dovresti essere capace di completare molte più flessioni rispetto al test iniziale.
+
+Se stai soffrendo lungo il programma, non perdere la speranza. Alcuni staranno ancora a 20 abbassamenti consecutivi, e va benissimo. Ripeti la settimana in cui hai avuto difficoltà finché non sarai abbastanza forte da proseguire al prossimo livello – Ti promettiamo che ne varrà la pena!"</item>
+        <item>"La Settimana 3 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 4.
+
+Alla fine della Settimana 4 sarà il momento di eseguire un altro stress test. Dovresti saper orientarti ora - effettuerai quanti più abbassamenti possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di abbassamenti che effettuerai determineranno il livello del programma che inizierai nella Settimana 5. Effettua questo test entro 24-48 ore dal completamento della Settimana 4."</item>
+        <item>Ora dovresti sentirti più forte e notare la differenza. C’è un altro test alla fine della settimana.</item>
+        <item>Questa sarà la tua ultima settimana. Alla fine della settimana effettuerai il test finale per vedere se riesci ad effettuare 150 abbassamenti!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Ti sarà richiesto di allenarti 3 volte a settimana. Pensiamo che Lunedì, Mercoledì e Venerdì sia la scelta migliore, che ti consentirà inoltre di utilizzare il fine settimana per riprenderti prima di continuare col passo successivo del programma. Sentiti comunque libero di riadattare i piani ai tuoi impegni, ma assicurati di riposarti tra le giornate di allenamento.
+
+Non bruciare tappe, ma sentiti libero di concederti ulteriori giorni di riposo se ne avverti il bisogno. E’ inoltre importante essere ben idratati prima di cominciare un allenamento."</item>
+        <item>"La Settimana 1 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 2.
+
+Alla fine della Settimana 2 sarà il momento di controllare la tua forza ed eseguire uno stress test. In poche parole, effettuerai quante più squat possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di squat che effettuerai determineranno il livello del programma che inizierai nella Settimana 3. Effettua questo test entro 24-48 ore dal completamento della Settimana 2. Ad esempio, se ti stai allenando il Lunedì, il Mercoledì e il Venerdì, un buon momento per effettuare il test è Sabato pomeriggio. Ciò ti permette di avere abbastanza tempo per riprenderti dall’allenamento di Venerdì e riposarti poi prima di iniziare con la fase successiva Lunedì. Buona fortuna!"</item>
+        <item>"Dovresti essere diventato un po’ più forte di come lo eri un paio di settimane fa e dovresti essere capace di completare molte più flessioni rispetto al test iniziale.
+
+Se stai soffrendo lungo il programma, non perdere la speranza. Alcuni staranno ancora a 21 squat consecutivi, e va benissimo. Ripeti la settimana in cui hai avuto difficoltà finché non sarai abbastanza forte da proseguire al prossimo livello – Ti promettiamo che ne varrà la pena!"</item>
+        <item>"La Settimana 3 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 4.
+
+Alla fine della Settimana 4 sarà il momento di eseguire un altro stress test. Dovresti saper orientarti ora - effettuerai quanti più squat possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di squat che effettuerai determineranno il livello del programma che inizierai nella Settimana 5. Effettua questo test entro 24-48 ore dal completamento della Settimana 4."</item>
+        <item>Ora dovresti sentirti più forte e notare la differenza. C’è un altro test alla fine della settimana.</item>
+        <item>Questa sarà la tua ultima settimana. Alla fine della settimana effettuerai il test finale per vedere se riesci ad effettuare 200 squat!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Ti sarà richiesto di allenarti 3 volte a settimana. Pensiamo che Lunedì, Mercoledì e Venerdì sia la scelta migliore, che ti consentirà inoltre di utilizzare il fine settimana per riprenderti prima di continuare col passo successivo del programma. Sentiti comunque libero di riadattare i piani ai tuoi impegni, ma assicurati di riposarti tra le giornate di allenamento.
+
+Non bruciare tappe, ma sentiti libero di concederti ulteriori giorni di riposo se ne avverti il bisogno. E’ inoltre importante essere ben idratati prima di cominciare un allenamento."</item>
+        <item>"La Settimana 1 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 2.
+
+Alla fine della Settimana 2 sarà il momento di controllare la tua forza ed eseguire uno stress test. In poche parole, effettuerai quante più sollevamenti possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di sollevamenti che effettuerai determineranno il livello del programma che inizierai nella Settimana 3. Effettua questo test entro 24-48 ore dal completamento della Settimana 2. Ad esempio, se ti stai allenando il Lunedì, il Mercoledì e il Venerdì, un buon momento per effettuare il test è Sabato pomeriggio. Ciò ti permette di avere abbastanza tempo per riprenderti dall’allenamento di Venerdì e riposarti poi prima di iniziare con la fase successiva Lunedì. Buona fortuna!"</item>
+        <item>"Dovresti essere diventato un po’ più forte di come lo eri un paio di settimane fa e dovresti essere capace di completare molte più flessioni rispetto al test iniziale.
+
+Se stai soffrendo lungo il programma, non perdere la speranza. Alcuni staranno ancora a 3 sollevamenti consecutivi, e va benissimo. Ripeti la settimana in cui hai avuto difficoltà finché non sarai abbastanza forte da proseguire al prossimo livello – Ti promettiamo che ne varrà la pena!"</item>
+        <item>"La Settimana 3 dovrebbe essere volata ed ora è il momento di cominciare con la Settimana 4.
+
+Alla fine della Settimana 4 sarà il momento di eseguire un altro stress test. Dovresti saper orientarti ora - effettuerai quanti più sollevamenti possibili finché non ti sarà fisicamente possibile effettuare un’altra ripetizione. Impegnati il più possibile, ma non andare oltre i limiti di sicurezza. Il numero di sollevamenti che effettuerai determineranno il livello del programma che inizierai nella Settimana 5. Effettua questo test entro 24-48 ore dal completamento della Settimana 4."</item>
+        <item>Ora dovresti sentirti più forte e notare la differenza. C’è un altro test alla fine della settimana.</item>
+        <item>Questa sarà la tua ultima settimana. Alla fine della settimana effettuerai il test finale per vedere se riesci ad effettuare 20 sollevamenti!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Questo è il tuo ultimo test. Dopo aver completato la Settimana 6 del programma, riposati per un giorno o die. Poi, effettua quante più flessioni possibili!
+Buona fortuna e raggiungine 100!"</item>
+        <item>"Questo è il tuo ultimo test. Dopo aver completato la Settimana 6 del programma, riposati per un giorno o die. Poi, effettua quanti più addominali possibili!
+Buona fortuna e raggiungine 200!"</item>
+        <item>"Questo è il tuo ultimo test. Dopo aver completato la Settimana 6 del programma, riposati per un giorno o die. Poi, effettua quanti più abbassamenti possibili!
+Buona fortuna e raggiungine 150!"</item>
+        <item>"Questo è il tuo ultimo test. Dopo aver completato la Settimana 6 del programma, riposati per un giorno o die. Poi, effettua quanti più squat possibili!
+Buona fortuna e raggiungine 200!"</item>
+        <item>"Questo è il tuo ultimo test. Dopo aver completato la Settimana 6 del programma, riposati per un giorno o die. Poi, effettua quanti più sollevamenti possibili!
+Buona fortuna e raggiungine 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Domenica</item>
+        <item>Lunedì</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedì</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+    </string-array>
+</resources>

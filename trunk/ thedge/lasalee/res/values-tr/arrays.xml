@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Şınav Çekme</item>
+        <item>Mekik Çekme</item>
+        <item>Dips Hareketi</item>
+        <item>Çömelme Hareketi</item>
+        <item>Barfiks Çekme</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 Şınav</item>
+        <item>200 Mekik</item>
+        <item>150 Dips</item>
+        <item>200 Çömelme</item>
+        <item>20 Barfiks</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Yüz Şınav Programı ile çalışmaya başlamadan önce, bir şınav başlangıç testini uygulamanız gerekmektedir.
+
+Bu test, egzersizler için mevcut uygunluk düzeyinizi ortaya koyacak ve şınav eğitim programınıza nereden başlayacağınızı ve nasıl planlayacağınızı belirleyecektir. Testi gerçekleştirmek için, en uygun biçimde çekebildiğiniz kadar çok şınav çekmeye çalışın ve aşağıdaki aralığı seçin. İşin kolayına kaçmayın ve hile yapmayın - yapacağınız en son şey, eğitim programını yanlış seviyede tamamlamaya çalışmaktır! Sonuçlar, istediğiniz gibi olmayabilir, ama bana güvenin, gücünüzü en üst düzeye çıkarmayı istiyorsanız dürüstlük en iyi seçenektir.
+
+ 1.Hafta'ya başlamadan önce, başlangıç testinin çabalarını kurtarmak için birkaç gün daha devam etmeniz önerilir. Haftada üç gün çalışmanız gerekiyor, örneğin Pazartesi, Çarşamba ve Cuma günleri."</item>
+        <item>"İki Yüz Mekik Programı ile çalışmaya başlamadan önce, bir mekik başlangıç testini uygulamanız gerekmektedir.
+
+Bu test, egzersizler için mevcut uygunluk düzeyinizi ortaya koyacak ve mekik eğitim programınıza nereden başlayacağınızı ve nasıl planlayacağınızı belirleyecektir. Testi gerçekleştirmek için, en uygun biçimde çekebildiğiniz kadar çok mekik çekmeye çalışın ve aşağıdaki aralığı seçin. İşin kolayına kaçmayın ve hile yapmayın - yapacağınız en son şey, eğitim programını yanlış seviyede tamamlamaya çalışmaktır! Sonuçlar, istediğiniz gibi olmayabilir, ama bana güvenin, gücünüzü en üst düzeye çıkarmayı istiyorsanız dürüstlük en iyi seçenektir.
+
+1.Hafta'ya başlamadan önce, başlangıç testinin çabalarını kurtarmak için birkaç gün daha devam etmeniz önerilir. Haftada üç gün çalışmanız gerekiyor, örneğin Pazartesi, Çarşamba ve Cuma günleri."</item>
+        <item>"Yüz Elli Dips Programı ile çalışmaya başlamadan önce, bir dips başlangıç testini uygulamanız gerekmektedir.
+
+Bu test, egzersizler için mevcut uygunluk düzeyinizi ortaya koyacak ve dips eğitim programınıza nereden başlayacağınızı ve nasıl planlayacağınızı belirleyecektir. Testi gerçekleştirmek için, en uygun biçimde yapabildiğiniz kadar çok dips hareketi yapmaya çalışın ve aşağıdaki aralığı seçin. İşin kolayına kaçmayın ve hile yapmayın - yapacağınız en son şey, eğitim programını yanlış seviyede tamamlamaya çalışmaktır! Sonuçlar, istediğiniz gibi olmayabilir, ama bana güvenin, gücünüzü en üst düzeye çıkarmayı istiyorsanız dürüstlük en iyi seçenektir.
+
+1.Hafta'ya başlamadan önce, başlangıç testinin çabalarını kurtarmak için birkaç gün daha devam etmeniz önerilir. Haftada üç gün çalışmanız gerekiyor, örneğin Pazartesi, Çarşamba ve Cuma günleri."</item>
+        <item>"İki Yüz Çömelme Hareketi Programı ile çalışmaya başlamadan önce, bir çömelme hareketi başlangıç testini uygulamanız gerekmektedir.
+
+Bu test, egzersizler için mevcut uygunluk düzeyinizi ortaya koyacak ve çömelme hareketi eğitim programınıza nereden başlayacağınızı ve nasıl planlayacağınızı belirleyecektir. Testi gerçekleştirmek için, en uygun biçimde yapabildiğiniz kadar çok çömelme hareketi yapmaya çalışın ve aşağıdaki aralığı seçin. İşin kolayına kaçmayın ve hile yapmayın - yapacağınız en son şey, eğitim programını yanlış seviyede tamamlamaya çalışmaktır! Sonuçlar, istediğiniz gibi olmayabilir, ama bana güvenin, gücünüzü en üst düzeye çıkarmayı istiyorsanız dürüstlük en iyi seçenektir.
+
+1.Hafta'ya başlamadan önce, başlangıç testinin çabalarını kurtarmak için birkaç gün daha devam etmeniz önerilir. Haftada üç gün çalışmanız gerekiyor, örneğin Pazartesi, Çarşamba ve Cuma günleri."</item>
+        <item>"Yirmi Barfiks Programı ile çalışmaya başlamadan önce, bir barfiks başlangıç testini uygulamanız gerekmektedir.
+
+Bu test, egzersizler için mevcut uygunluk düzeyinizi ortaya koyacak ve barfiks eğitim programınıza nereden başlayacağınızı ve nasıl planlayacağınızı belirleyecektir. Testi gerçekleştirmek için, en uygun biçimde çekebildiğiniz kadar çok barfiks çekmeye çalışın ve aşağıdaki aralığı seçin. İşin kolayına kaçmayın ve hile yapmayın - yapacağınız en son şey, eğitim programını yanlış seviyede tamamlamaya çalışmaktır! Sonuçlar, istediğiniz gibi olmayabilir, ama bana güvenin, gücünüzü en üst düzeye çıkarmayı istiyorsanız dürüstlük en iyi seçenektir.
+
+1.Hafta'ya başlamadan önce, başlangıç testinin çabalarını kurtarmak için birkaç gün daha devam etmeniz önerilir. Haftada üç gün çalışmanız gerekiyor, örneğin Pazartesi, Çarşamba ve Cuma günleri."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Şimdi egzersiz zamanı! En uygun biçimde çekebildiğiniz kadar çok şınav çekmeye çalışın ve aşağıdaki aralığı seçin.
+
+Vücudunuzun toparlanması için egzersizden sonra bir gün dinlenmeyi unutmayın."</item>
+        <item>"Şimdi egzersiz zamanı! En uygun biçimde çekebildiğiniz kadar çok mekik çekmeye çalışın ve aşağıdaki aralığı seçin.
+
+Vücudunuzun toparlanması için egzersizden sonra bir gün dinlenmeyi unutmayın."</item>
+        <item>"Şimdi egzersiz zamanı! En uygun biçimde yapabildiğiniz kadar çok dips hareketi yapmaya çalışın ve aşağıdaki aralığı seçin.
+
+Vücudunuzun toparlanması için egzersizden sonra bir gün dinlenmeyi unutmayın."</item>
+        <item>"Şimdi egzersiz zamanı! En uygun biçimde yapabildiğiniz kadar çok çömelme hareketi yapmaya çalışın ve aşağıdaki aralığı seçin.
+
+Vücudunuzun toparlanması için egzersizden sonra bir gün dinlenmeyi unutmayın."</item>
+        <item>"Şimdi egzersiz zamanı! En uygun biçimde çekebildiğiniz kadar çok barfiks çekmeye çalışın ve aşağıdaki aralığı seçin.
+
+Vücudunuzun toparlanması için egzersizden sonra bir gün dinlenmeyi unutmayın."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Haftada üç gün çalışmanız gerekiyor. Pazartesi Çarşamba ve Cuma günleri sıkı bir şekilde çalışacağız ve programın bir sonraki aşamasına geçmeden önce dinlenme ve toparlanma işini ise hafta sonuna bırakacağız. Yoğun çalışma temponuza uyacak şekilde planlamalar yapabilirsiniz fakat egzersiz günlerinin dışındaki günlerde dinlendiğinizden emin olun.
+
+İşin kolayına kaçmayın fakat gerektiğinde her seviye arasında biraz daha fazla dinlenmekten kaçınmayın. Her egzersize başlamadan önce bol miktarda su içmeniz çok önemlidir."</item>
+        <item>"1.Hafta rahat bir şekilde geçmiş olmalıdır ve artık 2.Hafta'ya geçebiliriz.
+
+2.Hafta'nın sonunda, bir yorgunluk testi gerçekleştireceğiz ve gücünüzü kontrol edeceğiz. Basit bir ifadeyle, başka bir hareketi gerçekleştirmeden önce, en uygun biçimde çekebildiğiniz kadar çok şınavı rahat bir şekilde çekmeye çalışacaksınız. Vücudunuzu yapabildiğiniz kadar zorlayın fakat lütfen güvenlik sınırlarını aşmayın. Tamamladığınız şınav sayısı, 3.Haftadaki başlayacağınız programın seviyesini belirleyecektir. Bu egzersizi, 2.Hafta'yı tamamladıktan sonraki 24-48 saat içinde gerçekleştirin. Pratik bir genel kural olarak, eğer Pazartesi, Çarşamba ve Cuma günleri çalışıyorsanız, Cumartesi öğleden sonraları dinlenmek için iyi bir zaman olacaktır. Bu, Cuma günkü egzersiz sonrasında yeterli toparlanma süresi sağlar, aynı zamanda Pazartesi günü için planlanan bir sonraki aşamaya geçmeden önce uzun süreli istirahat imkanı verir. Başarılar!"</item>
+        <item>"Birkaç hafta öncesine göre biraz daha güçlü olmalı ve başlangıç testinize göre daha fazla şınav çekebilmelisiniz.
+
+Programı tamamlamakta sıkıntı yaşıyorsanız, sakın cesaretinizi kaybetmeyin. Bazılarınız, hala ardışık olarak 16'dan daha az şınav çekiyor olsa da bu çok önemli değildir. Hemen, bir sonraki seviyeye geçmek için yeterince güçlü olduğunuzu hissedinceye kadar zorlandığınız haftayı tekrar ediniz - Buna değeceğini göreceksiniz!"</item>
+        <item>"3.Hafta rahat bir şekilde geçmiş olmalıdır ve artık 4.Hafta'ya geçebiliriz.
+
+4.Hafta'nın sonunda, bir yorgunluk testi gerçekleştireceğiz ve gücünüzü kontrol edeceğiz. Artık ne yapacağınızı biliyorsunuz - başka bir tekrarı gerçekleştirmeden önce, en uygun biçimde çekebildiğiniz kadar çok şınavı rahat bir şekilde çekmeye çalışın. Vücudunuzu tam anlamıyla zorlayın fakat lütfen güvenlik sınırlarını aşmayın.
+
+Tamamladığınız şınav sayısı, 5.Haftadaki başlayacağınız programın seviyesini belirleyecektir. 4.Hafta'yı tamamladıktan sonraki 24-48 saat içinde bu testi gerçekleştirdiğinizden emin olun."</item>
+        <item>Artık daha güçlü olduğunuzu hissetmeli ve farkı görebilmelisiniz. Hafta sonunda başka bir test var.</item>
+        <item>Bu son haftanız olacak. Hafta sonunda, Yüz Şınav çekme egzersizini yapıp yapamayacağınızı görmek için son egzersizi yapacaksınız.</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Haftada üç gün çalışmanız gerekiyor. Pazartesi Çarşamba ve Cuma günleri sıkı bir şekilde çalışacağız ve programın bir sonraki aşamasına geçmeden önce dinlenme ve toparlanma işini ise hafta sonuna bırakacağız. Yoğun çalışma temponuza uyacak şekilde planlamalar yapabilirsiniz fakat egzersiz günlerinin dışındaki günlerde dinlendiğinizden emin olun.
+
+İşin kolayına kaçmayın fakat gerektiğinde her seviye arasında biraz daha fazla dinlenmekten kaçınmayın. Her egzersize başlamadan önce bol miktarda su içmeniz çok önemlidir."</item>
+        <item>"1.Haftanın rahat bir şekilde geçmiş olması gerekir ve artık 2.Hafta'ya geçebiliriz.
+
+2.Hafta'nın sonunda, bir yorgunluk testi gerçekleştireceğiz ve gücünüzü kontrol edeceğiz. Basit bir ifadeyle, en uygun biçimde çekebildiğiniz kadar çok mekiği rahat bir şekilde çekmeye çalışacaksınız. Karnınızı yapabildiğiniz kadar zorlayın fakat lütfen güvenlik sınırlarını aşmayın. Tamamladığnız mekik sayısı, 3.Haftada başlayacağınız programın seviyesini belirleyecektir. Bu egzersizi, 2.Hafta'yı tamamladıktan sonraki 24-48 saat içinde gerçekleştiriniz. Pratik bir genel kural olarak, eğer Pazartesi, Çarşamba ve Cuma günleri çalışıyorsanız, Cumartesi öğleden sonraları dinlenmek için iyi bir zaman olacaktır. Bu, Cuma günkü egzersiz sonrasında yeterli toparlanma süresi sağlar, aynı zamanda Pazartesi günü için planlanan bir sonraki aşamaya geçmeden önce uzun süreli istirahat imkanı verir. Başarılar!"</item>
+        <item>"Birkaç hafta öncesine göre biraz daha güçlü olmalı ve başlangıç testinize göre daha fazla mekik çekebilmelisiniz.
+
+Programı tamamlamak konusunda sıkıntı yaşıyorsanız, cesaretinizi sakın kaybetmeyin. Bazılarınız, hala ardışık olarak 21'dan daha az mekik çekiyor olsa da bu çok önemli değildir. Hemen, bir sonraki seviyeye geçmek için yeterince güçlü olduğunuzu hissedinceye kadar zorlandığınız haftayı tekrar ediniz - Buna değeceğini göreceksiniz!"</item>
+        <item>"3.Hafta, rahat bir şekilde geçmiş olmalıdır ve şimdi 4.Hafta'ya başlama zamanı.
+
+4.Hafta'nın sonunda, başka bir yorgunluk testini gerçekleştireceğiz. Artık ne yapacağınızı biliyorsunuz - rahatlıkla en uygun biçimde mekik hareketlerini kolaylıkla gerçekleştirebilmelisiniz. Karnınızı tam anlamıyla zorlayın fakat lütfen güvenlik sınırlarını aşmayın.
+
+Tamamladığınız mekik sayısı, 5.Haftadaki başlayacağınız programın seviyesini belirleyecektir. 4.Hafta'yı tamamladıktan sonraki 24-48 saat içinde bu testi gerçekleştirdiğinizden emin olun."</item>
+        <item>Artık daha güçlü olduğunuzu hissetmeli ve farkı görebilmelisiniz. Hafta sonunda başka bir test var.</item>
+        <item>Bu son haftanız olacak. Haftanın sonunda, İki Yüz Mekik egzersizini yapıp yapamayacağınızı görmek için son egzersizi yapacaksınız.</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Haftada üç gün çalışmanız gerekiyor. Pazartesi Çarşamba ve Cuma günleri sıkı bir şekilde çalışacağız ve programın bir sonraki aşamasına geçmeden önce dinlenme ve toparlanma işini ise hafta sonuna bırakacağız. Yoğun çalışma temponuza uyacak şekilde planlamalar yapabilirsiniz fakat egzersiz günlerinin dışındaki günlerde dinlendiğinizden emin olun.
+
+İşin kolayına kaçmayın fakat gerektiğinde her seviye arasında biraz daha fazla dinlenmekten kaçınmayın. Her egzersize başlamadan önce bol miktarda su içmeniz çok önemlidir."</item>
+        <item>"1.Haftanın rahat bir şekilde geçmiş olması gerekir ve artık 2.Hafta'ya geçebiliriz.
+
+2.Hafta'nın sonunda, bir yorgunluk testi gerçekleştireceğiz ve gücünüzü kontrol edeceğiz. Basit bir ifadeyle, en uygun biçimde yapabildiğiniz kadar çok dips hareketini rahat bir şekilde yapmaya çalışacaksınız. Kollarınızı yapabildiğiniz kadar zorlayın fakat lütfen güvenlik sınırlarını aşmayın. Tamamladığnız dips hareketi sayısı, 3.Hafta'da başlayacağınız programın seviyesini belirleyecektir. Bu egzersizi, 2.Hafta'yı tamamladıktan sonraki 24-48 saat içinde gerçekleştiriniz. Pratik bir genel kural olarak, eğer Pazartesi, Çarşamba ve Cuma günleri çalışıyorsanız, Cumartesi öğleden sonraları dinlenmek için iyi bir zaman olacaktır. Bu, Cuma günkü egzersiz sonrasında yeterli toparlanma süresi sağlar, aynı zamanda Pazartesi günü için planlanan bir sonraki aşamaya geçmeden önce uzun süreli istirahat imkanı verir. Başarılar!"</item>
+        <item>"Birkaç hafta öncesine göre biraz daha güçlü olmalı ve başlangıç testinize göre daha fazla dips hareketini yapabilmelisiniz.
+
+Programı tamamlamak konusunda sıkıntı yaşıyorsanız, cesaretinizi sakın kaybetmeyin. Bazılarınız, hala ardışık olarak 20'dan daha az dips hareketi yapıyor olsa da bu çok önemli değildir. Hemen, bir sonraki seviyeye geçmek için yeterince güçlü olduğunuzu hissedinceye kadar zorlandığınız haftayı tekrar ediniz - Buna değeceğini göreceksiniz!"</item>
+        <item>"3.Hafta rahat bir şekilde geçmiş olmalıdır ve artık 4.Hafta'ya geçebiliriz.
+
+4.Hafta'nın sonunda, bir yorgunluk testi gerçekleştireceğiz ve gücünüzü kontrol edeceğiz. Artık ne yapacağınızı biliyorsunuz - rahatlıkla en uygun biçimde yapabildiğiniz kadar çok dips hareketini kolaylıkla gerçekleştirebilmelisiniz. Kollarınızı tam anlamıyla zorlayın fakat lütfen güvenlik sınırlarını aşmayın.
+
+Tamamladığınız dips hareketlerinin sayısı, başlayacağınız 5.Hafta'daki programın düzeyini de belirleyecektir. 4.Hafta'yı tamamladıktan sonraki 24-48 saat içinde bu testi gerçekleştirdiğinizden emin olun."</item>
+        <item>Artık daha güçlü olduğunuzu hissetmeli ve farkı görebilmelisiniz. Hafta sonunda başka bir test var.</item>
+        <item>Bu son haftanız olacak. Haftanın sonunda, Yüz Elli Dips egzersizini yapıp yapamayacağınızı görmek için son egzersizi yapacaksınız.</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Haftada üç gün çalışmanız gerekiyor. Pazartesi Çarşamba ve Cuma günleri sıkı bir şekilde çalışacağız ve programın bir sonraki aşamasına geçmeden önce dinlenme ve toparlanma işini ise hafta sonuna bırakacağız. Yoğun çalışma temponuza uyacak şekilde planlamalar yapabilirsiniz fakat egzersiz günlerinin dışındaki günlerde dinlendiğinizden emin olun.
+
+İşin kolayına kaçmayın fakat gerektiğinde her seviye arasında biraz daha fazla dinlenmekten kaçınmayın. Her egzersize başlamadan önce bol miktarda su içmeniz çok önemlidir."</item>
+        <item>"1.Haftanın rahat bir şekilde geçmiş olması gerekir ve artık 2.Hafta'ya geçebiliriz.
+
+2.Hafta'nın sonunda, bir yorgunluk testi gerçekleştireceğiz ve gücünüzü kontrol edeceğiz. Basit bir ifadeyle, en uygun biçimde yapabildiğiniz kadar çok çömelme hareketini rahat bir şekilde yapmaya çalışacaksınız. Bacak kaslarınızı yapabildiğiniz kadar zorlayın fakat lütfen ağrı sınırını aşmamaya dikkat edin – Kuşkularınız varsa, vücudunuzun sesine kulak verin. Tamamladığnız çömelme hareketinin sayısı, 3.Hafta'da başlayacağınız programın seviyesini belirleyecektir. Bu egzersizi, 2.Hafta'yı tamamladıktan sonraki 24-48 saat içinde gerçekleştiriniz. Pratik bir genel kural olarak, eğer Pazartesi, Çarşamba ve Cuma günleri çalışıyorsanız, Cumartesi öğleden sonraları dinlenmek için iyi bir zaman olacaktır. Bu, Cuma günkü egzersiz sonrasında yeterli toparlanma süresi sağlar, aynı zamanda Pazartesi günü için planlanan bir sonraki aşamaya geçmeden önce uzun süreli istirahat imkanı verir. Başarılar!"</item>
+        <item>"Birkaç hafta öncesine dikkate değer şekilde daha güçlü olmalı ve başlangıç testinize göre önemli ölçüde çömelme hareketini tamamlayabilmelisiniz.
+
+Programı tamamlamak konusunda sıkıntı yaşıyorsanız, cesaretinizi sakın kaybetmeyin. Bazılarınız, hala ardışık olarak 21'dan daha az çömelme hareketi yapıyor olsa da bu çok önemli değildir. Hemen, bir sonraki seviyeye geçmek için yeterince güçlü olduğunuzu hissedinceye kadar zorlandığınız haftayı tekrar ediniz - Buna değeceğini göreceksiniz!"</item>
+        <item>"3.Hafta, rahat bir şekilde geçmiş olmalıdır ve şimdi 4.Hafta'ya başlama zamanı.
+
+4.Hafta'nın sonunda, başka bir yorgunluk testini gerçekleştireceğiz. Artık ne yapacağınızı biliyorsunuz - rahatlıkla en uygun biçimde yapabildiğiniz kadar çok çömelme hareketini kolaylıkla gerçekleştirebilmelisiniz. Bacak kaslarınızı yapabildiğiniz kadar zorlayın fakat lütfen güvenlik sınırlarını aşmayın. Kuşkularınız varsa, vücudunuzun sesine kulak verin.
+
+Tamamladığınız çömelme hareketlerinin sayısı, başlayacağınız 5.Hafta'daki programın düzeyini de belirleyecektir. 4.Hafta'yı tamamladıktan sonraki 24-48 saat içinde bu testi gerçekleştirdiğinizden emin olun."</item>
+        <item>Artık daha güçlü olduğunuzu hissetmeli ve farkı görebilmelisiniz. Hafta sonunda başka bir test var.</item>
+        <item>Bu son haftanız olacak. Haftanın sonunda, İki Yüz Çömelme egzersizini yapıp yapamayacağınızı görmek için son egzersizi yapacaksınız.</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Haftada üç gün çalışmanız gerekiyor. Pazartesi Çarşamba ve Cuma günleri sıkı bir şekilde çalışacağız ve programın bir sonraki aşamasına geçmeden önce dinlenme ve toparlanma işini ise hafta sonuna bırakacağız. Yoğun çalışma temponuza uyacak şekilde planlamalar yapabilirsiniz fakat egzersiz günlerinin dışındaki günlerde dinlendiğinizden emin olun.
+
+İşin kolayına kaçmayın fakat gerektiğinde her seviye arasında biraz daha fazla dinlenmekten kaçınmayın. Her egzersize başlamadan önce bol miktarda su içmeniz çok önemlidir."</item>
+        <item>"1.Hafta'nın rahat bir şekilde geçmiş olması gerekir ve artık 2.Hafta'ya geçebiliriz.
+
+2.Hafta'nın sonunda, bir yorgunluk testi gerçekleştireceğiz ve gücünüzü kontrol edeceğiz. Basit bir ifadeyle, en uygun biçimde çekebildiğiniz kadar çok barfiksi rahat bir şekilde çekmeye çalışacaksınız. Kollarınızı yapabildiğiniz kadar zorlayın fakat lütfen ağrı sınırını aşmamaya dikkat edin – kuşkularınız varsa, vücudunuzun sesine kulak verin. Tamamladığınız barfiks sayısı, 3.Hafta'da başlayacağınız programın seviyesini belirleyecektir. Bu testi, 2.Hafta'yı tamamladıktan sonraki 24-48 saat içinde gerçekleştiriniz. Pratik bir genel kural olarak, eğer Pazartesi, Çarşamba ve Cuma günleri çalışıyorsanız bu testi uygulamak için Cumartesi öğleden sonrası ideal bir zaman olacaktır. Bu, Cuma günkü egzersiz sonrasında yeterli toparlanma süresi sağlar, aynı zamanda Pazartesi günü için planlanan bir sonraki aşamaya geçmeden önce uzun süreli istirahat imkanı verir. Başarılar!"</item>
+        <item>"Birkaç hafta öncesine göre dikkate değer şekilde daha güçlü olmalı ve başlangıç testinize göre önemli ölçüde barfiks hareketini tamamlayabilmelisiniz.
+
+Programı tamamlamak konusunda sıkıntı yaşıyorsanız, cesaretinizi sakın kaybetmeyin. Bazılarınız hala ardışık olarak 3'ten daha az barfiks çekiyor olsa da bu çok önemli değildir. Hemen, bir sonraki seviyeye geçmek için yeterince güçlü olduğunuzu hissedinceye kadar zorlandığınız haftayı tekrar ediniz - buna değeceğini göreceksiniz!"</item>
+        <item>"3.Hafta'nın rahat bir şekilde geçmiş olması gerekir ve artık 4.Hafta'ya geçebiliriz.
+
+4.Hafta'nın sonunda, başka bir yorgunluk testini gerçekleştireceğiz. Artık ne yapacağınızı biliyorsunuz - en uygun biçimde çekebildiğiniz kadar çok barfiks çekmeye çalışacaksınız. Kollarınızı yapabildiğiniz kadar zorlayın fakat lütfen güvenlik sınırlarını aşmayın. Kuşkularınız varsa, vücudunuzun sesine kulak verin.
+
+Tamamladığınız barfiks hareketlerinin sayısı, başlayacağınız 5.Hafta'daki programın seviyesini de belirleyecektir. 4.Hafta'yı tamamladıktan sonraki 24-48 saat içinde bu testi gerçekleştirdiğinizden emin olun."</item>
+        <item>Artık daha güçlü olduğunuzu hissetmeli ve farkı görebilmelisiniz. Hafta sonunda başka bir test var.</item>
+        <item>Bu son haftanız olacak. Haftanın sonunda, Yirmi Barfiks egzersizini yapıp yapamayacağınızı görmek için son egzersizi yapacaksınız!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Bu, sizin son egzersiziniz. Programın 6.haftasını tamamladıktan sonra bir ya da iki gün dinlenerek kendinizi ödüllendirin. Daha sonra, en doğru biçimde ve olabildiğince çok sayıda şınav çekmeye çalışın!
+100 hedefine ulaşacağınızı ümit ediyorum!"</item>
+        <item>"Bu, sizin son egzersiziniz. Programın 6.haftasını tamamladıktan sonra bir ya da iki gün dinlenerek kendinizi ödüllendirin. Daha sonra, en doğru biçimde ve olabildiğince çok sayıda şınav çekin!
+200 hedefine ulaşacağınızı ümit ediyorum!"</item>
+        <item>"Bu, sizin son egzersiziniz. Programın 6.haftasını tamamladıktan sonra bir ya da iki gün dinlenerek kendinizi ödüllendirin. Daha sonra, en doğru biçimde ve olabildiğince çok sayıda dips hareketi yapın!
+150 hedefine ulaşacağınızı ümit ediyorum!"</item>
+        <item>"Bu, sizin son egzersiziniz. Programın 6.haftasını tamamladıktan sonra bir ya da iki gün dinlenerek kendinizi ödüllendirin. Daha sonra, en doğru biçimde ve olabildiğince çok sayıda çömelme hareketi yapın!
+200 hedefine ulaşacağınızı ümit ediyorum!"</item>
+        <item>"Bu, sizin son egzersiziniz. Programın 6.haftasını tamamladıktan sonra bir ya da iki gün dinlenerek kendinizi ödüllendirin. Daha sonra, en uygun biçimde ve olabildiğince çok sayıda barfiks çekmeye çalışın!
+20 hedefine ulaşacağınızı ümit ediyorum!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+    </string-array>
+</resources>

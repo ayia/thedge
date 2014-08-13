@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Uit te voeren push-ups</item>
+        <item>Uit de voeren sit-ups</item>
+        <item>Uit de voeren dips</item>
+        <item>Uit de voeren squats</item>
+        <item>Uit de voeren pull-ups</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 push-ups</item>
+        <item>200 sit-ups</item>
+        <item>150 dips</item>
+        <item>200 squats</item>
+        <item>20 pull-ups</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Voor je aan het programma voor 100 push-ups begint, kun je best de push-uptest uitvoeren.
+
+Deze test zal je huidige fitnessniveau weergeven en bepalen op welk punt je kunt starten en hoe je push-uptraining gepland kan worden. Om de test uit te voeren probeer je gewoon om zoveel mogelijk correcte push-ups te doen als je kan en selecteer je een interval hieronder. Voer de oefeningen correct uit en speel niet vals! Het helpt je niet vooruit om op een verkeerd trainingsniveau te beginnen! Misschien zal het resultaat je verrassen, maar eerlijkheid is de beste manier om sterker en gespierder te worden!
+
+We raden aan om enkele dagen te recuperen na de test voor je aan Week 1 begint. Je zult drie keer per week moeten trainen, bijvoorbeeld op maandag, woensdag en vrijdag."</item>
+        <item>"Voor je aan het programma voor 100 sit-ups begint, kun je best de sit-uptest uitvoeren.
+
+Deze test zal je huidige fitnessniveau weergeven en bepalen op welk punt je kunt starten en hoe je sit-uptraining gepland kan worden. Om de test uit te voeren probeer je gewoon om zoveel mogelijk correcte sit-ups te doen als je kan en selecteer je een interval hieronder. Voer de oefeningen correct uit en speel niet vals! Het helpt je niet vooruit om op een verkeerd trainingsniveau te beginnen! Misschien zal het resultaat je verrassen, maar eerlijkheid is de beste manier om sterker en gespierder te worden!
+
+We raden aan om enkele dagen te recuperen na de test voor je aan Week 1 begint. Je zult drie keer per week moeten trainen, bijvoorbeeld op maandag, woensdag en vrijdag."</item>
+        <item>"Voor je aan het programma voor 150 dips begint, kun je best de diptest uitvoeren.
+
+Deze test zal je huidige fitnessniveau weergeven en bepalen op welk punt je kunt starten en hoe je diptraining gepland kan worden. Om de test uit te voeren probeer je gewoon om zoveel mogelijk correcte dips te doen als je kan en selecteer je een interval hieronder. Voer de oefeningen correct uit en speel niet vals! Het helpt je niet vooruit om op een verkeerd trainingsniveau te beginnen! Misschien zal het resultaat je verrassen, maar eerlijkheid is de beste manier om sterker en gespierder te worden!
+
+We raden aan om enkele dagen te recuperen na de test voor je aan Week 1 begint. Je zult drie keer per week moeten trainen, bijvoorbeeld op maandag, woensdag en vrijdag."</item>
+        <item>"Voor je aan het programma voor 200 squats begint, kun je best de squattest uitvoeren.
+
+Deze test zal je huidige fitnessniveau weergeven en bepalen op welk punt je kunt starten en hoe je squattraining gepland kan worden. Om de test uit te voeren probeer je gewoon om zoveel mogelijk correcte squats te doen als je kan en selecteer je een interval hieronder. Voer de oefeningen correct uit en speel niet vals! Het helpt je niet vooruit om op een verkeerd trainingsniveau te beginnen! Misschien zal het resultaat je verrassen, maar eerlijkheid is de beste manier om sterker en gespierder te worden!
+
+We raden aan om enkele dagen te recuperen na de test voor je aan Week 1 begint. Je zult drie keer per week moeten trainen, bijvoorbeeld op maandag, woensdag en vrijdag."</item>
+        <item>"Voor je aan het programma voor 20 pull-ups begint, kun je best de pull-uptest uitvoeren.
+
+Deze test zal je huidige fitnessniveau weergeven en bepalen op welk punt je kunt starten en hoe je pull-uptraining gepland kan worden. Om de test uit te voeren probeer je gewoon om zoveel mogelijk correcte pull-ups te doen als je kan en selecteer je een interval hieronder. Voer de oefeningen correct uit en speel niet vals! Het helpt je niet vooruit om op een verkeerd trainingsniveau te beginnen! Misschien zal het resultaat je verrassen, maar eerlijkheid is de beste manier om sterker en gespierder te worden!
+
+We raden aan om enkele dagen te recuperen na de test voor je aan Week 1 begint. Je zult drie keer per week moeten trainen, bijvoorbeeld op maandag, woensdag en vrijdag."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Het is tijd voor de test! Doe zoveel correct uitgevoerde push-ups als je kan en selecteer een interval hieronder.
+
+Vergeet niet om een rustdag in te lassen na de test zodat je lichaam kan recupereren."</item>
+        <item>"Het is tijd voor de test! Doe zoveel correct uitgevoerde sit-ups als je kan en selecteer een interval hieronder.
+
+Vergeet niet om een rustdag in te lassen na de test zodat je lichaam kan recupereren."</item>
+        <item>"Het is tijd voor de test! Doe zoveel correct uitgevoerde dips als je kan en selecteer een interval hieronder.
+
+Vergeet niet om een rustdag in te lassen na de test zodat je lichaam kan recupereren."</item>
+        <item>"Het is tijd voor de test! Doe zoveel correct uitgevoerde squats als je kan en selecteer een interval hieronder.
+
+Vergeet niet om een rustdag in te lassen na de test zodat je lichaam kan recupereren."</item>
+        <item>"Het is tijd voor de test! Doe zoveel correct uitgevoerde pull-ups als je kan en selecteer een interval hieronder.
+
+Vergeet niet om een rustdag in te lassen na de test zodat je lichaam kan recupereren."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Je zult drie keer per week moeten trainen. Volgens ons doe je dat best op maandag, woensdag en vrijdag, zodat je in het weekend kunt rusten en recupereren voor je overgaat naar de volgende fase van het programma. Je kunt je schema vrij aanpassen volgens je agenda, maar zorg voor de nodige rust tussen work-outdagen.
+
+Je mag ook meer rust nemen tussen elk niveau als dat nodig blijkt, maar zonder je schema te verwaarlozen. Het is belangrijk dat je voldoende drinkt vóór de work-out."</item>
+        <item>"Week 1 zit erop en het is tijd om aan Week 2 te beginnen.
+
+Aan het einde van Week 2 is het tijd om je kracht te meten en een uitputtingstest te doen. Het komt erop neer dat je zoveel correcte push-ups moet doen als je kan, tot je fysiek niet meer in staat bent om er meer te doen. Je mag tot het uiterste gaan, zonder echter je veiligheid uit het oog te verliezen. Het aantal uitgevoerde push-ups zal bepalen in welk niveau je Week 3 begint. Voer deze test uit 24 tot 48 uur na afloop van Week 2. Als je bijvoorbeeld op maandag, woensdag en vrijdag work-outs voorziet, is het normaal gezien goed om zaterdagnamiddag te rusten. Zo kun je voldoende recupereren na je work-out van vrijdag, en krijg je voldoende rust voor je de volgende fase begint op maandag. Succes!"</item>
+        <item>"Je zou iets sterker moeten zijn dan een paar weken geleden en aanzienlijk meer push-ups moeten aankunnen dan bij de eerste test.
+
+Verlies de moed niet als je moeite ondervindt met het programma. Sommige mensen zullen nog steeds minder dan 16 push-ups na elkaar kunnen uitvoeren, maar dat is ok. Herhaal de week waarmee je moeite hebt tot je sterk genoeg bent om over te gaan naar het volgende niveau. We garanderen je dat het de moeite waard is!"</item>
+        <item>"Week 3 zit erop en het is tijd om aan Week 4 te beginnen.
+
+Aan het einde van Week 4 is het tijd om je kracht te meten en opnieuw een uitputtingstest te doen. Inmiddels weet je wat je moet doen: doe gewoon zoveel mogelijk correcte push-ups als je aankan, tot je niet meer in staat bent om nog een push-up te doen. Je mag tot het uiterste gaan, zonder echter je veiligheid uit het oog te verliezen..
+
+Het aantal uitgevoerde push-ups zal bepalen op welk niveau van het programma je begint in Week 5. Voer deze test zeker uit 24 tot 48 uur na afloop van Week 4."</item>
+        <item>Nu moet je sowieso sterker zijn en een duidelijk verschil merken. Aan het einde van de week is er weer een test.</item>
+        <item>Dit wordt je laatste week. Aan het einde van de week zul je de eindtest doen en zien of je honderd push-ups aankunt!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Je zult drie keer per week moeten trainen. Volgens ons doe je dat best op maandag, woensdag en vrijdag, zodat je in het weekend kunt rusten en recupereren voor je overgaat naar de volgende fase van het programma. Je kunt je schema vrij aanpassen volgens je agenda, maar zorg voor de nodige rust tussen work-outdagen.
+
+Je mag ook meer rust nemen tussen elk niveau als dat nodig blijkt, maar zonder je schema te verwaarlozen. Het is belangrijk dat je voldoende drinkt vóór de work-out."</item>
+        <item>"Week 1 zit erop en het is tijd om aan Week 2 te beginnen.
+
+Aan het einde van Week 2 is het tijd om je kracht te meten en een uitputtingstest te doen. Het komt erop neer dat je zoveel correcte sit-ups moet doen als je kan. Je mag tot het uiterste gaan, zonder echter je veiligheid uit het oog te verliezen. Het aantal uitgevoerde sit-ups zal bepalen op welk niveau van het programma je aan Week 3 begint. Voer deze test uit 24 tot 48 uur na afloop van Week 2. Als je bijvoorbeeld op maandag, woensdag en vrijdag work-outs voorziet, is het normaal gezien goed om zaterdagnamiddag te rusten. Zo kun je voldoende recupereren na je work-out van vrijdag, en krijg je voldoende rust voor je de volgende fase begint op maandag. Succes!"</item>
+        <item>"Je zou iets sterker moeten zijn dan een paar weken geleden en aanzienlijk meer sit-ups moeten aankunnen dan bij de eerste test.
+
+Verlies de moed niet als je moeite ondervindt met het programma. Sommige mensen zullen nog steeds minder dan 21 sit-ups na elkaar kunnen uitvoeren, maar dat is ok. Herhaal de week waarmee je moeite hebt tot je sterk genoeg bent om over te gaan naar het volgende niveau. We garanderen je dat het de moeite waard is!"</item>
+        <item>"Week 3 zit erop en het is tijd om aan Week 4 te beginnen.
+
+Aan het einde van Week 4 is het tijd om je kracht te meten en opnieuw een uitputtingstest te doen. Inmiddels weet je wat je moet doen: doe gewoon zoveel mogelijk correcte sit-ups als je aankan. Je mag tot het uiterste gaan, zonder echter je veiligheid uit het oog te verliezen..
+
+Het aantal uitgevoerde sit-ups zal bepalen op welk niveau van het programma je begint in Week 5. Voer deze test zeker uit 24 tot 48 uur na afloop van Week 4."</item>
+        <item>Nu moet je sowieso sterker zijn en een duidelijk verschil merken. Aan het einde van de week is er weer een test.</item>
+        <item>Dit wordt je laatste week. Aan het einde van de week zul je de eindtest doen en zien of je tweehonderd sit-ups aankunt!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Je zult drie keer per week moeten trainen. Volgens ons doe je dat best op maandag, woensdag en vrijdag, zodat je in het weekend kunt rusten en recupereren voor je overgaat naar de volgende fase van het programma. Je kunt je schema vrij aanpassen volgens je agenda, maar zorg voor de nodige rust tussen work-outdagen.
+
+Je mag ook meer rust nemen tussen elk niveau als dat nodig blijkt, maar zonder je schema te verwaarlozen. Het is belangrijk dat je voldoende drinkt vóór de work-out."</item>
+        <item>"Week 1 zit erop en het is tijd om aan Week 2 te beginnen.
+
+Aan het einde van Week 2 is het tijd om je kracht te meten en een uitputtingstest te doen. Het komt erop neer dat je zoveel correcte dips moet doen als je kan. Je mag tot het uiterste gaan, zonder echter je veiligheid uit het oog te verliezen. Het aantal uitgevoerde dips zal bepalen op welk niveau van het programma je aan Week 3 begint. Voer deze test uit 24 tot 48 uur na afloop van Week 2. Als je bijvoorbeeld op maandag, woensdag en vrijdag work-outs voorziet, is het normaal gezien goed om zaterdagnamiddag te rusten. Zo kun je voldoende recupereren na je work-out van vrijdag, en krijg je voldoende rust voor je de volgende fase begint op maandag. Succes!"</item>
+        <item>"Je zou iets sterker moeten zijn dan een paar weken geleden en aanzienlijk meer dips moeten aankunnen dan bij de eerste test.
+
+Verlies de moed niet als je moeite ondervindt met het programma. Sommige mensen zullen nog steeds minder dan 20 dips na elkaar kunnen uitvoeren, maar dat is ok. Herhaal de week waarmee je moeite hebt tot je sterk genoeg bent om over te gaan naar het volgende niveau. We garanderen je dat het de moeite waard is!"</item>
+        <item>"Week 3 zit erop en het is tijd om aan Week 4 te beginnen.
+
+Aan het einde van Week 4 is het tijd om je kracht te meten en opnieuw een uitputtingstest te doen. Inmiddels weet je wat je moet doen: doe gewoon zoveel mogelijk correcte dips als je aankan. Je mag tot het uiterste gaan, zonder echter je veiligheid uit het oog te verliezen..
+
+Het aantal uitgevoerde dips zal bepalen op welk niveau van het programma je begint in Week 5. Voer deze test zeker uit 24 tot 48 uur na afloop van Week 4."</item>
+        <item>Nu moet je sowieso sterker zijn en een duidelijk verschil merken. Aan het einde van de week is er weer een test.</item>
+        <item>Dit wordt je laatste week. Aan het einde van de week zul je de eindtest doen en zien of je hondervijftig dips aankunt!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Je zult drie keer per week moeten trainen. Volgens ons doe je dat best op maandag, woensdag en vrijdag, zodat je in het weekend kunt rusten en recupereren voor je overgaat naar de volgende fase van het programma. Je kunt je schema vrij aanpassen volgens je agenda, maar zorg voor de nodige rust tussen work-outdagen.
+
+Je mag ook meer rust nemen tussen elk niveau als dat nodig blijkt, maar zonder je schema te verwaarlozen. Het is belangrijk dat je voldoende drinkt vóór de work-out."</item>
+        <item>"Week 1 zit erop en het is tijd om aan Week 2 te beginnen.
+
+Aan het einde van Week 2 is het tijd om je kracht te meten en een uitputtingstest te doen. Het komt erop neer dat je zoveel correcte squats moet doen als je kan. Span je spieren in tot het uiterst, maar overschrijd je pijndrempel niet. Luister naar je lichaam! Het aantal uitgevoerde squats zal bepalen op welk niveau van het programma je aan Week 3 begint. Voer deze test uit 24 tot 48 uur na afloop van Week 2. Als je bijvoorbeeld op maandag, woensdag en vrijdag work-outs voorziet, is het normaal gezien goed om zaterdagnamiddag te rusten. Zo kun je voldoende recupereren na je work-out van vrijdag, en krijg je voldoende rust voor je de volgende fase begint op maandag. Succes!"</item>
+        <item>"Je zou aanzienlijk sterker moeten zijn dan een paar weken geleden en heel wat meer squats moeten aankunnen dan bij de eerste test.
+
+Verlies de moed niet als je moeite ondervindt met het programma. Sommige mensen zullen nog steeds minder dan 21 squats na elkaar kunnen uitvoeren, maar dat is ok. Herhaal de week waarmee je moeite hebt tot je sterk genoeg bent om over te gaan naar het volgende niveau. We garanderen je dat het de moeite waard is!"</item>
+        <item>"Week 3 zit erop en het is tijd om aan Week 4 te beginnen.
+
+Aan het einde van Week 4 is het tijd om je kracht te meten en opnieuw een uitputtingstest te doen. Inmiddels weet je wat je moet doen: doe gewoon zoveel mogelijk correcte squats als je aankan. Je mag je spieren tot het uiterste drijven, zonder echter je veiligheid uit het oog te verliezen. Luister naar je lichaam!
+
+Het aantal uitgevoerde squats zal bepalen op welk niveau van het programma je aan Week 5 begint. Voer deze test zeker uit 24 tot 48 uur na afloop van Week 4."</item>
+        <item>Nu moet je sowieso sterker zijn en een duidelijk verschil merken. Aan het einde van de week is er weer een test.</item>
+        <item>Dit wordt je laatste week. Aan het einde van de week zul je de eindtest doen en zien of je tweehonderd squats aankunt!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Je zult drie keer per week moeten trainen. Volgens ons doe je dat best op maandag, woensdag en vrijdag, zodat je in het weekend kunt rusten en recupereren voor je overgaat naar de volgende fase van het programma. Je kunt je schema vrij aanpassen volgens je agenda, maar zorg voor de nodige rust tussen work-outdagen.
+
+Je mag ook meer rust nemen tussen elk niveau als dat nodig blijkt, maar zonder je schema te verwaarlozen. Het is belangrijk dat je voldoende drinkt vóór de work-out."</item>
+        <item>"Week 1 zit erop en het is tijd om aan Week 2 te beginnen.
+
+Aan het einde van Week 2 is het tijd om je kracht te meten en een uitputtingstest te doen. Het komt erop neer dat je zoveel correcte pull-ups moet doen als je kan. Span je spieren in tot het uiterst, maar overschrijd je pijndrempel niet. Luister naar je lichaam! Het aantal uitgevoerde pull-ups zal bepalen op welk niveau van het programma je aan Week 3 begint. Voer deze test uit 24 tot 48 uur na afloop van Week 2. Als je bijvoorbeeld op maandag, woensdag en vrijdag work-outs voorziet, is het aan te raden om de test te doen op zaterdagnamiddag. Zo kun je voldoende recupereren na je work-out van vrijdag, en krijg je voldoende rust voor je de volgende fase begint op maandag. Succes!"</item>
+        <item>"Je zou aanzienlijk sterker moeten zijn dan een paar weken geleden en heel wat meer pull-ups moeten aankunnen dan bij de eerste test.
+
+Verlies de moed niet als je moeite ondervindt met het programma. Sommige mensen zullen nog steeds minder dan 3 pull-ups na elkaar kunnen uitvoeren, maar dat is ok. Herhaal de week waarmee je moeite hebt tot je sterk genoeg bent om over te gaan naar het volgende niveau. We garanderen je dat het de moeite waard is!"</item>
+        <item>"Week 3 zit erop en het is tijd om aan Week 4 te beginnen.
+
+Aan het einde van Week 4 is het tijd om je kracht te meten en opnieuw een uitputtingstest te doen. Inmiddels weet je wat je moet doen: doe gewoon zoveel mogelijk correcte pull-ups als je aankan. Je mag tot het uiterste gaan, zonder echter je veiligheid uit het oog te verliezen. Luister naar je lichaam!
+
+Het aantal uitgevoerde pull-ups zal bepalen op welk niveau van het programma je aan Week 5 begint. Voer deze test zeker uit 24 tot 48 uur na afloop van Week 4."</item>
+        <item>Nu moet je sowieso sterker zijn en een duidelijk verschil merken. Aan het einde van de week is er weer een test.</item>
+        <item>Dit wordt je laatste week. Aan het einde van de week zul je de eindtest doen en zien of je twintig pull-ups aankunt!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Dit is jouw eindtest. Gun jezelf een tweetal dagen rust nadat je week 6 van het programma hebt voltooid. Doe vervolgens zoveel correcte push-ups als je kan!
+Veel succes op weg naar de 100!"</item>
+        <item>"Dit is jouw eindtest. Gun jezelf een tweetal dagen rust nadat je week 6 van het programma hebt voltooid. Doe vervolgens zoveel correcte sit-ups als je kan!
+Veel succes op weg naar de 200!"</item>
+        <item>"Dit is jouw eindtest. Gun jezelf een tweetal dagen rust nadat je week 6 van het programma hebt voltooid. Doe vervolgens zoveel correcte dips als je kan!
+Veel succes op weg naar de 150!"</item>
+        <item>"Dit is jouw eindtest. Gun jezelf een tweetal dagen rust nadat je week 6 van het programma hebt voltooid. Doe vervolgens zoveel correcte squats als je kan!
+Veel succes op weg naar de 200!"</item>
+        <item>"Dit is jouw eindtest. Gun jezelf een tweetal dagen rust nadat je week 6 van het programma hebt voltooid. Doe vervolgens zoveel correcte pull-ups als je kan!
+Veel succes op weg naar de 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Zondag</item>
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+    </string-array>
+</resources>

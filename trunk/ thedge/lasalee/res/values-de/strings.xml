@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="demo">Demo</string>
+    <string name="week">Woche</string>
+    <string name="day">Tag</string>
+    <string name="rate">Jetzt bewerten</string>
+    <string name="rate_later">Später erinnern</string>
+    <string name="rating">Bewerte %s</string>
+    <string name="rating_message">Wenn Ihnen \"%s\" gefällt, nehmen Sie sich bitte kurz Zeit diese App zu bewerten. Es dauert nicht länger als eine Minute. Danke für Ihre Unterstützung!</string>
+    <string name="no_thanks">Nein danke</string>
+    <string name="buy">Kaufen</string>
+    <string name="purchase">Bezahlen</string>
+    <string name="start">Start</string>
+    <string name="statistics">Statistiken</string>
+    <string name="settings">Einstellungen</string>
+    <string name="sec30">+30<small>sek</small></string>
+    <string name="stop">Stopp</string>
+    <string name="done">Fertig</string>
+    <string name="done_real">Fertig</string>
+    <string name="reminders">Erinnerungen</string>
+    <string name="reset_to_day">Auf Tag zurücksetzen</string>
+    <string name="clear_statistics">Statistiken zurücksetzen</string>
+    <string name="congratulations">Herzlichen Glückwunsch!</string>
+    <string name="home">Start</string>
+    <string name="restart_day">Tag wiederholen</string>
+    <string name="restart_week">Woche wiederholen</string>
+    <string name="reset_all_data">Alles zurücksetzen</string>
+    <string name="clear_statistics_title">Statistiken zurücksetzen</string>
+    <string name="clear_statistics_message">Sind Sie sicher, dass Sie alle Statistiken in diesem Programm zurücksetzen möchten \"%s\"?</string>
+    <string name="reset_all_data_title">Alle Daten zurücksetzen</string>
+    <string name="reset_all_data_message">Die Werkseinstellung wird alle Erinnerungen, Fortschritte und Statistiken zurücksetzen. Sind Sie sich sicher, alles zurücksetzen zu wollen? \"%s\"?</string>
+    <string name="init_test_additional_info">Als Faustregel gilt, wenn Sie Montag, Mittwoch und Freitag Workouts betreiben, ist der Samstagabend ein guter Zeitpunkt zur Erholung. So können Sie sich vom Workout am Freitag ausreichend erholen und haben noch genug Zeit bis zum Start der neuen Trainingswoche</string>
+    <string name="init_test_reminder">Bedenken Sie, den Erschöpfungstest 24–48 Stunden vor Ende der Woche auszuführen.</string>
+    <string name="buy_one_program">%s (0.99$)</string>
+    <string name="buy_all_programs">Alle Programme (%.2f$)</string>
+    <string name="buy_one_program_description">Sie werden in der Lage sein, für das \"%s\" Programm zu trainieren. In diesem Fall werden die verbleibenden Übungen vor der Bezahlung noch nicht verfügbar sein.</string>
+    <string name="buy_all_programs_description">Sie bekommen 40% Ermäßigung, wenn Sie alle Apps kaufen. Sie haben dann Zugriff auf alle Programme!</string>
+    <string name="demo_title">Demo</string>
+    <string name="demo_description">"Diese Testversion des \"%s\" Programms hat eine Testperiode von 2 Wochen.
+
+Alle Trainings haben den gleichen Grundsatz, sind aber für 6 Wochen ausgelegt."</string>
+    <string name="select_day">Auf Tag zurücksetzen</string>
+    <string name="selected_day_message">Woche und Tag wurden zurückgesetzt</string>
+    <string name="repeat_day_message">Tag wiederholen für das nächste Workout</string>
+    <string name="repeat_week_message">Woche wiederholen für das nächste Workout</string>
+    <string name="total_reps">Insgesamt Wiederholungen: %d</string>
+    <string name="set_time">Erinnerung einstellen</string>
+    <string name="wow">Wow!</string>
+    <string name="jump3week_message">Sie schaffen mehr als %d Wiederholungen. Wir empfehlen Ihnen mit Woche 3 fortzufahren. Ist das OK?</string>
+    <string name="prev_result">(Ihr voriges Ergebnis rechts)</string>
+    <string name="reps_count">Anzahl der Wiederholungen</string>
+    <string name="rest_time">Erholungszeit</string>
+    <string name="program_purchased">Das Programm wurde bereits bezahlt und wird mit einer der nächsten Updates verfügbar sein.</string>
+    <string name="no_records">Keine Aufzeichnungen</string>
+    <string name="sets">Sets: %s</string>
+    <string name="click_restart_day">Drücken Sie erneut, um den Tag neu zu starten</string>
+    <string name="billing_not_supported_title">Keine Bezahlung möglich</string>
+    <string name="billing_not_supported_message">Der Market-Bezahlservice ist derzeit nicht erreichbar. Sie können mit den Übungen fortfahren, haben derzeit allerdings keine Möglichkeit, zu bezahlen.</string>
+    <string name="select_reps_count_message">Legen Sie die Wiederholungsanzahl fest</string>
+    <string name="completed">Erledigt</string>
+    <string name="completed_real">Abgeschlossen</string>
+    <string name="reps">Wiederholungen</string>
+    <string name="repeat_hard_week_message">Wenn Sie aus welchem Grund auch immer, Probleme mit dem Trainingsplan bekommen, empfehlen wir, die Woche oder den Tag zu wiederholen.</string>
+    <string name="repeat">Wiederholen</string>
+    <string name="restart">Neustarten</string>
+    <string name="demo_ended_description">Diese Testversion des Programms \"%s\" kann zwei Wochen lang getestet werden. Die Vollversion ist für 6 Wochen ausgelegt. Um das Training fortzusetzen, kaufen Sie bitte die Vollversion!</string>
+    <string name="demo_ended_restart_description">"Die Testversion des Programms \"%s\" kann zwei Wochen lang getestet werden. Die Vollversion ist für 6 Wochen ausgelegt.
+
+Um das Training fortzusetzen, müssen Sie die Vollversion kaufen!
+Wenn Sie das Programm von vorne starten möchten, drücken Sie bitte auf \"Neu starten\"."</string>
+    <string name="final_test">Abschlussprüfung</string>
+    <string name="continue_progress">Fortschritt</string>
+    <string name="continue_progress_description">Herzlichen Glückwunsch! Sie haben das Ende der sechs Wochen erreicht. Wir empfehlen entweder bei Woche 4 oder vom Beginn neu zu starten.</string>
+    <string name="week4">Woche 4</string>
+    <string name="week1">Woche 1</string>
+    <string name="reps_1">Wiederholung</string>
+    <string name="reps_234">Wiederholungen</string>
+    <string name="reps_all">Wiederholungen</string>
+    <string name="help_change_reps_description">Ändern Sie die Anzahl der Wiederholungen, welche Sie in dieser Übung geschafft haben (im letzten Set müssen Sie so viele Wiederholungen schaffen wie nur möglich, aber nicht weniger als %d)</string>
+    <string name="help_add_sec_description">Fügen Sie 30 Sekunden Pause zwischen den Wiederholungen ein, wenn Sie diese brauchen</string>
+    <string name="help_help2_description">Drücken Sie erneut und sehen Sie die Hilfe der jeweiligen Woche</string>
+    <string name="chart">Tabelle</string>
+    <string name="list">Liste</string>
+    <string name="export_to_sd">Auf SD-Karte exportieren</string>
+    <string name="import_from_sd">Von SD-Karte importieren</string>
+    <string name="import_title">Importieren</string>
+    <string name="import_statistics">Statistiken importieren</string>
+    <string name="import_alarms">Erinnerungen importieren</string>
+    <string name="import_progress">Importierungsfortschritt</string>
+    <string name="export_succeful">Sicherung erfolgreich erstellt!</string>
+    <string name="export_failed">Sicherung fehlgeschlagen</string>
+    <string name="export_failed_description">Stellen Sie bitte sicher, dass die SD-Karte in Ihrem Handy eingelegt und bereit ist!</string>
+    <string name="import_succeful">Importierung erfolgreich</string>
+    <string name="import_failed">Importierung fehlgeschlagen</string>
+    <string name="import_failed_description">Keine Wiederherstellungsdaten gefunden (vielleicht haben Sie noch keine für dieses Programm erstellt). Stellen Sie bitte zudem sicher, dass Ihre SD-Karte eingelegt und bereit ist.</string>
+    <string name="import_version_failed_description">Die Version der importierten Dateien stimmt nicht mit der Version der App überein. Updaten Sie der Version der App (aus der Sie die Daten importiert haben), führen Sie bitte dann den Export- und Importprozess erneut durch.</string>
+    <string name="please_wait">Bitte warten…</string>
+    <string name="delete_record">Aufzeichnung löschen</string>
+    <string name="delete_statistics_record_question">Sind Sie sicher, dass Sie diese Statistik löschen möchten?</string>
+    <string name="get_them_all">Alle Programme jetzt in %s</string>
+    <string name="download">Download</string>
+    <string name="update_samsung_apps_message">You need to update the Samsung Apps to start downloading the app.</string>
+    <string name="disable_ad_title">Werbung entfernen</string>
+    <string name="disable_ad_message" formatted="false">"Sie können die Vollversion der App mit allen Programmen kaufen:
+• %s
+• %s
+• %s
+• %s
+• %s
+oder Werbung mehrere Tage kostenlos entfernen."</string>
+    <string name="disable_ad_ok_title">Werbung entfernt</string>
+    <string name="disable_ad_ok_message">Werbung für %d Tage entfernt.</string>
+    <string name="free">Kostenlos</string>
+    <string name="information">Informationen</string>
+    <string name="remind_me_later">Später erinnern</string>
+    <string name="buy_now">Jetzt kaufen</string>
+    <string name="trial_will_expire">Der kostenlose Test läuft am %s ab. Drücken Sie \"Jetzt kaufen\", um die App weiter nutzen zu können.</string>
+    <string name="trial_expired">Die kostenlose Test ist am %s abgelaufen. Drücken Sie \"Jetzt kaufen\", um die App weiter nutzen zu können.</string>
+    <string name="connection">Verbindung</string>
+    <string name="please_wait_connection">Bitte warten...</string>
+    <string name="connection_failed">Keine Verbindung</string>
+    <string name="check_internet">Prüfen Sie bitte Ihre Internetverbindung.</string>
+    <string name="samsung_account_not_found">Samsung Konto nicht gefunden</string>
+    <string name="login_with_samsung_account">Bitte melden Sie sich in den Einstellungen Ihres Geräts mit Ihrem Samsung Konto an.</string>
+</resources>

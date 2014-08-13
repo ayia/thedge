@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="demo">Demo</string>
+    <string name="week">Hafta</string>
+    <string name="day">Gün</string>
+    <string name="rate">Şimdi Değerlendir</string>
+    <string name="rate_later">Daha sonra hatırlat</string>
+    <string name="rating">%s değerlendir</string>
+    <string name="rating_message">Eğer %s uygulamasını kullanmayı sevdiyseniz, lütfen değerlendirmek için birkaç dakikanızı ayırın. Bu değerlendirme, bir dakikayı geçmeyecektir. Desteğiniz için teşekkür ederiz!</string>
+    <string name="no_thanks">Hayır, teşekkürler</string>
+    <string name="buy">Satın al</string>
+    <string name="purchase">Satın al</string>
+    <string name="start">Başla</string>
+    <string name="statistics">İstatistikler</string>
+    <string name="settings">Ayarlar</string>
+    <string name="sec30">+30<small>sn.</small></string>
+    <string name="stop">Dur</string>
+    <string name="done">Tamam</string>
+    <string name="done_real">Tamam</string>
+    <string name="reminders">Hatırlatmalar</string>
+    <string name="reset_to_day">Günü Sıfırla</string>
+    <string name="clear_statistics">İstatistikleri Temizle</string>
+    <string name="congratulations">Tebrikler!</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="restart_day">Günü Tekrarla</string>
+    <string name="restart_week">Haftayı Tekrarla</string>
+    <string name="reset_all_data">Tüm Verileri Sıfırla</string>
+    <string name="clear_statistics_title">İstatistikleri Temizle</string>
+    <string name="clear_statistics_message">\"%s\" programındaki tüm istatistikleri silmek istediğinizden emin misiniz?</string>
+    <string name="reset_all_data_title">Tüm Verileri Sıfırla</string>
+    <string name="reset_all_data_message">Sıfırlama, işlemlerinizi, istatistiklerinizi ve hatırlatmalarınızı etkileyecek. \"%s\" programındaki tüm verileri sıfırlamak istediğinizden emin misiniz?</string>
+    <string name="init_test_additional_info">Pratik bir genel kural olarak, eğer Pazartesi, Çarşamba ve Cuma günleri çalışıyorsanız, Cumartesi öğleden sonraları dinlenmek için iyi bir zaman olacaktır. Bu, Cuma günkü egzersiz sonrasında yeterli toparlanma süresi sağlar, aynı zamanda Pazartesi günü için planlanan sonraki aşamaya geçmeden önce uzun süreli istirahat imkanı verir.</string>
+    <string name="init_test_reminder">Yorgunluk testini, haftayı tamamladıktan sonraki 24-48 saat içinde gerçekleştirmeyi unutmayınız.</string>
+    <string name="buy_one_program">%s (0.99$)</string>
+    <string name="buy_all_programs">Tüm Programlar (%.2f$)</string>
+    <string name="buy_one_program_description">\"%s\" programı için eğitim alabileceksiniz. Bu durumda, geri kalan egzersizler satın almadan önce kullanılamayacaktır.</string>
+    <string name="buy_all_programs_description">Tüm programları satın alırsanız %40 indirim kazanacaksınız. Tüm programları kullanabileceksiniz.</string>
+    <string name="demo_title">Demo</string>
+    <string name="demo_description">"\"%s\" programının bu deneme sürümü, 2 haftalık bir deneme süresine sahiptir.
+
+Tüm programlar aynı çalışma prensiplerine sahiptir ve 6 haftalık egzersiz süresi için tasarlanmıştır."</string>
+    <string name="select_day">Günü Sıfırla</string>
+    <string name="selected_day_message">Hafta ve Gün sıfırlandı</string>
+    <string name="repeat_day_message">Bir sonraki egzersiz için gün tekrarlanıyor</string>
+    <string name="repeat_week_message">Bir sonraki egzersiz için hafta tekrarlanıyor</string>
+    <string name="total_reps">Toplam tekrar: %d</string>
+    <string name="set_time">Hatırlatıcıyı Ayarla</string>
+    <string name="wow">Harika!</string>
+    <string name="jump3week_message">"%d tekrardan daha fazlasını gerçekleştiriniz. 3.Hafta'ya başlamanızı tavsiye ediyoruz. Onaylıyor musunuz?"</string>
+    <string name="prev_result">(önceki sonuçlarınız sağdadır)</string>
+    <string name="reps_count">Tekrar Sayısı</string>
+    <string name="rest_time">Dinlenme Süresi</string>
+    <string name="program_purchased">Program zaten satın alınmış durumda ve bir güncelleştirmeyle birlikte daha sonra satışa sunulacak</string>
+    <string name="no_records">Kayıt yok</string>
+    <string name="sets">Setler: %s</string>
+    <string name="click_restart_day">Günü yeniden başlatmak için tekrar tıklayın</string>
+    <string name="billing_not_supported_title">Satın almalar gerçekleştirilemedi</string>
+    <string name="billing_not_supported_message">Market faturalandırma hizmeti şu anda kullanılamıyor. Bu uygulamayı kullanmaya devam edebilirsiniz ancak satın alma işlemlerini yapamazsınız.</string>
+    <string name="select_reps_count_message">Tekrar sayısını seç</string>
+    <string name="completed">Tamam</string>
+    <string name="completed_real">Tamamlandı</string>
+    <string name="reps">Tekrarlar</string>
+    <string name="repeat_hard_week_message">Herhangi bir nedenle programı tamamlayamadıysanız, bu günü veya haftayı tekrarlamanızı tavsiye ediyoruz.</string>
+    <string name="repeat">Tekrar</string>
+    <string name="restart">Yeniden Başlat</string>
+    <string name="demo_ended_description">\"%s\" programının bu deneme sürümü, 2 haftalık bir deneme süresine sahiptir. Programın tam sürümü 6 hafta için tasarlanmıştır. Eğitimlere devam etmek için tam sürümü satın almalısınız.</string>
+    <string name="demo_ended_restart_description">"\"%s\" programının bu deneme sürümü, 2 haftalık bir deneme süresine sahiptir. Programın tam sürümü 6 hafta için tasarlanmıştır.
+
+Eğitimlere devam etmek için tam sürümü satın almalısınız.
+Programı baştan başlatmak istiyorsanız, \"Yeniden Başlat\" düğmesine tıklayınız."</string>
+    <string name="final_test">Son Egzersiz</string>
+    <string name="continue_progress">İlerlemeye Devam Et</string>
+    <string name="continue_progress_description">"Tebrikler! 6 haftanın sonuna ulaştınız. 4.Hafta'ya başlamanızı ya da en başa dönmenizi tavsiye ediyoruz."</string>
+    <string name="week4">4.Hafta</string>
+    <string name="week1">1.Hafta</string>
+    <string name="reps_1">Tekrar</string>
+    <string name="reps_234">Tekrarlar</string>
+    <string name="reps_all">Tekrarlar</string>
+    <string name="help_change_reps_description">"Bu setteki yaptığınız tekrarların sayısını değiştirin (son sette olabildiğince çok tekrar yapmanız gerekiyor fakat %d'den daha az olmamalıdır)"</string>
+    <string name="help_add_sec_description">Eğer gerekiyorsa her hareket arasına 30 saniye dinlenme süresi ekleyin</string>
+    <string name="help_help2_description">Haftanın yardımını görüntülemek için tekrar dokunun</string>
+    <string name="chart">Grafik</string>
+    <string name="list">Liste</string>
+    <string name="export_to_sd">"SD Kart'a Gönder"</string>
+    <string name="import_from_sd">"SD Kart'tan Aktar"</string>
+    <string name="import_title">Veri Al</string>
+    <string name="import_statistics">İstatistikleri Al</string>
+    <string name="import_alarms">Hatırlatmaları Al</string>
+    <string name="import_progress">İşlemleri Al</string>
+    <string name="export_succeful">Veri gönderme başarıyla tamamlandı</string>
+    <string name="export_failed">Veri gönderme başarısız</string>
+    <string name="export_failed_description">SD kartınızın telefonunuzda takılı olduğundan ve kayıt için uygun olduğundan emin olun.</string>
+    <string name="import_succeful">Veriler başarıyla alındı</string>
+    <string name="import_failed">Veri alma başarısız</string>
+    <string name="import_failed_description">Alınacak veri bulunamadı (Bu program için veri göndermemiş olabilirsiniz). Ayrıca, SD kartınızın telefonunuzda takılı olduğundan ve kayıt için kullanılabilir olduğundan emin olun.</string>
+    <string name="import_version_failed_description">Alınan verilerin sürümü, uygulamanın sürümüyle eşleşmiyor. Uygulamanın sürümünü (hangi verileri göndermeyi istiyorsanız) güncelleyin, verileri tekrar gönderin ve veri almayı tekrarlayın.</string>
+    <string name="please_wait">Lütfen bekleyiniz…</string>
+    <string name="delete_record">Kaydı Sil</string>
+    <string name="delete_statistics_record_question">Bu kaydı silmek istediğinizden emin misiniz?</string>
+    <string name="get_them_all">%s hepsini al</string>
+    <string name="download">İndir</string>
+    <string name="update_samsung_apps_message">"Uygulamayı indirebilmek için Samsung Apps'yi güncellemeniz gerekiyor."</string>
+    <string name="disable_ad_title">Reklamları kaldır</string>
+    <string name="disable_ad_message" formatted="false">"Tüm programlarla birlikte uygulamanın tam sürümünü satın alabilirsiniz:
+• %s
+• %s
+• %s
+• %s
+• %sya da birkaç gün süresince ücretsiz olarak reklamları kaldırabilirsiniz."</string>
+    <string name="disable_ad_ok_title">Reklamlar kaldırıldı</string>
+    <string name="disable_ad_ok_message">%d gün için reklamlar kaldırıldı.</string>
+    <string name="free">Ücretsiz</string>
+    <string name="information">Bilgi</string>
+    <string name="remind_me_later">Daha sonra hatırlat</string>
+    <string name="buy_now">Şimdi Satın Al</string>
+    <string name="trial_will_expire">Ücretsiz deneme süresi %s tarihinde sona erecek. Uygulamayı kullanmaya devam etmek için \"Şimdi Satın Al\"ı tıklayınız.</string>
+    <string name="trial_expired">Ücretsiz deneme süresi %s tarihinde sona erdi. Uygulamayı kullanmaya devam etmek için \"Şimdi Satın Al\"ı tıklayınız.</string>
+    <string name="connection">Bağlantı</string>
+    <string name="please_wait_connection">Lütfen bekleyin...</string>
+    <string name="connection_failed">Bağlantı başarısız oldu</string>
+    <string name="check_internet">Lütfen internet bağlantısını kontrol edin.</string>
+    <string name="samsung_account_not_found">Samsung hesabı bulunamadı</string>
+    <string name="login_with_samsung_account">Devam etmek için cihazınızın ayarlarındaki Samsung hesabınız ile giriş yapın.</string>
+</resources>

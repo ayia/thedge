@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Push-ups å utføre</item>
+        <item>Sit-ups å utføre</item>
+        <item>Dips å utføre</item>
+        <item>Knebøy å utføre</item>
+        <item>Pull-ups å utføre</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 push-ups</item>
+        <item>200 sit-ups</item>
+        <item>150 dips</item>
+        <item>200 knebøy</item>
+        <item>20 pull-ups</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Før du hopper i det og begynner på 100 push-ups-programmet bør du ta en innledende push-ups-test.
+
+Testen vil fremheve din nåværende form og avgjøre hvor du bør begynne og hvordan du planlegger push-ups-treningsprogrammet ditt. For å utføre testen, gjør så mange push-ups du klarer og velg intervallen nedenfor. Ikke gjør det halvhjertet og ikke juks - det siste du ønsker er å befinne deg på feil nivå i treningsprogrammet! Resultatene kan vise seg å være ydmykende, men tro meg, ærlighet er den beste fremgangsmåten dersom du ønsker å maksimere styrkegevinsten din!
+
+Før du begynner på uke 1, anbefaler vi at du tar deg et par dager for å komme deg etter den innledende testen. Du vil være nødt til å trene tre ganger i uken, for eksempel, mandag, onsdag og fredag."</item>
+        <item>"Før du hopper i det og begynner på 200 sit-ups-programmet bør du ta en innledende sit-ups-test.
+
+Testen vil fremheve din nåværende form og avgjøre hvor du bør begynne og hvordan du planlegger sit-ups-treningsprogrammet ditt. For å utføre testen, gjør så mange sit-ups du klarer og velg intervallen nedenfor. Ikke gjør det halvhjertet og ikke juks - det siste du ønsker er å befinne deg på feil nivå i treningsprogrammet! Resultatene kan vise seg å være ydmykende, men tro meg, ærlighet er den beste fremgangsmåten dersom du ønsker å maksimere styrkegevinsten din!
+
+Før du begynner på uke 1, anbefaler vi at du tar deg et par dager for å komme deg etter den innledende testen. Du vil være nødt til å trene tre ganger i uken, for eksempel, mandag, onsdag og fredag."</item>
+        <item>"Før du hopper i det og begynner på 150 dips-programmet bør du ta en innledende dips-test.
+
+Testen vil fremheve din nåværende form og avgjøre hvor du bør begynne og hvordan du planlegger dips-treningsprogrammet ditt. For å utføre testen, gjør så mange dips du klarer og velg intervallen nedenfor. Ikke gjør det halvhjertet og ikke juks - det siste du ønsker er å befinne deg på feil nivå i treningsprogrammet! Resultatene kan vise seg å være ydmykende, men tro meg, ærlighet er den beste fremgangsmåten dersom du ønsker å maksimere styrkegevinsten din!
+
+Før du begynner på uke 1, anbefaler vi at du tar deg et par dager for å komme deg etter den innledende testen. Du vil være nødt til å trene tre ganger i uken, for eksempel, mandag, onsdag og fredag."</item>
+        <item>"Før du hopper i det og begynner på 200 knebøy-programmet bør du ta en innledende knebøy-test.
+
+Testen vil fremheve din nåværende form og avgjøre hvor du bør begynne og hvordan du planlegger knebøy-treningsprogrammet ditt. For å utføre testen, gjør så mange knebøy du klarer og velg intervallen nedenfor. Ikke gjør det halvhjertet og ikke juks - det siste du ønsker er å befinne deg på feil nivå i treningsprogrammet! Resultatene kan vise seg å være ydmykende, men tro meg, ærlighet er den beste fremgangsmåten dersom du ønsker å maksimere styrkegevinsten din!
+
+Før du begynner på uke 1, anbefaler vi at du tar deg et par dager for å komme deg etter den innledende testen. Du vil være nødt til å trene tre ganger i uken, for eksempel, mandag, onsdag og fredag."</item>
+        <item>"Før du hopper i det og begynner på 20 pull-ups-programmet bør du ta en innledende pull-ups-test.
+
+Testen vil fremheve din nåværende form og avgjøre hvor du bør begynne og hvordan du planlegger pull-ups-treningsprogrammet ditt. For å utføre testen, gjør så mange pull-ups du klarer og velg intervallen nedenfor. Ikke gjør det halvhjertet og ikke juks - det siste du ønsker er å befinne deg på feil nivå i treningsprogrammet! Resultatene kan vise seg å være ydmykende, men tro meg, ærlighet er den beste fremgangsmåten dersom du ønsker å maksimere styrkegevinsten din!
+
+Før du begynner på uke 1, anbefaler vi at du tar deg et par dager for å komme deg etter den innledende testen. Du vil være nødt til å trene tre ganger i uken, for eksempel, mandag, onsdag og fredag."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Det er tid for en test! Gjør så mange push-ups du klarer og velg intervallen nedenfor.
+
+Husk å ta deg en hviledag etter å ha utført testen for å la kroppen din komme seg til hektene."</item>
+        <item>"Det er tid for en test! Gjør så mange sit-ups du klarer og velg intervallen nedenfor.
+
+Husk å ta deg en hviledag etter å ha utført testen for å la kroppen din komme seg til hektene."</item>
+        <item>"Det er tid for en test! Gjør så mange dips du klarer og velg intervallen nedenfor.
+
+Husk å ta deg en hviledag etter å ha utført testen for å la kroppen din komme seg til hektene."</item>
+        <item>"Det er tid for en test! Gjør så mange knebøy du klarer og velg intervallen nedenfor.
+
+Husk å ta deg en hviledag etter å ha utført testen for å la kroppen din komme seg til hektene."</item>
+        <item>"Det er tid for en test! Gjør så mange pull-ups du klarer og velg intervallen nedenfor.
+
+Husk å ta deg en hviledag etter å ha utført testen for å la kroppen din komme seg til hektene."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Du vil være nødt til å trene tre ganger i uken. Vi mener at mandag, onsdag og fredag fungerer godt og lar deg bruke helgen til hvile og restitusjon før du går videre til neste fase av programmet. Føl deg fri til å sjonglere planen rundt for å imøtekomme din travle timeplan, men sørg for at du hviler mellom treningsdagene.
+
+Ikke gjør noe halvhjertet og hvil heller litt ekstra mellom hvert nivå dersom du behøver det. Det er også viktig å være godt hydrert før du begynner hver treningsøkt."</item>
+        <item>"Uke 1 skal nå være komfortabelt bak deg og det er tid for å begynne uke 2.
+
+Ved enden av uke 2 vil det være tid for å kontrollere styrken din og utføre en utmattelsestest. Enkelt sagt, gjør så mange push-ups du klarer inntil du ikke makter enda en repetisjon. Gi for all del alt du har, men ikke overgå sikkerhetsgrensen. Antall push-ups du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 3. Utfør denne testen innen 24-48 timer etter endt uke 2. Som en generell tommelfingerregel, dersom du trener på mandag, onsdag og fredag, er lørdag ettermiddag et godt tidspunkt å hvile på. Dette tillater nok restitusjonstid fra fredagens treningsøkt, og gir deg også tilstrekkelig med hvile for du begynner neste fase av planen på mandag. Lykke til!"</item>
+        <item>"Du skal nå være litt sterkere enn du var for et par uker siden og være i stand til å gjennomføre betydelig flere push-ups enn ved din innledende test.
+
+Dersom du sliter med programmet, ikke mist motet. Enkelte vil fortsatt ikke klare mer enn 16 sammenhengende push-ups, men dette er ok. Bare gjenta uken du slet med inntil du føler deg sterk nok til å gå videre til neste nivå - Vi lover at det vil være verdt tiden din!"</item>
+        <item>"Uke 3 er nå komfortabelt bak deg og det er tid for å begynne på uke 4.
+
+Ved enden av uke 4 vil det være tid for å utføre enda en utmattelsestest. Du bør være kjent med hva du skal gjøre nå - bare gjør så mange push-ups du klarer inntil du ikke makter å gjøre enda en. Gi for all del alt du har, men ikke overgå sikkerhetsgrensen.
+
+Antall push-ups du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 5. Sørg for at du utfører denne testen innen 24-48 timer etter endt uke 4."</item>
+        <item>Nå skal du både føle deg sterkere og merke forskjellen. Det venter enda en test ved enden av uken.</item>
+        <item>Dette er den siste uken din. Ved enden av uken vil du utføre en endelig test for å se om du kan gjøre 100 push-ups!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Du vil være nødt til å trene tre ganger i uken. Vi mener at mandag, onsdag og fredag fungerer godt og lar deg bruke helgen til hvile og restitusjon før du går videre til neste fase av programmet. Føl deg fri til å sjonglere planen rundt for å imøtekomme din travle timeplan, men sørg for at du hviler mellom treningsdagene.
+
+Ikke gjør noe halvhjertet og hvil heller litt ekstra mellom hvert nivå dersom du behøver det. Det er også viktig å være godt hydrert før du begynner hver treningsøkt."</item>
+        <item>"Uke 1 skal nå være komfortabelt bak deg og det er tid for å begynne uke 2.
+
+Ved enden av uke 2 vil det være tid for å kontrollere styrken din og utføre en utmattelsestest. Enkelt sagt, gjør så mange sit-ups du klarer inntil du ikke makter enda en repetisjon. Gi for all del alt du har, men ikke overgå sikkerhetsgrensen. Antall sit-ups du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 3. Utfør denne testen innen 24-48 timer etter endt uke 2. Som en generell tommelfingerregel, dersom du trener på mandag, onsdag og fredag, er lørdag ettermiddag et godt tidspunkt å hvile på. Dette tillater nok restitusjonstid fra fredagens treningsøkt, og gir deg også tilstrekkelig med hvile for du begynner neste fase av planen på mandag. Lykke til!"</item>
+        <item>"Du skal nå være litt sterkere enn du var for et par uker siden og være i stand til å gjennomføre betydelig flere sit-ups enn ved din innledende test.
+
+Dersom du sliter med programmet, ikke mist motet. Enkelte vil fortsatt ikke klare mer enn 21 sammenhengende sit-ups, men dette er ok. Bare gjenta uken du slet med inntil du føler deg sterk nok til å gå videre til neste nivå - Vi lover at det vil være verdt tiden din!"</item>
+        <item>"Uke 3 er nå komfortabelt bak deg og det er tid for å begynne på uke 4.
+
+Ved enden av uke 4 vil det være tid for å utføre enda en utmattelsestest. Du bør være kjent med hva du skal gjøre nå - bare gjør så mange sit-ups du klarer inntil du ikke makter å gjøre enda en. Gi for all del alt du har, men ikke overgå sikkerhetsgrensen.
+
+Antall sit-ups du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 5. Sørg for at du utfører denne testen innen 24-48 timer etter endt uke 4."</item>
+        <item>Nå skal du både føle deg sterkere og merke forskjellen. Det venter enda en test ved enden av uken.</item>
+        <item>Dette er den siste uken din. Ved enden av uken vil du utføre en endelig test for å se om du kan gjøre 200 sit-ups!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Du vil være nødt til å trene tre ganger i uken. Vi mener at mandag, onsdag og fredag fungerer godt og lar deg bruke helgen til hvile og restitusjon før du går videre til neste fase av programmet. Føl deg fri til å sjonglere planen rundt for å imøtekomme din travle timeplan, men sørg for at du hviler mellom treningsdagene.
+
+Ikke gjør noe halvhjertet og hvil heller litt ekstra mellom hvert nivå dersom du behøver det. Det er også viktig å være godt hydrert før du begynner hver treningsøkt."</item>
+        <item>"Uke 1 skal nå være komfortabelt bak deg og det er tid for å begynne uke 2.
+
+Ved enden av uke 2 vil det være tid for å kontrollere styrken din og utføre en utmattelsestest. Enkelt sagt, gjør så mange dips du klarer inntil du ikke makter enda en repetisjon. Gi for all del alt du har, men ikke overgå sikkerhetsgrensen. Antall dips du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 3. Utfør denne testen innen 24-48 timer etter endt uke 2. Som en generell tommelfingerregel, dersom du trener på mandag, onsdag og fredag, er lørdag ettermiddag et godt tidspunkt å hvile på. Dette tillater nok restitusjonstid fra fredagens treningsøkt, og gir deg også tilstrekkelig med hvile for du begynner neste fase av planen på mandag. Lykke til!"</item>
+        <item>"Du skal nå være litt sterkere enn du var for et par uker siden og være i stand til å gjennomføre betydelig flere dips enn ved din innledende test.
+
+Dersom du sliter med programmet, ikke mist motet. Enkelte vil fortsatt ikke klare mer enn 20 sammenhengende dips, men dette er ok. Bare gjenta uken du slet med inntil du føler deg sterk nok til å gå videre til neste nivå - Vi lover at det vil være verdt tiden din!"</item>
+        <item>"Uke 3 er nå komfortabelt bak deg og det er tid for å begynne på uke 4.
+
+Ved enden av uke 4 vil det være tid for å utføre enda en utmattelsestest. Du bør være kjent med hva du skal gjøre nå - bare gjør så mange dips du klarer inntil du ikke makter å gjøre enda en. Gi for all del alt du har, men ikke overgå sikkerhetsgrensen.
+
+Antall dips du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 5. Sørg for at du utfører denne testen innen 24-48 timer etter endt uke 4."</item>
+        <item>Nå skal du både føle deg sterkere og merke forskjellen. Det venter enda en test ved enden av uken.</item>
+        <item>Dette er den siste uken din. Ved enden av uken vil du utføre en endelig test for å se om du kan gjøre 150 dips!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Du vil være nødt til å trene tre ganger i uken. Vi mener at mandag, onsdag og fredag fungerer godt og lar deg bruke helgen til hvile og restitusjon før du går videre til neste fase av programmet. Føl deg fri til å sjonglere planen rundt for å imøtekomme din travle timeplan, men sørg for at du hviler mellom treningsdagene.
+
+Ikke gjør noe halvhjertet og hvil heller litt ekstra mellom hvert nivå dersom du behøver det. Det er også viktig å være godt hydrert før du begynner hver treningsøkt."</item>
+        <item>"Uke 1 skal nå være komfortabelt bak deg og det er tid for å begynne uke 2.
+
+Ved enden av uke 2 vil det være tid for å kontrollere styrken din og utføre en utmattelsestest. Enkelt sagt, gjør så mange knebøy du klarer inntil du ikke makter enda en repetisjon. Gi for all del alt du har, men ikke overgå sikkerhetsgrensen. Antall knebøy du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 3. Utfør denne testen innen 24-48 timer etter endt uke 2. Som en generell tommelfingerregel, dersom du trener på mandag, onsdag og fredag, er lørdag ettermiddag et godt tidspunkt å hvile på. Dette tillater nok restitusjonstid fra fredagens treningsøkt, og gir deg også tilstrekkelig med hvile for du begynner neste fase av planen på mandag. Lykke til!"</item>
+        <item>"Du skal nå være litt sterkere enn du var for et par uker siden og være i stand til å gjennomføre betydelig flere knebøy enn ved din innledende test.
+
+Dersom du sliter med programmet, ikke mist motet. Enkelte vil fortsatt ikke klare mer enn 21 sammenhengende knebøy, men dette er ok. Bare gjenta uken du slet med inntil du føler deg sterk nok til å gå videre til neste nivå - Vi lover at det vil være verdt tiden din!"</item>
+        <item>"Uke 3 er nå komfortabelt bak deg og det er tid for å begynne på uke 4.
+
+Ved enden av uke 4 vil det være tid for å utføre enda en utmattelsestest. Du bør være kjent med hva du skal gjøre nå - bare gjør så mange knebøy du klarer inntil du ikke makter å gjøre enda en. Gi for all del alt du har, men ikke overgå sikkerhetsgrensen.
+
+Antall knebøy du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 5. Sørg for at du utfører denne testen innen 24-48 timer etter endt uke 4."</item>
+        <item>Nå skal du både føle deg sterkere og merke forskjellen. Det venter enda en test ved enden av uken.</item>
+        <item>Dette er den siste uken din. Ved enden av uken vil du utføre en endelig test for å se om du kan gjøre 200 knebøy!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Du vil være nødt til å trene tre ganger i uken. Vi mener at mandag, onsdag og fredag fungerer godt og lar deg bruke helgen til hvile og restitusjon før du går videre til neste fase av programmet. Føl deg fri til å sjonglere planen rundt for å imøtekomme din travle timeplan, men sørg for at du hviler mellom treningsdagene.
+
+Ikke gjør noe halvhjertet og hvil heller litt ekstra mellom hvert nivå dersom du behøver det. Det er også viktig å være godt hydrert før du begynner hver treningsøkt."</item>
+        <item>"Uke 1 skal nå være komfortabelt bak deg og det er tid for å begynne uke 2.
+
+Ved enden av uke 2 vil det være tid for å kontrollere styrken din og utføre en utmattelsestest. Enkelt sagt, gjør så mange pull-ups du klarer inntil du ikke makter enda en repetisjon. Gi for all del alt du har, men ikke overgå smertegrensen - dersom du er i tvil, lytt til kroppen din. Antall pull-ups du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 3. Utfør denne testen innen 24-48 timer etter endt uke 2. Som en generell tommelfingerregel, dersom du trener på mandag, onsdag og fredag, er lørdag ettermiddag et godt tidspunkt å hvile på. Dette tillater nok restitusjonstid fra fredagens treningsøkt, og gir deg også tilstrekkelig med hvile for du begynner neste fase av planen på mandag. Lykke til!"</item>
+        <item>"Du skal nå være merkbart sterkere enn du var for et par uker siden og være i stand til å gjennomføre betydelig flere pull-ups enn ved din innledende test.
+
+Dersom du sliter med programmet, ikke mist motet. Enkelte vil fortsatt ikke klare mer enn 3 sammenhengende pull-ups, men dette er ok. Bare gjenta uken du slet med inntil du føler deg sterk nok til å gå videre til neste nivå - Vi lover at det vil være verdt tiden din!"</item>
+        <item>"Uke 3 er nå komfortabelt bak deg og det er tid for å begynne på uke 4.
+
+Ved enden av uke 4 vil det være tid for å utføre enda en utmattelsestest. Du bør være kjent med hva du skal gjøre nå - bare gjør så mange pull-ups du klarer inntil du ikke makter å gjøre enda en. Gi for all del alt du har, men ikke overgå sikkerhetsgrensen. Dersom du er i tvil, lytt til kroppen din.
+
+Antall pull-ups du gjennomfører vil avgjøre hvilket nivå i programmet du vil begynne på i uke 5. Sørg for at du utfører denne testen innen 24-48 timer etter endt uke 4."</item>
+        <item>Nå skal du både føle deg sterkere og merke forskjellen. Det venter enda en test ved enden av uken.</item>
+        <item>Dette er den siste uken din. Ved enden av uken vil du utføre en endelig test for å se om du kan gjøre 20 pull-ups!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Dette er din endelige test. Etter å ha fullført uke 6 av programmet, unn deg en dag eller to med hvile. Gjør deretter så mange push-ups du klarer!
+Lykke til med å nå 100!"</item>
+        <item>"Dette er din endelige test. Etter å ha fullført uke 6 av programmet, unn deg en dag eller to med hvile. Gjør deretter så mange sit-ups du klarer!
+Lykke til med å nå 200!"</item>
+        <item>"Dette er din endelige test. Etter å ha fullført uke 6 av programmet, unn deg en dag eller to med hvile. Gjør deretter så mange dips du klarer!
+Lykke til med å nå 150!"</item>
+        <item>"Dette er din endelige test. Etter å ha fullført uke 6 av programmet, unn deg en dag eller to med hvile. Gjør deretter så mange knebøy du klarer!
+Lykke til med å nå 200!"</item>
+        <item>"Dette er din endelige test. Etter å ha fullført uke 6 av programmet, unn deg en dag eller to med hvile. Gjør deretter så mange pull-ups du klarer!
+Lykke til med å nå 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Søndag</item>
+        <item>Mandag</item>
+        <item>Tirsdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lørdag</item>
+    </string-array>
+</resources>

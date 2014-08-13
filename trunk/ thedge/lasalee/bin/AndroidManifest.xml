@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0.0" package="com.itconnect.lasalle.full"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <supports-screens android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <uses-feature android:name="android.hardware.screen.portrait" />
+    <application android:theme="@style/Theme.Main" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="true" android:hardwareAccelerated="true">
+        <activity android:name="alexcrusher.just6weeks.lib.activities.MainActivity" android:screenOrientation="sensorPortrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="alexcrusher.just6weeks.lib.activities.InitialTestActivity" android:screenOrientation="sensorPortrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden" />
+        <activity android:name="alexcrusher.just6weeks.lib.activities.TrainingActivity" android:screenOrientation="sensorPortrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="alexcrusher.just6weeks.lib.activities.HelpWeekActivity" android:screenOrientation="sensorPortrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="alexcrusher.just6weeks.lib.activities.AlarmsActivity" android:screenOrientation="sensorPortrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="alexcrusher.just6weeks.lib.activities.StatisticsActivity" android:screenOrientation="sensorPortrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="alexcrusher.just6weeks.lib.activities.SettingsActivity" android:screenOrientation="sensorPortrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="alexcrusher.just6weeks.lib.activities.CongratulationsActivity" android:screenOrientation="sensorPortrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <receiver android:name="alexcrusher.just6weeks.lib.logic.NotificationService">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

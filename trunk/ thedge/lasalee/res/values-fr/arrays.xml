@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Pompages à faire</item>
+        <item>Abdominaux à faire</item>
+        <item>Répulsions à faire</item>
+        <item>Squats à faire</item>
+        <item>Extensions à faire</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 Pompages</item>
+        <item>200 Abdominaux</item>
+        <item>150 Dips</item>
+        <item>200 Squats</item>
+        <item>20 Extensions</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Avant de vous lancer et de commencer le Programme Cent Pompages, nous vous recommandons d'effectuer un test initial en faisant des pompages.
+
+Ce test permettra de déterminer votre niveau de fitness actuel et de savoir où commencer et comment planifier votre programme d'entraînement de pompages. Afin de réaliser le test, il vous suffit de faire autant de pompages corrects que possible et de sélectionner l'intervalle ci-dessous. Ne lésinez pas sur l'effort et surtout ne trichez pas – la dernière chose dont vous avez besoin est de vous retrouvez dans un niveau incorrect du programme d'entraînement! Vous pouvez ne pas être fier des résultats, cependant nous vous assurons que l'honnêteté constitue la meilleure ligne de conduite si vous souhaitez maximiser vos gains en force!
+
+Avant de commencer la Semaine 1, nous vous recommandons d'attendre un ou deux jours pour vous remettre de l'effort du test initial. Vous devrez vous entraîner trois fois par semaine, par exemple les lundi, mercredi et vendredi."</item>
+        <item>"Avant de vous lancer et de commencer le Programme Deux Cents Abdominaux, nous vous recommandons d'effectuer un test initial en faisant des abdominaux.
+
+Ce test permettra de déterminer votre niveau de fitness actuel et de savoir où commencer et comment planifier votre programme d'entraînement d'abdominaux. Afin de réaliser le test, il vous suffit de faire autant d'abdominaux corrects que possible et de sélectionner l'intervalle ci-dessous. Ne lésinez pas sur l'effort et surtout ne trichez pas – la dernière chose dont vous avez besoin est de vous retrouvez dans un niveau incorrect du programme d'entraînement! Vous pouvez ne pas être fier des résultats, cependant nous vous assurons que l'honnêteté constitue la meilleure ligne de conduite si vous souhaitez maximiser vos gains en force!
+
+Avant de commencer la Semaine 1, nous vous recommandons d'attendre un ou deux jours pour vous remettre de l'effort du test initial. Vous devrez vous entraîner trois fois par semaine, par exemple les lundi, mercredi et vendredi."</item>
+        <item>"Avant de vous lancer et de commencer le Programme Cent Cinquante Dips, nous vous recommandons d'effectuer un test initial en faisant des dips.
+
+Ce test permettra de déterminer votre niveau de fitness actuel et de savoir où commencer et comment planifier votre programme d'entraînement de dips. Afin de réaliser le test, il vous suffit de faire autant de dips corrects que possible et de sélectionner l'intervalle ci-dessous. Ne lésinez pas sur l'effort et surtout ne trichez pas – la dernière chose dont vous avez besoin est de vous retrouvez dans un niveau incorrect du programme d'entraînement! Vous pouvez ne pas être fier des résultats, cependant nous vous assurons que l'honnêteté constitue la meilleure ligne de conduite si vous souhaitez maximiser vos gains en force!
+
+Avant de commencer la Semaine 1, nous vous recommandons d'attendre un ou deux jours pour vous remettre de l'effort du test initial. Vous devrez vous entraîner trois fois par semaine, par exemple les lundi, mercredi et vendredi."</item>
+        <item>"Avant de vous lancer et de commencer le Programme Deux Cents Squats, nous vous recommandons d'effectuer un test initial en faisant des squats.
+
+Ce test permettra de déterminer votre niveau de fitness actuel et de savoir où commencer et comment planifier votre programme d'entraînement de squats. Afin de réaliser le test, il vous suffit de faire autant de squats corrects que possible et de sélectionner l'intervalle ci-dessous. Ne lésinez pas sur l'effort et surtout ne trichez pas – la dernière chose dont vous avez besoin est de vous retrouvez dans un niveau incorrect du programme d'entraînement! Vous pouvez ne pas être fier des résultats, cependant nous vous assurons que l'honnêteté constitue la meilleure ligne de conduite si vous souhaitez maximiser vos gains en force!
+
+Avant de commencer la Semaine 1, nous vous recommandons d'attendre un ou deux jours pour vous remettre de l'effort du test initial. Vous devrez vous entraîner trois fois par semaine, par exemple les lundi, mercredi et vendredi"</item>
+        <item>"Avant de vous lancer et de commencer le Programme Vingt Extensions, nous vous recommandons d'effectuer un test initial en faisant des extensions.
+
+Ce test permettra de déterminer votre niveau de fitness actuel et de savoir où commencer et comment planifier votre programme d'entraînement d'extensions. Afin de réaliser le test, il vous suffit de faire autant d'extensions correctes que possible et de sélectionner l'intervalle ci-dessous. Ne lésinez pas sur l'effort et surtout ne trichez pas – la dernière chose dont vous avez besoin est de vous retrouvez dans un niveau incorrect du programme d'entraînement! Vous pouvez ne pas être fier des résultats, cependant nous vous assurons que l'honnêteté constitue la meilleure ligne de conduite si vous souhaitez maximiser vos gains en force!
+
+Avant de commencer la Semaine 1, nous vous recommandons d'attendre un ou deux jours pour vous remettre de l'effort du test initial. Vous devrez vous entraîner trois fois par semaine, par exemple les lundi, mercredi et vendredi"</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"C'est l'heure du test! Faites autant de pompages que possible et sélectionnez l'intervalle ci-dessous.
+
+N'oubliez pas de prendre un jour de repos après avoir effectué ce test afin de permettre à votre corps de récupérer."</item>
+        <item>"C'est l'heure du test! Faites autant d'abdominaux que possible et sélectionnez l'intervalle ci-dessous.
+
+N'oubliez pas de prendre un jour de repos après avoir effectué ce test afin de permettre à votre corps de récupérer."</item>
+        <item>"C'est l'heure du test! Faites autant de dips que possible et sélectionnez l'intervalle ci-dessous.
+
+N'oubliez pas de prendre un jour de repos après avoir effectué ce test afin de permettre à votre corps de récupérer."</item>
+        <item>"C'est l'heure du test! Faites autant de squats que possible et sélectionnez l'intervalle ci-dessous.
+
+N'oubliez pas de prendre un jour de repos après avoir effectué ce test afin de permettre à votre corps de récupérer."</item>
+        <item>"C'est l'heure du test! Faites autant d'extensions que possible et sélectionnez l'intervalle ci-dessous.
+
+N'oubliez pas de prendre un jour de repos après avoir effectué ce test afin de permettre à votre corps de récupérer."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Vous devrez vous entraîner trois fois par semaine. Selon nous les lundi, mercredi et vendredi constituent un bon rythme et vous permettent de prendre le week-end pour vous reposer et pour récupérer avant de passer à l'étape suivante du programme. N'hésitez pas à jongler avec le programme afin de l'adapter à votre emploi du temps, mais n'oubliez pas de vous reposer entre les jours d'entraînement.
+
+Ne lésinez pas sur l'effort, et n'hésitez pas à vous reposer un peu plus entre chaque niveau si vous en ressentez le besoin. Il est également important de bien vous hydrater avant de commencer chaque entraînement."</item>
+        <item>"La Semaine 1 devrait maintenant être bien derrière vous et il est temps à présent de commencer la Semaine 2.
+
+À la fin de la Semaine 2 il sera temps de vérifier votre force et de passer un test d'épuisement. Autrement dit, il vous faudra faire autant de pompages corrects que possible jusqu'à ne plus être physiquement capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites. Le nombre de pompages que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 3. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 2. En règle générale, si vous vous entraînez les lundi, mercredi et vendredi, il convient d'effectuer le test le samedi après-midi. Vous aurez ainsi suffisamment de temps pour récupérer de l'entraînement de vendredi et pour vous reposer autant que nécessaire avant de commencer le programme le lundi suivant. Bonne chance!"</item>
+        <item>"Vous devriez être un peu plus fort qu'il y a 1-2 semaines et capable d'effectuer plus de pompages que lors du test initial.
+
+Si vous avez du mal avec le programme, ne désespérez pas. Certaines personnes n'arriveront pas à faire plus de 16 pompages à la suite, mais cela n'est pas un problème. Continuez à répéter la semaine avec laquelle vous éprouvez des difficultés jusqu'à ce que vous soyez suffisamment fort pour passer au niveau suivant – vous ne serez pas déçu!"</item>
+        <item>"La Semaine 3 est maintenant bien derrière vous et il est temps à présent de commencer la Semaine 4.
+
+À la fin de la Semaine 4, il sera temps de passer un autre test d'épuisement. Vous connaissez la marche à suivre – faites le plus de pompages corrects possible jusqu'à ne plus être capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites.
+
+Le nombre de pompages que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 5. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 4."</item>
+        <item>À présent vous devriez vous sentir plus fort et voir la différence. Il y aura un autre test à la fin de la semaine.</item>
+        <item>"Cette semaine sera la dernière. À la fin de la semaine vous passerez le test final afin de voir si vous parvenez à faire l'ensemble des pompages de Cent Pompages!!"</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Vous devrez vous entraîner trois fois par semaine. Selon nous les lundi, mercredi et vendredi constituent un bon rythme et vous permettent de prendre le week-end pour vous reposer et pour récupérer avant de passer à l'étape suivante du programme. N'hésitez pas à jongler avec le programme afin de l'adapter à votre emploi du temps, mais n'oubliez pas de vous reposer entre les jours d'entraînement.
+
+Ne lésinez pas sur l'effort, et n'hésitez pas à vous reposer un peu plus entre chaque niveau si vous en ressentez le besoin. Il est également important de bien vous hydrater avant de commencer chaque entraînement."</item>
+        <item>"La Semaine 1 devrait maintenant être bien derrière vous et il est temps à présent de commencer la Semaine 2.
+
+À la fin de la Semaine 2 il sera temps de vérifier votre force et de passer un test d'épuisement. Autrement dit, il vous faudra faire autant d'abdominaux corrects que possible jusqu'à ne plus être physiquement capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites. Le nombre d'abdominaux que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 3. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 2. En règle générale, si vous vous entraînez les lundi, mercredi et vendredi, il convient d'effectuer le test le samedi après-midi. Vous aurez ainsi suffisamment de temps pour récupérer de l'entraînement de vendredi et pour vous reposer autant que nécessaire avant de commencer le programme le lundi suivant. Bonne chance!"</item>
+        <item>"Vous devriez être un peu plus fort qu'il y a 1-2 semaines et capable d'effectuer plus d'abdominaux que lors du test initial.
+
+Si vous avez du mal avec le programme, ne désespérez pas. Certaines personnes n'arriveront pas à faire plus de 21 abdominaux à la suite, mais cela n'est pas un problème. Continuez à répéter la semaine avec laquelle vous éprouvez des difficultés jusqu'à ce que vous soyez suffisamment fort pour passer au niveau suivant – vous ne serez pas déçu!"</item>
+        <item>"La Semaine 3 est maintenant bien derrière vous et il est temps à présent de commencer la Semaine 4.
+
+À la fin de la Semaine 4, il sera temps de passer un autre test d'épuisement. Vous connaissez la marche à suivre – faites le plus d'abdominaux corrects possible jusqu'à ne plus être capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites.
+
+Le nombre d'abdominaux que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 5. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 4."</item>
+        <item>À présent vous devriez vous sentir plus fort et voir la différence. Il y aura un autre test à la fin de la semaine.</item>
+        <item>"Cette semaine sera la dernière. À la fin de la semaine vous passerez le test final afin de voir si vous parvenez à faire l'ensemble des abdominaux de Deux Cents Abdominaux!"</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Vous devrez vous entraîner trois fois par semaine. Selon nous les lundi, mercredi et vendredi constituent un bon rythme et vous permettent de prendre le week-end pour vous reposer et pour récupérer avant de passer à l'étape suivante du programme. N'hésitez pas à jongler avec le programme afin de l'adapter à votre emploi du temps, mais n'oubliez pas de vous reposer entre les jours d'entraînement.
+
+Ne lésinez pas sur l'effort, et n'hésitez pas à vous reposer un peu plus entre chaque niveau si vous en ressentez le besoin. Il est également important de bien vous hydrater avant de commencer chaque entraînement."</item>
+        <item>"La Semaine 1 devrait maintenant être bien derrière vous et il est temps à présent de commencer la Semaine 2.
+
+À la fin de la Semaine 2 il sera temps de vérifier votre force et de passer un test d'épuisement. Autrement dit, il vous faudra faire autant de pompages corrects que possible jusqu'à ne plus être physiquement capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites. Le nombre de pompages que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 3. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 2. En règle générale, si vous vous entraînez les lundi, mercredi et vendredi, il convient d'effectuer le test le samedi après-midi. Vous aurez ainsi suffisamment de temps pour récupérer de l'entraînement de vendredi et pour vous reposer autant que nécessaire avant de commencer le programme le lundi suivant. Bonne chance!"</item>
+        <item>"Vous devriez être un peu plus fort qu'il y a 1-2 semaines et capable d'effectuer plus de pompages que lors du test initial.
+
+Si vous avez du mal avec le programme, ne désespérez pas. Certaines personnes n'arriveront pas à faire plus de 16 pompages à la suite, mais cela n'est pas un problème. Continuez à répéter la semaine avec laquelle vous éprouvez des difficultés jusqu'à ce que vous soyez suffisamment fort pour passer au niveau suivant – vous ne serez pas déçu!"</item>
+        <item>"La Semaine 3 est maintenant bien derrière vous et il est temps à présent de commencer la Semaine 4.
+
+À la fin de la Semaine 4, il sera temps de passer un autre test d'épuisement. Vous connaissez la marche à suivre – faites le plus de pompages corrects possible jusqu'à ne plus être capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites.
+
+Le nombre de pompages que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 5. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 4."</item>
+        <item>À présent vous devriez vous sentir plus fort et voir la différence. Il y aura un autre test à la fin de la semaine.</item>
+        <item>"Cette semaine sera la dernière. À la fin de la semaine vous passerez le test final afin de voir si vous parvenez à faire l'ensemble des pompages de Cent Cinquante Dips!"</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Vous devrez vous entraîner trois fois par semaine. Selon nous les lundi, mercredi et vendredi constituent un bon rythme et vous permettent de prendre le week-end pour vous reposer et pour récupérer avant de passer à l'étape suivante du programme. N'hésitez pas à jongler avec le programme afin de l'adapter à votre emploi du temps, mais n'oubliez pas de vous reposer entre les jours d'entraînement.
+
+Ne lésinez pas sur l'effort, et n'hésitez pas à vous reposer un peu plus entre chaque niveau si vous en ressentez le besoin. Il est également important de bien vous hydrater avant de commencer chaque entraînement."</item>
+        <item>"La Semaine 1 devrait maintenant être bien derrière vous et il est temps à présent de commencer la Semaine 2.
+
+À la fin de la Semaine 2 il sera temps de vérifier votre force et de passer un test d'épuisement. Autrement dit, il vous faudra faire autant de squats corrects que possible jusqu'à ne plus être physiquement capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites. Le nombre de squats que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 3. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 2. En règle générale, si vous vous entraînez les lundi, mercredi et vendredi, il convient d'effectuer le test le samedi après-midi. Vous aurez ainsi suffisamment de temps pour récupérer de l'entraînement de vendredi et pour vous reposer autant que nécessaire avant de commencer le programme le lundi suivant. Bonne chance!"</item>
+        <item>"Vous devriez être un peu plus fort qu'il y a 1-2 semaines et capable d'effectuer plus de squats que lors du test initial.
+
+Si vous avez du mal avec le programme, ne désespérez pas. Certaines personnes n'arriveront pas à faire plus de 21 squats à la suite, mais cela n'est pas un problème. Continuez à répéter la semaine avec laquelle vous éprouvez des difficultés jusqu'à ce que vous soyez suffisamment fort pour passer au niveau suivant – vous ne serez pas déçu!"</item>
+        <item>"La Semaine 3 est maintenant bien derrière vous et il est temps à présent de commencer la Semaine 4.
+
+À la fin de la Semaine 4, il sera temps de passer un autre test d'épuisement. Vous connaissez la marche à suivre – faites le plus de squats corrects possible jusqu'à ne plus être capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites.
+
+Le nombre de squats que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 5. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 4."</item>
+        <item>À présent vous devriez vous sentir plus fort et voir la différence. Il y aura un autre test à la fin de la semaine.</item>
+        <item>"Cette semaine sera la dernière. À la fin de la semaine vous passerez le test final afin de voir si vous parvenez à faire l'ensemble des squats de Deux Cents Squats!"</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Vous devrez vous entraîner trois fois par semaine. Selon nous les lundi, mercredi et vendredi constituent un bon rythme et vous permettent de prendre le week-end pour vous reposer et pour récupérer avant de passer à l'étape suivante du programme. N'hésitez pas à jongler avec le programme afin de l'adapter à votre emploi du temps, mais n'oubliez pas de vous reposer entre les jours d'entraînement.
+
+Ne lésinez pas sur l'effort, et n'hésitez pas à vous reposer un peu plus entre chaque niveau si vous en ressentez le besoin. Il est également important de bien vous hydrater avant de commencer chaque entraînement."</item>
+        <item>"La Semaine 1 devrait maintenant être bien derrière vous et il est temps à présent de commencer la Semaine 2.
+
+À la fin de la Semaine 2 il sera temps de vérifier votre force et de passer un test d'épuisement. Autrement dit, il vous faudra faire autant d'extensions correctes que possible jusqu'à ne plus être physiquement capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites. Le nombre d'extensions que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 3. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 2. En règle générale, si vous vous entraînez les lundi, mercredi et vendredi, il convient d'effectuer le test le samedi après-midi. Vous aurez ainsi suffisamment de temps pour récupérer de l'entraînement de vendredi et pour vous reposer autant que nécessaire avant de commencer le programme le lundi suivant. Bonne chance!"</item>
+        <item>"Vous devriez être un peu plus fort qu'il y a 1-2 semaines et capable d'effectuer plus d'extensions que lors du test initial.
+
+Si vous avez du mal avec le programme, ne désespérez pas. Certaines personnes n'arriveront pas à faire plus de 3 extensions à la suite, mais cela n'est pas un problème. Continuez à répéter la semaine avec laquelle vous éprouvez des difficultés jusqu'à ce que vous soyez suffisamment fort pour passer au niveau suivant – vous ne serez pas déçu!"</item>
+        <item>"La Semaine 3 est maintenant bien derrière vous et il est temps à présent de commencer la Semaine 4.
+
+À la fin de la Semaine 4, il sera temps de passer un autre test d'épuisement. Vous connaissez la marche à suivre – faites le plus d'extensions correctes possible jusqu'à ne plus être capable d'en faire un de plus. N'hésitez pas à vous surpasser, cependant ne dépassez pas vos limites.
+
+Le nombre de squats que vous parvenez à effectuer déterminera le niveau du programme que vous commencerez lors de la Semaine 5. Effectuez ce test dans les 24-48 heures après avoir terminé la Semaine 4."</item>
+        <item>À présent vous devriez vous sentir plus fort et voir la différence. Il y aura un autre test à la fin de la semaine.</item>
+        <item>"Cette semaine sera la dernière. À la fin de la semaine vous passerez le test final afin de voir si vous parvenez à faire l'ensemble des extensions de Vingt Extensions!"</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Ceci est votre test final. Après avoir terminé les 6 semaines du programme, offrez-vous le plaisir d'un jour de repos ou deux. Ensuite essayez de faire le plus grand nombre de pompages possible!
+Bonne chance pour arriver à 100!"</item>
+        <item>"Ceci est votre test final. Après avoir terminé les 6 semaines du programme, offrez-vous le plaisir d'un jour de repos ou deux. Ensuite essayez de faire le plus grand nombre d'abdominaux possible!
+Bonne chance pour arriver à 200!"</item>
+        <item>"Ceci est votre test final. Après avoir terminé les 6 semaines du programme, offrez-vous le plaisir d'un jour de repos ou deux. Ensuite essayez de faire le plus grand nombre de dips possible!
+Bonne chance pour arriver à 150!"</item>
+        <item>"Ceci est votre test final. Après avoir terminé les 6 semaines du programme, offrez-vous le plaisir d'un jour de repos ou deux. Ensuite essayez de faire le plus grand nombre de squats possible!
+Bonne chance pour arriver à 200!"</item>
+        <item>"Ceci est votre test final. Après avoir terminé les 6 semaines du programme, offrez-vous le plaisir d'un jour de repos ou deux. Ensuite essayez de faire le plus grand nombre d'extensions possible!
+Bonne chance pour arriver à 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+    </string-array>
+</resources>

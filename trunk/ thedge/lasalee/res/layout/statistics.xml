@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/statistics" style="@style/Title" />
+    <TextView android:textSize="@dimen/sp_20" android:gravity="center" android:id="@id/textNoRecords" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/no_records" style="@style/WhiteTextWithShadow" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutStatistics" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/layoutCharts" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@*android:color/transparent" android:divider="@null" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/center_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/dp_15" android:layout_marginRight="@dimen/dp_15" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_15" android:layout_marginTop="@dimen/dp_10" android:layout_marginRight="@dimen/dp_15" android:layout_marginBottom="@dimen/dp_10">
+            <RadioGroup android:orientation="horizontal" android:id="@id/radiogroupSort" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/btnSortRaiting" android:layout_weight="1.0">
+                <RadioButton android:textSize="@dimen/sp_20" android:gravity="center" android:id="@id/btnChart" android:background="?radio_button_left" android:layout_width="fill_parent" android:layout_height="@dimen/dp_44" android:button="@null" android:text="@string/chart" android:layout_weight="1.0" style="@style/WhiteTextWithShadow" />
+                <RadioButton android:textSize="@dimen/sp_20" android:gravity="center" android:id="@id/btnList" android:background="?radio_button_center" android:layout_width="fill_parent" android:layout_height="@dimen/dp_44" android:button="@null" android:text="@string/list" android:layout_weight="1.0" style="@style/WhiteTextWithShadow" />
+            </RadioGroup>
+            <ImageButton android:id="@id/btnDelete" android:background="?radio_button_right" android:paddingTop="@dimen/dp_12" android:paddingBottom="@dimen/dp_12" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_44" android:src="@drawable/delete" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

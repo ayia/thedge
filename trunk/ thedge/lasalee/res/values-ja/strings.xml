@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="demo">デモ</string>
+    <string name="week">週</string>
+    <string name="day">日</string>
+    <string name="rate">今すぐ評価する</string>
+    <string name="rate_later">後で知らせる</string>
+    <string name="rating">評価 %s</string>
+    <string name="rating_message">%s の利用をお楽しみいただけましたら、少し時間を割いて評価してください。1 分程度しか、かかりません。サポートありがとうございます！</string>
+    <string name="no_thanks">いいえ、結構です</string>
+    <string name="buy">購入</string>
+    <string name="purchase">購入</string>
+    <string name="start">開始</string>
+    <string name="statistics">統計</string>
+    <string name="settings">設定</string>
+    <string name="sec30">+30<small>秒</small></string>
+    <string name="stop">停止</string>
+    <string name="done">完了</string>
+    <string name="done_real">完了</string>
+    <string name="reminders">リマインダ</string>
+    <string name="reset_to_day">日にリセットする</string>
+    <string name="clear_statistics">統計をクリアする</string>
+    <string name="congratulations">おめでとうございます！</string>
+    <string name="home">ホーム</string>
+    <string name="restart_day">日を繰り返す</string>
+    <string name="restart_week">週を繰り返す</string>
+    <string name="reset_all_data">全データをリセットする</string>
+    <string name="clear_statistics_title">統計をクリアする</string>
+    <string name="clear_statistics_message">プログラム \"%s\" 上の全データをクリアしますか？</string>
+    <string name="reset_all_data_title">全データをリセットする</string>
+    <string name="reset_all_data_message">リセットは、進捗状況、統計およびリマインダに影響します。プログラム \"%s\" 上の全データをリセットしますか？</string>
+    <string name="init_test_additional_info">一般的なルールとして、月曜、水曜と金曜にトレーニングを行う場合、土曜日の午後に休息をとるようにします。これにより、金曜のトレーニングから十分回復するための時間がとれ、月曜に次のステージを開始するまえに十分な休息をとることができます。</string>
+    <string name="init_test_reminder">週の終了時点で 24 ～ 48 時間以内に疲労テストを行います。</string>
+    <string name="buy_one_program">%s (0.99 ドル)</string>
+    <string name="buy_all_programs">全プログラム (%.2f ドル)</string>
+    <string name="buy_one_program_description">\"%s\" プログラムでトレーニングすることができます。この場合、残りのトレーニングは、購入するまで利用できません。</string>
+    <string name="buy_all_programs_description">全プログラムを購入する場合、40 パーセント値引されます。全プログラムにアクセス可能です。</string>
+    <string name="demo_title">デモ</string>
+    <string name="demo_description">"\"%s\" プログラムの試行期間は 2 週間です。
+
+全プログラムは、6 週間のトレーニングという同じ原則で設計されています。"</string>
+    <string name="select_day">日にリセットする</string>
+    <string name="selected_day_message">週および日がリセットされました</string>
+    <string name="repeat_day_message">次のトレーニングに日を繰り返す</string>
+    <string name="repeat_week_message">次のトレーニングに週を繰り返す</string>
+    <string name="total_reps">合計繰返し回数： %d</string>
+    <string name="set_time">リマインダを設定する</string>
+    <string name="wow">ウォー！</string>
+    <string name="jump3week_message">%d 回以上繰り返しました。第 3 週目の開始をお勧めします。よろしいですか？</string>
+    <string name="prev_result">（前回の結果は右にあります）</string>
+    <string name="reps_count">繰返し回数</string>
+    <string name="rest_time">時間をリセットする</string>
+    <string name="program_purchased">プログラムは既に購入されており、更新プログラムの一つを使って利用可能になります</string>
+    <string name="no_records">記録はありません</string>
+    <string name="sets">セット： %s</string>
+    <string name="click_restart_day">再度クリックして、日を再開します</string>
+    <string name="billing_not_supported_title">購入できません</string>
+    <string name="billing_not_supported_message">マーケット請求サービスは、現在利用できません。このアプリを購入するまで、利用を継続できません。</string>
+    <string name="select_reps_count_message">繰返し回数を選択する</string>
+    <string name="completed">完了</string>
+    <string name="completed_real">完了済</string>
+    <string name="reps">繰返し</string>
+    <string name="repeat_hard_week_message">プログラムを苦しく感じている場合、今日または今週はこのプログラムを繰り返すことを推奨します。</string>
+    <string name="repeat">繰返し</string>
+    <string name="restart">再開</string>
+    <string name="demo_ended_description">\"%s\" プログラムの試行期間は 2 週間です。プログラムの完全版は、6 週間用に設計されています。トレーニングを継続するには、完全版を購入する必要があります。</string>
+    <string name="demo_ended_restart_description">"\"%s\" プログラムの試行期間は 2 週間です。プログラムの完全版は、6 週間用に設計されています。
+
+トレーニングを継続するには、完全版を購入する必要があります。
+プログラムを最初から開始するには、\"再開\"をクリックします。"</string>
+    <string name="final_test">最終テスト</string>
+    <string name="continue_progress">進行を続ける</string>
+    <string name="continue_progress_description">おめでとうございます！ 6 週間の終わりに到達しました。第 4 週目、または、最初から始めることをお勧めします。</string>
+    <string name="week4">第 4 週目</string>
+    <string name="week1">第 1 週目</string>
+    <string name="reps_1">繰返し</string>
+    <string name="reps_234">繰返し</string>
+    <string name="reps_all">繰返し</string>
+    <string name="help_change_reps_description">このセットで完了した繰返し回数（最終セットにおいて、可能な限り繰り返す必要のある回数。ただし、 %d を下回らない）を変更する</string>
+    <string name="help_add_sec_description">必要な場合、各セットの間に 30 秒間の休憩を追加する</string>
+    <string name="help_help2_description">再度タップして、週のヘルプを見る</string>
+    <string name="chart">チャート</string>
+    <string name="list">リスト</string>
+    <string name="export_to_sd">SD カードにエクスポートする</string>
+    <string name="import_from_sd">SD カードからインポートする</string>
+    <string name="import_title">インポート</string>
+    <string name="import_statistics">統計をインポートする</string>
+    <string name="import_alarms">リマインダをインポートする</string>
+    <string name="import_progress">進捗状況をインポートする</string>
+    <string name="export_succeful">エクスポートが完了しました</string>
+    <string name="export_failed">エクスポートに失敗しました</string>
+    <string name="export_failed_description">SD カードの携帯電話にあり、記録可能であることを確認してください。</string>
+    <string name="import_succeful">インポートが完了しました</string>
+    <string name="import_failed">インポートに失敗しました</string>
+    <string name="import_failed_description">インポートするデータが見つかりません（このプログラムからデータがエクスポートされていない可能性があります）。また、携帯電話に SD カードがあり、記録用に利用可能であることを確認してください。</string>
+    <string name="import_version_failed_description">インポートされたデータのバージョンが、アプリケーションのバージョンに一致しません。データをエクスポートするアプリケーションのバージョンを更新後、再度、データをエクスポートして、インポートしてください。</string>
+    <string name="please_wait">お待ちください...</string>
+    <string name="delete_record">記録の削除</string>
+    <string name="delete_statistics_record_question">この記録を本当に削除しますか？</string>
+    <string name="get_them_all">%s のすべてを取得する</string>
+    <string name="download">ダウンロード</string>
+    <string name="update_samsung_apps_message">アプリのダウンロードを開始するためにe Samsung Apps を更新する必要があります。</string>
+    <string name="disable_ad_title">広告を削除する</string>
+    <string name="disable_ad_message" formatted="false">"すべてのプログラムで、アプリのフルバージョンを購入することができます：
+• %s
+• %s
+• %s
+• %s
+• %s
+または数日間無料で広告を削除します。"</string>
+    <string name="disable_ad_ok_title">広告を削除しました</string>
+    <string name="disable_ad_ok_message">広告を %d 日間削除しました。</string>
+    <string name="free">フリー</string>
+    <string name="information">情報</string>
+    <string name="remind_me_later">後で通知</string>
+    <string name="buy_now">今すぐ購入</string>
+    <string name="trial_will_expire">無料のトライアル期間は %s に終了します。アプリケーションを使用し続けるには、\"今すぐ購入\"をクリックしてください。</string>
+    <string name="trial_expired">無料トライアル期間は %s に終了しました。アプリケーションを使用し続けるには、\"今すぐ購入\"をクリックしてください。</string>
+    <string name="connection">接続</string>
+    <string name="please_wait_connection">お待ちください...</string>
+    <string name="connection_failed">接続に失敗しました</string>
+    <string name="check_internet">インターネット接続をご確認ください。</string>
+    <string name="samsung_account_not_found">Samsung アカウントが見つかりません</string>
+    <string name="login_with_samsung_account">続行するには、お使いのデバイスに設定されている Samsungアカウントでログインしてください。</string>
+</resources>

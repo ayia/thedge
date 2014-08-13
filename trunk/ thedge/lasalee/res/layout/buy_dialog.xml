@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="@dimen/dp_5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textColor="@*android:color/white" android:id="@id/radioTraining" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/buy_one_program" />
+        <TextView android:textSize="@dimen/dp_13" android:textColor="@*android:color/white" android:id="@id/textViewTraining" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:text="@string/buy_one_program_description" />
+        <RadioButton android:textColor="@*android:color/white" android:id="@id/radioAllTrainings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/buy_all_programs" />
+        <TextView android:textSize="@dimen/dp_13" android:textColor="@*android:color/white" android:id="@id/textViewAllTrainings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:text="@string/buy_all_programs_description" />
+    </RadioGroup>
+</LinearLayout>

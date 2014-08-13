@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textWeekDay" android:text="Week 1   Day 1" style="@style/Title" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:padding="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/sp_18" android:textColor="?text_color" android:id="@id/textHelp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btnOK" android:background="?button_background" android:layout_width="@dimen/dp_150" android:layout_height="@dimen/dp_45" android:layout_margin="@dimen/dp_10" android:text="@string/ok" style="@style/ButtonText" />
+</LinearLayout>

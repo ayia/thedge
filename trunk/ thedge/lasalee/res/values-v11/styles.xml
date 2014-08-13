@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Main" parent="@*android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Blue" parent="@*android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="background">@drawable/bg_black</item>
+        <item name="titlebar_background">@drawable/titlebar_blue</item>
+        <item name="text_color">@color/white</item>
+        <item name="button_background">@drawable/button_blue</item>
+        <item name="circle_drawable">@drawable/circle_blue</item>
+        <item name="left_set_border_color_drawable">@drawable/set_left_border_blue</item>
+        <item name="right_set_border_color_drawable">@drawable/set_right_border_blue</item>
+        <item name="center_set_border_color_drawable">@drawable/set_center_border_blue</item>
+        <item name="left_set_selected_drawable">@drawable/set_left_selected_blue</item>
+        <item name="right_set_selected_drawable">@drawable/set_right_selected_blue</item>
+        <item name="center_set_selected_drawable">@drawable/set_center_selected_blue</item>
+        <item name="power">@drawable/power_blue</item>
+        <item name="table_view_item_top">@drawable/table_view_item_top_blue</item>
+        <item name="table_view_item_center">@drawable/table_view_item_center_blue</item>
+        <item name="table_view_item_bottom">@drawable/table_view_item_bottom_blue</item>
+        <item name="main_color">@color/bg_blue</item>
+        <item name="radio_button_left">@drawable/radio_button_blue_left</item>
+        <item name="radio_button_right">@drawable/radio_button_blue_right</item>
+        <item name="radio_button_center">@drawable/radio_button_blue_center</item>
+        <item name="bg_list_item">@drawable/bg_list_item_blue</item>
+    </style>
+    <style name="Theme.Yellow" parent="@*android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="background">@drawable/bg_black</item>
+        <item name="titlebar_background">@drawable/titlebar_yellow</item>
+        <item name="text_color">@color/white</item>
+        <item name="button_background">@drawable/button_yellow</item>
+        <item name="circle_drawable">@drawable/circle_yellow</item>
+        <item name="left_set_border_color_drawable">@drawable/set_left_border_yellow</item>
+        <item name="right_set_border_color_drawable">@drawable/set_right_border_yellow</item>
+        <item name="center_set_border_color_drawable">@drawable/set_center_border_yellow</item>
+        <item name="left_set_selected_drawable">@drawable/set_left_selected_yellow</item>
+        <item name="right_set_selected_drawable">@drawable/set_right_selected_yellow</item>
+        <item name="center_set_selected_drawable">@drawable/set_center_selected_yellow</item>
+        <item name="power">@drawable/power_yellow</item>
+        <item name="table_view_item_top">@drawable/table_view_item_top_yellow</item>
+        <item name="table_view_item_center">@drawable/table_view_item_center_yellow</item>
+        <item name="table_view_item_bottom">@drawable/table_view_item_bottom_yellow</item>
+        <item name="main_color">@color/bg_yellow</item>
+        <item name="radio_button_left">@drawable/radio_button_yellow_left</item>
+        <item name="radio_button_right">@drawable/radio_button_yellow_right</item>
+        <item name="radio_button_center">@drawable/radio_button_yellow_center</item>
+        <item name="bg_list_item">@drawable/bg_list_item_yellow</item>
+    </style>
+    <style name="Theme.Purple" parent="@*android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="background">@drawable/bg_black</item>
+        <item name="titlebar_background">@drawable/titlebar_purple</item>
+        <item name="text_color">@color/white</item>
+        <item name="button_background">@drawable/button_purple</item>
+        <item name="circle_drawable">@drawable/circle_purple</item>
+        <item name="left_set_border_color_drawable">@drawable/set_left_border_purple</item>
+        <item name="right_set_border_color_drawable">@drawable/set_right_border_purple</item>
+        <item name="center_set_border_color_drawable">@drawable/set_center_border_purple</item>
+        <item name="left_set_selected_drawable">@drawable/set_left_selected_purple</item>
+        <item name="right_set_selected_drawable">@drawable/set_right_selected_purple</item>
+        <item name="center_set_selected_drawable">@drawable/set_center_selected_purple</item>
+        <item name="power">@drawable/power_purple</item>
+        <item name="table_view_item_top">@drawable/table_view_item_top_purple</item>
+        <item name="table_view_item_center">@drawable/table_view_item_center_purple</item>
+        <item name="table_view_item_bottom">@drawable/table_view_item_bottom_purple</item>
+        <item name="main_color">@color/bg_purple</item>
+        <item name="radio_button_left">@drawable/radio_button_purple_left</item>
+        <item name="radio_button_right">@drawable/radio_button_purple_right</item>
+        <item name="radio_button_center">@drawable/radio_button_purple_center</item>
+        <item name="bg_list_item">@drawable/bg_list_item_purple</item>
+    </style>
+    <style name="Theme.Green" parent="@*android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="background">@drawable/bg_black</item>
+        <item name="titlebar_background">@drawable/titlebar_green</item>
+        <item name="text_color">@color/white</item>
+        <item name="button_background">@drawable/button_green</item>
+        <item name="circle_drawable">@drawable/circle_green</item>
+        <item name="left_set_border_color_drawable">@drawable/set_left_border_green</item>
+        <item name="right_set_border_color_drawable">@drawable/set_right_border_green</item>
+        <item name="center_set_border_color_drawable">@drawable/set_center_border_green</item>
+        <item name="left_set_selected_drawable">@drawable/set_left_selected_green</item>
+        <item name="right_set_selected_drawable">@drawable/set_right_selected_green</item>
+        <item name="center_set_selected_drawable">@drawable/set_center_selected_green</item>
+        <item name="power">@drawable/power_green</item>
+        <item name="table_view_item_top">@drawable/table_view_item_top_green</item>
+        <item name="table_view_item_center">@drawable/table_view_item_center_green</item>
+        <item name="table_view_item_bottom">@drawable/table_view_item_bottom_green</item>
+        <item name="main_color">@color/bg_green</item>
+        <item name="radio_button_left">@drawable/radio_button_green_left</item>
+        <item name="radio_button_right">@drawable/radio_button_green_right</item>
+        <item name="radio_button_center">@drawable/radio_button_green_center</item>
+        <item name="bg_list_item">@drawable/bg_list_item_green</item>
+    </style>
+    <style name="Theme.Red" parent="@*android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="background">@drawable/bg_black</item>
+        <item name="titlebar_background">@drawable/titlebar_red</item>
+        <item name="text_color">@color/white</item>
+        <item name="button_background">@drawable/button_red</item>
+        <item name="circle_drawable">@drawable/circle_red</item>
+        <item name="left_set_border_color_drawable">@drawable/set_left_border_red</item>
+        <item name="right_set_border_color_drawable">@drawable/set_right_border_red</item>
+        <item name="center_set_border_color_drawable">@drawable/set_center_border_red</item>
+        <item name="left_set_selected_drawable">@drawable/set_left_selected_red</item>
+        <item name="right_set_selected_drawable">@drawable/set_right_selected_red</item>
+        <item name="center_set_selected_drawable">@drawable/set_center_selected_red</item>
+        <item name="power">@drawable/power_red</item>
+        <item name="table_view_item_top">@drawable/table_view_item_top_red</item>
+        <item name="table_view_item_center">@drawable/table_view_item_center_red</item>
+        <item name="table_view_item_bottom">@drawable/table_view_item_bottom_red</item>
+        <item name="main_color">@color/bg_red</item>
+        <item name="radio_button_left">@drawable/radio_button_red_left</item>
+        <item name="radio_button_right">@drawable/radio_button_red_right</item>
+        <item name="radio_button_center">@drawable/radio_button_red_center</item>
+        <item name="bg_list_item">@drawable/bg_list_item_red</item>
+    </style>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Peruuta</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="demo">Demo</string>
+    <string name="week">Viikko</string>
+    <string name="day">Päivä</string>
+    <string name="rate">Arvostele nyt</string>
+    <string name="rate_later">Muistuta minua myöhemmin</string>
+    <string name="rating">Arvostele %s</string>
+    <string name="rating_message">Jos nautit %s-ohjelman käyttämisestä, arvostele se nyt. Se kestää vain minuutin. Kiitos tuestasi,</string>
+    <string name="no_thanks">Ei kiitos</string>
+    <string name="buy">Osta</string>
+    <string name="purchase">Hanki</string>
+    <string name="start">Aloita</string>
+    <string name="statistics">Tilastot</string>
+    <string name="settings">Asetukset</string>
+    <string name="sec30">+30<small>s</small></string>
+    <string name="stop">Pysäytä</string>
+    <string name="done">Valmis</string>
+    <string name="done_real">Valmis</string>
+    <string name="reminders">Muistutukset</string>
+    <string name="reset_to_day">Nollaa päivään</string>
+    <string name="clear_statistics">Tyhjennä tilastot</string>
+    <string name="congratulations">Onnittelut!</string>
+    <string name="home">Etusivu</string>
+    <string name="restart_day">Toista päivä</string>
+    <string name="restart_week">Toista viikko</string>
+    <string name="reset_all_data">Palauta kaikki tiedot</string>
+    <string name="clear_statistics_title">Tyhjennä tilastot</string>
+    <string name="clear_statistics_message">Haluatko varmasti tyhjentää kaikki tilastot ohjelmasta \"%s\"?</string>
+    <string name="reset_all_data_title">Palauta kaikki tiedot</string>
+    <string name="reset_all_data_message">Palautus vaikuttaa edistymiseen, tilastoihin ja muistutuksiin. Haluatko varmasti palauttaa kaikki ohjelman tiedot \"%s\"?</string>
+    <string name="init_test_additional_info">Peukalosääntö on seuraava: jos treenaat maanantaina, keskiviikkona ja perjantaina, lauantai-iltapäivä on hyvä aika levätä. Näin sinulla on tarpeeksi aikaa palautua perjantain treenistä ja levätä ennen kuin aloitat ohjelman seuraavan vaiheen maanantaina.</string>
+    <string name="init_test_reminder">Muista suorittaa uupumustesti 24–48 tunnin kuluttua siitä, kun olet suorittanut viikon.</string>
+    <string name="buy_one_program">%s (0,99 $)</string>
+    <string name="buy_all_programs">Kaikki ohjelmat (%.2f$)</string>
+    <string name="buy_one_program_description">Pystyt treenaamaan \"%s\" ohjelmaa varten. Tässä tapauksessa jäljellä olevat harjoitukset eivät ole vielä käytettävissä ennen ostosta.</string>
+    <string name="buy_all_programs_description">Saa 40 % alennuksen, jos ostat kaikki ohjelmat. Pystyt käyttää kaikkia ohjelmia.</string>
+    <string name="demo_title">Demo</string>
+    <string name="demo_description">"Tässä \"%s\" -ohjelman kokeiluversiossa on kahden viikon koeaika.
+
+Kaikilla ohjelmilla on samanlainen toimintaperiaate ja ne on suunniteltu 6 viikoksi."</string>
+    <string name="select_day">Nollaa päivään</string>
+    <string name="selected_day_message">Viikko ja päivä on nollattu</string>
+    <string name="repeat_day_message">Seuraavan treenin toistopäivä</string>
+    <string name="repeat_week_message">Seuraavan treenin toistoviikko</string>
+    <string name="total_reps">Toistoja yhteensä: %d</string>
+    <string name="set_time">Aseta muistutus</string>
+    <string name="wow">Vau!</string>
+    <string name="jump3week_message">Teit enemmän kuin %d toistoa. Suosittelemme, että aloitat viikosta 3. Onko tämä OK?</string>
+    <string name="prev_result">(edellinen tuloksesi oikealla)</string>
+    <string name="reps_count">Toistojen määrä</string>
+    <string name="rest_time">Lepoaika</string>
+    <string name="program_purchased">Ohjelma on jo ostettu ja on saatavilla myöhemmin jonkun päivityksen kanssa</string>
+    <string name="no_records">Ei tietueita</string>
+    <string name="sets">Sarjat: %s</string>
+    <string name="click_restart_day">Aloita päivä uudelleen napsauttamalla</string>
+    <string name="billing_not_supported_title">Ei voi tehdä ostoksia</string>
+    <string name="billing_not_supported_message">Markkinoiden laskutuspalvelu ei ole käytettävissä tällä hetkellä. Voit jatkaa tämän sovelluksen käyttämistä, mutta et voi suorittaa ostoksia.</string>
+    <string name="select_reps_count_message">Valitse toistojen määrä</string>
+    <string name="completed">Valmis</string>
+    <string name="completed_real">Suoritettu</string>
+    <string name="reps">Toistot</string>
+    <string name="repeat_hard_week_message">Jos jostain syystä kamppailit ohjelman kanssa, ehdotamme, että toistat kyseisen päivän tai viikon.</string>
+    <string name="repeat">Toista</string>
+    <string name="restart">Aloita alusta</string>
+    <string name="demo_ended_description">Tämän \"%s\"-ohjelman kokeiluversiossa on kahden viikon koeaika. Ohjelman koko versio on suunniteltu 6 viikon mittaiseksi. Jos haluat jatkaa treeniä, sinun täytyy ostaa ohjelman koko versio.</string>
+    <string name="demo_ended_restart_description">"Tämän \"%s\"-ohjelman kokeiluversiossa on kahden viikon koeaika. Ohjelman koko versio on suunniteltu 6 viikon mittaiseksi.
+
+Jos haluat jatkaa treeniä, sinun täytyy ostaa ohjelman koko versio.
+Jos haluat aloittaa ohjelman alusta, napsauta\"Aloita alusta\"."</string>
+    <string name="final_test">Lopputesti</string>
+    <string name="continue_progress">Continue Progress</string>
+    <string name="continue_progress_description">Onnittelut! Olet suorittanut 6 viikkoa loppuun. Suosittelemme, että aloitat joko viikoltaa 4 tai alusta.</string>
+    <string name="week4">Viikko 4</string>
+    <string name="week1">Viikko 1</string>
+    <string name="reps_1">Toisto</string>
+    <string name="reps_234">Toistoa</string>
+    <string name="reps_all">Toistoa</string>
+    <string name="help_change_reps_description">Muuta toistojen määrä, jonka olet tehnyt tässä sarjassa (edellisessä sarjassa sinun täytyi tehdä niin monta toistoa kuin voit, mutta vähintään %d)</string>
+    <string name="help_add_sec_description">Lisää 30 sekunnin lepo tarvittaessa jokaisen sarjan jälkeen</string>
+    <string name="help_help2_description">Katso viikon ohje napauttamalla uudelleen</string>
+    <string name="chart">Kaavio</string>
+    <string name="list">Luettelo</string>
+    <string name="export_to_sd">Vie SD-kortille</string>
+    <string name="import_from_sd">Tuo SD-kortilta</string>
+    <string name="import_title">Tuo</string>
+    <string name="import_statistics">Tuo tilastot</string>
+    <string name="import_alarms">Tuo muistutukset</string>
+    <string name="import_progress">Tuo edistyminen</string>
+    <string name="export_succeful">Vienti onnistui</string>
+    <string name="export_failed">Vienti epäonnistui</string>
+    <string name="export_failed_description">Varmista, että SD-kortti on puhelimessa ja siihen voidaan tallentaa.</string>
+    <string name="import_succeful">Tuonti onnistui</string>
+    <string name="import_failed">Tuonti epäonnistui</string>
+    <string name="import_failed_description">Tietoja tuontia varten ei löytynyt (et ehkä vienyt tämän ohjelman tietoja). Varmista, että SD-kortti on puhelimessa ja pystyy nauhoittamaan.</string>
+    <string name="import_version_failed_description">Tuotujen tietojen versio ei vastaa sovelluksen versiota. Päivitä sovelluksen versio (josta viet tiedot), vie tiedot uudelleen ja toista tuonti.</string>
+    <string name="please_wait">Odota…</string>
+    <string name="delete_record">Poista tietue</string>
+    <string name="delete_statistics_record_question">Haluatko varmasti poistaa tämän tietueen?</string>
+    <string name="get_them_all">Hanki ne kaikki %s</string>
+    <string name="download">Lataa</string>
+    <string name="update_samsung_apps_message">Jos hauat aloittaa sovelluksen latauksen, sinun täytyy päivittää Samsungin sovellukset.</string>
+    <string name="disable_ad_title">Poista mainokset</string>
+    <string name="disable_ad_message" formatted="false">"Voit ostaa sovelluksen täyden version kaikilla ohjelmilla:
+• %s
+• %s
+• %s
+• %s
+• %s
+tai olla poistamatta ilmoituksia ilmaiseksi muutamaksi päiväksi."</string>
+    <string name="disable_ad_ok_title">Mainokset poistettu</string>
+    <string name="disable_ad_ok_message">Mainokset poistettu %d päiväksi.</string>
+    <string name="free">Ilmainen</string>
+    <string name="information">Information</string>
+    <string name="remind_me_later">Remind me later</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="trial_will_expire">The free trial will expire on %s. To continue using the app, press \"Buy Now\".</string>
+    <string name="trial_expired">The free trial expired on %s. To continue using the app, press \"Buy Now\".</string>
+    <string name="connection">Connection</string>
+    <string name="please_wait_connection">Please wait...</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="check_internet">Please check your Internet connection.</string>
+    <string name="samsung_account_not_found">Samsung account not found</string>
+    <string name="login_with_samsung_account">Please login with your Samsung account in the settings of your device in order to continue.</string>
+</resources>

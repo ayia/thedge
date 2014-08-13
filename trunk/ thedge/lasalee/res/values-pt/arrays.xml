@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="training">
+        <item>Flexões a fazer</item>
+        <item>Abdominais a fazer</item>
+        <item>tríceps a fazer</item>
+        <item>Agachamentos a fazer</item>
+        <item>Puxadas a fazer</item>
+    </string-array>
+    <string-array name="training_title">
+        <item>100 flexões</item>
+        <item>200 abdominais</item>
+        <item>150 tríceps</item>
+        <item>200 agachamentos</item>
+        <item>20 puxadas</item>
+    </string-array>
+    <string-array name="training_initial_test">
+        <item>"Antes de iniciar o Programa de Cem Flexões, você deve fazer um teste de flexão inicial.
+
+O teste destacará seu nível físico atual e determinará onde começar e como planejar seu treinamento de flexões. Para efetuar o teste, apenas execute o máximo de flexões corretamente que conseguir e selecone o intervalo abaixo. Não roube nem faça pela metade - a última coisa que você quer é acabar com o nível incorreto do programa de treinamento! Os resultados podem ser humildes, mas acredite, a honestidade é a melhor política se quiser maximizar seu ganho de força!
+
+Antes de começar a Semana 1, recomendamos esperar alguns dias para se recuperar do cansaço do teste inicial. Você será solicitado a fazer os exercícios três vezes por semana, por exemplo, segunda, quarta e sexta."</item>
+        <item>"Antes de iniciar o Programa de Duzentas Abdominais, você deve fazer um teste de abdominal inicial.
+
+O teste destacará seu nível físico atual e determinará onde começar e como planejar seu treinamento de abdominal. Para efetuar o teste, apenas execute o máximo de abdominais corretamente que conseguir e selecone o intervalo abaixo. Não roube nem faça pela metade - a última coisa que você quer é acabar com o nível incorreto do programa de treinamento! Os resultados podem ser humildes, mas acredite, a honestidade é a melhor política se quiser maximizar seu ganho de força!
+
+Antes de começar a Semana 1, recomendamos esperar alguns dias para se recuperar do cansaço do teste inicial. Você será solicitado a fazer os exercícios três vezes por semana, por exemplo, segunda, quarta e sexta."</item>
+        <item>"Antes de iniciar o Programa de Cento e Cinquenta Tríceps, você deve fazer um teste de mergulho inicial.
+
+O teste destacará seu nível físico atual e determinará onde começar e como planejar seu treinamento de mergulho. Para efetuar o teste, apenas execute o máximo de tríceps corretamente que conseguir e selecone o intervalo abaixo. Não roube nem faça pela metade - a última coisa que você quer é acabar com o nível incorreto do programa de treinamento! Os resultados podem ser humildes, mas acredite, a honestidade é a melhor política se quiser maximizar seu ganho de força!
+
+Antes de começar a Semana 1, recomendamos esperar alguns dias para se recuperar do cansaço do teste inicial. Você será solicitado a fazer os exercícios três vezes por semana, por exemplo, segunda, quarta e sexta."</item>
+        <item>"Antes de iniciar o Programa de Duzentos Agachamentos, você deve fazer um teste de agachamento inicial.
+
+O teste destacará seu nível físico atual e determinará onde começar e como planejar seu treinamento de agachamento. Para efetuar o teste, apenas execute o máximo de agachamentos corretamente que conseguir e selecone o intervalo abaixo. Não roube nem faça pela metade - a última coisa que você quer é acabar com o nível incorreto do programa de treinamento! Os resultados podem ser humildes, mas acredite, a honestidade é a melhor política se quiser maximizar seu ganho de força!
+
+Antes de começar a Semana 1, recomendamos esperar alguns dias para se recuperar do cansaço do teste inicial. Você será solicitado a fazer os exercícios três vezes por semana, por exemplo, segunda, quarta e sexta."</item>
+        <item>"Antes de iniciar o Programa de Vinte Puxadas, você deve fazer um teste de puxada inicial.
+
+O teste destacará seu nível físico atual e determinará onde começar e como planejar seu treinamento de puxada. Para efetuar o teste, apenas execute o máximo de puxadas corretamente que conseguir e selecone o intervalo abaixo. Não roube nem faça pela metade - a última coisa que você quer é acabar com o nível incorreto do programa de treinamento! Os resultados podem ser humildes, mas acredite, a honestidade é a melhor política se quiser maximizar seu ganho de força!
+
+Antes de começar a Semana 1, recomendamos esperar alguns dias para se recuperar do cansaço do teste inicial. Você será solicitado a fazer os exercícios três vezes por semana, por exemplo, segunda, quarta e sexta."</item>
+    </string-array>
+    <string-array name="training_initial_test_all_days">
+        <item>"Chegou a hora do teste! Faça quantas flexões inteiras conseguir e selecione o intervalo abaixo.
+
+Lembre-se de descansar o resto do dia após efetuar o teste para que seu corpo se recupere."</item>
+        <item>"Chegou a hora do teste! Faça quantas abdominais inteiras conseguir e selecione o intervalo abaixo.
+
+Lembre-se de descansar o resto do dia após efetuar o teste para que seu corpo se recupere."</item>
+        <item>"Chegou a hora do teste! Faça quantos tríceps inteiros conseguir e selecione o intervalo abaixo.
+
+Lembre-se de descansar o resto do dia após efetuar o teste para que seu corpo se recupere."</item>
+        <item>"Chegou a hora do teste! Faça quantos agachamentos inteiros conseguir e selecione o intervalo abaixo.
+
+Lembre-se de descansar o resto do dia após efetuar o teste para que seu corpo se recupere."</item>
+        <item>"Chegou a hora do teste! Faça quantas puxadas inteiras conseguir e selecione o intervalo abaixo.
+
+Lembre-se de descansar o resto do dia após efetuar o teste para que seu corpo se recupere."</item>
+    </string-array>
+    <string-array name="pushups_weeks_help">
+        <item>"Você precisará se exercitar três vezes por semana. Acreditamos que segunda, quarta e sexta funcionam bem e permite que você use o fim de semana para descanso e recuperação antes de passar para o próximo estágio do programa. Sinta-se livre para alterar o plano como quiser de forma a atender sua agenda, mas certifique-se de descansar entre os dias de exercício.
+
+Não pule etapas, mas sinta-se a vontade para descansar um pouco mais entre cada nível se precisar. Também é importante estar hidratado antes de começar cada série de exercícios."</item>
+        <item>"A Semana 1 deve ser ter sido tranquila, e chegou a hora de iniciar a Semana 2.
+
+No final da Semana 2, será feita uma verificação de força e desempenho em um teste de exaustão. Em termos simples, efetue quantas flexões inteiras conseguir confortavelmente antes de fisicamente não conseguir mais repetir. Estresse seu sistema de todas as formas, mas não vá além do limite seguro. O número de flexões concluídas determinará qual nível do programa você iniciará na Semana 3. Efetue este teste em 24-48h após a conclusão da Semana 2. Como regra geral, se você se exercita segunda, quarta e sexta, um bom momento para descansar é sábado a tarde. Isso permite tempo suficiente para recuperação do exercício de sexta, e fornece descanso suficiente antes de iniciar a próxima etapa do plano na segunda. Boa sorte!"</item>
+        <item>"Você deve estar um pouco mais forte do que há algumas semanas, e poderá completar mais flexões consideravelmente em comparação ao teste inicial.
+
+Se você estiver com problemas com o programa, não perca as esperanças. Algumas pessoas começarão com menos de 16 flexões consecutivas, mas está ok. Apenas repita a semana que você teve dificuldade até estar forte o suficiente para passar para o próximo nível. Prometemos que valerá a pena!"</item>
+        <item>"A semana 3 está conformavelmente próxima e chegou a hora de iniciar a Semana 4.
+
+No fim da Semana 4, será hora de efetuar outro teste de exaustão. Você deve saber o que fazer, agora – apenas efetue quantas flexões inteiras conseguir antes de não conseguir fazer mais nenhuma. Estresse seu sistema de todas as formas, mas não ultrapasse seu limite seguro.
+
+O número de flexões completas determinará qual nível de programa você iniciará na Semana 5. Certifique-se de fazer o teste 24–48 horas após completar a Semana 4."</item>
+        <item>Agora, você já deve se sentir mais forte e perceber a diferença. Há outro teste no final da semana.</item>
+        <item>Esta será a sua última semana. Ao fim dela, você fará o teste final para ver se pode fazer cem flexões!</item>
+    </string-array>
+    <string-array name="situps_weeks_help">
+        <item>"Você precisará se exercitar três vezes por semana. Acreditamos que segunda, quarta e sexta funcionam bem e permite que você use o fim de semana para descanso e recuperação antes de passar para o próximo estágio do programa. Sinta-se livre para alterar o plano como quiser de forma a atender sua agenda, mas certifique-se de descansar entre os dias de exercício.
+
+Não pule etapas, mas sinta-se a vontade para descansar um pouco mais entre cada nível se precisar. Também é importante estar hidratado antes de começar cada série de exercícios."</item>
+        <item>"A Semana 1 deve ser ter sido tranquila, e chegou a hora de iniciar a Semana 2.
+
+No final da Semana 2, será feita uma verificação de força e desempenho em um teste de exaustão. Em termos simples, efetue quantas abdominais inteiras conseguir confortavelmente antes de fisicamente não conseguir mais repetir. Estresse seu sistema de todas as formas, mas não vá além do limite seguro. O número de abdominais concluídas determinará qual nível do programa você iniciará na Semana 3. Efetue este teste em 24-48h após a conclusão da Semana 2. Como regra geral, se você se exercita segunda, quarta e sexta, um bom momento para descansar é sábado a tarde. Isso permite tempo suficiente para recuperação do exercício de sexta, e fornece descanso suficiente antes de iniciar a próxima etapa do plano na segunda. Boa sorte!"</item>
+        <item>"Você deve estar um pouco mais forte do que há algumas semanas, e poderá completar mais abdominais consideravelmente em comparação ao teste inicial.
+
+Se você estiver com problemas com o programa, não perca as esperanças. Algumas pessoas começarão com menos de 20 abdominais consecutivas, mas está ok. Apenas repita a semana que você teve dificuldade até estar forte o suficiente para passar para o próximo nível. Prometemos que valerá a pena!"</item>
+        <item>"A semana 3 está conformavelmente próxima e chegou a hora de iniciar a Semana 4.
+
+No fim da Semana 4, será hora de efetuar outro teste de exaustão. Você deve saber o que fazer, agora – apenas efetue quantas abdominais inteiras conseguir antes de não conseguir fazer mais nenhuma. Estresse seu sistema de todas as formas, mas não ultrapasse seu limite seguro.
+
+O número de abdominais completas determinará qual nível de programa você iniciará na Semana 5. Certifique-se de fazer o teste 24–48 horas após completar a Semana 4."</item>
+        <item>Agora, você já deve se sentir mais forte e perceber a diferença. Há outro teste no final da semana.</item>
+        <item>Esta será a sua última semana. Ao fim dela, você fará o teste final para ver se pode fazer cento e cinquenta abdominais!</item>
+    </string-array>
+    <string-array name="dips_weeks_help">
+        <item>"Você precisará se exercitar três vezes por semana. Acreditamos que segunda, quarta e sexta funcionam bem e permite que você use o fim de semana para descanso e recuperação antes de passar para o próximo estágio do programa. Sinta-se livre para alterar o plano como quiser de forma a atender sua agenda, mas certifique-se de descansar entre os dias de exercício.
+
+Não pule etapas, mas sinta-se a vontade para descansar um pouco mais entre cada nível se precisar. Também é importante estar hidratado antes de começar cada série de exercícios."</item>
+        <item>"A Semana 1 deve ser ter sido tranquila, e chegou a hora de iniciar a Semana 2.
+
+No final da Semana 2, será feita uma verificação de força e desempenho em um teste de exaustão. Em termos simples, efetue quantos tríceps inteiras conseguir confortavelmente antes de fisicamente não conseguir mais repetir. Estresse seu sistema de todas as formas, mas não vá além do limite seguro. O número de tríceps concluídos determinará qual nível do programa você iniciará na Semana 3. Efetue este teste em 24-48h após a conclusão da Semana 2. Como regra geral, se você se exercita segunda, quarta e sexta, um bom momento para descansar é sábado a tarde. Isso permite tempo suficiente para recuperação do exercício de sexta, e fornece descanso suficiente antes de iniciar a próxima etapa do plano na segunda. Boa sorte!"</item>
+        <item>"Você deve estar um pouco mais forte do que há algumas semanas, e poderá completar mais tríceps consideravelmente em comparação ao teste inicial.
+
+Se você estiver com problemas com o programa, não perca as esperanças. Algumas pessoas começarão com menos de 20 tríceps consecutivas, mas está ok. Apenas repita a semana que você teve dificuldade até estar forte o suficiente para passar para o próximo nível. Prometemos que valerá a pena!"</item>
+        <item>"A semana 3 está conformavelmente próxima e chegou a hora de iniciar a Semana 4.
+
+No fim da Semana 4, será hora de efetuar outro teste de exaustão. Você deve saber o que fazer, agora – apenas efetue quantos tríceps inteiros conseguir antes de não conseguir fazer mais nenhuma. Estresse seu sistema de todas as formas, mas não ultrapasse seu limite seguro.
+
+O número de tríceps completos determinará qual nível de programa você iniciará na Semana 5. Certifique-se de fazer o teste 24–48 horas após completar a Semana 4."</item>
+        <item>Agora, você já deve se sentir mais forte e perceber a diferença. Há outro teste no final da semana.</item>
+        <item>Esta será a sua última semana. Ao fim dela, você fará o teste final para ver se pode fazer cento e cinquenta tríceps!</item>
+    </string-array>
+    <string-array name="squats_weeks_help">
+        <item>"Você precisará se exercitar três vezes por semana. Acreditamos que segunda, quarta e sexta funcionam bem e permite que você use o fim de semana para descanso e recuperação antes de passar para o próximo estágio do programa. Sinta-se livre para alterar o plano como quiser de forma a atender sua agenda, mas certifique-se de descansar entre os dias de exercício.
+
+Não pule etapas, mas sinta-se a vontade para descansar um pouco mais entre cada nível se precisar. Também é importante estar hidratado antes de começar cada série de exercícios."</item>
+        <item>"A Semana 1 deve ser ter sido tranquila, e chegou a hora de iniciar a Semana 2.
+
+No final da Semana 2, será feita uma verificação de força e desempenho em um teste de exaustão. Em termos simples, efetue quantos agachamentos inteiros conseguir confortavelmente. Estresse seus músculos da perna de todas as formas, mas não vá além da barreira da dor – na dúvida, ouça seu corpo. O número de agachamentos completos determinará qual nível do programa você começará na Semana 3. Efetue este teste em 24-48h após a conclusão da Semana 2. Como regra geral, se você se exercita segunda, quarta e sexta, um bom momento para descansar é sábado a tarde. Isso permite tempo suficiente para recuperação do exercício de sexta, e fornece descanso suficiente antes de iniciar a próxima etapa do plano na segunda. Boa sorte!"</item>
+        <item>"Você deve ter percebido uma força maior em comparação a algumas semanas e apto a fazer mais agachamentos que no seu teste inicial.
+
+Se você estiver com problemas para seguir o programa, não desanime. Algumas pessoas ainda estarão fazendo menos de 21 agachamentos consecutivos, mas está ok. Apenas repita a semana que teve problemas até estar forte o suficiente para seguir para o próximo nível - vai valer a pena!"</item>
+        <item>"A semana 3 está conformavelmente próxima e chegou a hora de iniciar a Semana 4.
+
+No fim da Semana 4, será hora de efetuar outro teste de exaustão. Você deve saber o que fazer, agora – apenas efetue quantos agachamentos inteiros conseguir antes de não conseguir fazer mais nenhuma. Estresse seu sistema de todas as formas, mas não ultrapasse seu limite seguro.
+
+O número de agachamentos completos determinará qual nível de programa você iniciará na Semana 5. Certifique-se de fazer o teste 24–48 horas após completar a Semana 4."</item>
+        <item>Agora, você já deve se sentir mais forte e perceber a diferença. Há outro teste no final da semana.</item>
+        <item>Esta será a sua última semana. Ao fim dela, você fará o teste final para ver se pode fazer duzentos agachamentos!</item>
+    </string-array>
+    <string-array name="pullups_weeks_help">
+        <item>"Você precisará se exercitar três vezes por semana. Acreditamos que segunda, quarta e sexta funcionam bem e permite que você use o fim de semana para descanso e recuperação antes de passar para o próximo estágio do programa. Sinta-se livre para alterar o plano como quiser de forma a atender sua agenda, mas certifique-se de descansar entre os dias de exercício.
+
+Não pule etapas, mas sinta-se a vontade para descansar um pouco mais entre cada nível se precisar. Também é importante estar hidratado antes de começar cada série de exercícios."</item>
+        <item>"A Semana 1 deve ser ter sido tranquila, e chegou a hora de iniciar a Semana 2.
+
+No final da Semana 2, será feita uma verificação de força e desempenho em um teste de exaustão. Em termos simples, efetue quantas puxadas inteiras conseguir confortavelmenteantes de fisicamente não conseguir mais repetir. Estresse seu sistema de todas as formas, mas não vá além do limite seguro. O número de puxadas concluídas determinará qual nível do programa você iniciará na Semana 3. Efetue este teste em 24-48h após a conclusão da Semana 2. Como regra geral, se você se exercita segunda, quarta e sexta, um bom momento para descansar é sábado a tarde. Isso permite tempo suficiente para recuperação do exercício de sexta, e fornece descanso suficiente antes de iniciar a próxima etapa do plano na segunda. Boa sorte!"</item>
+        <item>"Você deve estar um pouco mais forte do que há algumas semanas, e poderá completar mais puxadas consideravelmente em comparação ao teste inicial.
+
+Se você estiver com problemas com o programa, não perca as esperanças. Algumas pessoas começarão com menos de 5 puxadas consecutivas, mas está ok. Apenas repita a semana que você teve dificuldade até estar forte o suficiente para passar para o próximo nível. Prometemos que valerá a pena!"</item>
+        <item>"A semana 3 está conformavelmente próxima e chegou a hora de iniciar a Semana 4.
+
+No fim da Semana 4, será hora de efetuar outro teste de exaustão. Você deve saber o que fazer, agora – apenas efetue quantas puxadas inteiras conseguir antes de não conseguir fazer mais nenhuma. Estresse seu sistema de todas as formas, mas não ultrapasse seu limite seguro.
+
+O número de puxadas completas determinará qual nível de programa você iniciará na Semana 5. Certifique-se de fazer o teste 24–48 horas após completar a Semana 4."</item>
+        <item>Agora, você já deve se sentir mais forte e perceber a diferença. Há outro teste no final da semana.</item>
+        <item>Esta será a sua última semana. Ao fim dela, você fará o teste final para ver se pode fazer vinte puxadas!</item>
+    </string-array>
+    <string-array name="final_test_description">
+        <item>"Este é seu teste final. Após completar o programa de seis semanas, cuide-se descansando um ou dois dias. Então, faça quantas flexões puder!
+Boa sorte ao chegar ao 100!"</item>
+        <item>"Este é seu teste final. Após completar o programa de seis semanas, cuide-se descansando um ou dois dias. Então, faça quantas abdominais puder!
+Boa sorte ao chegar a 200!"</item>
+        <item>"Este é seu teste final. Após completar o programa de seis semanas, cuide-se descansando um ou dois dias. Então, faça quantos tríceps puder!
+Boa sorte ao chegar ao 150!"</item>
+        <item>"Este é seu teste final. Após completar o programa de seis semanas, cuide-se descansando um ou dois dias. Então, faça quantos agachamentos puder!
+Boa sorte ao chegar a 200!"</item>
+        <item>"Este é seu teste final. Após completar o programa de seis semanas, cuide-se descansando um ou dois dias. Então, faça quantas puxadas puder!
+Boa sorte ao chegar ao 20!"</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Domingo</item>
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+        <item>Sábado</item>
+    </string-array>
+</resources>

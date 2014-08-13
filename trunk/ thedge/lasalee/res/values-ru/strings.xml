@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="demo">Демо</string>
+    <string name="week">Неделя</string>
+    <string name="day">День</string>
+    <string name="rate">Оценить</string>
+    <string name="rate_later">Напомнить мне позже</string>
+    <string name="rating">Оценка %s</string>
+    <string name="rating_message">Если вам понравилась программа %s, пожалуйста, поставьте ей оценку. Это не займет более минуты. Спасибо за вашу поддержку!</string>
+    <string name="no_thanks">Нет, спасибо</string>
+    <string name="buy">Купить</string>
+    <string name="purchase">Покупка</string>
+    <string name="start">Старт</string>
+    <string name="statistics">Статистика</string>
+    <string name="settings">Настройки</string>
+    <string name="sec30">+30<small>сек</small></string>
+    <string name="stop">Стоп</string>
+    <string name="done">OK</string>
+    <string name="done_real">Готово</string>
+    <string name="reminders">Напоминания</string>
+    <string name="reset_to_day">Сменить день</string>
+    <string name="clear_statistics">Очистить статистику</string>
+    <string name="congratulations">Поздравляем!</string>
+    <string name="home">Домой</string>
+    <string name="restart_day">Повторить день</string>
+    <string name="restart_week">Повторить неделю</string>
+    <string name="reset_all_data">Сбросить все данные</string>
+    <string name="clear_statistics_title">Очистка статистики</string>
+    <string name="clear_statistics_message">Вы уверены, что хотите стереть всю статистику по программе \"%s\"?</string>
+    <string name="reset_all_data_title">Сброс всех данных</string>
+    <string name="reset_all_data_message">Сброс данных затронет ваш прогресс, статистику и напоминания. Вы уверены, что хотите стереть все данные по программе \"%s\"?</string>
+    <string name="init_test_additional_info">Например: если вы занимаетесь по графику понедельник-среда-пятница, хорошее время для теста - вторая половина субботы. Это дает достаточное время для восстановления после тренировки в пятницу, но и позволяет вам больше отдохнуть перед началом следующего этапа тренировок в понедельник.</string>
+    <string name="init_test_reminder">Не забудьте пройти тест на выносливость в течение пары дней до окончания этой недели.</string>
+    <string name="buy_one_program">%s (0.99$)</string>
+    <string name="buy_all_programs">Все программы (%.2f$)</string>
+    <string name="buy_one_program_description">Вы сможете заниматься по программе \"%s\". В этом случае остальные упражнения будут по-прежнему недоступны до их покупки.</string>
+    <string name="buy_all_programs_description">Получите скидку 40% при покупке всех программ. Вам станут доступны все программы.</string>
+    <string name="demo_title">Пробная версия</string>
+    <string name="demo_description">"Эта версия программы \"%s\" служит для ознакомления и имеет пробный период 2 недели.
+
+Все программы имеют схожий принцип работы и рассчитаны на 6 недель."</string>
+    <string name="select_day">Выберите день</string>
+    <string name="selected_day_message">Неделя и день были установлены</string>
+    <string name="repeat_day_message">Этот день повторится на следующей тренировке</string>
+    <string name="repeat_week_message">Эта неделя начнется сначала на следующей тренировке</string>
+    <string name="total_reps">Число повторений: %d</string>
+    <string name="set_time">Установка напоминания</string>
+    <string name="wow">Здорово!</string>
+    <string name="jump3week_message">Вы делаете более %d повторов. Мы рекомендуем вам начать программу с 3-й недели. Хотите перейти к 3-й неделе?</string>
+    <string name="prev_result">(справа ваш предыдущий результат)</string>
+    <string name="reps_count">Количество повторений</string>
+    <string name="rest_time">Время для отдыха</string>
+    <string name="program_purchased">Программа уже была приобретена и будет доступна позже с одним из обновлений</string>
+    <string name="no_records">Нет записей</string>
+    <string name="sets">Подходы: %s</string>
+    <string name="click_restart_day">Нажмите еще раз, чтобы начать день заново</string>
+    <string name="billing_not_supported_title">Невозможно совершить покупку</string>
+    <string name="billing_not_supported_message">Сервис оплаты внутри приложения недоступен в данный момент. Вы можете продолжать использовать это приложение, но вы не сможете совершать покупки.</string>
+    <string name="select_reps_count_message">Выберите количество повторений</string>
+    <string name="completed">Выполнено</string>
+    <string name="completed_real">Завершено</string>
+    <string name="reps">повторений</string>
+    <string name="repeat_hard_week_message">Если по какой-то причине вам было слишком трудно, мы предлагаем вам повторить этот день или неделю.</string>
+    <string name="repeat">Повторить</string>
+    <string name="restart">Повторить</string>
+    <string name="demo_ended_description">Эта версия программы \"%s\" служит для ознакомления и имеет пробный период 2 недели. Полная версия программы рассчитана на 6 недель. Для продолжения тренировок вам необходимо приобрести полную версию.</string>
+    <string name="demo_ended_restart_description">"Эта версия программы \"%s\" служит для ознакомления и имеет пробный период 2 недели. Полная версия программы рассчитана на 6 недель.
+
+Для продолжения тренировок вам необходимо приобрести полную версию.
+Если вы хотите начать программу заново, нажмите \"Повторить\"."</string>
+    <string name="final_test">Последний тест</string>
+    <string name="continue_progress">Продолжение тренировки</string>
+    <string name="continue_progress_description">Поздравляем! Вы завершили шестую неделю программы. Мы рекомендуем вам начать с четвертой недели, либо с начала.</string>
+    <string name="week4">Неделя 4</string>
+    <string name="week1">Неделя 1</string>
+    <string name="reps_1">повторение</string>
+    <string name="reps_234">повторения</string>
+    <string name="reps_all">повторений</string>
+    <string name="help_change_reps_description">Изменить число повторений, выполненных в этом подходе (в последнем вы должны сделать столько повторений, сколько сможете, но не менее %d)</string>
+    <string name="help_add_sec_description">Добавить 30 секунд отдыха между подходами, если это необходимо</string>
+    <string name="help_help2_description">Нажмите еще раз для просмотра справки недели</string>
+    <string name="chart">График</string>
+    <string name="list">Список</string>
+    <string name="export_to_sd">Экспорт на SD карту</string>
+    <string name="import_from_sd">Импорт с SD карты</string>
+    <string name="import_title">Импорт</string>
+    <string name="import_statistics">Импортировать статистику</string>
+    <string name="import_alarms">Импортировать напоминания</string>
+    <string name="import_progress">Импортировать прогресс</string>
+    <string name="export_succeful">Экспорт успешно завершен</string>
+    <string name="export_failed">Экспорт не удался</string>
+    <string name="export_failed_description">Убедитесь, что SD карта находится в телефоне и доступна для записи.</string>
+    <string name="import_succeful">Импорт успешно завершен</string>
+    <string name="import_failed">Импорт не удался</string>
+    <string name="import_failed_description">Не найдены данные для импорта (возможно вы не экспортировали данные по этой программе). Также убедитесь, что SD карта находится в телефоне и доступна для чтения.</string>
+    <string name="import_version_failed_description">Версия импортируемых данных не соответствует версии приложения. Обновите версию приложения (из которой вы экспортируете данные), снова экспортируйте данные и повторите импорт.</string>
+    <string name="please_wait">Пожалуйста, подождите…</string>
+    <string name="delete_record">Удаление записи</string>
+    <string name="delete_statistics_record_question">Вы уверены, что хотите удалить эту запись?</string>
+    <string name="get_them_all">Все программы в %s</string>
+    <string name="download">Скачать</string>
+    <string name="update_samsung_apps_message">Вам необходимо обновить приложение Samsung Apps для начала загрузки.</string>
+    <string name="yandex_store">Яндекс.Store</string>
+    <string name="disable_ad_title">Убрать рекламу</string>
+    <string name="disable_ad_message" formatted="false">"Вы можете купить полную версию приложения со всеми программами:
+• %s
+• %s
+• %s
+• %s
+• %s
+или бесплатно отключить рекламу на несколько дней."</string>
+    <string name="disable_ad_ok_title">Реклама отключена</string>
+    <string name="disable_ad_ok_message">Реклама отключена на %d дней.</string>
+    <string name="free">Бесплатно</string>
+    <string name="information">Информация</string>
+    <string name="remind_me_later">Напомнить мне позднее</string>
+    <string name="buy_now">Купить сейчас</string>
+    <string name="trial_will_expire">Бесплатная пробная версия истекает %s. Для продолжения использования приложения нажмите кнопку \"Купить сейчас\".</string>
+    <string name="trial_expired">Бесплатная пробная версия истекла %s. Для продолжения использования приложения нажмите кнопку \"Купить сейчас\".</string>
+    <string name="connection">Соединение</string>
+    <string name="please_wait_connection">Пожалуйста, подождите...</string>
+    <string name="connection_failed">Ошибка связи</string>
+    <string name="check_internet">Пожалуйста, проверьте интернет соединение.</string>
+    <string name="samsung_account_not_found">Не найден аккаунт Samsung</string>
+    <string name="login_with_samsung_account">Пожалуйста, войдите под своим аккаунтом Samsung в настройках вашего устройства для продолжения.</string>
+</resources>

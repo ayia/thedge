@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Zrušit</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="demo">Demo</string>
+    <string name="week">Týden</string>
+    <string name="day">Den</string>
+    <string name="rate">Ohodnotit teď</string>
+    <string name="rate_later">Připomenout později</string>
+    <string name="rating">Ohodnoťte %s</string>
+    <string name="rating_message">Pokud jste spokojeni s %s, věnujte prosím chvilku ohodnocení. Nezabere to ani minutu. Děkujeme vám za podporu.</string>
+    <string name="no_thanks">Ne, děkuji</string>
+    <string name="buy">Koupit</string>
+    <string name="purchase">Zakoupit</string>
+    <string name="start">Start</string>
+    <string name="statistics">Statistiky</string>
+    <string name="settings">Nastavení</string>
+    <string name="sec30">+30<small>vteřin</small></string>
+    <string name="stop">Stop</string>
+    <string name="done">Hotovo</string>
+    <string name="done_real">Hotovo</string>
+    <string name="reminders">Upomínky</string>
+    <string name="reset_to_day">Resetovat na den</string>
+    <string name="clear_statistics">Vyčistit statistiky</string>
+    <string name="congratulations">Gratulujeme!</string>
+    <string name="home">Domů</string>
+    <string name="restart_day">Opakovat den</string>
+    <string name="restart_week">Opakovat týden</string>
+    <string name="reset_all_data">Resetovat všechna data</string>
+    <string name="clear_statistics_title">Vyčistit statistiky</string>
+    <string name="clear_statistics_message">Opravdu chcete vyčistit všechny statistiky programu \"%s\"?</string>
+    <string name="reset_all_data_title">Resetovat všechna data</string>
+    <string name="reset_all_data_message">Reset se dotkne vašeho postupu, statistik a upomínek. Opravdu chcete vyčistit všechna data programu \"%s\"?</string>
+    <string name="init_test_additional_info">Obecné zlaté pravidlo říká, že pokud cvičíte v pondělí, středu a pátek, dobrým časem na test je sobota odpoledne. To vám dá dostatek času na obnovu sil po pátečním cvičení a současně dostatek odpočinku před zahájením další fáze v pondělí.</string>
+    <string name="init_test_reminder">Tento test proveďte 24-48 hodin po dokončení Týdne.</string>
+    <string name="buy_one_program">%s (0,99$)</string>
+    <string name="buy_all_programs">Všechny programy (%.2f$)</string>
+    <string name="buy_one_program_description">Budete moci trénovat na program \"%s\". V tomto případě bude zbývající cvičení k dispozici až po zakoupení.</string>
+    <string name="buy_all_programs_description">Pokud zakoupíte všechny programy, získáte 40% slevu. Budete mít přístup ke všem programům.</string>
+    <string name="demo_title">Demo</string>
+    <string name="demo_description">"Tato zkušební verze programu \"%s\" funguje po dobu 2 týdnů.
+
+Všechny programy fungují na podobném principu a jsou navrženy na 6 týdnů."</string>
+    <string name="select_day">Resetovat na Den</string>
+    <string name="selected_day_message">Týden a Den byly resetovány</string>
+    <string name="repeat_day_message">Opakování dne pro další cvičení</string>
+    <string name="repeat_week_message">Opakování týdne pro další cvičení</string>
+    <string name="total_reps">Celkem opakování: %d</string>
+    <string name="set_time">Nastavit upomínku</string>
+    <string name="wow">Wow!</string>
+    <string name="jump3week_message">Zvládnete více než %d opakování. Doporučujeme vám začít od týdne 3. Je to OK?</string>
+    <string name="prev_result">(váš předchozí výsledek vpravo)</string>
+    <string name="reps_count">Počet opakování</string>
+    <string name="rest_time">Čas odpočinku</string>
+    <string name="program_purchased">Program už byl zakoupen a bude dostupný později s některou z aktualizací</string>
+    <string name="no_records">Žádné záznamy</string>
+    <string name="sets">Sady: %s</string>
+    <string name="click_restart_day">Klikněte znovu k restartu dne</string>
+    <string name="billing_not_supported_title">Nelze nakupovat</string>
+    <string name="billing_not_supported_message">Fakturační služba Market teď není k dispozici. Můžete dále používat tuto aplikaci, ale nebude možné nakupovat.</string>
+    <string name="select_reps_count_message">Vyberte počet opakování</string>
+    <string name="completed">Hotovo</string>
+    <string name="completed_real">Dokončeno</string>
+    <string name="reps">Opakování</string>
+    <string name="repeat_hard_week_message">Pokud z nějakého důvodu program nezvládáte, doporučujeme opakovat tento den nebo týden.</string>
+    <string name="repeat">Opakovat</string>
+    <string name="restart">Restartovat</string>
+    <string name="demo_ended_description">Tato zkušební verze programu \"%s\" funguje 2 týdny. Plná verze programu je navržena na 6 týdnů. K pokračování v tréningu si musíte zakoupit plnou verzi.</string>
+    <string name="demo_ended_restart_description">"Tato zkušební verze programu \"%s\" funguje 2 týdny. Plná verze programu je navržena na 6 týdnů.
+
+K pokračování v tréningu si musíte zakoupit plnou verzi.
+Pokud chcete začít od začátku programu, klikněte na \"Restart\"."</string>
+    <string name="final_test">Závěrečný test</string>
+    <string name="continue_progress">Pokračování</string>
+    <string name="continue_progress_description">Gratulujeme! Dosáhli jste konce 6 týdnů. Doporučujeme začít od týdne 4 nebo od začátku.</string>
+    <string name="week4">Týden 4</string>
+    <string name="week1">Týden 1</string>
+    <string name="reps_1">Opakování</string>
+    <string name="reps_234">Opakování</string>
+    <string name="reps_all">Opakování</string>
+    <string name="help_change_reps_description">Změňte počet opakování, které jste provedli v této sadě (v poslední sadě musíte provést co nejvíce opakování, ale ne méně než %d)</string>
+    <string name="help_add_sec_description">Přidejte 30 vteřin odpočinku mezi každou sadou, pokud potřebujete</string>
+    <string name="help_help2_description">Poklepejte ještě jednou ke zobrazení nápovědy týdne</string>
+    <string name="chart">Graf</string>
+    <string name="list">Seznam</string>
+    <string name="export_to_sd">Exportovat na SD kartu</string>
+    <string name="import_from_sd">Importovat z SD karty</string>
+    <string name="import_title">Import</string>
+    <string name="import_statistics">Importovat statistiky</string>
+    <string name="import_alarms">Importovat upomínky</string>
+    <string name="import_progress">Importovat postup</string>
+    <string name="export_succeful">Export úspěšně dokončen</string>
+    <string name="export_failed">Export selhal</string>
+    <string name="export_failed_description">Zkontrolujte, že je SD karta v telefonu a připravena k ukládání.</string>
+    <string name="import_succeful">Import úspěšně dokončen</string>
+    <string name="import_failed">Import selhal</string>
+    <string name="import_failed_description">Data k importu nenalezena (možná jste nevyexportovali data pro tento program). Také zkontrolujte, že je SD karta v telefonu a připravena k ukládání</string>
+    <string name="import_version_failed_description">Verze importovaných dat neodpovídá verzi aplikace. Aktualizujte verzi aplikace (ze které jste exportovali data), exportujte data znovu a opakujte import.</string>
+    <string name="please_wait">Čekejte prosím…</string>
+    <string name="delete_record">Smazat záznam</string>
+    <string name="delete_statistics_record_question">Opravdu chcete smazat tento záznam?</string>
+    <string name="get_them_all">Získejte všechny v %s</string>
+    <string name="download">Stáhnout</string>
+    <string name="update_samsung_apps_message">Ke spuštění stahování aplikace musíte aktualizovat Samsung Apps.</string>
+    <string name="disable_ad_title">Odstranit reklamy</string>
+    <string name="disable_ad_message" formatted="false">"Můžete si koupit plnou verzi aplikace se všemi programy:
+• %s
+• %s
+• %s
+• %s
+• %s
+nebo na několik dní zdarma odstranit reklamy."</string>
+    <string name="disable_ad_ok_title">Reklamy odstraněny</string>
+    <string name="disable_ad_ok_message">Reklamy odstraněny na %d dní.</string>
+    <string name="free">Zdarma</string>
+    <string name="information">Informace</string>
+    <string name="remind_me_later">Připomeňte mi později</string>
+    <string name="buy_now">Koupit nyní</string>
+    <string name="trial_will_expire">Bezplatná zkušební verze uplyne za %s. Chcete-li nadále používat tuto aplikaci, stiskněte \"Koupit nyní\".</string>
+    <string name="trial_expired">Dne %s uplynulo období bezplatné zkušební verze. Chcete-li nadále používat tuto aplikaci, stiskněte \"Koupit nyní\".</string>
+    <string name="connection">Spojení</string>
+    <string name="please_wait_connection">Čekejte prosím...</string>
+    <string name="connection_failed">Spojení se nezdařilo</string>
+    <string name="check_internet">Čekejte prosím na internetové spojení.</string>
+    <string name="samsung_account_not_found">Účet Samsung nebyl nalezen</string>
+    <string name="login_with_samsung_account">Pro pokračování se prosím přihlaste ke svému účtu Samsung v nastavení svého zařízení.</string>
+</resources>
