@@ -3,6 +3,8 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:background="?background" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <TextView android:id="@id/textWeekDay" android:text="Week 1   Day 1" android:keepScreenOn="true" style="@style/Title" />
+        <include layout="@layout/ads_layout"/>
+        
         <LinearLayout android:id="@id/layoutTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <ImageView android:id="@id/btnRestart" android:padding="@dimen/dp_10" android:clickable="true" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_50" android:src="@drawable/arrow_circle" />
             <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
@@ -51,10 +53,14 @@
         <ImageView android:layout_gravity="right" android:visibility="visible" android:layout_width="@dimen/dp_35" android:layout_height="@dimen/dp_40" android:layout_marginRight="@dimen/dp_40" android:src="@drawable/hand_arrow1" />
         <TextView android:textSize="@dimen/sp_18" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_5" android:layout_marginRight="@dimen/dp_5" android:text="@string/help_help2_description" style="@style/WhiteTextWithShadow" />
         <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        
         <TextView android:textSize="@dimen/sp_18" android:id="@id/textHelpChangeRepsInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_5" android:layout_marginRight="@dimen/dp_5" android:text="@string/help_change_reps_description" style="@style/WhiteTextWithShadow" />
+        
         <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_35" android:layout_marginRight="@dimen/dp_35">
             <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp_100" android:src="@drawable/hand_circle1" android:layout_weight="1.0" />
             <Button android:textSize="@dimen/sp_25" android:background="?button_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/dp_45" android:layout_marginLeft="@dimen/dp_5" android:text="@string/stop" android:layout_weight="1.0" style="@style/ButtonText" />
         </LinearLayout>
+         
     </LinearLayout>
+   
 </FrameLayout>

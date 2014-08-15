@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <com.google.ads.AdView 
+           xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+                       android:layout_width="fill_parent"
+        				android:layout_height="wrap_content"
+        				
+        				
+                         ads:adUnitId="ca-app-pub-6154259985120414/9472903306"
+                         ads:adSize="BANNER"
+                         ads:testDevices="TEST_EMULATOR, 353918056297084"
+                         ads:loadAdOnCreate="true"
+             />
+

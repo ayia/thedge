@@ -16,4 +16,5 @@
             <ImageButton android:id="@id/btnDelete" android:background="?radio_button_right" android:paddingTop="@dimen/dp_12" android:paddingBottom="@dimen/dp_12" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_44" android:src="@drawable/delete" android:scaleType="fitCenter" android:layout_weight="1.0" />
         </LinearLayout>
     </LinearLayout>
+    
 </LinearLayout>
