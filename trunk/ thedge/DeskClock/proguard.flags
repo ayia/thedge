@@ -1,0 +1,10 @@
+-keepclassmembers class com.itconnect.inc.deskclock.DeskClock {
+  *** clockButtonsOnClick(...);
+}
+-keep class com.itconnect.inc.deskclock.timer.TimerListItem {
+  *** setAnimatedHeight(...);
+}
+
+-keep class com.itconnect.inc.deskclock.widget.multiwaveview.* {
+  *;
+}
