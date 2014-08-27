@@ -11,8 +11,9 @@
     <item
         android:id="@+id/menu_item_search"
         android:actionViewClass="android.widget.SearchView"
+     
         android:showAsAction="always"
-   />
+       >
     </item>
 
 </menu>
