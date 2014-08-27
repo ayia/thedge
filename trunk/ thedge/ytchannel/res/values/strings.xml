@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ytc</string>
+    <string name="DEVELOPER_KEY">AIzaSyDqwUzteBgl6hmQXGhoxJjyB7pve6eRuUU</string>
+    <string name="title_activity_yt__video_player">player</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+
+</resources>
