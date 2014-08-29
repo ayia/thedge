@@ -1,129 +1,123 @@
 package com.example.ytc;
 
-import java.net.URL;
-import java.util.ArrayList;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpVersion;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.CoreProtocolPNames;
-import org.apache.http.util.EntityUtils;
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import android.app.Activity;
-import android.app.ProgressDialog;
+import android.annotation.SuppressLint;
 import android.app.SearchManager;
+import android.app.SearchableInfo;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.view.MenuItemCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
+import android.widget.SearchView;
+import android.widget.SearchView.OnQueryTextListener;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ListView;
-import android.widget.SearchView;
 
-import com.example.ytc.clazz.Video;
-import com.itconnect.inc.adapters.YouTubeAdapter;
+import com.example.ytc.Fragement.Main_fragment;
 
-public class MainActivity extends Activity {
-	ListView lv;
-	ArrayList<Video> vid = new ArrayList<Video>();
-	ProgressDialog pd;
+@SuppressLint("NewApi")
+public class MainActivity extends ActionBarActivity implements
+		NavigationDrawerFragment.NavigationDrawerCallbacks, OnQueryTextListener {
+
+	private NavigationDrawerFragment mNavigationDrawerFragment;
+
+	/**
+	 * Used to store the last screen title. For use in
+	 * {@link #restoreActionBar()}.
+	 */
+	private CharSequence mTitle;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		lv = (ListView) findViewById(R.id.lv);
-		lv.setOnItemClickListener(new OnItemClickListener() {
-		      public void onItemClick(AdapterView<?> myAdapter, View myView, int myItemInt, long mylng) {
-		    	  Intent myIntent = new Intent(MainActivity.this, Yt_Video_player.class);
-		    	  myIntent.putExtra("yt_id", vid.get(myItemInt).getYt_id()); //Optional parameters
-		    	  MainActivity.this.startActivity(myIntent);
-		      }                 
-		  });
-		pd = new ProgressDialog(MainActivity.this);
-		pd.setTitle("Loading..");
-		new TheTask().execute();
 
+		mNavigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager()
+				.findFragmentById(R.id.navigation_drawer);
+		mTitle = getTitle();
+
+		mNavigationDrawerFragment.setUp(R.id.navigation_drawer,
+				(DrawerLayout) findViewById(R.id.drawer_layout));
+	}
+
+	@Override
+	public void onNavigationDrawerItemSelected(int position) {
+		// update the main content by replacing fragments
+		FragmentManager fragmentManager = getSupportFragmentManager();
+		fragmentManager
+				.beginTransaction()
+				.replace(R.id.container,
+						new Main_fragment().newInstance(position + 1)).commit();
+	}
+
+	public void onSectionAttached(int number) {
+		switch (number) {
+		case 1:
+			mTitle = getString(R.string.title_section1);
+			break;
+		case 2:
+			mTitle = getString(R.string.title_section2);
+			break;
+		case 3:
+			mTitle = getString(R.string.title_section3);
+			break;
+		}
+	}
+
+	public void restoreActionBar() {
+		ActionBar actionBar = getSupportActionBar();
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
+		actionBar.setDisplayShowTitleEnabled(true);
+		actionBar.setTitle(mTitle);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		
+
+		super.onCreateOptionsMenu(menu);
+		getMenuInflater().inflate(R.menu.search_menu, menu);
+		MenuItem searchItem = menu.findItem(R.id.searchview);
+		SearchView searchView = (SearchView) MenuItemCompat
+				.getActionView(searchItem);
+		if (searchView != null) {
+			searchView.setOnQueryTextListener(this);
+		}
+		// restoreActionBar();
 		return true;
-	}
-
-	public void getData() {
-		HttpClient httpclient = new DefaultHttpClient();
-		httpclient.getParams().setParameter(
-				CoreProtocolPNames.PROTOCOL_VERSION, HttpVersion.HTTP_1_1);
-		HttpGet request = new HttpGet(
-				"https://gdata.youtube.com/feeds/api/users/JustForLaughsTV/uploads?&max-results=20&v=2&alt=jsonc");
-		try {
-			HttpResponse response = httpclient.execute(request);
-			HttpEntity resEntity = response.getEntity();
-			String _response = EntityUtils.toString(resEntity); // content will
-			JSONObject json = new JSONObject(_response);
-			JSONArray jsonArray = json.getJSONObject("data").getJSONArray(
-					"items");
-			for (int i = 0; i < jsonArray.length(); i++) {
-				JSONObject jsonObject = jsonArray.getJSONObject(i);
-
-				String title1 = jsonObject.getString("title");
-				String id = jsonObject.getString("id");
-				String duration1 = jsonObject.getString("duration");
-				String thumbUrl = jsonObject.getJSONObject("thumbnail")
-						.getString("sqDefault");
-				URL url1 = new URL(thumbUrl);
-				Bitmap bmp = BitmapFactory.decodeStream(url1.openConnection()
-						.getInputStream());
-				String directurl = jsonObject.getJSONObject("content").getString("1");
-				vid.add(new Video(id, title1, bmp, "",directurl, Integer
-						.parseInt(duration1)));
-
-			}
-		} catch (Exception e1) {
-			e1.printStackTrace();
-		}
-
-		httpclient.getConnectionManager().shutdown();
-	}
-
-	class TheTask extends AsyncTask<Void, Void, Void> {
-
-		@Override
-		protected void onPostExecute(Void result) {
-			// TODO Auto-generated method stub
-			super.onPostExecute(result);
-			pd.dismiss();
-			YouTubeAdapter you = new YouTubeAdapter(MainActivity.this, vid);
-			lv.setAdapter(you);
-		}
-
-		@Override
-		protected void onPreExecute() {
-			// TODO Auto-generated method stub
-			super.onPreExecute();
-			pd.show();
-		}
-
-		@Override
-		protected Void doInBackground(Void... params) {
-			// TODO Auto-generated method stub
-			getData();
-			return null;
-		}
 
 	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
+	@Override
+	public boolean onQueryTextSubmit(String query) {
+		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
+		Intent myIntent = new Intent(MainActivity.this, SearchActivity.class);
+		myIntent.putExtra("query", query); // Optional
+		// parameters
+		MainActivity.this.startActivity(myIntent);
+
+		return false;
+	}
+
+	@Override
+	public boolean onQueryTextChange(String newText) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

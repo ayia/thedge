@@ -3,11 +3,11 @@ package com.itconnect.inc.adapters;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.TimeZone;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,7 +31,12 @@ public class YouTubeAdapter extends BaseAdapter {
 		mInflater = (LayoutInflater) mContext
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 	}
-
+	public void removeDuplicated(){
+		HashSet hs = new HashSet();
+		hs.addAll(videolist);
+		videolist.clear();
+		videolist.addAll(hs);
+	}
 	@Override
 	public int getCount() {
 		// TODO Auto-generated method stub
@@ -49,7 +54,7 @@ public class YouTubeAdapter extends BaseAdapter {
 		// TODO Auto-generated method stub
 		return position;
 	}
-
+	
 	@Override
 	public View getView(final int position, View arg1, ViewGroup arg2) {
 		ViewHolder vh;
@@ -58,6 +63,7 @@ public class YouTubeAdapter extends BaseAdapter {
 			arg1 = mInflater.inflate(R.layout.video, null);
 			vh = new ViewHolder();
 			vh.tv = (TextView) arg1.findViewById(R.id.tvv);
+			vh.description= (TextView) arg1.findViewById(R.id.show_description);
 			vh.iv = (ImageView) arg1.findViewById(R.id.ivv);
 			vh.duration = (TextView) arg1.findViewById(R.id.duration);
 			arg1.setTag(vh);
@@ -65,6 +71,7 @@ public class YouTubeAdapter extends BaseAdapter {
 			vh = (ViewHolder) arg1.getTag();
 		}
 		vh.tv.setText(videolist.get(position).getTitel());
+		vh.description.setText(videolist.get(position).getTitel());
 		vh.selectedvideo=videolist.get(position);
 		vh.duration.setText(ConvertSecondToHHMMString(videolist.get(position)
 				.getDuration()));
@@ -85,6 +92,7 @@ public class YouTubeAdapter extends BaseAdapter {
 	static class ViewHolder {
 		TextView tv;
 		ImageView iv;
+		TextView description;
 		TextView duration;
 		Video selectedvideo;
 	}
