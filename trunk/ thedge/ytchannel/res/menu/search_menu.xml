@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.ytc.MainActivity" >
+     >
 
     <item
         android:id="@+id/action_settings"
@@ -9,9 +9,10 @@
         android:title="Settings"
         app:showAsAction="never"/>
     <item
-        android:id="@+id/menu_item_search"
+        android:id="@+id/searchview"
+        android:orderInCategory="10"
         app:actionViewClass="android.widget.SearchView"
-        android:showAsAction="always"
+        app:showAsAction="always"
        >
     </item>
 
