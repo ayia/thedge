@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Just For Laughs Gags</string>
+    <string name="DEVELOPER_KEY">AIzaSyDqwUzteBgl6hmQXGhoxJjyB7pve6eRuUU</string>
+    <string name="title_activity_yt__video_player">player</string>
+    <string name="yt_use_id">MrAntoineDaniel</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+     <string name="title_section1">Home</string>
+    <string name="title_section2">Favoris</string>
+    <string name="title_section3">About</string>
+    <string name="about_text">about text</string>
+    <string name="share_video_msg" formatted="false">Je regarde %s par %s sur %s pour Android. %s</string>
+
+</resources>

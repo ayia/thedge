@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:foreground="@drawable/video_background_selector"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ivv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_video_thumb"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10.0dip"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="5.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingTop="5.0dip" >
+
+        <TextView
+            android:id="@+id/tvv"
+            style="@style/ShowItemTitleAppearance"
+            android:layout_width="fill_parent"
+            android:text="Titel"
+            android:layout_height="wrap_content"
+            android:paddingTop="5.0dip" />
+
+        <TextView
+            android:id="@+id/show_description"
+            style="@style/ShowItemNameAppearance"
+            android:text="show_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10.0dip"
+            android:paddingTop="5.0dip" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/ivv"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:background="@drawable/duration_background"
+            android:maxLines="1"
+            android:padding="6.0dip"
+            android:text="22:29"
+            android:textColor="@color/video_item_duration_font"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/extra_small_font_size"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
