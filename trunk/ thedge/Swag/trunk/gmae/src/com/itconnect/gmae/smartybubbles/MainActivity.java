@@ -9,6 +9,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.google.analytics.tracking.android.EasyTracker;
+
 public class MainActivity extends Activity {
 	private WebView webView;
 	private View fragment_loading;
@@ -70,11 +72,24 @@ public class MainActivity extends Activity {
 		});
 		loadUrl();
 	}
-	
 	private void loadUrl(){
 		webView.setVisibility(View.GONE);
 		fragment_loading.setVisibility(View.VISIBLE);
 		fragment_no_connection.setVisibility(View.GONE);
 		webView.loadUrl("http://games.cdn.famobi.com/html5games/s/smarty-bubbles/v8/?fg_domain=play.famobi.com&fg_aid=A1000-1&fg_uid=d8f24956-dc91-4902-9096-a46cb1353b6f&fg_pid=4638e320-4444-4514-81c4-d80a8c662371&fg_beat=667&_ga=1.152057274.2016474715.1424703668");
 	}
+	@Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		EasyTracker.getInstance(this).activityStart(this);
+		super.onStart();
+	}
+	@Override
+	protected void onStop() {
+		// TODO Auto-generated method stub
+		EasyTracker.getInstance(this).activityStop(this);
+		super.onStop();
+	}
+	
+	
 }
