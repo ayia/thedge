@@ -2,5 +2,7 @@
 <resources>
 
     <color name="background">#5FDFFF</color>
-   
+    <color name="black">#000</color>
+    <color name="p_btn_pressed">#1a1a1a</color>
+
 </resources>

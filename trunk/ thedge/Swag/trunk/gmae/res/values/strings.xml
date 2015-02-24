@@ -2,7 +2,12 @@
 <resources>
 
     <string name="app_name">Smarty Bubbles</string>
+    <string name="developer_id">Games1</string>
     <string name="no_connection">No connection</string>
     <string name="retry">Retry</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_more">More games</string>
+    <string name="menu_vote">Vote</string>
+    <string name="share_msg">Smarty Bubbles is one of the most popular bubble shooter games, the perfect casual game for all ages. Combine at least 3 bubbles of the same color and try to remove all bubbles from the field. Can you set a new high score?</string>
 
 </resources>

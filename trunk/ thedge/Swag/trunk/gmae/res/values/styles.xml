@@ -1,7 +1,12 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    
     <style name="AppTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
-	<item name="android:background">@color/background</item>
+        <item name="android:panelFullBackground">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
     </style>
-
+   <style name="HeaderButton">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@drawable/header_button_selector</item>
+    </style>
+    
 </resources>

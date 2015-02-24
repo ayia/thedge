@@ -4,6 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+
+
     <com.google.ads.AdView
         android:id="@+id/adView"
         android:layout_width="fill_parent"
@@ -29,11 +31,12 @@
             layout="@layout/fragment_no_connection"
             android:visibility="gone" />
 
-        <WebView
-            android:id="@+id/webview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+        <include
+            android:id="@+id/fragment_webview"
+            layout="@layout/fragment_webview"
             android:visibility="gone" />
+
+     
     </LinearLayout>
 
 </RelativeLayout>
