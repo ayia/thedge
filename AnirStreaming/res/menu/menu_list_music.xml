@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+ <item
+        android:id="@+id/add_to_playlist"
+        android:orderInCategory="100"
+        android:title="@string/dmusic_playlist_add_to_title"
+        />
+  <item
+        android:id="@+id/play_next"
+        android:orderInCategory="100"
+        android:title="@string/play_next"
+        />
+    <item
+        android:id="@+id/add_toquee"
+        android:orderInCategory="100"
+        android:title="@string/add_queue"
+        />
+ 
+</menu>
+

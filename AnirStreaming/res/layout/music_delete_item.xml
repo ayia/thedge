@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anytextview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/TrackRowViewGroup"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_item_background"
+    android:orientation="horizontal"
+    android:paddingBottom="2.0sp"
+    android:paddingTop="2.0sp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="20dp" >
+
+        <ImageView
+            android:id="@+id/grid_item_image"
+            android:layout_width="@dimen/default_listview_album_art_size"
+            android:layout_height="@dimen/default_listview_album_art_size"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/index"
+            android:layout_width="@dimen/default_listview_album_art_size"
+            android:layout_height="@dimen/default_listview_album_art_size"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/interlude_animation_list" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/infotrack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1" >
+
+        <com.ctrlplusz.anytextview.AnyTextView
+            android:id="@+id/grid_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              style="@style/TrackItemPrimaryText"
+            android:lines="2"
+            android:textColor="@color/pure_white"
+            android:text="Title"
+            anytextview:typeface="Timber.ttf" />
+
+        <com.ctrlplusz.anytextview.AnyTextView
+            android:id="@+id/grid_item_subtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/grid_item_title"
+             android:lines="2"
+             anytextview:typeface="Timber.ttf"
+            android:text="kjsdkjskjdjks" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/delete_icon"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="@dimen/listview_row_padding_left"
+        android:src="@drawable/ic_delete_normal" />
+
+</LinearLayout>

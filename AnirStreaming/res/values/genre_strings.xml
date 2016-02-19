@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="genres_text">
+        <item>Alternative Rock</item>
+        <item>Ambient</item>
+        <item>Classical</item>
+        <item>Country</item>
+        <item>Dance &#38; Edm</item>
+        <item>Dancehall</item>
+        <item>Disco</item>
+        <item>Drum &#38; Bass</item>
+        <item>DubStep</item>
+        <item>Electronic</item>
+        <item>Folk &#38; Singer-Songwriter</item>
+        <item>Hip Hop &#38; Rap</item>
+        <item>House</item>
+        <item>Indie</item>
+        <item>Jazz &#38; Blues</item>
+        <item>Latin</item>
+        <item>Metal</item>
+        <item>Piano</item>
+        <item>Pop</item>
+        <item>R&amp;B &amp;Soul</item>
+        <item>Reggae</item>
+        <item>Reggaeton</item>
+        <item>Rock</item>
+        <item>SoundTrack</item>
+        <item>Techno</item>
+        <item>Trance</item>
+        <item>Trap</item>
+        <item>Trip Hop</item>
+        <item>World</item>
+    </string-array>
+    <string-array name="genre_search_text">
+        <item>alternative+rock</item>
+         <item>acid</item>
+        <item>ambient</item>
+        <item>classical</item>
+        <item>country</item>
+        <item>dance+edm</item>
+        <item>dancehall</item>
+        <item>disco</item>
+        <item>drum+&amp;+bass</item>
+        <item>dubstep</item>
+        <item>electronic</item>
+        <item>folk+&amp;+singer-songwriter</item>
+        <item>hip+hop+&amp;+rap</item>
+        <item>house</item>
+        <item>indie</item>
+        <item>jazz+&amp;+blues</item>
+        <item>latin</item>
+        <item>metal</item>
+        <item>piano</item>
+        <item>pop</item>
+        <item>r&amp;b+&amp;+soul</item>
+        <item>reggae</item>
+        <item>reggaeton</item>
+        <item>rock</item>
+        <item>soundtrack</item>
+        <item>techno</item>
+        <item>trance</item>
+        <item>trap</item>
+        <item>trip+hop</item>
+        <item>world</item>
+    </string-array>
+
+</resources>

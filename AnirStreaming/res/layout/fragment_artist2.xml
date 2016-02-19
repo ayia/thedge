@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tyolar.inc.musica.widget.ParallaxScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:anytextview="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/window_background"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:id="@+id/artistview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/window_background"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_weight=".50"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/artistImage"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_singer_cover" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="@color/pure_white"
+            android:layout_weight=".50" >
+
+            <include
+                android:id="@+id/loading_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/fragment_loading" />
+
+            <include
+                android:id="@+id/error_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/fragment_no_connection"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/resultzone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TableLayout
+                    android:id="@+id/listmusic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</com.tyolar.inc.musica.widget.ParallaxScrollView>

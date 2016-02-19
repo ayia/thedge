@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="label_share_text">Muica :) Free Music</string>
+    <string name="label_menu_share">Share app</string>
+    <string name="app_name">Musica</string>
+    <string name="dmusic_connection_dialog_title">Connection error</string>
+    <string name="dmusic_button_retry">Retry</string>
+    <string name="play_all">Play all</string>
+    <string name="dmusic_track_shuffle_all">Shuffle all</string>
+    <string name="play_next"> Play Next </string>
+    <string name="add_queue"> Add to Queue </string>
+    <string name="loading">Loading\u2026</string>
+    <string name="no_result_search">Your Search %1$s did not match any songs.</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="dmusic_library_empty_filter_no_tracks_found">No songs found.</string>
+
+    <!-- playlist -->
+    <string name="dmusic_download_cancel_dialog_prompt_collection_playlist">Playlist</string>
+    <string name="dmusic_playlist_add_to_title">Add to playlist</string>
+    <string name="save_all_track_in_playlist"> Save queue </string>
+    <string name="dmusic_playlist_create_playlist">Create new playlist</string>
+    <string name="dmusic_playlist_create_edit_hint">Enter playlist name</string>
+    <string name="playlist_created">Playlist created.</string>
+    <string name="delete_playlist_menu">Delete</string>
+    <string name="edit_playlist_menu">Edit</string>
+    <string name="playlist_description">Description </string>
+    <string name="save_as_playlist">Save as playlist</string>
+    <string name="remove_from_playlist">Remove from playlist</string>
+    <string name="playlist_deleted_message">Playlist deleted.</string>
+    <!-- Transient popup message shown after renaming a playlist -->
+    <string name="playlist_renamed_message">Playlist renamed.</string>
+    <!-- menu item to clear the current playlist -->
+    <string name="clear_playlist">Clear playlist</string>
+    <string name="one_song_added">1 song added to playlist.</string>
+    <string name="one_song_deleted">1 song was deleted.</string>
+    <!-- Toast after selecting an empty playlist -->
+    <string name="emptyplaylist">Selected playlist is empty.</string>
+    <!-- Dialog box message -->
+    <string name="service_start_error_msg">The song couldn\'t be played.</string>
+
+    <!-- Amazon message -->
+    <!-- <string name="dmusic_playlist_create_playlist">Create new playlist</string> -->
+    <string name="dmusic_playlist_all_songs">%1$s songs</string>
+    <string name="dmusic_prime_menu_play">Play</string>
+    <string name="error">ERROR.</string>
+    <string name="cancel">Cancel</string>
+    <string name="dmusic_library_music_tab">Play Now</string>
+    <string name="soundcloudid">472ea9cffc056ea4f5bc762b4bc00655</string>
+
+    <!-- <string name="soundcloudid">4b1171ebc5cb8ed24755226bf29d8872</string> -->
+    <string-array name="nav_drawer_items">
+        <item>@string/abc_searchview_description_search</item>
+        <item>Home</item>
+        <item>PlayList</item>
+        <item>My Albums</item>
+        <item>Contact Us</item>
+    </string-array>
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/search_music</item>
+        <item>@drawable/ic_wave</item>
+        <item>@drawable/ic_playlist</item>
+        <item>@drawable/ic_album_black</item>
+        <item>@drawable/email</item>
+    </array>
+
+    <string name="title_activity_player_">Player_Activity</string>
+
+    <integer name="key_notification_id">1</integer>
+
+</resources>

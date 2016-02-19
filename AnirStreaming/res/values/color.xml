@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#E65100</color>
+   <color name="colorPrimaryDark">@color/material_deep_teal_500</color>
+    
+    <color name="c_navajo_white">#eeeeee</color>
+    <color name="list_item_title">#000</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="window_background">#f6f6f7</color>
+    <color name="light_beige">#f6f6f7</color>
+    <color name="orange">#E65100</color>
+    <color name="media_item_icon_not_playing">#ccc</color>
+    <color name="bt_accent">#00B8D4</color>
+    <color name="media_item_icon_playing">@color/bt_accent</color>
+    <color name="pressed">#ff0e1113</color>
+    <color name="transparent">#00000000</color>
+    <color name="c_dimgray">#738276</color>
+
+    <item name="cyan_500" type="color">#00BCD4</item>
+    <item name="cyan_700" type="color">#0097A7</item>
+    <item name="indigo_500" type="color">#3F51B5</item>
+    <item name="indigo_700" type="color">#303F9F</item>
+    <item name="blue_500" type="color">#2196F3</item>
+    <item name="blue_700" type="color">#1976D2</item>
+    <item name="teal_500" type="color">#009688</item>
+    <item name="teal_700" type="color">#00796B</item>
+    <item name="red_500" type="color">#DB4336</item>
+    <item name="red_700" type="color">#B73221</item>
+    <item name="dark_blue_500" type="color">#1048A7</item>
+    <item name="dark_blue_700" type="color">#0C3478</item>
+    <item name="dark_200" type="color">#232323</item>
+    <item name="dark_500" type="color">#131313</item>
+    <item name="dark_700" type="color">#000000</item>
+    <item name="blue_gray_200" type="color">#B0BEC5</item>
+    <item name="blue_gray_500" type="color">#607D8B</item>
+    <item name="blue_gray_700" type="color">#455A64</item>
+    <item name="blue_gray_900" type="color">#263238</item>
+    <item name="transparent_blue_gray_900" type="color">#99FFA500</item>
+
+    <color name="c_cadmium_orange">#99e74c3c</color>
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="primary_light">#FFCCBC</color>
+    <color name="accent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="mid_grey">#2F4F4F</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <!-- amazon color -->
+    <color name="pure_white">#ffffffff</color>
+    <color name="listview_item_pressed_background">#ff1a1a1a</color>
+    <color name="listview_item_focused_background">#ff1a1a1a</color>
+    <color name="listview_item_focus_stroke">@color/mid_grey</color>
+    <color name="listview_item_pressed_secondary_text">@color/mid_grey</color>
+    <color name="listview_item_focused_secondary_text">@color/mid_grey</color>
+    <color name="listview_item_normal_secondary_text">@color/mid_grey</color>
+    <color name="listview_item_pressed_primary_text">@color/pure_white</color>
+    <color name="listview_item_focused_primary_text">@color/pure_white</color>
+    <color name="listview_item_normal_primary_text">@color/pure_white</color>
+    <color name="subheader_background">#ff262626</color>
+    <color name="prime_search_empty_result_page_msg">#ffb4bbbf</color>
+
+</resources>

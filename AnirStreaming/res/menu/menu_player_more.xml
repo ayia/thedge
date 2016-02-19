@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/add_playlist"
+        android:orderInCategory="100"
+        android:title="@string/dmusic_playlist_add_to_title"/>
+       <item
+        android:id="@+id/save_quee"
+        android:orderInCategory="100"
+        android:title="@string/save_all_track_in_playlist"/>
+    
+    <item
+        android:id="@+id/go_artist"
+        android:orderInCategory="100"
+        android:title="@string/menu_go_artist"/>
+    <item
+        android:id="@+id/go_album"
+        android:orderInCategory="100"
+        android:title="@string/menu_go_album"/>
+  
+
+</menu>

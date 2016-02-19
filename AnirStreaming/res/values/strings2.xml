@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- aetist -->
+    <string name="title_releases_new">New releases</string>
+    <string name="title_top_tracks">Top Tracks</string>
+    <string name="title_more">More</string>
+    <string name="title_genres">Genres</string>
+    <string name="title_home">Home</string>
+    <string name="title_artists">Artists</string>
+    <string name="title_songs">Songs</string>
+    <string name="title_albyms">Albums</string>
+
+    <!-- menu -->
+    <string name="menu_go_album">Go to Album</string>
+    <string name="menu_go_artist">Go to Artist</string>
+
+    <!-- my album -->
+    <string name="save_album">Save </string>
+    <string name="remove_album">Remove </string>
+    <string name="one_album_added">Saved to your albums.</string>
+    <string name="one_album_deleted">removed from  your albums</string>
+    <string name="empty_albums">your favorite albums is empty</string>
+    <!-- home titel menu -->
+    <string name="titel_genre">Genres </string>
+    <string name="titel_topchart">Top Charts</string>
+    <string name="titel_newreleases">New Releases</string>
+    <!-- home top titel -->
+    <string name="top_albums">Top Albums </string>
+    <string name="top_songs">Top Songs </string>
+    <string name="top_new_traks">New Tracks </string>
+    <string name="top_hot">What \'s Hot </string>
+    <string name="top_hit">Greatest Hits </string>
+    <!-- ge,res -->
+    <string name="genre_alternative_ndie">Alternative/Indie </string>
+    <string name="genre_Blues">Blues </string>
+    <string name="genre_child_music">Children\'s Music </string>
+    <string name="genre_gospel"> Christian/Gospel</string>
+    <string name="genre_classical"> Classical</string>
+    <string name="genre_comedy"> Comedy/SpokenWord/Other</string>
+    <string name="genre_country">Country</string>
+    <string name="genre_dance">Dance/Electronic</string>
+    <string name="genre_folk">Folk</string>
+    <string name="genre_rap">Hip-Hop/Rap</string>
+    <string name="genre_holiday">Holiday</string>
+    <string name="genre_jazz">Jazz</string>
+    <string name="genre_metal">Metal</string>
+    <string name="genre_pop">Pop</string>
+    <string name="genre_soul">Soul</string>
+    <string name="genre_reggae">Reggae</string>
+    <string name="genre_rock">Rock</string>
+    <string name="genre_soundtracks">Soundtracks</string>
+    <string name="genre_vocal">Vocal/Easy Listening</string>
+    <string name="genre_world">World</string>
+
+</resources>

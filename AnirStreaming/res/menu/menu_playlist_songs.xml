@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+ <item
+        android:id="@+id/remove__playlist"
+        android:orderInCategory="100"
+        android:title="@string/remove_from_playlist"
+        />
+  <item
+        android:id="@+id/add_queue"
+        android:orderInCategory="100"
+        android:title="@string/play_next"
+        />
+   <item
+        android:id="@+id/go_artist"
+        android:orderInCategory="100"
+        android:title="@string/menu_go_artist"/>
+    <item
+        android:id="@+id/go_album"
+        android:orderInCategory="100"
+        android:title="@string/menu_go_album"/>
+  
+
+</menu>
+

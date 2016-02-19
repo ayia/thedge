@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/listview_row_padding_right_of_image"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp" >
+
+    <Button
+        android:id="@+id/play_all"
+        style="@style/ButtonUsic"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight=".50"
+        android:drawableLeft="@drawable/ic_play_all_normal"
+        android:text="@string/play_all" />
+
+    <Button
+        android:id="@+id/shuffle_all"
+        style="@style/ButtonUsic"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight=".50"
+        android:drawableLeft="@drawable/ic_shuffle_all_normal"
+        android:text="@string/dmusic_track_shuffle_all" />
+
+</LinearLayout>

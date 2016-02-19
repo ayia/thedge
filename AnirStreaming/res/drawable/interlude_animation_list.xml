@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/lyrics_icon_songplaying_1" />
+    <item android:duration="100" android:drawable="@drawable/lyrics_icon_songplaying_2" />
+    <item android:duration="100" android:drawable="@drawable/lyrics_icon_songplaying_3" />
+    <item android:duration="100" android:drawable="@drawable/lyrics_icon_songplaying_4" />
+    <item android:duration="100" android:drawable="@drawable/lyrics_icon_songplaying_5" />
+</animation-list>

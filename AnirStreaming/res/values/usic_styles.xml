@@ -1,0 +1,70 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButtonUsic" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@color/orange</item>
+        <item name="android:textColor">@color/pure_white</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:textAllCaps">true</item>
+         <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+
+    <style name="TrackItemText">
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TrackItemPrimaryText" parent="@style/TrackItemText">
+        <item name="android:textSize">@dimen/listview_item_primary_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="TrackItemPrimaryTextorange" parent="@style/TrackItemText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:lines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="TrackItemPrimaryTextwhite" parent="@style/TrackItemText">
+        <item name="android:textSize">@dimen/listview_item_primary_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:lines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="TrackItemSecondaryText" parent="@style/TrackItemText">
+        <item name="android:textSize">@dimen/listview_item_secondary_text_size</item>
+        <item name="android:textColor">@color/mid_grey</item>
+    </style>
+
+    <style name="TrackItemSecondaryTextwhite" parent="@style/TrackItemText">
+        <item name="android:textSize">@dimen/listview_item_secondary_text_size</item>
+        <item name="android:textColor">@color/c_navajo_white</item>
+    </style>
+
+</resources>
