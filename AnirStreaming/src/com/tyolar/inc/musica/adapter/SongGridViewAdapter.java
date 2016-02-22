@@ -5,6 +5,7 @@ import java.util.List;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -13,6 +14,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 import com.tyolar.inc.musica.BaseActivity;
 import com.tyolar.inc.musica.R;
@@ -158,9 +160,11 @@ public class SongGridViewAdapter extends BaseAdapter {
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
-					((BaseActivity) context)
-							.loadFragment(new com.tyolar.inc.musica.fragments.ArtistFragment(
-									holderartist.artist));
+					Intent myIntent = new Intent(context,
+							com.tyolar.inc.musica.activities.Artist_Activity.class);
+					myIntent.putExtra("artist", holderartist.artist.toJson());
+					context.startActivity(myIntent);
+					
 				}
 			});
 
@@ -194,9 +198,10 @@ public class SongGridViewAdapter extends BaseAdapter {
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
-					((BaseActivity) context)
-					.loadFragment(new com.tyolar.inc.musica.fragments.AlbumFragment(
-							holderalbum.album));
+					Intent myIntent = new Intent(context,
+							com.tyolar.inc.musica.activities.Album_Activity.class);
+					myIntent.putExtra("album", holderalbum.album.toJson());
+					context.startActivity(myIntent);
 				}
 			});
 

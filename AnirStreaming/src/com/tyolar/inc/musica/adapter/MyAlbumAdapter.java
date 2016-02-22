@@ -2,6 +2,7 @@ package com.tyolar.inc.musica.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -117,10 +118,11 @@ public class MyAlbumAdapter extends BaseAdapter {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				try {
-
-					AlbumFragment s = new AlbumFragment(holder.album);
-
-					context.loadFragment(s);
+					Intent myIntent = new Intent(context,
+							com.tyolar.inc.musica.activities.Album_Activity.class);
+					myIntent.putExtra("album", holder.album.toJson());
+					context.startActivity(myIntent);
+					
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

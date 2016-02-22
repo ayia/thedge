@@ -294,8 +294,12 @@ public class PlayerActivity extends Activity {
 							.getAlbum(), playedsong.getArtist(), playedsong
 							.getArtistID(), playedsong.getCoverArt(),
 							playedsong.getArtistArt());
-					intent.putExtra("album", album.toJson());
-					mapp.getBaseactivity().startfragment(intent);
+					
+					Intent myIntent = new Intent(getme(),
+							com.tyolar.inc.musica.activities.Album_Activity.class);
+					myIntent.putExtra("album", album.toJson());
+					getme().startActivity(myIntent);
+					
 					finish();
 					break;
 				default:

@@ -26,7 +26,6 @@ import com.tyolar.inc.musica.model.apiurls;
 import com.tyolar.inc.musica.model.searchResult;
 
 public class PlayList_SongsFragment extends CFragment {
-	ImageView album_imageview;
 	View shuffle_button;
 	View playall_button;
 	View album_view;
@@ -49,7 +48,6 @@ public class PlayList_SongsFragment extends CFragment {
 		View rootView = inflater.inflate(R.layout.fragment_playlist_songs2,
 				container, false);
 		album_view = rootView.findViewById(R.id.albumview);
-		album_imageview = (ImageView) rootView.findViewById(R.id.albumImage);
 		listmusic = (TableLayout) rootView.findViewById(R.id.listmusic);
 		shuffle_button = rootView.findViewById(R.id.shuffle_button);
 		playall_button = rootView.findViewById(R.id.playall_button);

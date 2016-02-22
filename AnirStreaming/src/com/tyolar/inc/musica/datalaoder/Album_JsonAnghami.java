@@ -199,7 +199,9 @@ public class Album_JsonAnghami extends AsyncTask<album, Void, searchResult> {
 	protected void onPostExecute(final searchResult result) {
 		// TODO Auto-generated method stub
 	if(s==null){
-		final BaseActivity s = (BaseActivity) context;
+		
+		app2 mapp = (app2) context.getApplicationContext();
+		final BaseActivity s = mapp.getBaseactivity();
 		this.main.findViewById(R.id.controlpanel).setVisibility(View.VISIBLE);
 		if (result.getSonglist().size() != 0) {
 			this.main.findViewById(R.id.playall_button).setOnClickListener(
@@ -253,6 +255,7 @@ public class Album_JsonAnghami extends AsyncTask<album, Void, searchResult> {
 			artistgrid.setId(1);
 			artistgrid.more_button.setVisibility(View.INVISIBLE);
 			artistgrid.Header.setText(selectedalbum.getTitle());
+			artistgrid.Header.setVisibility(View.GONE);
 			artistgrid.setSonglist(result);
 			main_music.addView(artistgrid);
 			

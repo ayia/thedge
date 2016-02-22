@@ -105,15 +105,22 @@ public class BaseActivity extends ActionBarActivity {
 
 		if (data.getExtras().containsKey("artist")) {
 
-			artist obj = new Gson().fromJson(data.getStringExtra("artist"),
+			artist artist = new Gson().fromJson(data.getStringExtra("artist"),
 					artist.class);
-			loadFragment(new ArtistFragment(obj));
+			Intent myIntent = new Intent(this,
+					com.tyolar.inc.musica.activities.Artist_Activity.class);
+			myIntent.putExtra("artist", artist.toJson());
+			startActivity(myIntent);
 		}
 
 		if (data.getExtras().containsKey("album")) {
-			album obj = new Gson().fromJson(data.getStringExtra("album"),
+			album album = new Gson().fromJson(data.getStringExtra("album"),
 					album.class);
-			loadFragment(new AlbumFragment(obj));
+			Intent myIntent = new Intent(this,
+					com.tyolar.inc.musica.activities.Album_Activity.class);
+			myIntent.putExtra("album", album.toJson());
+			startActivity(myIntent);
+
 		}
 
 	}
@@ -236,14 +243,20 @@ public class BaseActivity extends ActionBarActivity {
 				case R.id.go_artist:
 					artist f = new artist(track.getArtistID(), track
 							.getArtist(), track.getArtistArt());
-					loadFragment(new ArtistFragment(f));
+					Intent myIntent = new Intent(getme(),
+							com.tyolar.inc.musica.activities.Artist_Activity.class);
+					myIntent.putExtra("artist", f.toJson());
+					startActivity(myIntent);
 					break;
 				case R.id.go_album:
 					album album = new album(track.getAlbumID(), track
 							.getAlbum(), track.getArtist(),
 							track.getArtistID(), track.getCoverArt(), track
 									.getArtistArt());
-					loadFragment(new AlbumFragment(album));
+					Intent myIntent1 = new Intent(v.getContext(),
+							com.tyolar.inc.musica.activities.Album_Activity.class);
+					myIntent1.putExtra("album", album.toJson());
+					startActivity(myIntent1);
 					break;
 
 				default:

@@ -44,7 +44,7 @@ import com.aocate.media.MediaPlayer.OnPreparedListener;
 import com.tyolar.inc.musica.R;
 import com.tyolar.inc.musica.app2;
 import com.tyolar.inc.musica.model.song;
-import com.tyolar.inc.musica.stat.PlayerStat;
+
 
 /***
  * A simple audio player wrapper for Android
@@ -79,8 +79,7 @@ public class AudioWife {
 
 	private View mPlayButton;
 	private View mPauseButton;
-	
-	public PlayerStat  playerStat=PlayerStat.Loading; 
+
 
 	/***
 	 * Indicates the current run-time of the audio being played
@@ -373,7 +372,7 @@ public class AudioWife {
 		if (mPauseButton != null) {
 			mPauseButton.setVisibility(View.GONE);
 		}
-		playerStat=playerStat.Playing;
+
 	}
 
 	/****
@@ -387,7 +386,6 @@ public class AudioWife {
 		if (mPauseButton != null) {
 			mPauseButton.setVisibility(View.VISIBLE);
 		}
-		playerStat=playerStat.Stop;
 	}
 
 	public AudioWife init(Context ctx) {

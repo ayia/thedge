@@ -69,4 +69,7 @@
 
     <integer name="key_notification_id">1</integer>
 
+    <string name="title_activity_album_">Album_Activity</string>
+    <string name="hello_world">Hello world!</string>
+
 </resources>

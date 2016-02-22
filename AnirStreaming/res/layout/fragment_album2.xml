@@ -16,21 +16,6 @@
         android:background="@color/pure_white"
         android:orientation="vertical"
         android:weightSum="1" >
-
-        <FrameLayout
-            android:layout_width="fill_parent"
-            android:layout_height="300dp"
-            android:layout_weight=".50"
-            android:orientation="vertical" >
-
-            <ImageView
-                android:id="@+id/albumImage"
-                android:layout_width="fill_parent"
-                android:layout_height="300dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/ic_album_cover" />
-        </FrameLayout>
-
         <FrameLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
