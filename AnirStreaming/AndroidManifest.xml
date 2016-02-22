@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tyolar.inc.musica"
-    android:versionCode="6"
-    android:versionName="1.0" >
+    android:versionCode="7"
+    android:versionName="1.2" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="15"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".app2"
@@ -40,8 +37,10 @@
         <activity
             android:name=".MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/ic_launcher_white"
             android:label="@string/app_name"
             android:launchMode="singleTop"
+            android:logo="@drawable/ic_launcher_white"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
             <intent-filter>
@@ -88,9 +87,11 @@
             android:theme="@android:style/Theme.Translucent" />
         <activity
             android:name="com.tyolar.inc.musica.activities.Album_Activity"
+            android:icon="@drawable/ic_launcher_white"
             android:parentActivityName=".MainActivity" />
-          <activity
+        <activity
             android:name="com.tyolar.inc.musica.activities.Artist_Activity"
+            android:icon="@drawable/ic_launcher_white"
             android:parentActivityName=".MainActivity" />
     </application>
 

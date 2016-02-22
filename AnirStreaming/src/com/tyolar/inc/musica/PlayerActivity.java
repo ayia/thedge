@@ -3,7 +3,6 @@ package com.tyolar.inc.musica;
 import java.util.Collections;
 
 import android.app.Activity;
-import android.app.NotificationManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -20,6 +19,9 @@ import android.widget.TextView;
 
 import com.aocate.media.MediaPlayer;
 import com.aocate.media.MediaPlayer.OnCompletionListener;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
@@ -104,17 +106,17 @@ public class PlayerActivity extends Activity {
 		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
 		t.setScreenName("Player");
 		t.send(new HitBuilders.AppViewBuilder().build());
-		// final InterstitialAd mInterstitialAd = new InterstitialAd(this);
-		// mInterstitialAd.setAdUnitId("ca-app-pub-3908763514019803/6819661174");
-		// AdRequest adRequest = new AdRequest.Builder().addTestDevice(
-		// "SEE_YOUR_LOGCAT_TO_GET_YOUR_DEVICE_ID").build();
-		// mInterstitialAd.loadAd(adRequest);
-		// // Begin listening to interstitial & show ads.
-		// mInterstitialAd.setAdListener(new AdListener() {
-		// public void onAdLoaded() {
-		// mInterstitialAd.show();
-		// }
-		// });
+//		 final InterstitialAd mInterstitialAd = new InterstitialAd(this);
+//		 mInterstitialAd.setAdUnitId("ca-app-pub-3908763514019803/6819661174");
+//		 AdRequest adRequest = new AdRequest.Builder().addTestDevice(
+//		 "SEE_YOUR_LOGCAT_TO_GET_YOUR_DEVICE_ID").build();
+//		 mInterstitialAd.loadAd(adRequest);
+//		 // Begin listening to interstitial & show ads.
+//		 mInterstitialAd.setAdListener(new AdListener() {
+//		 public void onAdLoaded() {
+//		 mInterstitialAd.show();
+//		 }
+//		 });
 
 	}
 

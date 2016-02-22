@@ -73,7 +73,7 @@ public class MainActivity extends BaseActivity {
 		t.setScreenName("Home");
 		t.send(new HitBuilders.AppViewBuilder().build());
 		mapp.setBaseactivity(this);
-//
+
 //		final InterstitialAd mInterstitialAd = new InterstitialAd(this);
 //		mInterstitialAd.setAdUnitId("ca-app-pub-3908763514019803/6819661174");
 //		AdRequest adRequest = new AdRequest.Builder().addTestDevice(
@@ -85,7 +85,7 @@ public class MainActivity extends BaseActivity {
 //				mInterstitialAd.show();
 //			}
 //		});
-
+//
 	}
 
 	private void initview() {
@@ -157,8 +157,8 @@ public class MainActivity extends BaseActivity {
 		mDrawerList.setOnItemClickListener(new SlideMenuClickListener());
 		adapter = new NavDrawerListAdapter(getApplicationContext(),
 				navDrawerItems);
-		mDrawerList.setAdapter(adapter);
 		AddHeaderMenu();
+		mDrawerList.setAdapter(adapter);
 		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
 				R.drawable.ic_drawer, // nav menu toggle icon
 				R.string.app_name, // nav drawer open - description for

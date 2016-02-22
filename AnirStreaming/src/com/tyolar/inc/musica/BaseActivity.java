@@ -367,7 +367,7 @@ public class BaseActivity extends ActionBarActivity {
 		Intent previousTrackIntent = new Intent();
 		previousTrackIntent.setAction("player.BACK_ACTION");
 		PendingIntent previousTrackPendingIntent = PendingIntent.getBroadcast(
-				this.getApplicationContext(), 0, nextTrackIntent, 0);
+				this.getApplicationContext(), 0, previousTrackIntent, 0);
 		notificationView.setOnClickPendingIntent(
 				R.id.notification_base_previous, previousTrackPendingIntent);
 

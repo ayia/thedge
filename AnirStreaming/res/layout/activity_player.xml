@@ -23,7 +23,7 @@
             android:layout_height="30dp"
             android:layout_alignParentLeft="true"
             android:layout_gravity="center"
-            android:src="@drawable/ic_keyboard_arrow_down_white_48dp" />
+            android:src="@drawable/ic_back" />
 
         <com.ctrlplusz.anytextview.AnyTextView
             android:id="@+id/song_titel"
@@ -42,7 +42,7 @@
         android:layout_gravity="center"
         android:layout_weight=".50" >
 
-        <ImageView
+        <com.tyolar.inc.musica.widget.StretchyImageView
             android:id="@+id/song_umage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -76,8 +76,10 @@
             android:src="@drawable/ic_pluse" />
 
         <LinearLayout
+            android:id="@+id/textsonggs"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
+            android:layout_alignParentRight="@id/more_icon"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:gravity="center"
@@ -108,6 +110,7 @@
             android:id="@+id/playlist"
             android:layout_width="30dp"
             android:layout_height="30dp"
+        
             android:layout_alignParentRight="true"
             android:src="@drawable/ic_grid_music_disbled" />
     </RelativeLayout>
@@ -192,9 +195,9 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_gravity="center"
-                        android:visibility="gone"
                         android:background="@drawable/ic_fab_pause_btn_normal"
-                        android:padding="20dp" />
+                        android:padding="20dp"
+                        android:visibility="gone" />
 
                     <ImageButton
                         android:id="@+id/player_play"
