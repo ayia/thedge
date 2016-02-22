@@ -93,11 +93,10 @@ public class BaseActivity extends ActionBarActivity {
 			mapp.getMusicaService().setSelectedtrackindex(
 					mapp.getMusicaService().getSongtoplay().size() - 1);
 		}
-
-		playSong(d);
 		Intent myIntent = new Intent(BaseActivity.this,
 				com.tyolar.inc.musica.PlayerActivity.class);
 		BaseActivity.this.startActivity(myIntent);
+		playSong(d);
 
 	}
 
@@ -364,7 +363,7 @@ public class BaseActivity extends ActionBarActivity {
 				track.getCoverArt());
 		mNotificationBuilder.setContent(notificationView);
 		Notification notification = mNotificationBuilder.build();
-
+		notification.flags |= Notification.FLAG_ONGOING_EVENT | Notification.FLAG_NO_CLEAR;
 		NotificationManager notifManager = (NotificationManager) getSystemService(this.NOTIFICATION_SERVICE);
 		notifManager.notify(0,
 				notification);

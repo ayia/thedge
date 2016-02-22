@@ -127,8 +127,9 @@ public class PlayerActivity extends Activity {
 		adp.notifyDataSetChanged();
 		mapp.getAudioWife().getInstance().setPauseView(player_pause)
 				.setPlayView(player_play).setTotalTimeView(duration)
+				.setLoadingView(findViewById(R.id.loading_progress))
 				.setRuntimeView(current_time).setSeekBar(seekbar);
-		mapp.getAudioWife().getInstance().updateUI();
+		// mapp.getAudioWife().getInstance().updateUI();
 		String url = apiurls.getArtimage();
 		url = url.replace("[sid]", mapp.getAngami_id()).replace("[id]",
 				song.getCoverArt());
@@ -143,7 +144,7 @@ public class PlayerActivity extends Activity {
 					@Override
 					public void onCompletion(MediaPlayer arg0) {
 						// TODO Auto-generated method stub
-						if (arg0.getCurrentPosition()>13) {
+						if (arg0.getCurrentPosition() > 13) {
 							app2 mapp = (app2) getApplication();
 							if (mapp.getMusicaService().getSelectedtrackindex() != mapp
 									.getMusicaService().getSongtoplay().size() - 1) {
@@ -164,6 +165,11 @@ public class PlayerActivity extends Activity {
 					}
 				});
 
+		if (mapp.getMusicaService().getmMediaPlayer().getCurrentPosition() > 1) {
+			mapp.getAudioWife().getInstance().updateUI();
+			findViewById(R.id.loading_progress).setVisibility(View.GONE);
+
+		}
 	}
 
 	@Override
@@ -325,13 +331,16 @@ public class PlayerActivity extends Activity {
 		}
 
 	}
+
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
-		NotificationManager mNM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-		mNM.cancelAll();
+		// NotificationManager mNM = (NotificationManager)
+		// getSystemService(NOTIFICATION_SERVICE);
+		// mNM.cancelAll();
 		super.onDestroy();
 	}
+
 	private TouchInterceptor.DropListener mDropListener = new TouchInterceptor.DropListener() {
 		public void drop(int from, int to) {
 			// update the currently playing list

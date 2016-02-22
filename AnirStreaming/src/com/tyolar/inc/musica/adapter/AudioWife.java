@@ -24,13 +24,11 @@
 
 package com.tyolar.inc.musica.adapter;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import android.content.Context;
-import android.media.AudioManager;
 import android.net.Uri;
 import android.os.Handler;
 import android.util.Log;
@@ -43,11 +41,10 @@ import android.widget.TextView;
 import com.aocate.media.MediaPlayer;
 import com.aocate.media.MediaPlayer.OnCompletionListener;
 import com.aocate.media.MediaPlayer.OnPreparedListener;
-import com.koushikdutta.async.future.FutureCallback;
-import com.koushikdutta.ion.Ion;
 import com.tyolar.inc.musica.R;
 import com.tyolar.inc.musica.app2;
 import com.tyolar.inc.musica.model.song;
+import com.tyolar.inc.musica.stat.PlayerStat;
 
 /***
  * A simple audio player wrapper for Android
@@ -82,6 +79,8 @@ public class AudioWife {
 
 	private View mPlayButton;
 	private View mPauseButton;
+	
+	public PlayerStat  playerStat=PlayerStat.Loading; 
 
 	/***
 	 * Indicates the current run-time of the audio being played
@@ -89,9 +88,16 @@ public class AudioWife {
 	private TextView mRunTime;
 
 	/***
+	 * Progresse bar to show on loading track
+	 */
+	private View loadingView = null;
+
+	/***
 	 * Indicates the total duration of the audio being played.
 	 */
 	private TextView mTotalTime;
+
+	private View LoadignView;
 
 	/***
 	 * Set if AudioWife is using the default UI provided with the library.
@@ -189,7 +195,6 @@ public class AudioWife {
 		setViewsVisibility();
 
 		mMediaPlayer.start();
-
 		setPausable();
 	}
 
@@ -258,7 +263,7 @@ public class AudioWife {
 	private void updatePlaytime(int currentTime) {
 		StringBuilder playbackStr = new StringBuilder();
 
-			long totalDuration = 0;
+		long totalDuration = 0;
 
 		if (mMediaPlayer != null) {
 			try {
@@ -368,6 +373,7 @@ public class AudioWife {
 		if (mPauseButton != null) {
 			mPauseButton.setVisibility(View.GONE);
 		}
+		playerStat=playerStat.Playing;
 	}
 
 	/****
@@ -381,6 +387,7 @@ public class AudioWife {
 		if (mPauseButton != null) {
 			mPauseButton.setVisibility(View.VISIBLE);
 		}
+		playerStat=playerStat.Stop;
 	}
 
 	public AudioWife init(Context ctx) {
@@ -563,6 +570,11 @@ public class AudioWife {
 		return this;
 	}
 
+	public AudioWife setLoadingView(View ldl) {
+		this.loadingView = ldl;
+		return this;
+	}
+
 	/***
 	 * Sets the total playback time view. Use this if you have a playback time
 	 * counter in the UI.
@@ -640,9 +652,9 @@ public class AudioWife {
 
 		this.context = ctx;
 		final app2 mapp = (app2) ctx.getApplicationContext();
-		mMediaPlayer =new MediaPlayer(ctx, true);
+		mMediaPlayer = new MediaPlayer(ctx, true);
 		mapp.getMusicaService().setmMediaPlayer(mMediaPlayer);
-
+//		mPlayButton.setVisibility(View.GONE);
 		final song d = mapp.getMusicaService().getSongtoplay()
 				.get(mapp.getMusicaService().getSelectedtrackindex());
 
@@ -670,36 +682,24 @@ public class AudioWife {
 				@Override
 				public void onPrepared(MediaPlayer mp) {
 					// TODO Auto-generated method stub
-					updatePlaytime(0);
+
 					mMediaPlayer.start();
+
 					mapp.getBaseactivity().ShowMiniPlayer(d);
 					updateUI();
 					initMediaSeekBar();
+					updatePlaytime(0);
+					if (loadingView != null) {
+						loadingView.setVisibility(View.GONE);
+						mPlayButton.setVisibility(View.GONE);
+					}
 				}
 			});
 			mMediaPlayer.setDataSource(ctx, mUri);
-			mMediaPlayer.prepare();
+			mMediaPlayer.prepareAsync();
 		} catch (IOException e1) {
-			 Ion.with(context).load(mUri.toString())
-			 .setHeader("sid", mapp.getAngami_id())
-			 .write(new File("/sdcard/dsdskkj"))
-			 .setCallback(new FutureCallback<File>() {
-			 @Override
-			 public void onCompleted(Exception e, File file) {
-			 try {
-			 mMediaPlayer.setDataSource(ctx,
-			 Uri.parse("/sdcard/dsdskkj"));
-			 mMediaPlayer.prepareAsync();
-			 } catch (IOException e1) {
-			 // TODO Auto-generated catch block
-			 e1.printStackTrace();
-			 }
-			
-			 }
-			 });
-		}
 
-		
+		}
 
 	}
 
@@ -721,7 +721,6 @@ public class AudioWife {
 			public void onStopTrackingTouch(SeekBar seekBar) {
 				mMediaPlayer.seekTo(seekBar.getProgress());
 
-			
 				updateRuntime(seekBar.getProgress());
 			}
 
