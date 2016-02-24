@@ -4,8 +4,7 @@ import java.util.HashMap;
 
 import android.app.Activity;
 import android.app.Application;
-import android.app.NotificationManager;
-import android.content.ComponentCallbacks;
+import android.app.Application.ActivityLifecycleCallbacks;
 import android.os.Bundle;
 
 import com.google.android.gms.analytics.GoogleAnalytics;
@@ -14,7 +13,9 @@ import com.tyolar.inc.musica.Services.AudioPlaybackService;
 import com.tyolar.inc.musica.adapter.AudioWife;
 import com.tyolar.inc.musica.model.PlayList;
 
-public class app2 extends Application {
+public class app2 extends Application implements ActivityLifecycleCallbacks {
+    private static boolean isFullPlayerisshown;
+    private static boolean isFirstPlayerView=true;
 	private static AudioWife AudioWife = null;
 	private static BaseActivity baseactivity;
 	private static AudioPlaybackService MusicaService;
@@ -35,6 +36,7 @@ public class app2 extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
+		 registerActivityLifecycleCallbacks(this);
 	
 	}
 	
@@ -101,6 +103,77 @@ public class app2 extends Application {
 
 	public static void setMusicaService(AudioPlaybackService musicaService) {
 		MusicaService = musicaService;
+	}
+
+	  public boolean isFullPlayerVisible() {
+	        return isFullPlayerisshown;
+	    }
+
+	@Override
+	public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static boolean isFirstPlayerView() {
+		return isFirstPlayerView;
+	}
+
+
+
+	public static void setFirstPlayerView(boolean isFirstPlayerView) {
+		app2.isFirstPlayerView = isFirstPlayerView;
+	}
+
+
+	@Override
+	public void onActivityStarted(Activity activity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	@Override
+	public void onActivityResumed(Activity activity) {
+		// TODO Auto-generated method stub
+		 if (activity instanceof PlayerActivity) {
+			 isFullPlayerisshown = true;
+        }
+	}
+
+
+
+	@Override
+	public void onActivityPaused(Activity activity) {
+		// TODO Auto-generated method stub
+		 if (activity instanceof PlayerActivity) {
+			 isFullPlayerisshown = false;
+        }
+	}
+
+
+
+	@Override
+	public void onActivityStopped(Activity activity) {
+		// TODO Auto-generated method stub
+	
+	}
+
+
+
+	@Override
+	public void onActivitySaveInstanceState(Activity activity, Bundle outState) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	@Override
+	public void onActivityDestroyed(Activity activity) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

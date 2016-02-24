@@ -160,8 +160,9 @@ public class PlayerActivity extends Activity {
 														.get(mapp
 																.getMusicaService()
 																.getSelectedtrackindex()));
-								if (mapp.getCurrentActivity() instanceof com.tyolar.inc.musica.PlayerActivity)
-									recreate();
+//								if (mapp.getCurrentActivity() instanceof com.tyolar.inc.musica.PlayerActivity){
+								
+//									}
 							}
 						}
 					}

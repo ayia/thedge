@@ -85,7 +85,7 @@ public class MainActivity extends BaseActivity {
 //				mInterstitialAd.show();
 //			}
 //		});
-//
+
 	}
 
 	private void initview() {

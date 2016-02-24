@@ -93,9 +93,17 @@ public class BaseActivity extends ActionBarActivity {
 			mapp.getMusicaService().setSelectedtrackindex(
 					mapp.getMusicaService().getSongtoplay().size() - 1);
 		}
-		Intent myIntent = new Intent(BaseActivity.this,
-				com.tyolar.inc.musica.PlayerActivity.class);
-		BaseActivity.this.startActivity(myIntent);
+		if (mapp.isFirstPlayerView()) {
+			mapp.setFirstPlayerView(false);
+			Intent myIntent = new Intent(BaseActivity.this,
+					com.tyolar.inc.musica.PlayerActivity.class);
+			BaseActivity.this.startActivity(myIntent);
+
+		} else if (mapp.isFullPlayerVisible()) {
+			mapp.getCurrentActivity().recreate();
+
+		}
+
 		playSong(d);
 
 	}
@@ -243,7 +251,8 @@ public class BaseActivity extends ActionBarActivity {
 				case R.id.go_artist:
 					artist f = new artist(track.getArtistID(), track
 							.getArtist(), track.getArtistArt());
-					Intent myIntent = new Intent(getme(),
+					Intent myIntent = new Intent(
+							getme(),
 							com.tyolar.inc.musica.activities.Artist_Activity.class);
 					myIntent.putExtra("artist", f.toJson());
 					startActivity(myIntent);
@@ -253,7 +262,8 @@ public class BaseActivity extends ActionBarActivity {
 							.getAlbum(), track.getArtist(),
 							track.getArtistID(), track.getCoverArt(), track
 									.getArtistArt());
-					Intent myIntent1 = new Intent(v.getContext(),
+					Intent myIntent1 = new Intent(
+							v.getContext(),
 							com.tyolar.inc.musica.activities.Album_Activity.class);
 					myIntent1.putExtra("album", album.toJson());
 					startActivity(myIntent1);
@@ -376,10 +386,10 @@ public class BaseActivity extends ActionBarActivity {
 				track.getCoverArt());
 		mNotificationBuilder.setContent(notificationView);
 		Notification notification = mNotificationBuilder.build();
-		notification.flags |= Notification.FLAG_ONGOING_EVENT | Notification.FLAG_NO_CLEAR;
+		notification.flags |= Notification.FLAG_ONGOING_EVENT
+				| Notification.FLAG_NO_CLEAR;
 		NotificationManager notifManager = (NotificationManager) getSystemService(this.NOTIFICATION_SERVICE);
-		notifManager.notify(0,
-				notification);
+		notifManager.notify(0, notification);
 		Picasso.with(this)
 				.load(url)
 				.into(notificationView, R.id.notification_base_image, 0,
@@ -393,7 +403,7 @@ public class BaseActivity extends ActionBarActivity {
 		NotificationManager mNM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 		mNM.cancelAll();
 		super.onDestroy();
-	
+
 	}
 
 	public void togglePlaybackState() {
