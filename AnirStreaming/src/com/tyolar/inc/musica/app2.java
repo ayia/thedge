@@ -20,6 +20,7 @@ public class app2 extends Application implements ActivityLifecycleCallbacks {
 	private static BaseActivity baseactivity;
 	private static AudioPlaybackService MusicaService;
 	private static PlayList playlist;
+	public CFragment CFragment;
 	private static String angami_id = "i2:dikcfiel:893o4q52493n6n41:ecdhdddidccgce:ZN:d:ra:n1.7.8:qqrq366snr";
 
 	// change the following line

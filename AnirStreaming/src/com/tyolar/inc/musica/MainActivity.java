@@ -74,17 +74,17 @@ public class MainActivity extends BaseActivity {
 		t.send(new HitBuilders.AppViewBuilder().build());
 		mapp.setBaseactivity(this);
 
-//		final InterstitialAd mInterstitialAd = new InterstitialAd(this);
-//		mInterstitialAd.setAdUnitId("ca-app-pub-3908763514019803/6819661174");
-//		AdRequest adRequest = new AdRequest.Builder().addTestDevice(
-//				"SEE_YOUR_LOGCAT_TO_GET_YOUR_DEVICE_ID").build();
-//		mInterstitialAd.loadAd(adRequest);
-//		// Begin listening to interstitial & show ads.
-//		mInterstitialAd.setAdListener(new AdListener() {
-//			public void onAdLoaded() {
-//				mInterstitialAd.show();
-//			}
-//		});
+		final InterstitialAd mInterstitialAd = new InterstitialAd(this);
+		mInterstitialAd.setAdUnitId("ca-app-pub-3908763514019803/6819661174");
+		AdRequest adRequest = new AdRequest.Builder().addTestDevice(
+				"SEE_YOUR_LOGCAT_TO_GET_YOUR_DEVICE_ID").build();
+		mInterstitialAd.loadAd(adRequest);
+		// Begin listening to interstitial & show ads.
+		mInterstitialAd.setAdListener(new AdListener() {
+			public void onAdLoaded() {
+				mInterstitialAd.show();
+			}
+		});
 
 	}
 

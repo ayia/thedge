@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tyolar.inc.musica"
-    android:versionCode="8"
-    android:versionName="1.2" >
+    android:versionCode="10"
+    android:versionName="1.2.2" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -90,6 +90,10 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name="com.tyolar.inc.musica.activities.Artist_Activity"
+            android:icon="@drawable/ic_launcher_white"
+            android:parentActivityName=".MainActivity" />
+           <activity
+            android:name="com.tyolar.inc.musica.activities.More_Activity"
             android:icon="@drawable/ic_launcher_white"
             android:parentActivityName=".MainActivity" />
     </application>

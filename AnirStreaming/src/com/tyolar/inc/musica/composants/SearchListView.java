@@ -3,6 +3,7 @@ package com.tyolar.inc.musica.composants;
 import java.util.ArrayList;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +14,8 @@ import android.widget.TextView;
 
 import com.tyolar.inc.musica.BaseActivity;
 import com.tyolar.inc.musica.R;
+import com.tyolar.inc.musica.app2;
+import com.tyolar.inc.musica.activities.More_Activity;
 import com.tyolar.inc.musica.adapter.PlayListSongAdapter;
 import com.tyolar.inc.musica.adapter.SongGridViewAdapter;
 import com.tyolar.inc.musica.model.album;
@@ -83,10 +86,18 @@ public class SearchListView extends RelativeLayout {
 	}
 
 	public void showall() {
-	
-		((BaseActivity) context)
-		.loadFragment(new com.tyolar.inc.musica.fragments.ListAllFragment(
-				am,nunmberofculumns,Header.getText().toString()));
+		app2 mapp=(app2)context.getApplicationContext();
+		mapp.CFragment=new com.tyolar.inc.musica.fragments.ListAllFragment(
+				am,nunmberofculumns,Header.getText().toString());
+		
+		Intent myIntent = new Intent(context,
+				com.tyolar.inc.musica.activities.More_Activity.class);
+		context.startActivity(myIntent);
+		
+//	
+//		((BaseActivity) context)
+//		.loadFragment(new com.tyolar.inc.musica.fragments.ListAllFragment(
+//				am,nunmberofculumns,Header.getText().toString()));
 	}
 
 	public void setSonglist(searchResult result) {
