@@ -1,6 +1,10 @@
 package com.tyolar.inc.musica.utils;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.ArrayList;
@@ -11,6 +15,11 @@ import org.json.JSONObject;
 import org.json.XML;
 
 import android.content.Context;
+import android.graphics.Point;
+import android.os.Build.VERSION;
+import android.util.Log;
+import android.view.Display;
+import android.view.WindowManager;
 
 import com.tyolar.inc.musica.R;
 import com.tyolar.inc.musica.model.album;
@@ -23,30 +32,29 @@ public class tools {
 			throws Exception {
 		String tContents = "";
 
-//		try {
-//			InputStream stream = context.getAssets().open(params);
-//
-//			int size = stream.available();
-//			byte[] buffer = new byte[size];
-//			stream.read(buffer);
-//			stream.close();
-//			tContents = new String(buffer);
-//		} catch (IOException e) {
-//			// Handle exceptions here
-//		}
+		// try {
+		// InputStream stream = context.getAssets().open(params);
+		//
+		// int size = stream.available();
+		// byte[] buffer = new byte[size];
+		// stream.read(buffer);
+		// stream.close();
+		// tContents = new String(buffer);
+		// } catch (IOException e) {
+		// // Handle exceptions here
+		// }
 
 		URL yahoo = new URL(params);
-		BufferedReader in = new BufferedReader(
-		            new InputStreamReader(
-		            yahoo.openStream()));
-
+		BufferedReader in = new BufferedReader(new InputStreamReader(
+				yahoo.openStream()));
+	
 		String inputLine;
 
 		while ((inputLine = in.readLine()) != null)
-			tContents=tContents+inputLine;
+			tContents = tContents + inputLine;
 
 		in.close();
-		
+
 		return tContents;
 
 	}
@@ -114,7 +122,6 @@ public class tools {
 
 		return dc;
 	}
-
 
 	public static ArrayList<searchResult> gettop_chart(Context context,
 			String params) throws Exception {
@@ -261,11 +268,7 @@ public class tools {
 		case "genre_world":
 			a = context.getString(R.string.genre_world);
 			break;
-			
-			
-			
-			
-			
+
 		default:
 			a = key;
 		}
@@ -428,6 +431,45 @@ public class tools {
 		}
 		return list;
 
+	}
+
+	public static String m2139b(String str) {
+		InputStream bufferedInputStream;
+		Exception e;
+		String str2 = null;
+		try {
+			
+			URL url = new URL(str);
+			bufferedInputStream = new BufferedInputStream(url.openStream());
+			str2 = readFully(bufferedInputStream);
+	
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+	
+		return str2;
+
+	}
+	
+
+
+	
+	private static String readFully(InputStream inputStream)
+	        throws IOException {
+	    return new String(readFullyString(inputStream));
+	}    
+
+	private static byte[] readFullyString(InputStream inputStream)
+	        throws IOException {
+	    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+	    byte[] buffer = new byte[1024];
+	    int length = 0;
+	    while ((length = inputStream.read(buffer)) != -1) {
+	        baos.write(buffer, 0, length);
+	    }
+	    return baos.toByteArray();
 	}
 
 }

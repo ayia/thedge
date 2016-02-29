@@ -20,8 +20,9 @@ public class PreviousBroadcastReceiver extends BroadcastReceiver {
 								.getSelectedtrackindex()));
 
 		if (mapp.getCurrentActivity() instanceof com.tyolar.inc.musica.PlayerActivity) {
-			mapp.getCurrentActivity()
-					.recreate();
+			com.tyolar.inc.musica.PlayerActivity dh=(com.tyolar.inc.musica.PlayerActivity)	mapp.getCurrentActivity();
+			
+			dh.initializeViewsandPlay(mapp.getMusicaService().getSongtoplay().get(mapp.getMusicaService().getSelectedtrackindex()));
 		}
 	}
 	  

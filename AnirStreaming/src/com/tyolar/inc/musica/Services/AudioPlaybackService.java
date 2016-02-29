@@ -4,10 +4,9 @@ import java.util.ArrayList;
 
 import android.app.Service;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.IBinder;
-import android.util.Log;
 
-import com.aocate.media.MediaPlayer;
 import com.tyolar.inc.musica.app2;
 import com.tyolar.inc.musica.model.song;
 
@@ -28,7 +27,7 @@ public class AudioPlaybackService extends Service{
 	public void onStart(Intent intent, int startId) {
 		// TODO Auto-generated method stub
 		super.onStart(intent, startId);
-		mMediaPlayer = new MediaPlayer(getBaseContext(),true);
+		mMediaPlayer = new MediaPlayer();
 		app2 mapp = (app2) getApplication();
 		mapp.setMusicaService(this);
 	

@@ -24,13 +24,18 @@
 
 package com.tyolar.inc.musica.adapter;
 
-import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import android.content.Context;
+import android.media.MediaPlayer;
+import android.media.MediaPlayer.OnCompletionListener;
+import android.media.MediaPlayer.OnPreparedListener;
 import android.net.Uri;
 import android.os.Handler;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,13 +43,9 @@ import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.aocate.media.MediaPlayer;
-import com.aocate.media.MediaPlayer.OnCompletionListener;
-import com.aocate.media.MediaPlayer.OnPreparedListener;
 import com.tyolar.inc.musica.R;
 import com.tyolar.inc.musica.app2;
 import com.tyolar.inc.musica.model.song;
-
 
 /***
  * A simple audio player wrapper for Android
@@ -79,7 +80,6 @@ public class AudioWife {
 
 	private View mPlayButton;
 	private View mPauseButton;
-
 
 	/***
 	 * Indicates the current run-time of the audio being played
@@ -650,54 +650,86 @@ public class AudioWife {
 
 		this.context = ctx;
 		final app2 mapp = (app2) ctx.getApplicationContext();
-		mMediaPlayer = new MediaPlayer(ctx, true);
+		mMediaPlayer = new MediaPlayer();
 		mapp.getMusicaService().setmMediaPlayer(mMediaPlayer);
-//		mPlayButton.setVisibility(View.GONE);
+		// mPlayButton.setVisibility(View.GONE);
 		final song d = mapp.getMusicaService().getSongtoplay()
 				.get(mapp.getMusicaService().getSelectedtrackindex());
+		mMediaPlayer.setOnCompletionListener(new OnCompletionListener() {
 
+			@Override
+			public void onCompletion(MediaPlayer arg0) {
+				// TODO Auto-generated method stub
+				// set UI when audio finished playing
+				int currentPlayTime = 0;
+				updateRuntime(currentPlayTime);
+				setPlayable();
+				try {
+					mSeekBar.setProgress((int) currentPlayTime);
+
+				} catch (Exception d) {
+
+				}
+				fireCustomCompletionListeners(arg0);
+			}
+		});
+		mMediaPlayer.setOnPreparedListener(new OnPreparedListener() {
+
+			@Override
+			public void onPrepared(MediaPlayer mp) {
+				// TODO Auto-generated method stub
+
+				mMediaPlayer.start();
+
+				mapp.getBaseactivity().ShowMiniPlayer(d);
+				updateUI();
+				initMediaSeekBar();
+				updatePlaytime(0);
+				if (loadingView != null) {
+					loadingView.setVisibility(View.GONE);
+					mPlayButton.setVisibility(View.GONE);
+				}
+			}
+		});
+		// String url="https://api.anghami.com/rest/v1/GETdownload.view?";
+		// url=url+("&timestamp="+String.valueOf(System.currentTimeMillis()));
+		// url=url+("&sid="+mapp.getAngami_id());
+		// url=url+("&pid="+mapp.getMusicaService().getSongtoplay().get(mapp.getMusicaService().getSelectedtrackindex()).getId());
+		// url=url+("&aid="+mapp.getMusicaService().getSongtoplay().get(mapp.getMusicaService().getSelectedtrackindex()).getId());
+		// url=url+("&screensize="+m2143p(context));
+		//
+		//
 		try {
-			mMediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+			StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder()
+					.permitAll().build();
+			StrictMode.setThreadPolicy(policy);
+			URL url = new URL(mUri.toString());
+			HttpURLConnection ucon = (HttpURLConnection) url.openConnection();
+			ucon.setInstanceFollowRedirects(false);
+			URL secondURL = new URL(ucon.getHeaderField("Location"));
 
-				@Override
-				public void onCompletion(MediaPlayer arg0) {
-					// TODO Auto-generated method stub
-					// set UI when audio finished playing
-					int currentPlayTime = 0;
-					updateRuntime(currentPlayTime);
-					setPlayable();
-					try {
-						mSeekBar.setProgress((int) currentPlayTime);
-
-					} catch (Exception d) {
-
-					}
-					fireCustomCompletionListeners(arg0);
-				}
-			});
-			mMediaPlayer.setOnPreparedListener(new OnPreparedListener() {
-
-				@Override
-				public void onPrepared(MediaPlayer mp) {
-					// TODO Auto-generated method stub
-
-					mMediaPlayer.start();
-
-					mapp.getBaseactivity().ShowMiniPlayer(d);
-					updateUI();
-					initMediaSeekBar();
-					updatePlaytime(0);
-					if (loadingView != null) {
-						loadingView.setVisibility(View.GONE);
-						mPlayButton.setVisibility(View.GONE);
-					}
-				}
-			});
-			mMediaPlayer.setDataSource(ctx, mUri);
+			mMediaPlayer.setDataSource(secondURL.toString());
 			mMediaPlayer.prepareAsync();
-		} catch (IOException e1) {
 
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+
+		// Ion.with(context).load(mUri.toString())
+		// .write(new File(context.getFilesDir(), "thml"))
+		// .setCallback(new FutureCallback<File>() {
+		// @Override
+		// public void onCompleted(Exception e, File file) {
+		// try {
+		// file.deleteOnExit();
+		// mMediaPlayer.setDataSource(file.getPath());
+		// mMediaPlayer.prepareAsync();
+		// } catch (IOException e1) {
+		// System.out.println(e1);
+		// }
+		// }
+		// });
 
 	}
 

@@ -32,6 +32,7 @@ import com.tyolar.inc.musica.model.album;
 import com.tyolar.inc.musica.model.apiurls;
 import com.tyolar.inc.musica.model.artist;
 import com.tyolar.inc.musica.model.song;
+import com.tyolar.inc.musica.widget.MusicNotification;
 
 @SuppressLint("NewApi")
 public class BaseActivity extends ActionBarActivity {
@@ -319,89 +320,21 @@ public class BaseActivity extends ActionBarActivity {
 	}
 
 	public void ShowMiniPlayer(song track) {
-		NotificationCompat.Builder mNotificationBuilder = new NotificationCompat.Builder(
-				this);
-		mNotificationBuilder.setOngoing(true);
-		mNotificationBuilder.setSmallIcon(R.drawable.ic_stat_musica);
-		mNotificationBuilder.setAutoCancel(false);
-		Intent notificationIntent = new Intent(this, PlayerActivity.class);
-		PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
-				notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-		notificationIntent.setAction(Intent.ACTION_MAIN);
-		notificationIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-		mNotificationBuilder.setContentIntent(contentIntent);
-
-		notificationView = new RemoteViews(getPackageName(),
-				R.layout.background_player);
-		notificationView.setTextViewText(R.id.notification_base_line_one,
-				track.getTitle());
-		notificationView.setTextViewText(R.id.notification_base_line_two,
-				track.getAlbum());
-		notificationView.setViewVisibility(R.id.notification_base_next,
-				View.VISIBLE);
-		notificationView.setViewVisibility(R.id.notification_base_previous,
-				View.VISIBLE);
-
-		if (mapp.getMusicaService().getmMediaPlayer().isPlaying())
-			notificationView.setImageViewResource(
-					R.id.notification_base_play_pause,
-					R.drawable.btn_playback_pause_light);
-		else
-			notificationView.setImageViewResource(
-					R.id.notification_base_play_pause,
-					R.drawable.btn_playback_play_light);
-
-		// ¨Play Pause Buttons
-		Intent playPauseTrackIntent = new Intent();
-		playPauseTrackIntent.setAction("player.PLAY_PAUSE_ACTION");
-		PendingIntent playPauseTrackPendingIntent = PendingIntent.getBroadcast(
-				this.getApplicationContext(), 0, playPauseTrackIntent, 0);
-		notificationView.setOnClickPendingIntent(
-				R.id.notification_base_play_pause, playPauseTrackPendingIntent);
-		if (mapp.getMusicaService().getSelectedtrackindex() == mapp
-				.getMusicaService().getSongtoplay().size() - 1) {
-			notificationView.setViewVisibility(R.id.notification_base_next,
-					View.INVISIBLE);
+		if (mapp.MusicNotification == null) {
+			mapp.MusicNotification = new MusicNotification(this);
+			mapp.MusicNotification.ShowMiniPlayer(track);
+		} else {
+			mapp.MusicNotification.setSongView(track);
 		}
-		Intent nextTrackIntent = new Intent();
-		nextTrackIntent.setAction("player.NEXT_ACTION");
-		PendingIntent nextTrackPendingIntent = PendingIntent.getBroadcast(
-				this.getApplicationContext(), 0, nextTrackIntent, 0);
-		notificationView.setOnClickPendingIntent(R.id.notification_base_next,
-				nextTrackPendingIntent);
-
-		if (mapp.getMusicaService().getSelectedtrackindex() == 0) {
-			notificationView.setViewVisibility(R.id.notification_base_previous,
-					View.INVISIBLE);
-		}
-		Intent previousTrackIntent = new Intent();
-		previousTrackIntent.setAction("player.BACK_ACTION");
-		PendingIntent previousTrackPendingIntent = PendingIntent.getBroadcast(
-				this.getApplicationContext(), 0, previousTrackIntent, 0);
-		notificationView.setOnClickPendingIntent(
-				R.id.notification_base_previous, previousTrackPendingIntent);
-
-		String url = apiurls.getArtimage();
-		url = url.replace("[sid]", mapp.getAngami_id()).replace("[id]",
-				track.getCoverArt());
-		mNotificationBuilder.setContent(notificationView);
-		Notification notification = mNotificationBuilder.build();
-		notification.flags |= Notification.FLAG_ONGOING_EVENT
-				| Notification.FLAG_NO_CLEAR;
-		NotificationManager notifManager = (NotificationManager) getSystemService(this.NOTIFICATION_SERVICE);
-		notifManager.notify(0, notification);
-		Picasso.with(this)
-				.load(url)
-				.into(notificationView, R.id.notification_base_image, 0,
-						notification);
-
 	}
 
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
-		NotificationManager mNM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-		mNM.cancelAll();
+		if (this instanceof MainActivity) {
+			NotificationManager mNM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+			mNM.cancelAll();
+		}
 		super.onDestroy();
 
 	}

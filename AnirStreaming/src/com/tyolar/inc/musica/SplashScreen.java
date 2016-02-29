@@ -60,14 +60,14 @@ public class SplashScreen extends Activity {
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				  d=new ArrayList<String>();
-				 d.add("i2:dikcfiel:893o4q52493n6n41:ecdhdddidccgce:ZN:d:ra:n1.7.8:qqrq366snr");
+				 d.add("i5:dikcfiel:893o4q52493n6n41:ecdiceekdfdihe:ZN:d:ra:n1.7.8:1::n1.7.8:rpn900s040&id=574471");
 			}
 			return d;
 		}
 		@Override
 		protected void onPostExecute(ArrayList<String> result) {
 			
-		app2 mapp=(app2) context.getApplicationContext();
+ 		app2 mapp=(app2) context.getApplicationContext();
 		mapp.setAngami_id(result.get(0));
 		Intent i = new Intent(SplashScreen.this, MainActivity.class);
         startActivity(i);

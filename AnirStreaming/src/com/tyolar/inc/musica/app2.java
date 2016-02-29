@@ -12,6 +12,7 @@ import com.google.android.gms.analytics.Tracker;
 import com.tyolar.inc.musica.Services.AudioPlaybackService;
 import com.tyolar.inc.musica.adapter.AudioWife;
 import com.tyolar.inc.musica.model.PlayList;
+import com.tyolar.inc.musica.widget.MusicNotification;
 
 public class app2 extends Application implements ActivityLifecycleCallbacks {
     private static boolean isFullPlayerisshown;
@@ -21,6 +22,8 @@ public class app2 extends Application implements ActivityLifecycleCallbacks {
 	private static AudioPlaybackService MusicaService;
 	private static PlayList playlist;
 	public CFragment CFragment;
+	public  MusicNotification MusicNotification=null;
+	
 	private static String angami_id = "i2:dikcfiel:893o4q52493n6n41:ecdhdddidccgce:ZN:d:ra:n1.7.8:qqrq366snr";
 
 	// change the following line
