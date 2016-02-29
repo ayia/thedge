@@ -36,7 +36,7 @@ public class SplashScreen extends Activity {
 		 private ArrayList<String> getlistid() throws Exception{
 			 ArrayList<String> d=new ArrayList<String>();
 	
-			 String result = tools.getcontent(apiurls.getlistids(), SplashScreen.this);
+			 String result = tools.getcontent(new apiurls().getlistids(), SplashScreen.this);
 			 JSONObject jsonObj = null;
 				jsonObj = XML.toJSONObject(result);
 				JSONArray larray = jsonObj.getJSONObject("main-page").
@@ -60,7 +60,7 @@ public class SplashScreen extends Activity {
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				  d=new ArrayList<String>();
-				 d.add("i5:dikcfiel:893o4q52493n6n41:ecdiceekdfdihe:ZN:d:ra:n1.7.8:1::n1.7.8:rpn900s040&id=574471");
+				 d.add("i5:dikcfiel:893o4q52493n6n41:ecdiceekdfdihe:ZN:d:ra:n1.7.8:1::n1.7.8:rpn900s040");
 			}
 			return d;
 		}

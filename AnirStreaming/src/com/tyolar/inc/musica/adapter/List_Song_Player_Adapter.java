@@ -69,7 +69,7 @@ public class List_Song_Player_Adapter extends BaseAdapter {
 	private class ActorHolder {
 		public song track;
 		public ImageView layout_img;
-		public ImageView index_img;
+//		public ImageView index_img;
 		public com.ctrlplusz.anytextview.AnyTextView titel;
 		public TextView duration;
 		public TextView uploader;
@@ -80,7 +80,7 @@ public class List_Song_Player_Adapter extends BaseAdapter {
 		// TODO Auto-generated method stub
 		ActorHolder holder;
 		final app2 mapp = (app2) context.getApplicationContext();
-		String url = apiurls.getArtimage();
+		String url = new apiurls().getArtimage();
 		url = url.replace("[sid]", mapp.getAngami_id());
 
 		holder = new ActorHolder();
@@ -88,7 +88,7 @@ public class List_Song_Player_Adapter extends BaseAdapter {
 				.findViewById(R.id.grid_item_title);
 		holder.duration = (TextView) convertView
 				.findViewById(R.id.grid_item_subtext);
-		holder.index_img = (ImageView) convertView.findViewById(R.id.index);
+//		holder.index_img = (ImageView) convertView.findViewById(R.id.index);
 		holder.layout_img = (ImageView) convertView
 				.findViewById(R.id.grid_item_image);
 		holder.delete = (ImageView) convertView.findViewById(R.id.delete_icon);
@@ -103,15 +103,15 @@ public class List_Song_Player_Adapter extends BaseAdapter {
 				.error(R.drawable.ic_music_note_black_48dp)
 				.into(holder.layout_img);
 
-		holder.index_img.setVisibility(View.GONE);
+//		holder.index_img.setVisibility(View.GONE);
 		holder.track = getItem(position);
 		if (mapp.getAudioWife().getInstance().getmUri().toString()
 				.contains(holder.track.id)) {
-			holder.index_img.setVisibility(View.VISIBLE);
+//			holder.index_img.setVisibility(View.VISIBLE);
 			holder.delete.setVisibility(View.GONE);
-			holder.index_img
-					.setBackgroundResource(R.drawable.interlude_animation_list);
-			((AnimationDrawable) holder.index_img.getBackground()).start();
+//			holder.index_img
+//					.setBackgroundResource(R.drawable.interlude_animation_list);
+//			((AnimationDrawable) holder.index_img.getBackground()).start();
 
 			mapp.getMusicaService().setSelectedtrackindex(position);
 		}

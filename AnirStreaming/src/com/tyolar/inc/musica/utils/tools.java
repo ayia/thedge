@@ -6,6 +6,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
@@ -31,19 +32,6 @@ public class tools {
 	public static String getcontent(String params, Context context)
 			throws Exception {
 		String tContents = "";
-
-		// try {
-		// InputStream stream = context.getAssets().open(params);
-		//
-		// int size = stream.available();
-		// byte[] buffer = new byte[size];
-		// stream.read(buffer);
-		// stream.close();
-		// tContents = new String(buffer);
-		// } catch (IOException e) {
-		// // Handle exceptions here
-		// }
-
 		URL yahoo = new URL(params);
 		BufferedReader in = new BufferedReader(new InputStreamReader(
 				yahoo.openStream()));
@@ -58,6 +46,18 @@ public class tools {
 		return tContents;
 
 	}
+	
+	public static String getLocation(String urls)
+			throws Exception  {
+		URL url = new URL(urls);
+		HttpURLConnection ucon = (HttpURLConnection) url.openConnection();
+		ucon.setInstanceFollowRedirects(false);
+		URL secondURL = new URL(ucon.getHeaderField("Location"));
+
+		return secondURL.toString();
+
+	}
+	
 
 	public static ArrayList<searchResult> getnewrelease(Context context,
 			String params) throws Exception {

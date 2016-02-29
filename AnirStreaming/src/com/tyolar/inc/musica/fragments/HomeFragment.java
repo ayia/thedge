@@ -27,7 +27,7 @@ public class HomeFragment extends FCFragment{
 	}
 
 	private void startsearch() {
-		new Discover_json(this.getActivity(),search_view).execute(apiurls.gethomechart());
+		new Discover_json(this.getActivity(),search_view).execute(new apiurls().gethomechart());
 	}
 
 }

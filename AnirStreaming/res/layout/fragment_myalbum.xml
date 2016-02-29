@@ -27,7 +27,7 @@
                 android:layout_height="0dp"
                 android:layout_weight=".50"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_album_black_48dp" />
+                android:src="@drawable/ic_album_cover" />
 
             <TextView
                 android:layout_width="fill_parent"

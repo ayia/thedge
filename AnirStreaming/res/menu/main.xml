@@ -16,6 +16,7 @@
         android:icon="@drawable/ic_share"
         android:orderInCategory="100"
         android:title="share"
+        android:visible="false"
         app:showAsAction="always" />
   
 

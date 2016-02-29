@@ -27,7 +27,7 @@ public class TopChartFragment extends FCFragment{
 	}
 
 	private void startsearch() {
-		new Discover_json(this.getActivity(),search_view).execute(apiurls.getTopchart());
+		new Discover_json(this.getActivity(),search_view).execute(new apiurls().getTopchart());
 	}
 
 }

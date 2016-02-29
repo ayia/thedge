@@ -59,7 +59,7 @@ public class Album_JsonAnghami extends AsyncTask<album, Void, searchResult> {
 
 	private String getArtistData(String params) throws Exception {
 		final app2 mapp = (app2) context.getApplicationContext();
-		String url = apiurls.getAlbumhurlView();
+		String url = new apiurls().getAlbumhurlView();
 		url = url.replace("[sid]",
 				mapp.getAngami_id()).replace(
 				"[id]", params);

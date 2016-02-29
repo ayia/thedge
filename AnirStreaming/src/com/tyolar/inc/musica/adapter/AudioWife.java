@@ -24,8 +24,6 @@
 
 package com.tyolar.inc.musica.adapter;
 
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -42,10 +40,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.tyolar.inc.musica.R;
 import com.tyolar.inc.musica.app2;
 import com.tyolar.inc.musica.model.song;
+import com.tyolar.inc.musica.utils.tools;
 
 /***
  * A simple audio player wrapper for Android
@@ -54,10 +54,7 @@ public class AudioWife {
 
 	private static final String TAG = AudioWife.class.getSimpleName();
 
-	/***
-	 * Keep a single copy of this in memory unless required to create a new
-	 * instance explicitly.
-	 ****/
+
 	private static AudioWife mAudioWife;
 
 	/****
@@ -691,45 +688,17 @@ public class AudioWife {
 				}
 			}
 		});
-		// String url="https://api.anghami.com/rest/v1/GETdownload.view?";
-		// url=url+("&timestamp="+String.valueOf(System.currentTimeMillis()));
-		// url=url+("&sid="+mapp.getAngami_id());
-		// url=url+("&pid="+mapp.getMusicaService().getSongtoplay().get(mapp.getMusicaService().getSelectedtrackindex()).getId());
-		// url=url+("&aid="+mapp.getMusicaService().getSongtoplay().get(mapp.getMusicaService().getSelectedtrackindex()).getId());
-		// url=url+("&screensize="+m2143p(context));
-		//
-		//
+	
 		try {
 			StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder()
 					.permitAll().build();
 			StrictMode.setThreadPolicy(policy);
-			URL url = new URL(mUri.toString());
-			HttpURLConnection ucon = (HttpURLConnection) url.openConnection();
-			ucon.setInstanceFollowRedirects(false);
-			URL secondURL = new URL(ucon.getHeaderField("Location"));
-
-			mMediaPlayer.setDataSource(secondURL.toString());
+			mMediaPlayer.setDataSource(tools.getLocation(mUri.toString()));
 			mMediaPlayer.prepareAsync();
 
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			Toast.makeText(context,context.getResources().getString(R.string.error) , Toast.LENGTH_LONG).show();
 		}
-
-		// Ion.with(context).load(mUri.toString())
-		// .write(new File(context.getFilesDir(), "thml"))
-		// .setCallback(new FutureCallback<File>() {
-		// @Override
-		// public void onCompleted(Exception e, File file) {
-		// try {
-		// file.deleteOnExit();
-		// mMediaPlayer.setDataSource(file.getPath());
-		// mMediaPlayer.prepareAsync();
-		// } catch (IOException e1) {
-		// System.out.println(e1);
-		// }
-		// }
-		// });
 
 	}
 

@@ -94,15 +94,11 @@ public class PlayListAdapter extends BaseAdapter {
 		if (getItem(position).getSongs().size() > 1) {
 			Random rand = new Random();
 
-			String url = apiurls.getArtimage();
+			String url = new apiurls().getArtimage();
 			int randomNum = rand
 					.nextInt(getItem(position).getSongs().size() - 1);
-			url = url.replace("[sid]",
-					mapp.getAngami_id())
-					.replace(
-							"[id]",
-							getItem(position).getSongs().get(randomNum)
-									.getCoverArt());
+			url = url.replace("[sid]", mapp.getAngami_id()).replace("[id]",
+					getItem(position).getSongs().get(randomNum).getCoverArt());
 
 			Picasso.with(context).load(url).placeholder(R.drawable.ic_launcher)
 					.error(R.drawable.ic_launcher).into(holder.container);
@@ -123,23 +119,24 @@ public class PlayListAdapter extends BaseAdapter {
 
 		});
 		convertView.setId(holder.PlayList.getId());
-		if(holder.PlayList.getSongs().size()>0)
-		convertView.setOnClickListener(new OnClickListener() {
+		if (holder.PlayList.getSongs().size() > 0)
+			convertView.setOnClickListener(new OnClickListener() {
 
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				try {
+				@Override
+				public void onClick(View v) {
+					// TODO Auto-generated method stub
+					try {
 
-					PlayList pls = PlayListDAO.get(context).get(position);
-					PlayList_SongsFragment s = new PlayList_SongsFragment(pls);
-					 context.loadFragment(s);
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+						PlayList pls = PlayListDAO.get(context).get(position);
+						PlayList_SongsFragment s = new PlayList_SongsFragment(
+								pls);
+						context.loadFragment(s);
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 				}
-			}
-		});
+			});
 
 		return convertView;
 	}
@@ -148,9 +145,9 @@ public class PlayListAdapter extends BaseAdapter {
 		// TODO Auto-generated method stub
 		LocalePopupMenu popup = new LocalePopupMenu(this.context, v);
 		popup.inflate(R.menu.menu_playlist_music);
-		if(pls.getSongs().size()==0)
+		if (pls.getSongs().size() == 0)
 			popup.getMenu().getItem(0).setVisible(false);
-			
+
 		popup.setOnMenuItemClickListener(new OnMenuItemClickListener() {
 
 			@Override
@@ -163,13 +160,16 @@ public class PlayListAdapter extends BaseAdapter {
 					try {
 						PlayListDAO.remove(v.getContext(), pls);
 						PlayListFragment.notifyDataSetChanged();
-						Toast.makeText(v.getContext(), context.getString(R.string.playlist_deleted_message),
+						Toast.makeText(
+								v.getContext(),
+								context.getString(R.string.playlist_deleted_message),
 								Toast.LENGTH_LONG).show();
 
 					} catch (Exception e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
-						Toast.makeText(v.getContext(), context.getString(R.string.error),
+						Toast.makeText(v.getContext(),
+								context.getString(R.string.error),
 								Toast.LENGTH_LONG).show();
 					}
 					break;

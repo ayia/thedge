@@ -27,7 +27,7 @@ public class NewReleasesFragment extends FCFragment{
 	}
 
 	private void startsearch() {
-		new Discover_json(this.getActivity(),search_view).execute(apiurls.getnew_releases());
+		new Discover_json(this.getActivity(),search_view).execute(new apiurls().getnew_releases());
 	}
 
 }

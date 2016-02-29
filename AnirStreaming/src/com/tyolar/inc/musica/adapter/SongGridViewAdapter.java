@@ -77,7 +77,7 @@ public class SongGridViewAdapter extends BaseAdapter {
 		final ActorHolderArtist holderartist;
 		final app2 mapp = (app2) context.getApplicationContext();
 		convertView = null;
-		String url = apiurls.getArtimage();
+		String url = new apiurls().getArtimage();
 		url = url.replace("[sid]",
 				mapp.getAngami_id());
 		// /song Area

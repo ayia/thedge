@@ -67,7 +67,7 @@ public class BaseActivity extends ActionBarActivity {
 
 	public void playSong(final song d) {
 
-		String uri = apiurls.getAudiourl();
+		String uri = new apiurls().getAudiourl();
 
 		uri = uri.replace("[id]", d.getId()).replace("[sid]",
 				mapp.getAngami_id());

@@ -52,7 +52,7 @@ public class Artist_JsonAnghami extends AsyncTask<String, Void, searchResult> {
 
 	private String getArtistData(String params) throws Exception {
 
-		String url = apiurls.getArtisturlView();
+		String url = new apiurls().getArtisturlView();
 		final app2 mapp = (app2) context.getApplicationContext();
 		url = url.replace("[sid]",
 				mapp.getAngami_id()).replace(

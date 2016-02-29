@@ -14,8 +14,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/pure_white"
          android:background="@color/orange"
-         
-        android:drawableLeft="@drawable/playlist_btn_add_normal"
+    
         android:text="@string/dmusic_playlist_create_playlist" />
 
 </RelativeLayout>

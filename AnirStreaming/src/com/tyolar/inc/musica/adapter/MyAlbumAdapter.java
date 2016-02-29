@@ -90,7 +90,7 @@ public class MyAlbumAdapter extends BaseAdapter {
 		}
 		Resources res = convertView.getResources();
 
-		String url = apiurls.getArtimage();
+		String url = new apiurls().getArtimage();
 
 		url = url.replace("[sid]",
 				mapp.getAngami_id()).replace(
@@ -150,6 +150,8 @@ public class MyAlbumAdapter extends BaseAdapter {
 						   Toast.makeText(context, 
 								   context.getResources().getString(R.string.one_album_deleted)
 								   , Toast.LENGTH_LONG).show();	
+						   
+						   albumFragment.notifyDataSetChanged();
 					} catch (Exception e) {
 						 Toast.makeText(context, 
 								   context.getResources().getString(R.string.error)

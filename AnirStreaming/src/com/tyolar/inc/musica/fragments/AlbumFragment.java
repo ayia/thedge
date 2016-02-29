@@ -47,7 +47,7 @@ public class AlbumFragment extends Fragment {
 	}
 
 	private void startsearch(album query) {
-		new Album_JsonAnghami(this.getActivity(), album_view).execute(query);
+		new Album_JsonAnghami(this.getActivity(), album_view).execute(this.album);
 	}
 
 }

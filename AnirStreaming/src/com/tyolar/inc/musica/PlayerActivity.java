@@ -103,20 +103,6 @@ public class PlayerActivity extends Activity {
 
 		initializeViewsandPlay(mapp.getMusicaService().getSongtoplay()
 				.get(mapp.getMusicaService().getSelectedtrackindex()));
-//		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
-//		t.setScreenName("Player");
-//		t.send(new HitBuilders.AppViewBuilder().build());
-//		 final InterstitialAd mInterstitialAd = new InterstitialAd(this);
-//		 mInterstitialAd.setAdUnitId("ca-app-pub-3908763514019803/6819661174");
-//		 AdRequest adRequest = new AdRequest.Builder().addTestDevice(
-//		 "SEE_YOUR_LOGCAT_TO_GET_YOUR_DEVICE_ID").build();
-//		 mInterstitialAd.loadAd(adRequest);
-//		 // Begin listening to interstitial & show ads.
-//		 mInterstitialAd.setAdListener(new AdListener() {
-//		 public void onAdLoaded() {
-//		 mInterstitialAd.show();
-//		 }
-//		 });
 
 	}
 
@@ -132,7 +118,7 @@ public class PlayerActivity extends Activity {
 				.setLoadingView(findViewById(R.id.loading_progress))
 				.setRuntimeView(current_time).setSeekBar(seekbar);
 		// mapp.getAudioWife().getInstance().updateUI();
-		String url = apiurls.getArtimage();
+		String url = new apiurls().getArtimage();
 		url = url.replace("[sid]", mapp.getAngami_id()).replace("[id]",
 				song.getCoverArt());
 		Picasso.with(this).load(url)

@@ -56,7 +56,7 @@ public class search_JsonAnghami extends AsyncTask<String, Void, searchResult> {
 
 	private String getsearch(String params) throws Exception {
 		final app2 mapp = (app2) context.getApplicationContext();
-		String url = apiurls.getSearchurlView();
+		String url = new apiurls().getSearchurlView();
 		url = url.replace("[sid]", mapp.getAngami_id()).replace("[query]",
 				URLEncoder.encode(params, "utf-8"));
 		List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
