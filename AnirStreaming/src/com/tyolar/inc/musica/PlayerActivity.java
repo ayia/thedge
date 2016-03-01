@@ -146,9 +146,10 @@ public class PlayerActivity extends Activity {
 														.get(mapp
 																.getMusicaService()
 																.getSelectedtrackindex()));
-//								if (mapp.getCurrentActivity() instanceof com.tyolar.inc.musica.PlayerActivity){
-								
-//									}
+								// if (mapp.getCurrentActivity() instanceof
+								// com.tyolar.inc.musica.PlayerActivity){
+
+								// }
 							}
 						}
 					}
@@ -197,6 +198,9 @@ public class PlayerActivity extends Activity {
 								.getSongtoplay()
 								.get(mapp.getMusicaService()
 										.getSelectedtrackindex()));
+				mapp.getBaseactivity().ShowMiniPlayer(
+						mapp.getMusicaService().getSongtoplay()
+								.get(mapp.getMusicaService().getSelectedtrackindex()));
 
 			}
 		});
@@ -219,9 +223,15 @@ public class PlayerActivity extends Activity {
 								.get(mapp.getMusicaService()
 										.getSelectedtrackindex()));
 				mapp.getAudioWife().getInstance().updateUI();
+				mapp.getBaseactivity().ShowMiniPlayer(
+						mapp.getMusicaService().getSongtoplay()
+								.get(mapp.getMusicaService().getSelectedtrackindex()));
+
 			}
 		});
-
+		mapp.getBaseactivity().ShowMiniPlayer(
+				mapp.getMusicaService().getSongtoplay()
+						.get(mapp.getMusicaService().getSelectedtrackindex()));
 	}
 
 	@Override
@@ -283,12 +293,13 @@ public class PlayerActivity extends Activity {
 							.getAlbum(), playedsong.getArtist(), playedsong
 							.getArtistID(), playedsong.getCoverArt(),
 							playedsong.getArtistArt());
-					
-					Intent myIntent = new Intent(getme(),
+
+					Intent myIntent = new Intent(
+							getme(),
 							com.tyolar.inc.musica.activities.Album_Activity.class);
 					myIntent.putExtra("album", album.toJson());
 					getme().startActivity(myIntent);
-					
+
 					finish();
 					break;
 				default:

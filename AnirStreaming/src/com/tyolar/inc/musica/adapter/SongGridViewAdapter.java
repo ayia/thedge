@@ -126,6 +126,11 @@ public class SongGridViewAdapter extends BaseAdapter {
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
 					((BaseActivity) context).initMiniPlayer(holdersong.track);
+					if (!mapp.isFullPlayerVisible()) {
+					
+					Intent myIntent = new Intent(context,
+							com.tyolar.inc.musica.PlayerActivity.class);
+					context.startActivity(myIntent);}
 				}
 			});
 		}

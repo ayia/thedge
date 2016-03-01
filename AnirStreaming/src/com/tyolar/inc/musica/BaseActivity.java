@@ -138,6 +138,12 @@ public class BaseActivity extends ActionBarActivity {
 		mapp.getMusicaService().setSongtoplay(songtoplay);
 
 		initMiniPlayer(songtoplay.get(0));
+		if (!mapp.isFullPlayerVisible()) {
+
+			Intent myIntent = new Intent(BaseActivity.this,
+					com.tyolar.inc.musica.PlayerActivity.class);
+			BaseActivity.this.startActivity(myIntent);
+		}
 
 	}
 
@@ -286,8 +292,13 @@ public class BaseActivity extends ActionBarActivity {
 		// TODO Auto-generated method stub
 		try {
 
-			if (!mapp.getMusicaService().getSongtoplay().contains(track))
+			if (!mapp.getMusicaService().getSongtoplay().contains(track)){
 				mapp.getMusicaService().getSongtoplay().add(track);
+				mapp.getBaseactivity().ShowMiniPlayer(
+						mapp.getMusicaService().getSongtoplay()
+								.get(mapp.getMusicaService().getSelectedtrackindex()));
+	
+			}
 			// mControlsFragment.initilizeView();
 		} catch (Exception s) {
 			initMiniPlayer(track);
@@ -310,7 +321,10 @@ public class BaseActivity extends ActionBarActivity {
 						.getSongtoplay()
 						.set(mapp.getMusicaService().getSelectedtrackindex() + 1,
 								track);
-			// mControlsFragment.initilizeView();
+			mapp.getBaseactivity().ShowMiniPlayer(
+					mapp.getMusicaService().getSongtoplay()
+							.get(mapp.getMusicaService().getSelectedtrackindex()));
+
 
 		} catch (Exception s) {
 			initMiniPlayer(track);
