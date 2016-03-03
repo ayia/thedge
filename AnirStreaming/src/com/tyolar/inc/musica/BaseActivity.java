@@ -54,16 +54,6 @@ public class BaseActivity extends ActionBarActivity {
 
 	}
 
-	public void letsplayagain() {
-		// TODO Auto-generated method stub
-
-		if (mapp.getAudioWife().getInstance() != null) {
-
-			mapp.getAudioWife().getInstance().updateUI();
-
-		}
-
-	}
 
 	public void playSong(final song d) {
 

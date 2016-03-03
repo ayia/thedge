@@ -57,6 +57,20 @@ public class PlayerActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setView();
+	}
+
+	@Override
+	public void onNewIntent(Intent intent) {
+		Bundle extras = intent.getExtras();
+		if (extras != null) {
+			if (extras.containsKey("update")) {
+				setView();
+			}
+		}
+	}
+
+	protected void setView() {
 		setContentView(R.layout.activity_player);
 		mapp = (app2) getApplication();
 		song_titel = (TextView) findViewById(R.id.song_titel);
@@ -126,35 +140,6 @@ public class PlayerActivity extends Activity {
 				.error(R.drawable.ic_launcher).into(songimage);
 
 		update_nextBackButton();
-		mapp.getMusicaService().getmMediaPlayer()
-				.setOnCompletionListener(new OnCompletionListener() {
-
-					@Override
-					public void onCompletion(MediaPlayer arg0) {
-						// TODO Auto-generated method stub
-						if (arg0.getCurrentPosition() > 13) {
-							app2 mapp = (app2) getApplication();
-							if (mapp.getMusicaService().getSelectedtrackindex() != mapp
-									.getMusicaService().getSongtoplay().size() - 1) {
-								mapp.getMusicaService().setSelectedtrackindex(
-										mapp.getMusicaService()
-												.getSelectedtrackindex() + 1);
-								mapp.getBaseactivity()
-										.initMiniPlayer(
-												mapp.getMusicaService()
-														.getSongtoplay()
-														.get(mapp
-																.getMusicaService()
-																.getSelectedtrackindex()));
-								// if (mapp.getCurrentActivity() instanceof
-								// com.tyolar.inc.musica.PlayerActivity){
-
-								// }
-							}
-						}
-					}
-				});
-
 		if (mapp.getMusicaService().getmMediaPlayer().getCurrentPosition() > 1) {
 			mapp.getAudioWife().getInstance().updateUI();
 			findViewById(R.id.loading_progress).setVisibility(View.GONE);
@@ -165,7 +150,6 @@ public class PlayerActivity extends Activity {
 	@Override
 	public void onBackPressed() {
 		// TODO Auto-generated method stub
-		mapp.getBaseactivity().letsplayagain();
 		super.onBackPressed();
 	}
 
@@ -199,8 +183,10 @@ public class PlayerActivity extends Activity {
 								.get(mapp.getMusicaService()
 										.getSelectedtrackindex()));
 				mapp.getBaseactivity().ShowMiniPlayer(
-						mapp.getMusicaService().getSongtoplay()
-								.get(mapp.getMusicaService().getSelectedtrackindex()));
+						mapp.getMusicaService()
+								.getSongtoplay()
+								.get(mapp.getMusicaService()
+										.getSelectedtrackindex()));
 
 			}
 		});
@@ -222,10 +208,11 @@ public class PlayerActivity extends Activity {
 								.getSongtoplay()
 								.get(mapp.getMusicaService()
 										.getSelectedtrackindex()));
-				mapp.getAudioWife().getInstance().updateUI();
 				mapp.getBaseactivity().ShowMiniPlayer(
-						mapp.getMusicaService().getSongtoplay()
-								.get(mapp.getMusicaService().getSelectedtrackindex()));
+						mapp.getMusicaService()
+								.getSongtoplay()
+								.get(mapp.getMusicaService()
+										.getSelectedtrackindex()));
 
 			}
 		});

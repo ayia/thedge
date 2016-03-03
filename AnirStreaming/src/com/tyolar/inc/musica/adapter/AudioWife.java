@@ -54,7 +54,6 @@ public class AudioWife {
 
 	private static final String TAG = AudioWife.class.getSimpleName();
 
-
 	private static AudioWife mAudioWife;
 
 	/****
@@ -189,7 +188,10 @@ public class AudioWife {
 
 		// enable visibility of all UI controls.
 		setViewsVisibility();
-
+		app2 mapp = (app2) context.getApplicationContext();
+		mapp.getBaseactivity().ShowMiniPlayer(
+				mapp.getMusicaService().getSongtoplay()
+						.get(mapp.getMusicaService().getSelectedtrackindex()));
 		mMediaPlayer.start();
 		setPausable();
 	}
@@ -252,6 +254,12 @@ public class AudioWife {
 		if (mMediaPlayer.isPlaying()) {
 			mMediaPlayer.pause();
 			setPlayable();
+			app2 mapp = (app2) context.getApplicationContext();
+			mapp.getBaseactivity().ShowMiniPlayer(
+					mapp.getMusicaService()
+							.getSongtoplay()
+							.get(mapp.getMusicaService()
+									.getSelectedtrackindex()));
 		}
 	}
 
@@ -461,6 +469,7 @@ public class AudioWife {
 			public void onClick(View v) {
 				for (View.OnClickListener listener : mPlayListeners) {
 					listener.onClick(v);
+
 				}
 			}
 		});
@@ -660,14 +669,36 @@ public class AudioWife {
 				// set UI when audio finished playing
 				int currentPlayTime = 0;
 				updateRuntime(currentPlayTime);
-				setPlayable();
+				// setPlayable();
+				if (arg0.getCurrentPosition() > 13) {
+					if (mapp.getMusicaService().getSelectedtrackindex() != mapp
+							.getMusicaService().getSongtoplay().size() - 1) {
+						mapp.getMusicaService()
+								.setSelectedtrackindex(
+										mapp.getMusicaService()
+												.getSelectedtrackindex() + 1);
+
+						mapp.getBaseactivity().initMiniPlayer(
+								mapp.getMusicaService()
+										.getSongtoplay()
+										.get(mapp.getMusicaService()
+												.getSelectedtrackindex()));
+
+					}
+					mapp.getBaseactivity().ShowMiniPlayer(
+							mapp.getMusicaService()
+									.getSongtoplay()
+									.get(mapp.getMusicaService()
+											.getSelectedtrackindex()));
+
+				}
 				try {
 					mSeekBar.setProgress((int) currentPlayTime);
 
 				} catch (Exception d) {
 
 				}
-				fireCustomCompletionListeners(arg0);
+
 			}
 		});
 		mMediaPlayer.setOnPreparedListener(new OnPreparedListener() {
@@ -677,18 +708,16 @@ public class AudioWife {
 				// TODO Auto-generated method stub
 
 				mMediaPlayer.start();
-
 				mapp.getBaseactivity().ShowMiniPlayer(d);
 				updateUI();
 				initMediaSeekBar();
 				updatePlaytime(0);
 				if (loadingView != null) {
 					loadingView.setVisibility(View.GONE);
-					mPlayButton.setVisibility(View.GONE);
 				}
 			}
 		});
-	
+
 		try {
 			StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder()
 					.permitAll().build();
@@ -697,7 +726,9 @@ public class AudioWife {
 			mMediaPlayer.prepareAsync();
 
 		} catch (Exception e) {
-			Toast.makeText(context,context.getResources().getString(R.string.error) , Toast.LENGTH_LONG).show();
+			Toast.makeText(context,
+					context.getResources().getString(R.string.error),
+					Toast.LENGTH_LONG).show();
 		}
 
 	}
