@@ -31,20 +31,20 @@ public class SongGridViewAdapter extends BaseAdapter {
 	Context context;
 
 	public SongGridViewAdapter(Context context, ArrayList listactor,
-			int unmberofrows, int nunmberofculumns,boolean listall) {
+			int unmberofrows, int nunmberofculumns, boolean listall) {
 		super();
 		this.context = context;
 		inflater = (LayoutInflater) context
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
 		int fg = Math.abs(unmberofrows * nunmberofculumns);
-		if(listall==false) {
-		if (fg > listactor.size())
+		if (listall == false) {
+			if (fg > listactor.size())
+				this.listactor = listactor;
+			else
+				this.listactor = listactor.subList(0, fg);
+		} else
 			this.listactor = listactor;
-		else
-			this.listactor = listactor.subList(0, fg);
-		}else
-		this.listactor = listactor;
 	}
 
 	@Override
@@ -78,8 +78,7 @@ public class SongGridViewAdapter extends BaseAdapter {
 		final app2 mapp = (app2) context.getApplicationContext();
 		convertView = null;
 		String url = new apiurls().getArtimage();
-		url = url.replace("[sid]",
-				mapp.getAngami_id());
+		url = url.replace("[sid]", mapp.getAngami_id());
 		// /song Area
 		if (getItem(position) instanceof song) {
 			convertView = inflater.inflate(R.layout.music_list_item, parent,
@@ -89,7 +88,7 @@ public class SongGridViewAdapter extends BaseAdapter {
 					.findViewById(R.id.grid_item_title);
 			holdersong.artistName = (TextView) convertView
 					.findViewById(R.id.grid_item_artist);
-			
+
 			holdersong.index_img = (ImageView) convertView
 					.findViewById(R.id.index);
 			holdersong.duration = (TextView) convertView
@@ -100,37 +99,34 @@ public class SongGridViewAdapter extends BaseAdapter {
 					.findViewById(R.id.more_icon);
 			convertView.setTag(holdersong);
 			url = url.replace("[id]", ((song) getItem(position)).getCoverArt());
-			Picasso.with(context).load(url).placeholder(R.drawable.ic_music_note_black_48dp)
-					.error(R.drawable.ic_music_note_black_48dp).into(holdersong.layout_img);
+			Picasso.with(context).load(url)
+					.placeholder(R.drawable.ic_music_note_black_48dp)
+					.error(R.drawable.ic_music_note_black_48dp)
+					.into(holdersong.layout_img);
 			holdersong.titel.setText(((song) getItem(position)).getTitle());
 			holdersong.duration.setText(((song) getItem(position))
 					.getDuration());
-		
+
 			holdersong.track = (song) getItem(position);
 			holdersong.artistName.setText(holdersong.track.getArtist());
-			
+
 			holdersong.img_more.setOnClickListener(new OnClickListener() {
 
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
-					((BaseActivity) context).showMenuItemMusic(v,holdersong.track);
+					((BaseActivity) context).showMenuItemMusic(v,
+							holdersong.track);
 					invalidate();
 				}
 			});
 
-			
 			convertView.setOnClickListener(new OnClickListener() {
 
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
 					((BaseActivity) context).initMiniPlayer(holdersong.track);
-					if (!mapp.isFullPlayerVisible()) {
-					
-					Intent myIntent = new Intent(context,
-							com.tyolar.inc.musica.PlayerActivity.class);
-					context.startActivity(myIntent);}
 				}
 			});
 		}
@@ -153,8 +149,7 @@ public class SongGridViewAdapter extends BaseAdapter {
 			url = url.replace("[id]",
 					((artist) getItem(position)).getArtistArt());
 			Picasso.with(context).load(url).placeholder(R.drawable.ic_singer)
-					.error(R.drawable.ic_singer)
-					.into(holderartist.layout_img);
+					.error(R.drawable.ic_singer).into(holderartist.layout_img);
 			holderartist.titel.setText(((artist) getItem(position)).getName());
 			// holdersong.duration.setText(((song) getItem(position))
 			// .getDuration());
@@ -165,11 +160,12 @@ public class SongGridViewAdapter extends BaseAdapter {
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
-					Intent myIntent = new Intent(context,
+					Intent myIntent = new Intent(
+							context,
 							com.tyolar.inc.musica.activities.Artist_Activity.class);
 					myIntent.putExtra("artist", holderartist.artist.toJson());
 					context.startActivity(myIntent);
-					
+
 				}
 			});
 
@@ -193,8 +189,10 @@ public class SongGridViewAdapter extends BaseAdapter {
 			convertView.setTag(holderalbum);
 			url = url
 					.replace("[id]", ((album) getItem(position)).getCoverArt());
-			Picasso.with(context).load(url).placeholder(R.drawable.ic_album_black_48dp)
-					.error(R.drawable.ic_album_black_48dp).into(holderalbum.layout_img);
+			Picasso.with(context).load(url)
+					.placeholder(R.drawable.ic_album_black_48dp)
+					.error(R.drawable.ic_album_black_48dp)
+					.into(holderalbum.layout_img);
 			holderalbum.titel.setText(((album) getItem(position)).getTitle());
 			holderalbum.year.setText(((album) getItem(position)).getYear());
 			holderalbum.album = (album) getItem(position);
@@ -203,7 +201,8 @@ public class SongGridViewAdapter extends BaseAdapter {
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
-					Intent myIntent = new Intent(context,
+					Intent myIntent = new Intent(
+							context,
 							com.tyolar.inc.musica.activities.Album_Activity.class);
 					myIntent.putExtra("album", holderalbum.album.toJson());
 					context.startActivity(myIntent);

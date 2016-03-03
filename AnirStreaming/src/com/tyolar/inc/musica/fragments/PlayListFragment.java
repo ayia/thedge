@@ -46,11 +46,11 @@ public class PlayListFragment extends CFragment {
 		playlist_grid = (GridView) rootView.findViewById(R.id.playlist_grid);
 		addplaylist = (Button) rootView.findViewById(R.id.add_new_playlist);
 		loadMusicPlayList((BaseActivity) getActivity(), this);
-		final app2 mapp = (app2) getActivity().getApplicationContext();
-		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
-		t.setScreenName("MyAlbumsFragment");
-		t.send(new HitBuilders.AppViewBuilder().build());
-		
+		 app2 mapp = (app2) getActivity().getApplicationContext();
+//		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
+//		t.setScreenName("MyAlbumsFragment");
+//		t.send(new HitBuilders.AppViewBuilder().build());
+		mapp.getInstance().trackScreenView("PlayList Screen");
 		return rootView;
 
 	}

@@ -42,10 +42,10 @@ public class ArtistFragment extends Fragment {
 		artist_view = rootView.findViewById(R.id.artistview);
 		table = (TableLayout) rootView.findViewById(R.id.listmusic);
 		startsearch(this.artist.getId());
-		final app2 mapp = (app2) getActivity().getApplicationContext();
-		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
-		t.setScreenName("ArtistFragment");
-		t.send(new HitBuilders.AppViewBuilder().build());
+//		final app2 mapp = (app2) getActivity().getApplicationContext();
+//		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
+//		t.setScreenName("ArtistFragment");
+//		t.send(new HitBuilders.AppViewBuilder().build());
 
 		return rootView;
 	}

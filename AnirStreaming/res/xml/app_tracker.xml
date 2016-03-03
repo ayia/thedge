@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<!-- change the following line  -->
-    <string name="ga_trackingId">UA-38382183-9</string>
 
+    <!-- End current session if app sleeps for a period of time -->
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
     <bool name="ga_autoActivityTracking">true</bool>
-    <bool name="ga_reportUncaughtExceptions">true</bool>
 
-    <string name="ga_appName">usic</string>
-    <string name="ga_appVersion">1.1.4</string>
-
-    <bool name="ga_debug">true</bool>
-
-    <item name="ga_dispatchPeriod" format="integer" type="integer">120</item>
-
-    <string name="ga_sampleFrequency">90</string>
-
-    <bool name="ga_anonymizeIp">true</bool>
-    <bool name="ga_dryRun">false</bool>
-
+    <!-- The property id associated with this analytics tracker -->
+    <string name="ga_trackingId">UA-38382183-6</string>
     <string name="ga_sampleFrequency">100.0</string>
 
-    <integer name="ga_sessionTimeout">-1</integer>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
 
-    <string name="com.tyolar.inc.usic">MainActivity</string>
+    <screenName name="com.tyolar.inc.musica.MainActivity">Home Screen</screenName>
+    <screenName name="com.tyolar.inc.musica.PlayerActivity">Player Screen</screenName>
+    <screenName name="com.tyolar.inc.musica.activities.Album_Activity">Album Screen</screenName>
+    <screenName name="com.tyolar.inc.musica.activities.Artist_Activity">Artist Screen</screenName>
+    <screenName name="com.tyolar.inc.musica.activities.More_Activity">More Screen</screenName>
 
 </resources>

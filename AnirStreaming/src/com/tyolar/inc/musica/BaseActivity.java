@@ -51,9 +51,9 @@ public class BaseActivity extends ActionBarActivity {
 	protected void onStart() {
 		super.onStart();
 		mapp = (app2) getApplication();
+		mapp.setBaseactivity(this);
 
 	}
-
 
 	public void playSong(final song d) {
 
@@ -74,8 +74,7 @@ public class BaseActivity extends ActionBarActivity {
 
 	}
 
-	public void initMiniPlayer(final song d) {
-		// findViewById(R.id.bottom_linear_layout_id).setVisibility(View.VISIBLE);
+	public void updateList_Playsong(song d){
 		if (mapp.getMusicaService().getSongtoplay().contains(d))
 			mapp.getMusicaService().setSelectedtrackindex(
 					mapp.getMusicaService().getSongtoplay().indexOf(d));
@@ -84,18 +83,15 @@ public class BaseActivity extends ActionBarActivity {
 			mapp.getMusicaService().setSelectedtrackindex(
 					mapp.getMusicaService().getSongtoplay().size() - 1);
 		}
-		if (mapp.isFirstPlayerView()) {
-			mapp.setFirstPlayerView(false);
-			Intent myIntent = new Intent(BaseActivity.this,
-					com.tyolar.inc.musica.PlayerActivity.class);
-			BaseActivity.this.startActivity(myIntent);
-
-		} else if (mapp.isFullPlayerVisible()) {
-			mapp.getCurrentActivity().recreate();
-
-		}
-
 		playSong(d);
+	}
+	
+	public void initMiniPlayer(final song d) {
+		// findViewById(R.id.bottom_linear_layout_id).setVisibility(View.VISIBLE);
+		updateList_Playsong(d);
+		Intent myIntent = new Intent(BaseActivity.this,
+				com.tyolar.inc.musica.PlayerActivity.class);
+		BaseActivity.this.startActivity(myIntent);
 
 	}
 
@@ -128,12 +124,12 @@ public class BaseActivity extends ActionBarActivity {
 		mapp.getMusicaService().setSongtoplay(songtoplay);
 
 		initMiniPlayer(songtoplay.get(0));
-		if (!mapp.isFullPlayerVisible()) {
-
-			Intent myIntent = new Intent(BaseActivity.this,
-					com.tyolar.inc.musica.PlayerActivity.class);
-			BaseActivity.this.startActivity(myIntent);
-		}
+		// if (!mapp.isFullPlayerVisible()) {
+		//
+		// Intent myIntent = new Intent(BaseActivity.this,
+		// com.tyolar.inc.musica.PlayerActivity.class);
+		// BaseActivity.this.startActivity(myIntent);
+		// }
 
 	}
 
@@ -282,12 +278,14 @@ public class BaseActivity extends ActionBarActivity {
 		// TODO Auto-generated method stub
 		try {
 
-			if (!mapp.getMusicaService().getSongtoplay().contains(track)){
+			if (!mapp.getMusicaService().getSongtoplay().contains(track)) {
 				mapp.getMusicaService().getSongtoplay().add(track);
 				mapp.getBaseactivity().ShowMiniPlayer(
-						mapp.getMusicaService().getSongtoplay()
-								.get(mapp.getMusicaService().getSelectedtrackindex()));
-	
+						mapp.getMusicaService()
+								.getSongtoplay()
+								.get(mapp.getMusicaService()
+										.getSelectedtrackindex()));
+
 			}
 			// mControlsFragment.initilizeView();
 		} catch (Exception s) {
@@ -312,9 +310,10 @@ public class BaseActivity extends ActionBarActivity {
 						.set(mapp.getMusicaService().getSelectedtrackindex() + 1,
 								track);
 			mapp.getBaseactivity().ShowMiniPlayer(
-					mapp.getMusicaService().getSongtoplay()
-							.get(mapp.getMusicaService().getSelectedtrackindex()));
-
+					mapp.getMusicaService()
+							.getSongtoplay()
+							.get(mapp.getMusicaService()
+									.getSelectedtrackindex()));
 
 		} catch (Exception s) {
 			initMiniPlayer(track);

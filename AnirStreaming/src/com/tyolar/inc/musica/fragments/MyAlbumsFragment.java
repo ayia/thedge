@@ -39,10 +39,10 @@ public class MyAlbumsFragment extends CFragment {
 		addplaylist = (Button) rootView.findViewById(R.id.add_new_playlist);
 		emptyview=rootView.findViewById(R.id.empty_list_view);
 		loadMyalbums((BaseActivity) getActivity(), this);
-		final app2 mapp = (app2) getActivity().getApplicationContext();
-		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
-		t.setScreenName("MyAlbumsFragment");
-		t.send(new HitBuilders.AppViewBuilder().build());
+		app2 mapp = (app2) getActivity().getApplicationContext();
+//		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
+//		t.setScreenName("MyAlbumsFragment");
+		mapp.getInstance().trackScreenView("yAlbums Screen");
 		
 		return rootView;
 

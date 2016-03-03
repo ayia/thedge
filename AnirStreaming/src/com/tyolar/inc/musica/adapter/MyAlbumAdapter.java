@@ -126,6 +126,8 @@ public class MyAlbumAdapter extends BaseAdapter {
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					 app2 mapp = (app2) context.getApplicationContext();
+					 mapp.getInstance().trackException(e);
 				}
 			}
 		});
@@ -157,6 +159,8 @@ public class MyAlbumAdapter extends BaseAdapter {
 								   context.getResources().getString(R.string.error)
 								   , Toast.LENGTH_LONG).show();	
 						
+						 app2 mapp = (app2) context.getApplicationContext();
+						 mapp.getInstance().trackException(e);
 						e.printStackTrace();
 					}
 					break;

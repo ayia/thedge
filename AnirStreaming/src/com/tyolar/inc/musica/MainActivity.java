@@ -68,11 +68,11 @@ public class MainActivity extends BaseActivity {
 			initview();
 
 		}
-
-		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
-		t.setScreenName("Home");
-		t.send(new HitBuilders.AppViewBuilder().build());
-		mapp.setBaseactivity(this);
+//		mapp.getInstance().trackScreenView("Home Screen");
+//		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
+//		t.setScreenName("Home");
+//		t.send(new HitBuilders.AppViewBuilder().build());
+//		mapp.setBaseactivity(this);
 
 		final InterstitialAd mInterstitialAd = new InterstitialAd(this);
 		mInterstitialAd.setAdUnitId("ca-app-pub-3908763514019803/6819661174");

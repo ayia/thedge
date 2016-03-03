@@ -134,6 +134,8 @@ public class PlayListAdapter extends BaseAdapter {
 					} catch (Exception e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
+						 app2 mapp = (app2) context.getApplicationContext();
+						 mapp.getInstance().trackException(e);
 					}
 				}
 			});
@@ -171,6 +173,8 @@ public class PlayListAdapter extends BaseAdapter {
 						Toast.makeText(v.getContext(),
 								context.getString(R.string.error),
 								Toast.LENGTH_LONG).show();
+						 app2 mapp = (app2) context.getApplicationContext();
+						 mapp.getInstance().trackException(e);
 					}
 					break;
 				case R.id.edit_playlist:
@@ -216,6 +220,8 @@ public class PlayListAdapter extends BaseAdapter {
 															.getString(
 																	R.string.error),
 													Toast.LENGTH_LONG).show();
+											 app2 mapp = (app2) context.getApplicationContext();
+											 mapp.getInstance().trackException(e);
 
 										}
 
@@ -261,6 +267,8 @@ public class PlayListAdapter extends BaseAdapter {
 						e.printStackTrace();
 						Toast.makeText(v.getContext(), "a7777777",
 								Toast.LENGTH_LONG).show();
+						 app2 mapp = (app2) context.getApplicationContext();
+						 mapp.getInstance().trackException(e);
 					}
 					break;
 

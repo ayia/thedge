@@ -272,9 +272,9 @@ public class AudioWife {
 		if (mMediaPlayer != null) {
 			try {
 				totalDuration = mMediaPlayer.getDuration();
-			} catch (IllegalStateException e) {
-				e.printStackTrace();
 			} catch (Exception e) {
+				app2 mapp = (app2) context.getApplicationContext();
+				mapp.getInstance().trackException(e);
 				e.printStackTrace();
 			}
 		}
@@ -342,9 +342,10 @@ public class AudioWife {
 		if (mMediaPlayer != null) {
 			try {
 				totalDuration = mMediaPlayer.getDuration();
-			} catch (IllegalStateException e) {
-				e.printStackTrace();
+
 			} catch (Exception e) {
+				app2 mapp = (app2) context.getApplicationContext();
+				mapp.getInstance().trackException(e);
 				e.printStackTrace();
 			}
 		}
@@ -678,11 +679,14 @@ public class AudioWife {
 										mapp.getMusicaService()
 												.getSelectedtrackindex() + 1);
 
-						mapp.getBaseactivity().initMiniPlayer(
+						mapp.getBaseactivity().updateList_Playsong(
 								mapp.getMusicaService()
 										.getSongtoplay()
 										.get(mapp.getMusicaService()
 												.getSelectedtrackindex()));
+
+						if (mapp.isFullPlayerisshown == true)
+							mapp.PlayerActivity.recreate();
 
 					}
 					mapp.getBaseactivity().ShowMiniPlayer(
@@ -696,7 +700,8 @@ public class AudioWife {
 					mSeekBar.setProgress((int) currentPlayTime);
 
 				} catch (Exception d) {
-
+					app2 mapp = (app2) context.getApplicationContext();
+					mapp.getInstance().trackException(d);
 				}
 
 			}
@@ -726,6 +731,8 @@ public class AudioWife {
 			mMediaPlayer.prepareAsync();
 
 		} catch (Exception e) {
+
+			mapp.getInstance().trackException(e);
 			Toast.makeText(context,
 					context.getResources().getString(R.string.error),
 					Toast.LENGTH_LONG).show();

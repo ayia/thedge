@@ -12,6 +12,8 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
+import com.tyolar.inc.musica.app2;
+
 public class RestTemplate {
 
 	public static String getResponse(String url, List<NameValuePair> headers) {
@@ -26,10 +28,10 @@ public class RestTemplate {
 			// Execute HTTP Post Request
 			HttpResponse response = httpclient.execute(httppost);
 			 responseBody = EntityUtils.toString(response.getEntity());
-		} catch (ClientProtocolException e) {
+		
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		
 		}
 	
 		return responseBody;

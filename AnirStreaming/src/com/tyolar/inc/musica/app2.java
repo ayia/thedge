@@ -1,13 +1,13 @@
 package com.tyolar.inc.musica;
 
-import java.util.HashMap;
-
 import android.app.Activity;
 import android.app.Application;
 import android.app.Application.ActivityLifecycleCallbacks;
 import android.os.Bundle;
 
 import com.google.android.gms.analytics.GoogleAnalytics;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.StandardExceptionParser;
 import com.google.android.gms.analytics.Tracker;
 import com.tyolar.inc.musica.Services.AudioPlaybackService;
 import com.tyolar.inc.musica.adapter.AudioWife;
@@ -15,48 +15,27 @@ import com.tyolar.inc.musica.model.PlayList;
 import com.tyolar.inc.musica.widget.MusicNotification;
 
 public class app2 extends Application implements ActivityLifecycleCallbacks {
-    private static boolean isFullPlayerisshown;
-    private static boolean isFirstPlayerView=true;
+	public static boolean isFullPlayerisshown;
 	private static AudioWife AudioWife = null;
 	private static BaseActivity baseactivity;
+	public static PlayerActivity PlayerActivity;
+	
 	private static AudioPlaybackService MusicaService;
 	private static PlayList playlist;
 	public CFragment CFragment;
-	public  MusicNotification MusicNotification=null;
-	
+	public MusicNotification MusicNotification = null;
 	private static String angami_id = "i2:dikcfiel:893o4q52493n6n41:ecdhdddidccgce:ZN:d:ra:n1.7.8:qqrq366snr";
-
-	// change the following line
-	private static final String PROPERTY_ID = "UA-38382183-6";
-
-	public static int GENERAL_TRACKER = 0;
-
-	public enum TrackerName {
-		APP_TRACKER, GLOBAL_TRACKER, ECOMMERCE_TRACKER,
-	}
-
-	public HashMap<TrackerName, Tracker> mTrackers = new HashMap<TrackerName, Tracker>();
+	// analystics
+	public static final String TAG = app2.class.getSimpleName();
+	private static app2 mInstance;
 
 	@Override
 	public void onCreate() {
 		super.onCreate();
+		mInstance = this;
+		AnalyticsTrackers.initialize(this);
+		AnalyticsTrackers.getInstance().get(AnalyticsTrackers.Target.APP);
 		 registerActivityLifecycleCallbacks(this);
-	
-	}
-	
-
-	
-	public synchronized Tracker getTracker(TrackerName appTracker) {
-		if (!mTrackers.containsKey(appTracker)) {
-			GoogleAnalytics analytics = GoogleAnalytics.getInstance(this);
-			Tracker t = (appTracker == TrackerName.APP_TRACKER) ? analytics
-					.newTracker(PROPERTY_ID)
-					: (appTracker == TrackerName.GLOBAL_TRACKER) ? analytics
-							.newTracker(R.xml.global_tracker) : analytics
-							.newTracker(R.xml.ecommerce_tracker);
-			mTrackers.put(appTracker, t);
-		}
-		return mTrackers.get(appTracker);
 	}
 
 	public static PlayList getPlaylist() {
@@ -109,34 +88,19 @@ public class app2 extends Application implements ActivityLifecycleCallbacks {
 		MusicaService = musicaService;
 	}
 
-	  public boolean isFullPlayerVisible() {
-	        return isFullPlayerisshown;
-	    }
+	// Activity Listner
 
 	@Override
 	public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		
+
 	}
-
-	public static boolean isFirstPlayerView() {
-		return isFirstPlayerView;
-	}
-
-
-
-	public static void setFirstPlayerView(boolean isFirstPlayerView) {
-		app2.isFirstPlayerView = isFirstPlayerView;
-	}
-
 
 	@Override
 	public void onActivityStarted(Activity activity) {
 		// TODO Auto-generated method stub
-		
+
 	}
-
-
 
 	@Override
 	public void onActivityResumed(Activity activity) {
@@ -146,8 +110,6 @@ public class app2 extends Application implements ActivityLifecycleCallbacks {
         }
 	}
 
-
-
 	@Override
 	public void onActivityPaused(Activity activity) {
 		// TODO Auto-generated method stub
@@ -156,28 +118,87 @@ public class app2 extends Application implements ActivityLifecycleCallbacks {
         }
 	}
 
-
-
 	@Override
 	public void onActivityStopped(Activity activity) {
 		// TODO Auto-generated method stub
-	
+
 	}
-
-
 
 	@Override
 	public void onActivitySaveInstanceState(Activity activity, Bundle outState) {
 		// TODO Auto-generated method stub
-		
+
 	}
-
-
 
 	@Override
 	public void onActivityDestroyed(Activity activity) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
+	// Anlaystics Area
+
+	public static synchronized app2 getInstance() {
+		return mInstance;
+	}
+
+	public synchronized Tracker getGoogleAnalyticsTracker() {
+		AnalyticsTrackers analyticsTrackers = AnalyticsTrackers.getInstance();
+		return analyticsTrackers.get(AnalyticsTrackers.Target.APP);
+	}
+
+	/***
+	 * Tracking screen view
+	 * 
+	 * @param screenName
+	 *            screen name to be displayed on GA dashboard
+	 */
+	public void trackScreenView(String screenName) {
+		Tracker t = getGoogleAnalyticsTracker();
+
+		// Set screen name.
+		t.setScreenName(screenName);
+
+		// Send a screen view.
+		t.send(new HitBuilders.ScreenViewBuilder().build());
+
+		GoogleAnalytics.getInstance(this).dispatchLocalHits();
+	}
+
+	/***
+	 * Tracking exception
+	 * 
+	 * @param e
+	 *            exception to be tracked
+	 */
+	public void trackException(Exception e) {
+		if (e != null) {
+			Tracker t = getGoogleAnalyticsTracker();
+
+			t.send(new HitBuilders.ExceptionBuilder()
+					.setDescription(
+							new StandardExceptionParser(this, null)
+									.getDescription(Thread.currentThread()
+											.getName(), e)).setFatal(false)
+					.build());
+		}
+	}
+
+	/***
+	 * Tracking event
+	 * 
+	 * @param category
+	 *            event category
+	 * @param action
+	 *            action of the event
+	 * @param label
+	 *            label
+	 */
+	public void trackEvent(String category, String action, String label) {
+		Tracker t = getGoogleAnalyticsTracker();
+
+		// Build and send an Event.
+		t.send(new HitBuilders.EventBuilder().setCategory(category)
+				.setAction(action).setLabel(label).build());
+	}
 }

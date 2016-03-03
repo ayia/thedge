@@ -9,8 +9,8 @@
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
- 
+    <uses-permission android:name="android.permission.net" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".app2"
@@ -27,6 +27,7 @@
         <activity
             android:name=".SplashScreen"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/MyTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,7 +54,8 @@
         <activity
             android:name=".PlayerActivity"
             android:icon="@drawable/ic_keyboard_arrow_down_white_48dp"
-            android:launchMode="singleTop"
+            android:launchMode="singleTask"
+            android:exported="true"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MyTheme" >
@@ -61,6 +63,21 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".SearchViewActivity" />
         </activity>
+        <activity
+            android:name="com.tyolar.inc.musica.activities.Album_Activity"
+            android:icon="@drawable/ic_launcher_white"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tyolar.inc.musica.activities.Artist_Activity"
+            android:icon="@drawable/ic_launcher_white"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tyolar.inc.musica.activities.More_Activity"
+            android:icon="@drawable/ic_launcher_white"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
 
         <service android:name=".Services.AudioPlaybackService" />
 
@@ -85,18 +102,38 @@
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.tyolar.inc.musica.activities.Album_Activity"
-            android:icon="@drawable/ic_launcher_white"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name="com.tyolar.inc.musica.activities.Artist_Activity"
-            android:icon="@drawable/ic_launcher_white"
-            android:parentActivityName=".MainActivity" />
-           <activity
-            android:name="com.tyolar.inc.musica.activities.More_Activity"
-            android:icon="@drawable/ic_launcher_white"
-            android:parentActivityName=".MainActivity" />
+
+        <!-- google analystics activities and services -->
+        <!--
+          Optionally, register AnalyticsReceiver and AnalyticsService to support background
+          dispatching on non-Google Play devices
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
     </application>
 
 </manifest>

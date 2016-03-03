@@ -11,6 +11,7 @@ import android.view.View.OnClickListener;
 import android.widget.TableLayout;
 
 import com.tyolar.inc.musica.R;
+import com.tyolar.inc.musica.app2;
 import com.tyolar.inc.musica.composants.SearchListView;
 import com.tyolar.inc.musica.model.searchResult;
 import com.tyolar.inc.musica.utils.tools;
@@ -121,6 +122,8 @@ public class Discover_json extends
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			s = e;
+			 app2 mapp = (app2) context.getApplicationContext();
+			 mapp.getInstance().trackException(e);
 
 		}
 		return null;

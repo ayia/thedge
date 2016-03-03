@@ -109,6 +109,7 @@ public class List_Song_Player_Adapter extends BaseAdapter {
 				.contains(holder.track.id)) {
 			// holder.index_img.setVisibility(View.VISIBLE);
 			holder.delete.setVisibility(View.GONE);
+			convertView.setBackgroundColor(context.getResources().getColor(R.color.colorPrimary));
 			// holder.index_img
 			// .setBackgroundResource(R.drawable.interlude_animation_list);
 			// ((AnimationDrawable) holder.index_img.getBackground()).start();
@@ -133,6 +134,8 @@ public class List_Song_Player_Adapter extends BaseAdapter {
 					invalidate();
 					context.update_nextBackButton();
 				} catch (Exception s) {
+					 app2 mapp = (app2) context.getApplicationContext();
+					 mapp.getInstance().trackException(s);
 					s.printStackTrace();
 				}
 			}

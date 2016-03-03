@@ -90,6 +90,8 @@ public class search_JsonAnghami extends AsyncTask<String, Void, searchResult> {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			s = e;
+			 app2 mapp = (app2) context.getApplicationContext();
+			 mapp.getInstance().trackException(e);
 		}
 
 		return searchResult;
@@ -137,6 +139,8 @@ public class search_JsonAnghami extends AsyncTask<String, Void, searchResult> {
 			}
 
 		} catch (Exception s) {
+			 app2 mapp = (app2) context.getApplicationContext();
+			 mapp.getInstance().trackException(s);
 		}
 		return list;
 
@@ -195,6 +199,8 @@ public class search_JsonAnghami extends AsyncTask<String, Void, searchResult> {
 					a.setArtistArt(jobject.getString("ArtistArt").toString());
 			}
 		} catch (Exception s) {
+			 app2 mapp = (app2) context.getApplicationContext();
+			 mapp.getInstance().trackException(s);
 		}
 		return list;
 
@@ -252,6 +258,8 @@ public class search_JsonAnghami extends AsyncTask<String, Void, searchResult> {
 			}
 
 		} catch (Exception s) {
+			 app2 mapp = (app2) context.getApplicationContext();
+			 mapp.getInstance().trackException(s);
 		}
 		return list;
 

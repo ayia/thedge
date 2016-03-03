@@ -40,9 +40,9 @@ public class AlbumFragment extends Fragment {
 		final app2 mapp = (app2) getActivity().getApplicationContext();
 		listmusic = (TableLayout) rootView.findViewById(R.id.listmusic);
 		startsearch(this.album);
-		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
-		t.setScreenName("AlbumFragment");
-		t.send(new HitBuilders.AppViewBuilder().build());
+//		Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
+//		t.setScreenName("AlbumFragment");
+//		t.send(new HitBuilders.AppViewBuilder().build());
 		return rootView;
 	}
 

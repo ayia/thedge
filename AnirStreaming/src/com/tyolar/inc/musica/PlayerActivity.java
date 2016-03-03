@@ -73,6 +73,7 @@ public class PlayerActivity extends Activity {
 	protected void setView() {
 		setContentView(R.layout.activity_player);
 		mapp = (app2) getApplication();
+		mapp.PlayerActivity=this;
 		song_titel = (TextView) findViewById(R.id.song_titel);
 		song_artist = (TextView) findViewById(R.id.song_artist);
 		song_album = (TextView) findViewById(R.id.song_album);
