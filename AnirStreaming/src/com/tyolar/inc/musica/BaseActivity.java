@@ -329,6 +329,7 @@ public class BaseActivity extends ActionBarActivity {
 		} else {
 			mapp.MusicNotification.setSongView(track);
 		}
+		
 	}
 
 	@Override

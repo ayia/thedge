@@ -697,6 +697,11 @@ public class AudioWife {
 
 				}
 				try {
+					mapp.PlayerActivity.initializeViewsandPlay(mapp
+							.getMusicaService()
+							.getSongtoplay()
+							.get(mapp.getMusicaService()
+									.getSelectedtrackindex()));
 					mSeekBar.setProgress((int) currentPlayTime);
 
 				} catch (Exception d) {

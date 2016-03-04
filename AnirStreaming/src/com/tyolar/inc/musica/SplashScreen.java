@@ -69,9 +69,9 @@ public class SplashScreen extends Activity {
 			if (result == null) {
 				AlertDialog.Builder builder1 = new AlertDialog.Builder(context);
 				builder1.setTitle(context.getResources().getString(
-						R.string.dmusic_connection_dialog_title));
-				builder1.setMessage(context.getResources().getString(
 						R.string.error));
+				builder1.setMessage(context.getResources().getString(
+						R.string.dmusic_connection_dialog_title));
 				builder1.setCancelable(true);
 				builder1.setNeutralButton(
 						context.getResources().getString(

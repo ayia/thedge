@@ -65,7 +65,7 @@ public class PlayerActivity extends Activity {
 		Bundle extras = intent.getExtras();
 		if (extras != null) {
 			if (extras.containsKey("update")) {
-				setView();
+			setView();
 			}
 		}
 	}
