@@ -33,7 +33,9 @@ public class PlayListFragment extends CFragment {
 	GridView playlist_grid;
 	PlayListAdapter adapter;
 	Button addplaylist;
-
+	public PlayListFragment() {
+		super();
+	}
 	public PlayListFragment(String titel) {
 		super(titel);
 	}

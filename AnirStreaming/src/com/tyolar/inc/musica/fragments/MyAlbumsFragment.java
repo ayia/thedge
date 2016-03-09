@@ -25,6 +25,9 @@ public class MyAlbumsFragment extends CFragment {
 	PlayListAdapter adapter;
 	Button addplaylist;
 	View emptyview;
+	public MyAlbumsFragment() {
+		super();
+	}
 
 	public MyAlbumsFragment(String titel) {
 		super(titel);

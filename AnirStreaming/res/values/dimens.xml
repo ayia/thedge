@@ -42,7 +42,7 @@
     <dimen name="default_listview_album_art_size">80.0dip</dimen>
     <dimen name="listview_item_secondary_text_size">12.0sp</dimen>
     <dimen name="listview_row_padding_left_of_text">8.0dip</dimen>
-    <dimen name="listview_item_primary_text_size">14.0sp</dimen>
+    <dimen name="listview_item_primary_text_size">12.0sp</dimen>
     <dimen name="text_size_small">14.0sp</dimen>
     <dimen name="text_size_meduim">16.0sp</dimen>
     <dimen name="text_size_big">20.0sp</dimen>

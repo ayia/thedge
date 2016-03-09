@@ -36,6 +36,11 @@ public class PlayList_SongsFragment extends CFragment {
 
 	PlayList playlist;
 
+	public PlayList_SongsFragment() {
+		// TODO Auto-generated constructor stub
+		super();
+	}
+
 	public PlayList_SongsFragment(PlayList album) {
 		// TODO Auto-generated constructor stub
 		super(album.getName());
@@ -81,7 +86,7 @@ public class PlayList_SongsFragment extends CFragment {
 		SearchListView artistgrid = new SearchListView(this.getActivity(),
 				query.getName(), query.getSongs().size(), 1);
 		artistgrid.setId(1);
-		app2 mapp=(app2) getActivity().getApplication();
+		app2 mapp = (app2) getActivity().getApplication();
 		mapp.setPlaylist(query);
 		artistgrid.more_button.setVisibility(View.INVISIBLE);
 		artistgrid.Header.setText(query.getName());

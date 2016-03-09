@@ -24,13 +24,13 @@
             android:layout_marginEnd="20dp"
             android:src="@drawable/ic_launcher" />
 
-<!--         <ImageView -->
-<!--             android:id="@+id/index" -->
-<!--             android:layout_width="@dimen/default_listview_album_art_size" -->
-<!--             android:layout_height="@dimen/default_listview_album_art_size" -->
-<!--             android:layout_centerHorizontal="true" -->
-<!--             android:layout_centerVertical="true" -->
-<!--             android:background="@drawable/interlude_animation_list" /> -->
+        <!-- <ImageView -->
+        <!-- android:id="@+id/index" -->
+        <!-- android:layout_width="@dimen/default_listview_album_art_size" -->
+        <!-- android:layout_height="@dimen/default_listview_album_art_size" -->
+        <!-- android:layout_centerHorizontal="true" -->
+        <!-- android:layout_centerVertical="true" -->
+        <!-- android:background="@drawable/interlude_animation_list" /> -->
     </RelativeLayout>
 
     <RelativeLayout
@@ -43,22 +43,25 @@
 
         <com.ctrlplusz.anytextview.AnyTextView
             android:id="@+id/grid_item_title"
+            style="@style/TrackItemPrimaryText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-              style="@style/TrackItemPrimaryText"
+            android:gravity="left"
             android:lines="2"
-            android:textColor="@color/pure_white"
             android:text="Title"
+            android:textColor="@color/pure_white"
             anytextview:typeface="Timber.ttf" />
 
         <com.ctrlplusz.anytextview.AnyTextView
             android:id="@+id/grid_item_subtext"
+            style="@style/TrackItemSecondaryText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/grid_item_title"
-             android:lines="2"
-             anytextview:typeface="Timber.ttf"
-            android:text="kjsdkjskjdjks" />
+            android:gravity="left"
+            android:lines="2"
+            android:text="kjsdkjskjdjks"
+            anytextview:typeface="Timber.ttf" />
     </RelativeLayout>
 
     <ImageView

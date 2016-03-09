@@ -4,11 +4,10 @@
     xmlns:anytextview="http://schemas.android.com/apk/res-auto"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/card_view"
-    android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@color/pure_white"
-    android:padding="5dp"
     card_view:cardCornerRadius="4dp"
     card_view:cardElevation="2dp" >
 
@@ -25,10 +24,10 @@
 
         <ImageView
             android:id="@+id/grid_item_image"
-            android:layout_width="100dp"
+           android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:layout_weight=".8"
+              android:layout_weight=".8"
             android:scaleType="fitXY"
             android:src="@drawable/ic_launcher" />
 
@@ -54,8 +53,10 @@
                     style="@style/TrackItemPrimaryText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                  android:textSize="18dp"
+                  
+                    android:maxLines="2"
                     android:text="Title fdhj fdkjkjfdkj"
+                
                     anytextview:typeface="Timber.ttf" />
 
                 <com.ctrlplusz.anytextview.AnyTextView

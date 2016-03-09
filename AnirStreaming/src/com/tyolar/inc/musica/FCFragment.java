@@ -42,5 +42,8 @@ public class FCFragment extends Fragment {
 		this.titel = titel;
 
 	}
+	public FCFragment() {
+		super();
+		}
 
 }

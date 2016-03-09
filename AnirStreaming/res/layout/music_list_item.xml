@@ -52,7 +52,7 @@
                 android:id="@+id/grid_item_title"
                 style="@style/TrackItemPrimaryText"
                 android:text="Title "
-                android:textSize="18dp"
+                android:gravity="left"
                 anytextview:typeface="Timber.ttf" />
 
             <com.ctrlplusz.anytextview.AnyTextView

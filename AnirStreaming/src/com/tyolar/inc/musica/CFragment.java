@@ -21,7 +21,9 @@ public class CFragment extends Fragment {
 	public void setTitel(String titel) {
 		this.titel = titel;
 	}
-
+	public CFragment() {
+		super();
+	}
 	public CFragment(String titel) {
 		super();
 		this.titel = titel;

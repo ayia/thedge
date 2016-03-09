@@ -31,7 +31,6 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:singleLine="true"
-            android:text="@string/app"
             android:textSize="23dp"
             anytextview:typeface="Timber.ttf" />
     </LinearLayout>
@@ -60,28 +59,27 @@
             android:visibility="gone" />
     </FrameLayout>
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_margin="5dp"
         android:layout_weight=".10"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:weightSum="1" >
 
         <ImageView
             android:id="@+id/more_icon"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_alignParentLeft="true"
             android:layout_gravity="center"
             android:src="@drawable/ic_pluse" />
 
         <LinearLayout
             android:id="@+id/textsonggs"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_alignParentRight="@id/more_icon"
-            android:layout_centerInParent="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical" >
 
@@ -110,10 +108,9 @@
             android:id="@+id/playlist"
             android:layout_width="30dp"
             android:layout_height="30dp"
-        
-            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
             android:src="@drawable/ic_grid_music_disbled" />
-    </RelativeLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"

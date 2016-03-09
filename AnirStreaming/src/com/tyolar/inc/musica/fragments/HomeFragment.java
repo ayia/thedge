@@ -12,6 +12,12 @@ import com.tyolar.inc.musica.model.apiurls;
 
 public class HomeFragment extends FCFragment{
 	View search_view;
+	public HomeFragment() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
 	public HomeFragment(String titel) {
 		super(titel);
 		// TODO Auto-generated constructor stub

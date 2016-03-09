@@ -16,7 +16,9 @@ import com.tyolar.inc.musica.datalaoder.search_JsonAnghami;
 public class SearchFragment extends CFragment {
 	View search_view;
 	String query;
-
+	public SearchFragment() {
+		super();
+	}
 	public SearchFragment(String query) {
 		super(query);
 		this.query = query;

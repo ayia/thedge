@@ -17,7 +17,10 @@ public class ListAllFragment extends CFragment {
 	public GridView grid;
 	private ArrayList am;
 	int numberofcolumns=1;
-	
+	public ListAllFragment() {
+		super();
+	}
+
 	public ListAllFragment(ArrayList am,int ac,String titel) {
 		super(titel);
 		this.am=am;

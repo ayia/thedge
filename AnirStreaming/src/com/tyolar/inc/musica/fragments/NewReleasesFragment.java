@@ -12,6 +12,11 @@ import com.tyolar.inc.musica.model.apiurls;
 
 public class NewReleasesFragment extends FCFragment{
 	View search_view;
+	public NewReleasesFragment() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 	public NewReleasesFragment(String titel) {
 		super(titel);
 		// TODO Auto-generated constructor stub

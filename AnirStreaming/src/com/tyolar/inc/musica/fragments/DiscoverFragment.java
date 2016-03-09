@@ -31,6 +31,11 @@ public class DiscoverFragment extends CFragment {
 	SlidingTabLayout slidingTabLayout;
 	View _rootView;
 
+	public DiscoverFragment() {
+		super();
+	}
+
+	
 	public DiscoverFragment(String titel) {
 		super(titel);
 		this.titel = titel;
