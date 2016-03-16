@@ -185,7 +185,8 @@
                         android:id="@+id/loading_progress"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:background="@color/window_background" />
+                        android:visibility="gone" 
+                        android:background="@color/primary" />
 
                     <ImageButton
                         android:id="@+id/player_pause"
@@ -194,7 +195,7 @@
                         android:layout_gravity="center"
                         android:background="@drawable/ic_fab_pause_btn_normal"
                         android:padding="20dp"
-                        android:visibility="gone" />
+                        />
 
                     <ImageButton
                         android:id="@+id/player_play"

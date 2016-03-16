@@ -24,6 +24,7 @@ import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 import com.tyolar.inc.musica.DAO.PlayListDAO;
 import com.tyolar.inc.musica.Services.AudioPlaybackService;
+import com.tyolar.inc.musica.adapter.AudioWife;
 import com.tyolar.inc.musica.adapter.PlayListSongAdapter;
 import com.tyolar.inc.musica.composants.LocalePopupMenu;
 import com.tyolar.inc.musica.fragments.AlbumFragment;
@@ -38,7 +39,6 @@ import com.tyolar.inc.musica.widget.MusicNotification;
 public class BaseActivity extends ActionBarActivity {
 	private String titel;
 	private Menu _menu = null;
-	// private MusicService musicSrv;
 	private Intent playIntent;
 	private boolean musicBound = false;
 	private Handler mHandler = new Handler();
@@ -62,10 +62,21 @@ public class BaseActivity extends ActionBarActivity {
 		uri = uri.replace("[id]", d.getId()).replace("[sid]",
 				mapp.getAngami_id());
 		final Uri myUri = Uri.parse(uri);
-		if (mapp.getAudioWife().getInstance() != null) {
+		if(mapp.getAudioWife()==null){
+			
+			mapp.setAudioWife(new AudioWife(this));
+		}
+		
+		else {
 			mapp.getAudioWife().getInstance().release();
 		}
+		new Handler().post(new Runnable() {
+			@Override
+			public void run() {
+		
 		mapp.getAudioWife().getInstance().init(BaseActivity.this, myUri);
+			}
+		});
 	}
 
 	protected void onResume() {
@@ -346,9 +357,9 @@ public class BaseActivity extends ActionBarActivity {
 	public void togglePlaybackState() {
 		// TODO Auto-generated method stub
 		if (mapp.getMusicaService().getmMediaPlayer().isPlaying())
-			mapp.getMusicaService().getmMediaPlayer().pause();
+			mapp.getMusicaService().pause();
 		else
-			mapp.getMusicaService().getmMediaPlayer().start();
+			mapp.getMusicaService().start();;
 
 		ShowMiniPlayer(mapp.getMusicaService().getSongtoplay()
 				.get(mapp.getMusicaService().getSelectedtrackindex()));

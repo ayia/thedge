@@ -20,7 +20,10 @@ public class SearchFragment extends CFragment {
 		super();
 	}
 	public SearchFragment(String query) {
+
 		super(query);
+		
+	
 		this.query = query;
 	}
 
@@ -31,19 +34,22 @@ public class SearchFragment extends CFragment {
 				container, false);
 		search_view = rootView.findViewById(R.id.searchview);
 
-		this.getActivity().setTitle(
-				getResources().getString(
-						R.string.abc_searchview_description_search)
-						+ ": " + this.query);
-		startsearch(this.query);
-
 		final app2 mapp = (app2) getActivity().getApplicationContext();
 		// Tracker t = mapp.getTracker(app2.TrackerName.APP_TRACKER);
 		// t.setScreenName("MyAlbumsFragment");
 		// t.send(new HitBuilders.AppViewBuilder().build());
 		mapp.getInstance().trackScreenView("Search Screen");
 		mapp.getInstance().trackEvent("Screen", this.query, this.query);
-
+		this.getActivity().setTitle(
+				getResources().getString(
+						R.string.abc_searchview_description_search)
+						+ " : " + this.query);
+		
+		setTitel(getResources().getString(
+				R.string.abc_searchview_description_search)
+				+ " : " + query);
+		
+		startsearch(this.query);
 		return rootView;
 	}
 

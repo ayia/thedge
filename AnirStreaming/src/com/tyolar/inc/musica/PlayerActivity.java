@@ -30,6 +30,7 @@ import com.squareup.picasso.Picasso;
 import com.tyolar.inc.musica.adapter.List_Song_Player_Adapter;
 import com.tyolar.inc.musica.composants.LocalePopupMenu;
 import com.tyolar.inc.musica.composants.TouchInterceptor;
+import com.tyolar.inc.musica.library.media.MediaListener;
 import com.tyolar.inc.musica.model.album;
 import com.tyolar.inc.musica.model.apiurls;
 import com.tyolar.inc.musica.model.artist;
@@ -65,7 +66,7 @@ public class PlayerActivity extends Activity {
 		Bundle extras = intent.getExtras();
 		if (extras != null) {
 			if (extras.containsKey("update")) {
-			setView();
+				setView();
 			}
 		}
 	}
@@ -73,11 +74,10 @@ public class PlayerActivity extends Activity {
 	protected void setView() {
 		setContentView(R.layout.activity_player);
 		mapp = (app2) getApplication();
-		mapp.PlayerActivity=this;
+		mapp.PlayerActivity = this;
 		song_titel = (TextView) findViewById(R.id.song_titel);
 		song_artist = (TextView) findViewById(R.id.song_artist);
 		song_album = (TextView) findViewById(R.id.song_album);
-		loader_stat = (ProgressBar) findViewById(R.id.loader_stat);
 		seekbar = (SeekBar) findViewById(R.id.seekprogress);
 		SongsListView = (TouchInterceptor) findViewById(R.id.SongsListView);
 		player_pause = (ImageButton) findViewById(R.id.player_pause);
@@ -119,6 +119,61 @@ public class PlayerActivity extends Activity {
 		initializeViewsandPlay(mapp.getMusicaService().getSongtoplay()
 				.get(mapp.getMusicaService().getSelectedtrackindex()));
 
+		mapp.getMusicaService().registerMediaListener(new MediaListener() {
+
+			@Override
+			public void onMediaStopped() {
+				new Handler().post(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							mapp.getBaseactivity().ShowMiniPlayer(
+									mapp.getMusicaService()
+											.getSongtoplay()
+											.get(mapp.getMusicaService()
+													.getSelectedtrackindex()));
+						} catch (Exception d) {
+						}
+						try {
+							mapp.getAudioWife().updateUI();
+						} catch (Exception d) {
+						}
+					}
+				});
+			}
+
+			@Override
+			public void onMediaStarted(int totalDuration, int currentDuration) {
+				new Handler().post(new Runnable() {
+					@Override
+					public void run() {
+
+						try {
+
+							mapp.getBaseactivity().ShowMiniPlayer(
+									mapp.getMusicaService()
+											.getSongtoplay()
+											.get(mapp.getMusicaService()
+													.getSelectedtrackindex()));
+						} catch (Exception d) {
+						}
+						try {
+							mapp.getAudioWife().updateUI();
+						} catch (Exception d) {
+						}
+					}
+				});
+			}
+
+			@Override
+			public void onMediaLoading() {
+				// TODO Auto-generated method stub
+
+			}
+		});
+
+		
+		
 	}
 
 	public void initializeViewsandPlay(song song) {
@@ -130,7 +185,6 @@ public class PlayerActivity extends Activity {
 		adp.notifyDataSetChanged();
 		mapp.getAudioWife().getInstance().setPauseView(player_pause)
 				.setPlayView(player_play).setTotalTimeView(duration)
-				.setLoadingView(findViewById(R.id.loading_progress))
 				.setRuntimeView(current_time).setSeekBar(seekbar);
 		// mapp.getAudioWife().getInstance().updateUI();
 		String url = new apiurls().getArtimage();
@@ -141,11 +195,7 @@ public class PlayerActivity extends Activity {
 				.error(R.drawable.ic_launcher).into(songimage);
 
 		update_nextBackButton();
-		if (mapp.getMusicaService().getmMediaPlayer().getCurrentPosition() > 1) {
-			mapp.getAudioWife().getInstance().updateUI();
-			findViewById(R.id.loading_progress).setVisibility(View.GONE);
-
-		}
+		mapp.getAudioWife().updateUI();
 	}
 
 	@Override
